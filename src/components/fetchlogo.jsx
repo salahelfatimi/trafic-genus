@@ -21,7 +21,7 @@ export default  function FetchLogo() {
             width={500}
             height={500}
             src={`/appel/${src.image}`}
-            className="max-w-none duration-700    w-auto   "
+            className="max-w-none duration-700    w-screen md:w-auto   "
             alt={src.title}
           />
         </div>

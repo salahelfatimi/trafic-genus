@@ -157,7 +157,7 @@ export default function Saction3(){
                         <h2 className=" text-center lg:text-5xl text-3xl font-black  text-black">UNIQUEMENT POUR LES ENTREPRENEURS <span className="text-[#F2FD01]">MOTIVÉS</span> </h2>                     
                     </div>  
                     <div className=" container flex flex-col-reverse lg:flex-row-reverse justify-center items-center">
-                        <div className=" text-left   lg:w-[70%] font-serif font-medium  lg:text-2xl bg-[#F2FD01] p-8 rounded-r-3xl shadow-2xl">
+                        <div className=" text-left   lg:w-[70%] font-serif font-medium  lg:text-2xl bg-[#F2FD01] p-8 rounded-3xl lg:rounded-r-3xl shadow-2xl">
                             <p>
                                 Nous sommes passionnés par ce que nous faisons et nous croyons que notre passion transparaît dans notre travail. Nous sommes toujours à la recherche de nouvelles opportunités pour améliorer et développer nos compétences, afin de fournir à nos clients les solutions les plus innovantes et les plus performantes. <br /><br />
 
@@ -167,7 +167,7 @@ export default function Saction3(){
                             </p>
                         
                         </div>
-                        <div className="bg-[#E0E0E0] rounded-l-3xl shadow-2xl  ">
+                        <div className="bg-[#E0E0E0] rounded-t-3xl lg:rounded-l-3xl shadow-2xl  ">
                             <Image src={'/saction3/light.png'} className="  animate-slight-rotate-grayscale-toggle" width={300} height={600} alt="trafic genius"    title="trafic genius"/>
                         </div>
                     </div>
@@ -214,7 +214,7 @@ export default function Saction3(){
                     </div>  
                     <div className="  ">
                      <div class=" p-8">
-                        <details class="bg-[#F2FD01]   open:ring-[#F2FD01]  border-2 border-[#000] shadow-2xl   p-6 " open>
+                        <details class="bg-[#F2FD01]   open:ring-[#F2FD01]  border-t-8 border-x-8  border-[#000] shadow-2xl py-10 border-b-4 rounded-t-3xl p-6 " open>
                             <summary class="lg:text-xl font-serif font-bold leading-6 text-[#000]  select-none">
                             Est-ce que vous pouvez me montrer d&apos;autres exemples de tunnels de vente ou sites Internet que vous avez réalisés ?
                             </summary>
@@ -222,7 +222,7 @@ export default function Saction3(){
                             <p>Oui, si vous le souhaitez nous pouvons vous présenter d&apos;autres exemples de tunnels de vente ou sites Internet que ceux qui figurent sur cette page. Il suffit de prendre contact avec nous en cliquant sur l&apos;un des boutons « Prendre contact maintenant » et nous vous ferons parvenir nos dernières réalisations.</p>
                             </div>
                         </details>
-                        <details class="bg-[#F2FD01]   open:ring-[#F2FD01]  border-2 border-[#000] shadow-2xl   p-6 " >
+                        <details class="bg-[#F2FD01]   open:ring-[#F2FD01]  border-x-8  border-[#000] shadow-2xl py-10 border-b-4  p-6 " >
                             <summary class="lg:text-xl font-serif font-bold leading-6 text-[#000]  select-none">
                             Est-ce que vous pouvez vous occuper du copywriting de mon tunnel de vente ou de mon site Internet ?
                             </summary>
@@ -230,7 +230,7 @@ export default function Saction3(){
                             <p>Oui, nous pouvons vous fournir un tunnel de vente ou site Internet complet de A à Z y compris avec le copywriting. Si c&apos;est ce que vous souhaitez, nous pouvons en parler ensemble lors de votre appel stratégique offert.</p>
                             </div>
                         </details>
-                        <details class="bg-[#F2FD01]   open:ring-[#F2FD01]  border-2 border-[#000] shadow-2xl   p-6 " >
+                        <details class="bg-[#F2FD01]   open:ring-[#F2FD01]  border-x-8 border-[#000] shadow-2xl  py-10 border-b-4 p-6 " >
                             <summary class="lg:text-xl font-serif font-bold leading-6 text-[#000]  select-none">
                             Quels sont vos tarifs ?
                             </summary>
@@ -238,7 +238,7 @@ export default function Saction3(){
                             <p>Nos tarifs sont adaptés aux différentes demandes de nos clients. Pour en savoir plus, nous vous invitons à prendre contact avec nous directement. Nous serons ravis de répondre à toutes vos questions.</p>
                             </div>
                         </details>
-                        <details class="bg-[#F2FD01]   open:ring-[#F2FD01]  border-2 border-[#000] shadow-2xl   p-6 " >
+                        <details class="bg-[#F2FD01]   open:ring-[#F2FD01]  border-x-8 border-[#000] shadow-2xl py-10 border-b-4  p-6 " >
                             <summary class="lg:text-xl font-serif font-bold leading-6 text-[#000]  select-none">
                             En combien de temps êtes-vous capable de me livrer ?
                             </summary>
@@ -246,7 +246,7 @@ export default function Saction3(){
                             <p>En moyenne, nous pouvons vous livrer dans un délai de 7 à 15 jours ouvrés en fonction du nombre de pages et de la complexité de votre projet.</p>
                             </div>
                         </details>
-                        <details class="bg-[#F2FD01]   open:ring-[#F2FD01]  border-2 border-[#000] shadow-2xl   p-6 " >
+                        <details class="bg-[#F2FD01]   open:ring-[#F2FD01]  border-b-8 border-x-8 border-[#000] shadow-2xl rounded-b-3xl   p-6 " >
                             <summary class="lg:text-xl font-serif font-bold leading-6 text-[#000]  select-none">
                             Comment faire pour vous contacter ?
                             </summary>

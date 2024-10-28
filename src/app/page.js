@@ -4,7 +4,7 @@ import Saction3 from "./pages/saction3/page";
 import Testimonials from "./pages/testimonials/page";
 import Header from "./pages/Topheader/page";
 export  default async function  Home() {
-  await new Promise((resolve) => setTimeout(resolve, 2000));
+  await new Promise((resolve) => setTimeout(resolve, 4000));
   return (
   <div className=" overflow-x-hidden">
     <Header/>

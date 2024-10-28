@@ -11,7 +11,7 @@ export default function Appel(){
  
     return(
         
-        <div className="bg-black gap-20  flex flex-col pt-20 justify-between ">
+        <div className="  bg-black   flex flex-col pt-20 justify-between ">
             
             <div className=" container  flex flex-col gap-10 items-center justify-center">
                 <div className=" bg-[#F2FD01] p-6 rounded-full flex gap-4 items-center justify-center ">

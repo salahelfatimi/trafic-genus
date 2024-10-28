@@ -8,11 +8,11 @@ export default function Saction3(){
     const [clickNum,setclickNum]=useState(0)
     const [clickShow,setclickShow]=useState(0)
         const Etapes=[
-            {id:0, title:'Audit' ,description:"Nous analysons ensemble les résultats pour pouvoir faire les ajustements nécessaires pour l’augmentation de votre taux de conversion."},
-            {id:1, title:'Réalisation' ,description:"L'équipe d'experts que nous avons mobilisée conçoit le projet en accord avec la stratégie que nous avons préalablement définie et conformément à vos exigences. Nous maintenons un contact régulier tout au long de la réalisation du projet afin de vous tenir informé de son avancement et de répondre à toutes les questions que vous pourriez avoir."},
-            {id:2, title:'Livraison et ajustements' ,description:"Une fois le tout finalisé, on vous livre le projet à temps pour votre lancement. Nous restons ouverts à toute suggestion de modification. Notre priorité absolue est votre satisfaction."},
-            {id:3, title:'Lancement' ,description:"C’est le jour J, nous mettons en place votre tunnel de vente ou site internet pour que votre lancement soit à 100% réussi."},
-            {id:4, title:'Suivi des résultats' ,description:"Nous analysons ensemble les résultats pour pouvoir faire les ajustements nécessaires pour l'augmentation de votre taux de conversion."},
+            {id:0,image:'/saction3/etapes/Audit.png', title:'Audit' ,description:"Nous analysons ensemble les résultats pour pouvoir faire les ajustements nécessaires pour l’augmentation de votre taux de conversion."},
+            {id:1,image:'/saction3/etapes/Réalisation.png',  title:'Réalisation' ,description:"L'équipe d'experts que nous avons mobilisée conçoit le projet en accord avec la stratégie que nous avons préalablement définie et conformément à vos exigences. Nous maintenons un contact régulier tout au long de la réalisation du projet afin de vous tenir informé de son avancement et de répondre à toutes les questions que vous pourriez avoir."},
+            {id:2,image:'/saction3/etapes/Livraison.png',  title:'Livraison et ajustements' ,description:"Une fois le tout finalisé, on vous livre le projet à temps pour votre lancement. Nous restons ouverts à toute suggestion de modification. Notre priorité absolue est votre satisfaction."},
+            {id:3,image:'/saction3/etapes/Lancement.png',  title:'Lancement' ,description:"C’est le jour J, nous mettons en place votre tunnel de vente ou site internet pour que votre lancement soit à 100% réussi."},
+            {id:4,image:'/saction3/etapes/résultats.png',  title:'Suivi des résultats' ,description:"Nous analysons ensemble les résultats pour pouvoir faire les ajustements nécessaires pour l'augmentation de votre taux de conversion."},
 
         ]
         const filterText=Etapes.find((ele) => ele.id == clickNum);
@@ -46,7 +46,8 @@ export default function Saction3(){
                                 </div>
                             </div>
                         </div>
-                        <div className=" container ">
+                        <div className=" container flex flex-col lg:flex-row gap-8 items-center justify-center ">
+                            <Image src={filterText.image} width={500} height={500}/>
                             <div className="bg-[#4F4F4F] flex flex-col justify-center items-center rounded-3xl shadow-2xl gap-10 p-8 ">
                                 <h3 className=" text-[#F2FD01] text-3xl text-center ">{filterText.title}</h3>
                                 <p className="  text-center font-serif font-semibold text-white text-xl">{filterText.description}</p>
@@ -62,7 +63,7 @@ export default function Saction3(){
             <div className="  relative  flex flex-col justify-center items-center pt-20">
                 <div className=" bg-[#F2FD01]   w-full h-24 left-0 right-0 bottom-0 absolute  rounded-full-css rotate-180"></div>
 
-                <div className="z-10 bg-[#514F4E] border-black border-8 shadow-2xl gap-10 rounded-3xl p-6 lg:p-20 w-fit flex flex-col justify-center items-center">
+                <div className="z-10 bg-[url('/BACKGROUND.jpg')] bg-cover border-black border-8 shadow-2xl gap-10 rounded-3xl p-6 lg:p-20 w-fit flex flex-col justify-center items-center">
                     <h4 className="  text-[#fff] text-2xl text-center lg:text-4xl">PRÊT POUR DÉCOLLER <span className="text-[#F2FD01]">ENSEMBLE ?</span></h4>
                     <Link href={'/appel'} target="_blank" >
                         <button className="cssbuttons-io-button ">
@@ -195,7 +196,7 @@ export default function Saction3(){
 
             <div className=" container relative  flex flex-col justify-center items-center pt-20">
 
-                <div className="z-10 bg-[#000] border-8 shadow-2xl border-[#F2FD01]  gap-10 rounded-3xl p-6 lg:p-20  flex flex-col justify-center items-center">
+                <div className="z-10 bg-[url('/BACKGROUND.jpg')] bg-cover border-8 shadow-2xl border-[#F2FD01]  gap-10 rounded-3xl p-6 lg:p-20  flex flex-col justify-center items-center">
                     <h4 className="  text-[#fff] text-2xl text-center lg:text-4xl font-sans font-bold">Boostez votre entreprise grâce à notre expertise en scaling</h4>
                     <div className=" border-t-4 border-[#F2FD01] w-full"></div>
                     <p className=" font-serif  text-white font-medium text-center lg:text-2xl">Prenez contact et échangeons ensemble sur votre projet

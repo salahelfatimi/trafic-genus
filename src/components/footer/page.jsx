@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Footer(){
     return(
       <footer className="flex flex-col  " >
-        <div className="bg-[#1E1E1E]  flex flex-col items-center justify-center py-8">
+        <div className="bg-[url('/BACKGROUND.jpg')] bg-cover py-44  flex flex-col items-center justify-center ">
             <Image src={'/TopHeader/logo.png'} width={500} height={500} alt="Logo" />
             <div className=" flex flex-col gap-4 lg:flex-row items-center justify-center  container ">
             <p className={` font-serif select-none flex  flex-col lg:flex-row  text-xl items-center font-bold capitalize text-center lg:text-start text-white `}>

@@ -63,7 +63,7 @@ export default function Saction3(){
             <div className="  relative  flex flex-col justify-center items-center pt-20">
                 <div className=" bg-[#F2FD01]   w-full h-24 left-0 right-0 bottom-0 absolute  rounded-full-css rotate-180"></div>
 
-                <div className="z-10 bg-[url('/BACKGROUND.jpg')] bg-cover border-black border-8 shadow-2xl gap-10 rounded-3xl p-6 lg:p-20 w-fit flex flex-col justify-center items-center">
+                <div className="z-10 bg-[url('/BACKGROUND.jpg')] bg-cover border-[#F2FD01] border-8 shadow-2xl gap-10 rounded-3xl p-6 lg:p-20 w-fit flex flex-col justify-center items-center">
                     <h4 className="  text-[#fff] text-2xl text-center lg:text-4xl">PRÊT POUR DÉCOLLER <span className="text-[#F2FD01]">ENSEMBLE ?</span></h4>
                     <Link href={'/appel'} target="_blank" >
                         <button className="cssbuttons-io-button ">
@@ -144,25 +144,6 @@ export default function Saction3(){
                             </div>
                         </div>
                     </div>
-                    <Link href={'/appel'} target="_blank" >
-                        <button className="cssbuttons-io-button ">
-                            RÉSERVEZ VOTRE APPEL
-                            <div class="icon">
-                                <svg
-                                    height="24"
-                                    width="24"
-                                    viewBox="0 0 24 24"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                    <path d="M0 0h24v24H0z" fill="none"></path>
-                                    <path
-                                        d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                                        fill="currentColor"
-                                    ></path>
-                                </svg>
-                            </div>
-                        </button>
-                    </Link>
                 </div>
             </div>
 

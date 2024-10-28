@@ -3,7 +3,6 @@ import { CirclePlus, Facebook, FileChartColumnIncreasing, Laptop, NotebookPen, P
 import Image from "next/image"
 import Link from "next/link"
 import InfiniteHorizontalScroll from '@/components/infiniteHorizontalScroll'
-import Fetchexperts from "@/components/fetchexperts"
 
 export default function Saction2(){
     const offrir =[

@@ -72,7 +72,7 @@ export default function Saction2(){
                     </div>
                     <div className=" gap-4   flex flex-col justify-center items-center">
                         <h3 className=" text-3xl  text-center uppercase">Automatisation</h3>
-                        <p className=" text-center font-serif font-normal">Nous comprenons l&apos;importance d'optimiser votre processus de marketing automatisé. C'est pourquoi nous offrons des fonctionnalités avancées d&apos;automatisation pour maximiser l&apos;efficacité et les résultats de votre tunnel. Grâce à nos automatisations bien pensées, vous pouvez simplifier vos tâches, économiser du temps et offrir une expérience personnalisée à chaque étape du parcours de votre audience.</p>
+                        <p className=" text-center font-serif font-normal">Nous comprenons l&apos;importance d&apos;optimiser votre processus de marketing automatisé. C&apos;est pourquoi nous offrons des fonctionnalités avancées d&apos;automatisation pour maximiser l&apos;efficacité et les résultats de votre tunnel. Grâce à nos automatisations bien pensées, vous pouvez simplifier vos tâches, économiser du temps et offrir une expérience personnalisée à chaque étape du parcours de votre audience.</p>
                     </div>
                 </div>
                 <div className=" flex flex-col items-center gap-10 justify-center">
@@ -90,7 +90,7 @@ export default function Saction2(){
                     </div>
                     <div className=" gap-4  flex flex-col justify-center items-center">
                         <h3 className=" text-3xl  text-center uppercase">Accompagnement</h3>
-                        <p className=" text-center font-serif font-normal">Notre approche de l&apos;accompagnement se caractérise par une approche complète et personnalisée qui vise à vous soutenir à chaque étape de votre projet. Nous croyons en l&apos;importance de comprendre vos besoins spécifiques, de vous fournir des conseils d'experts et de travailler en étroite collaboration avec vous pour atteindre vos objectifs.</p>
+                        <p className=" text-center font-serif font-normal">Notre  approche de l&apos;accompagnement se caractérise par une approche complète et personnalisée qui vise à vous soutenir à chaque étape de votre projet. Nous croyons en l&apos;importance de comprendre vos besoins spécifiques, de vous fournir des conseils d&apos;experts et de travailler en étroite collaboration avec vous pour atteindre vos objectifs.</p>
                     </div>
                 </div>
             </div>

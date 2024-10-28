@@ -102,7 +102,7 @@ export default function Saction3(){
                             <h4 className={` bg-white  p-8 ${clickShow==1?' rounded-t-3xl':'rounded-3xl'}  flex flex-row justify-between items-center shadow-2xl border-4 border-black`}>Réactivité{clickShow==1?<X onClick={()=>(setclickShow(0))}  className=" cursor-pointer"/>:<ChevronDown onClick={()=>(setclickShow(1))}  className=" cursor-pointer"/>}</h4>
                             <p className={` top-20 lg:absolute z-10 rounded-b-3xl leading-loose font-medium font-serif  bg-white p-6  ${clickShow==1?' block border-x-4 border-b-4 border-black':' hidden '} `}>
                                     Nous sommes conscients que votre temps est précieux et votre réussite est cruciale pour vous. <br /><br /> 
-                                    C'est pourquoi nous avons mis en place un système efficace et réunit une équipe d&apos;experts talentueux et dévoués pour donner vie à votre projet en un temps record, sans compromettre la qualité.<br /><br /> 
+                                    C&apos;est pourquoi nous avons mis en place un système efficace et réunit une équipe d&apos;experts talentueux et dévoués pour donner vie à votre projet en un temps record, sans compromettre la qualité.<br /><br /> 
                                     Nous sommes passionnés par la création de solutions exceptionnelles qui répondent à vos besoins uniques, tout en veillant à ce que votre projet soit livré dans les meilleurs délais possible. <br /><br /> 
                                     Avec nous, vous pouvez être sûr d&apos;obtenir des résultats qui dépassent vos attentes et vous propulsent vers le succès.
                                 </p>
@@ -230,7 +230,7 @@ export default function Saction3(){
                             Est-ce que vous pouvez me montrer d&apos;autres exemples de tunnels de vente ou sites Internet que vous avez réalisés ?
                             </summary>
                             <div class="mt-3 font-serif font-medium lg:text-xl  leading-6 text-black ">
-                            <p>Oui, si vous le souhaitez nous pouvons vous présenter d&apos;autres exemples de tunnels de vente ou sites Internet que ceux qui figurent sur cette page. Il suffit de prendre contact avec nous en cliquant sur l'un des boutons « Prendre contact maintenant » et nous vous ferons parvenir nos dernières réalisations.</p>
+                            <p>Oui, si vous le souhaitez nous pouvons vous présenter d&apos;autres exemples de tunnels de vente ou sites Internet que ceux qui figurent sur cette page. Il suffit de prendre contact avec nous en cliquant sur l&apos;un des boutons « Prendre contact maintenant » et nous vous ferons parvenir nos dernières réalisations.</p>
                             </div>
                         </details>
                         <details class="bg-[#F2FD01]   open:ring-[#F2FD01]  border-2 border-[#000] shadow-2xl   p-6 " >
@@ -238,7 +238,7 @@ export default function Saction3(){
                             Est-ce que vous pouvez vous occuper du copywriting de mon tunnel de vente ou de mon site Internet ?
                             </summary>
                             <div class="mt-3 font-serif font-medium lg:text-xl  leading-6 text-black ">
-                            <p>Oui, nous pouvons vous fournir un tunnel de vente ou site Internet complet de A à Z y compris avec le copywriting. Si c'est ce que vous souhaitez, nous pouvons en parler ensemble lors de votre appel stratégique offert.</p>
+                            <p>Oui, nous pouvons vous fournir un tunnel de vente ou site Internet complet de A à Z y compris avec le copywriting. Si c&apos;est ce que vous souhaitez, nous pouvons en parler ensemble lors de votre appel stratégique offert.</p>
                             </div>
                         </details>
                         <details class="bg-[#F2FD01]   open:ring-[#F2FD01]  border-2 border-[#000] shadow-2xl   p-6 " >

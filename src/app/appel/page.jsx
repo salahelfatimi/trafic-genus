@@ -21,10 +21,6 @@ export default function Appel(){
 
                 <h2 className="font-black text-center text-4xl lg:text-9xl  text-[#F2FD01] ">trafic genius</h2>
                 <p className=" font-bold text-4xl text-white">Des solutions innovantes pour maximiser vos <span className="text-[#F2FD01] ">BÉNÉFICES</span></p>
-
-            
-               
-             
             </div>
             <div className="container">
                 <CalendlyEmbed url="https://calendly.com/traficgenius/60min?hide_gdpr_banner=1&background_color=1a1a1a&text_color=ffffff&primary_color=f2ff00"/>

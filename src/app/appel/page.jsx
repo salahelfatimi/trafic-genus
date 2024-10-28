@@ -1,7 +1,7 @@
 
 import Footer from "@/components/footer/page";
 import Image from "next/image";
-import FetchLogo from '@/components/fetchLogo'
+import FetchLogo from '@/components/fetchlogo'
 import InfiniteHorizontalScroll from '@/components/infiniteHorizontalScroll'
 import Head from "next/head";
 

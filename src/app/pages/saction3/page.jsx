@@ -167,7 +167,7 @@ export default function Saction3(){
                             </p>
                         
                         </div>
-                        <div className="bg-[#E0E0E0] rounded-t-3xl lg:rounded-l-3xl shadow-2xl  ">
+                        <div className="bg-[#E0E0E0] rounded-3xl shadow-2xl  ">
                             <Image src={'/saction3/light.png'} className="  animate-slight-rotate-grayscale-toggle" width={300} height={600} alt="trafic genius"    title="trafic genius"/>
                         </div>
                     </div>

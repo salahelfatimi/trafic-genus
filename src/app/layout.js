@@ -39,7 +39,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${poppins.className}  scroll-smooth   scrollbar scrollbar-thumb-[#F2FD01] scrollbar-track-black h-32 overflow-y-scroll`}>{children}</body>
+      <body className={`${poppins.className}  scroll-smooth   scrollbar scrollbar-thumb-[#F2FD01] scrollbar-track-black h-32 overflow-y-scroll`}>
+        {children}
+        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+      </body>
+     
     </html>
   );
 }

@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
+
 
 export default function Testimonials() {
   const testimonials = [
@@ -63,10 +65,25 @@ export default function Testimonials() {
             </figure>
           </div>
         </section>
-        <button className="flex gap-4 items-center justify-between py-2 px-3 text-xl font-bold rounded-xl text-white bg-gradient-to-r from-black via-black to-black">
-            <Image className=" rounded-full px-2 py-1 " src={'/TopHeader/button.png'} width={45} height={45} alt="trafic genius"    title="trafic genius" />
+        <Link href={'/appel'} target="_blank" >
+          <button className="cssbuttons-io-button ">
             Lancez votre projet !
-        </button>
+              <div class="icon">
+                <svg
+                height="24"
+                width="24"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                >
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                fill="currentColor"
+                ></path>
+                </svg>
+              </div>
+            </button>
+            </Link>   
       </div>
     </div>
   );

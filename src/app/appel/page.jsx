@@ -19,7 +19,9 @@ export default function Appel(){
                     <h1 className=" font-serif font-bold lg:text-xl text-black">Solutions Digitales de Premier Ordre : Expertise, Créativité et Performances Exceptionnelles !</h1>
                 </div>
 
-                <h2 className="font-black text-center text-4xl lg:text-9xl  text-[#F2FD01] ">trafic genius</h2>
+                <h2 className=" py-10 font-black text-center text-4xl md:text-7xl lg:text-9xl bg-clip-text text-transparent bg-[url('/appel/bg.png')] bg-[#42384D] uppercase  bg-auto bg-no-repeat bg-top animate-slide-bg">
+                    trafic genius
+                </h2>                
                 <p className=" font-bold text-4xl text-white text-center">Des solutions innovantes pour maximiser vos <span className="text-[#F2FD01] ">BÉNÉFICES</span></p>
             </div>
             <div className="container pt-10">

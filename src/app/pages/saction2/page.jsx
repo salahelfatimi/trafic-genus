@@ -45,7 +45,7 @@ export default function Saction2(){
                     </div>
                     <div className="  gap-4  flex flex-col justify-center items-center">
                         <h3 className=" text-3xl  text-center uppercase">Tunnel de vente</h3>
-                        <p className=" text-center font-serif font-normal">Nous sommes des experts en création de tunnels de vente hautement performants.Nous mettons en place des stratégies personnalisées pour capturer l'attention de votre audience, stimuler l'engagement et générer des conversions.Notre approche axée sur les tunnels de vente vous permet d'optimiser chaque étape du parcours d'achat de vos prospects, afin de maximiser vos ventes et votre croissance.</p>
+                        <p className=" text-center font-serif font-normal">Nous sommes des experts en création de tunnels de vente hautement performants.Nous mettons en place des stratégies personnalisées pour capturer l&apos;attention de votre audience, stimuler l&apos;engagement et générer des conversions.Notre approche axée sur les tunnels de vente vous permet d&apos;optimiser chaque étape du parcours d&apos;achat de vos prospects, afin de maximiser vos ventes et votre croissance.</p>
                     </div>
                 </div>
                 <div className=" flex flex-col items-center gap-10 justify-center">
@@ -63,7 +63,7 @@ export default function Saction2(){
                     </div>
                     <div className="  gap-4  flex flex-col justify-center items-center">
                         <h3 className=" text-3xl  text-center uppercase">Applications Web et Mobile</h3>
-                        <p className=" text-center font-serif font-normal">Nous comprenons l'importance des applications web et mobiles dans le monde numérique d'aujourd'hui. Chez trafic genius trafic genius, nous nous spécialisons dans la création d'applications sur mesure qui répondent aux besoins uniques de nos clients. Que vous souhaitiez développer une application pour votre entreprise, une plateforme de commerce électronique, une application de service à la clientèle ou toute autre idée innovante, nous sommes là pour vous aider à concrétiser votre vision.</p>
+                        <p className=" text-center font-serif font-normal">Nous comprenons l&apos;importance des applications web et mobiles dans le monde numérique d&apos;aujourd&apos;hui. Chez trafic genius trafic genius, nous nous spécialisons dans la création d&apos;applications sur mesure qui répondent aux besoins uniques de nos clients. Que vous souhaitiez développer une application pour votre entreprise, une plateforme de commerce électronique, une application de service à la clientèle ou toute autre idée innovante, nous sommes là pour vous aider à concrétiser votre vision.</p>
                     </div>
                 </div>
                 <div className=" flex flex-col items-center gap-10 justify-center">
@@ -72,7 +72,7 @@ export default function Saction2(){
                     </div>
                     <div className=" gap-4   flex flex-col justify-center items-center">
                         <h3 className=" text-3xl  text-center uppercase">Automatisation</h3>
-                        <p className=" text-center font-serif font-normal">Nous comprenons l'importance d'optimiser votre processus de marketing automatisé. C'est pourquoi nous offrons des fonctionnalités avancées d'automatisation pour maximiser l'efficacité et les résultats de votre tunnel. Grâce à nos automatisations bien pensées, vous pouvez simplifier vos tâches, économiser du temps et offrir une expérience personnalisée à chaque étape du parcours de votre audience.</p>
+                        <p className=" text-center font-serif font-normal">Nous comprenons l&apos;importance d'optimiser votre processus de marketing automatisé. C'est pourquoi nous offrons des fonctionnalités avancées d&apos;automatisation pour maximiser l&apos;efficacité et les résultats de votre tunnel. Grâce à nos automatisations bien pensées, vous pouvez simplifier vos tâches, économiser du temps et offrir une expérience personnalisée à chaque étape du parcours de votre audience.</p>
                     </div>
                 </div>
                 <div className=" flex flex-col items-center gap-10 justify-center">
@@ -90,7 +90,7 @@ export default function Saction2(){
                     </div>
                     <div className=" gap-4  flex flex-col justify-center items-center">
                         <h3 className=" text-3xl  text-center uppercase">Accompagnement</h3>
-                        <p className=" text-center font-serif font-normal">Notre approche de l'accompagnement se caractérise par une approche complète et personnalisée qui vise à vous soutenir à chaque étape de votre projet. Nous croyons en l'importance de comprendre vos besoins spécifiques, de vous fournir des conseils d'experts et de travailler en étroite collaboration avec vous pour atteindre vos objectifs.</p>
+                        <p className=" text-center font-serif font-normal">Notre approche de l&apos;accompagnement se caractérise par une approche complète et personnalisée qui vise à vous soutenir à chaque étape de votre projet. Nous croyons en l&apos;importance de comprendre vos besoins spécifiques, de vous fournir des conseils d'experts et de travailler en étroite collaboration avec vous pour atteindre vos objectifs.</p>
                     </div>
                 </div>
             </div>
@@ -107,8 +107,8 @@ export default function Saction2(){
                 <div className=" container grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <Image src={'/saction2/projectweb.png'} className=" hover:rotate-45 duration-700" width={500} height={500} alt="trafic genius"    title="traficgenius"/>
                     <div className=" flex flex-col justify-center gap-20">
-                        <p className=" font-serif font-semibold flex  gap-4 "><CirclePlus  size={50} />Spécialisés en funnel building depuis plusieurs années, nous nous engageons à vous délivrer ce qu’il y a de meilleur, au plus proche de la perfection.</p>
-                        <p className="  font-serif font-semibold flex  gap-4"><CirclePlus size={50} />Attirez l’attention de vos visiteurs, transformez-les en clients et augmentez votre chiffre d’affaires grâce à un tunnel de vente professionnel à haute rentabilité.</p>
+                        <p className=" font-serif font-semibold flex  gap-4 "><CirclePlus  size={50} />Spécialisés en funnel building depuis plusieurs années, nous nous engageons à vous délivrer ce qu&apos;il y a de meilleur, au plus proche de la perfection.</p>
+                        <p className="  font-serif font-semibold flex  gap-4"><CirclePlus size={50} />Attirez l&apos;attention de vos visiteurs, transformez-les en clients et augmentez votre chiffre d&apos;affaires grâce à un tunnel de vente professionnel à haute rentabilité.</p>
                     </div>
                 </div>
             </div>
@@ -158,7 +158,7 @@ export default function Saction2(){
         <div className="bg-gradient-to-b from-[#F2FD01]  via-[#F2FD01] to-[#ccd42a]">
             <div className="flex container flex-col gap-20 py-20  ">
                 <div className=" ">
-                    <h2 className="lg:text-4xl text-2xl font-black text-center text-black">JETEZ UN COUP D’ŒIL SUR UN DE NOS “REDESIGN“ EXPÉRIENCES, POUR VOIR CE QUE NOUS POUVONS FAIRE                </h2>
+                    <h2 className="lg:text-4xl text-2xl font-black text-center text-black">JETEZ UN COUP D&apos;ŒIL SUR UN DE NOS “REDESIGN“ EXPÉRIENCES, POUR VOIR CE QUE NOUS POUVONS FAIRE                </h2>
                 </div>
                 <div className=" gap-28 flex flex-col lg:flex-row justify-center items-center">
                     <div  className="relative w-[318px]">
@@ -231,13 +231,13 @@ export default function Saction2(){
                 <div className="  lg:w-[70%] font-serif font-medium text-center lg:text-2xl bg-[#F2FD01] p-8 rounded-3xl">
                     <p>
                     Nous sommes la meilleure agence francophone spécialisée dans le design de tunnels de vente et sites Internet à haute rentabilité. 
-                    Après avoir réalisé plus de 300 projets pour des experts, entrepreneurs et startups, nous façonnons l’art du design pour la vente en ligne. <br/> <br/>
+                    Après avoir réalisé plus de 300 projets pour des experts, entrepreneurs et startups, nous façonnons l&apos;art du design pour la vente en ligne. <br/> <br/>
 
-                    Notre équipe est exclusivement composée d’experts dans leur domaine, des perfectionnistes tels que des designers, des funnel builders, des copywriters, des développeurs web, des médias buyers
+                    Notre équipe est exclusivement composée d&apos;experts dans leur domaine, des perfectionnistes tels que des designers, des funnel builders, des copywriters, des développeurs web, des médias buyers
 
-                    Nous sommes tous animés par la volonté d'aider nos clients à dépasser leurs limites. <br/> <br/>
+                    Nous sommes tous animés par la volonté d&apos;aider nos clients à dépasser leurs limites. <br/> <br/>
 
-                    Notre engagement à aider nos clients à aller au-delà de leurs limites nous pousse à investir du cœur, de l'énergie et de l'intention dans tout ce que nous faisons
+                    Notre engagement à aider nos clients à aller au-delà de leurs limites nous pousse à investir du cœur, de l&apos;énergie et de l&apos;intention dans tout ce que nous faisons
                     </p>
                 </div>
 

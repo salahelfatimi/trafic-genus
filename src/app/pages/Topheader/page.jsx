@@ -74,7 +74,7 @@ export default function Header (){
                   
                 <div className="  right-0 left-0 lg:w-[60rem] w-screen shadow-2xl  relative  z-20  bg-black border-4 border-[#fff] container flex flex-col justify-between items-center gap-12 py-24">
                        
-                    <h2 className=" text-white font-bold lg:text-3xl text-center">Si votre activité correspond à celle d'un infopreneur, coach, consultant, prestataire de services ou d'une agence…</h2>
+                    <h2 className=" text-white font-bold lg:text-3xl text-center">Si votre activité correspond à celle d&apos;un infopreneur, coach, consultant, prestataire de services ou d&apos;une agence…</h2>
                     <p className=" text-white text-center  lg:text-xl">Vos résultats ne reflètent pas vos ambitions.</p>
                     <Image  className=" z-50" src={'/TopHeader/circle.gif'} width={200} height={200} alt="trafic genius"    title="traficgenius"/>
                     <h3 className=" text-white  lg:text-xl text-center">Si vous cherchez à développer votre activité, nos produits ou services peuvent vous y aider.</h3>
@@ -100,8 +100,8 @@ export default function Header (){
                             <Image className=" absolute top-0 left-0 w-full h-full z-0 moveSmoke" src={'/TopHeader/smoke.png'} width={300} height={300} alt="trafic genius"    title="traficgenius"/>
                         </div>
                         <p className="text-white w-4/5 lg:w-1/2 font-normal text-center lg:text-left text-xl sm:text-2xl font-serif">
-                        Lorsque l'on évolue dans un marché redoutable, il est essentiel de prendre en compte la concurrence pour être en mesure de proposer une offre pertinente.<br /><br />
-                        Un mauvais choix de design ou de copywriting peut vous coûter très cher. Le choix d'une bonne équipe est une étape cruciale pour mener à bien vos projets et atteindre vos objectifs.
+                        Lorsque l&apos;on évolue dans un marché redoutable, il est essentiel de prendre en compte la concurrence pour être en mesure de proposer une offre pertinente.<br /><br />
+                        Un mauvais choix de design ou de copywriting peut vous coûter très cher. Le choix d&apos;une bonne équipe est une étape cruciale pour mener à bien vos projets et atteindre vos objectifs.
                         </p>
                     </div>
                 </div>
@@ -138,7 +138,7 @@ export default function Header (){
                             <div className="bg-[#F0FF01] hover:bg-[#2F3033] hover:-rotate-45 duration-700 rounded-full p-1">
                                 <CircleDollarSign size={70} className=" stroke-[#000] hover:stroke-white  duration-700 cursor-pointer	 p-2 "/>
                             </div>
-                            <h3 className=" lg:text-2xl text-xl font-bold text-center font-serif text-white">Boostez vos ventes et votre chiffre d'affaires</h3>
+                            <h3 className=" lg:text-2xl text-xl font-bold text-center font-serif text-white">Boostez vos ventes et votre chiffre d&apos;affaires</h3>
                         </div>
                         
                     </div>

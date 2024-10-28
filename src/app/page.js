@@ -9,7 +9,7 @@ export  default  function  Home() {
   <div className=" overflow-x-hidden">
     <ButtonUp/>
     <Header/>
-    <Testimonials/>
+    {/* <Testimonials/> */}
     <Saction2/>
     <Saction3/>
     <Footer/>

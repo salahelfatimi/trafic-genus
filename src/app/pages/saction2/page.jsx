@@ -3,6 +3,7 @@ import { CirclePlus, Facebook, FileChartColumnIncreasing, Laptop, NotebookPen, P
 import Image from "next/image"
 import Link from "next/link"
 import InfiniteHorizontalScroll from '@/components/infiniteHorizontalScroll'
+import Fetchexperts from "@/components/fetchexperts"
 
 export default function Saction2(){
     const offrir =[
@@ -223,13 +224,6 @@ export default function Saction2(){
                     Notre engagement à aider nos clients à aller au-delà de leurs limites nous pousse à investir du cœur, de l&apos;énergie et de l&apos;intention dans tout ce que nous faisons
                     </p>
                 </div>
-
-                {/* <div className="flex-col flex items-center">
-                    <div className="w-screen overflow-hidden">
-                        <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">“Originalité, créativité et efficacité sont au COEur de notre  ADN”</p>
-                    </div>
-                        <h2 className="lg:text-5xl text-3xl font-black text-center text-white">“Originalité, créativité et efficacité sont au COEur de notre  <span className=" text-[#F2FD01] border-[#F2FD01] ">ADN”</span></h2>
-                </div> */}
 
                 
             </div>

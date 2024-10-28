@@ -40,7 +40,7 @@ export default function ButtonUp() {
       
         <button
           onClick={scrollToSection}
-          className={`${isVisible?" border-4 border-[#F2FD01]":"text-[#ff9825]/0"} shadow-2xl fixed z-40  bg-[#000]  p-2 rounded-full  animate-bounce duration-1000 transition ${isVisible?"bottom-8 right-12" : "bottom-8 right-12 bg-[#FFECCC]/0"}`}
+          className={`${isVisible?" border-4 border-[#F2FD01] shadow-2xl":"text-[#ff9825]/0"}  fixed z-40  bg-[#000]  p-2 rounded-full  animate-bounce duration-1000 transition ${isVisible?"bottom-8 right-12" : "bottom-8 right-12 bg-[#FFECCC]/0"}`}
         >
           <ArrowUp size={50} className={` duration-1000 transition ${isVisible?"text-[#F2FD01]":"text-[#ff9825]/0"}`} />
         </button>

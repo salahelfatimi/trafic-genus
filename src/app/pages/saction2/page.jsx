@@ -154,7 +154,7 @@ export default function Saction2(){
                     <Image src={'/saction2/arrow.gif'} className="  lg:-rotate-90 w-[250px]" width={500} height={500} alt="trafic genius"    title="trafic genius"/>
 
                     <div  className="relative w-[318px] blur-sm hover:blur-0 duration-1000">
-                        <Image src={`/saction2/website-REDESIGN/traficgenus.png`} className="relative   w-[318px] h-[600px] object-cover shadow-lg shadow-[#fff] duration-[10000ms] 	  rounded-3xl object-top  hover:object-bottom	" width={318} height={600} alt="trafic genius"    title="trafic genius"/>
+                        <Image src={`/saction2/website-REDESIGN/new.png`} className="relative   w-[318px] h-[600px] object-cover shadow-lg shadow-[#fff] duration-[10000ms] 	  rounded-3xl object-top  hover:object-bottom	" width={318} height={600} alt="trafic genius"    title="trafic genius"/>
                         <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center bg-black rounded-b-3xl">
                             <Image src={'/TopHeader/logo.png'} className=" w-[150px]" width={500} height={500} alt="trafic genius"    title="trafic genius"/>
                         </div>

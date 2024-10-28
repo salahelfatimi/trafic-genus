@@ -27,7 +27,7 @@ export const metadata = {
         url: `/opengraph-image.jpg`,
         secureUrl: `/opengraph-image.jpg`,
         width: 1200,
-        height: 630,
+        height: 675,
         alt: `TRAFIC GENIUS`,
       }
     ],

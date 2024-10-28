@@ -58,10 +58,10 @@ export default function Saction3(){
             </div>
             {/* saction 2 */}
 
-            <div className=" container relative  flex flex-col justify-center items-center pt-20">
+            <div className="  relative  flex flex-col justify-center items-center pt-20">
                 <div className=" bg-[#F2FD01]   w-full h-24 left-0 right-0 bottom-0 absolute  rounded-full-css rotate-180"></div>
 
-                <div className="z-10 bg-[#514F4E] gap-10 rounded-3xl p-6 lg:p-20 w-fit flex flex-col justify-center items-center">
+                <div className="z-10 bg-[#514F4E] border-black border-8 shadow-2xl gap-10 rounded-3xl p-6 lg:p-20 w-fit flex flex-col justify-center items-center">
                     <h4 className="  text-[#fff] text-2xl text-center lg:text-4xl">PRÊT POUR DÉCOLLER <span className="text-[#F2FD01]">ENSEMBLE ?</span></h4>
                     <button className="cssbuttons-io-button ">
                         RÉSERVEZ VOTRE APPEL
@@ -116,7 +116,7 @@ export default function Saction3(){
                                 </p>
                             </div>
                         </div>
-                        <div className=" hidden relative  lg:flex flex-col lg:flex-row  gap-36 justify-center items-center ">
+                        <div className=" hidden relative animate-pulse  lg:flex flex-col lg:flex-row  gap-36 justify-center items-center ">
                         <Image src={'/saction3/traficGenius.png'} className="w-56 bg-black rounded-full" width={500} height={500} alt="trafic genius"    title="trafic genius"/>
                         </div>
                         <div className=" flex flex-col lg:flex-row  gap-20 justify-between items-start ">
@@ -170,7 +170,7 @@ export default function Saction3(){
                         <h2 className=" text-center lg:text-5xl text-3xl font-black  text-black">UNIQUEMENT POUR LES ENTREPRENEURS <span className="text-[#F2FD01]">MOTIVÉS</span> </h2>                     
                     </div>  
                     <div className=" container flex flex-col-reverse lg:flex-row-reverse justify-center items-center">
-                        <div className=" text-left   lg:w-[50%] font-serif font-medium  lg:text-2xl bg-[#F2FD01] p-8 rounded-3xl">
+                        <div className=" text-left   lg:w-[70%] font-serif font-medium  lg:text-2xl bg-[#F2FD01] p-8 rounded-r-3xl shadow-2xl">
                             <p>
                                 Nous sommes passionnés par ce que nous faisons et nous croyons que notre passion transparaît dans notre travail. Nous sommes toujours à la recherche de nouvelles opportunités pour améliorer et développer nos compétences, afin de fournir à nos clients les solutions les plus innovantes et les plus performantes. <br /><br />
 
@@ -180,7 +180,7 @@ export default function Saction3(){
                             </p>
                         
                         </div>
-                        <div className="bg-[#E0E0E0] shadow-2xl  ">
+                        <div className="bg-[#E0E0E0] rounded-l-3xl shadow-2xl  ">
                             <Image src={'/saction3/light.png'} className="  animate-slight-rotate-grayscale-toggle" width={300} height={600} alt="trafic genius"    title="trafic genius"/>
                         </div>
                     </div>
@@ -190,7 +190,7 @@ export default function Saction3(){
 
             <div className=" container relative  flex flex-col justify-center items-center pt-20">
 
-                <div className="z-10 bg-[#000] border-4 shadow-2xl border-[#F2FD01]  gap-10 rounded-3xl p-6 lg:p-20  flex flex-col justify-center items-center">
+                <div className="z-10 bg-[#000] border-8 shadow-2xl border-[#F2FD01]  gap-10 rounded-3xl p-6 lg:p-20  flex flex-col justify-center items-center">
                     <h4 className="  text-[#fff] text-2xl text-center lg:text-4xl font-sans font-bold">Boostez votre entreprise grâce à notre expertise en scaling</h4>
                     <div className=" border-t-4 border-[#F2FD01] w-full"></div>
                     <p className=" font-serif  text-white font-medium text-center lg:text-2xl">Prenez contact et échangeons ensemble sur votre projet

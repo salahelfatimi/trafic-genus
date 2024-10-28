@@ -6,7 +6,7 @@ import { CircleDollarSign, Presentation, Search } from "lucide-react";
 
 export default function Header (){
     return(
-        <div>
+        <div id="top">
 
             {/* Header */}
 

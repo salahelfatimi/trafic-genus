@@ -3,8 +3,7 @@ import Saction2 from "./pages/saction2/page";
 import Saction3 from "./pages/saction3/page";
 import Testimonials from "./pages/testimonials/page";
 import Header from "./pages/Topheader/page";
-export  default async function  Home() {
-  await new Promise((resolve) => setTimeout(resolve, 10000));
+export  default  function  Home() {
   return (
   <div className=" overflow-x-hidden">
     <Header/>

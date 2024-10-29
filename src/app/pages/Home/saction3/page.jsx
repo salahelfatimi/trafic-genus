@@ -43,20 +43,20 @@ export default function Saction3(){
                             <h2 className=" text-center lg:text-5xl text-3xl font-black  text-black">Les 5 étapes pour mener à bien votre PROJET </h2>                     
                         </div>  
                         <div className=" container">
-                            <div className=" grid grid-cols-1 lg:grid-cols-5   justify-center text-center gap-8">
-                                <div onClick={()=>(setclickNum(0),scrollToSection())} className={` ${clickNum==0?' bg-[#F2FD01] text-black':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
+                            <div className=" grid grid-cols-1 lg:grid-cols-5 items-center   justify-center text-center gap-8">
+                                <div onClick={()=>(setclickNum(0),scrollToSection())} className={` ${clickNum==0?' bg-[#F2FD01] text-black border-black border-4 shadow-2xl':'bg-[#4F4F4F] text-white  '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
                                     Étape 1 :Audit
                                 </div>
-                                <div onClick={()=>(setclickNum(1),scrollToSection())} className={` ${clickNum==1?' bg-[#F2FD01] text-black':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
+                                <div onClick={()=>(setclickNum(1),scrollToSection())} className={` ${clickNum==1?' bg-[#F2FD01] text-black border-black border-4 shadow-2xl':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
                                     Étape 2 : Réalisation
                                 </div>
-                                <div onClick={()=>(setclickNum(2),scrollToSection())} className={` ${clickNum==2?' bg-[#F2FD01] text-black':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
+                                <div onClick={()=>(setclickNum(2),scrollToSection())} className={` ${clickNum==2?' bg-[#F2FD01] text-black border-black border-4 shadow-2xl':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
                                 Étape 3 : Livraison et ajustements
                                 </div>
-                                <div onClick={()=>(setclickNum(3),scrollToSection())} className={` ${clickNum==3?' bg-[#F2FD01] text-black':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
+                                <div onClick={()=>(setclickNum(3),scrollToSection())} className={` ${clickNum==3?' bg-[#F2FD01] text-black border-black border-4 shadow-2xl':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
                                     Étape 4 : Lancement
                                 </div>
-                                <div onClick={()=>(setclickNum(4),scrollToSection())} className={` ${clickNum==4?' bg-[#F2FD01] text-black':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
+                                <div onClick={()=>(setclickNum(4),scrollToSection())} className={` ${clickNum==4?' bg-[#F2FD01] text-black border-black border-4 shadow-2xl':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
                                     Étape 5 : Suivi des résultats
                                 </div>
                             </div>

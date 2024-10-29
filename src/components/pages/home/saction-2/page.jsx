@@ -176,7 +176,7 @@ export default function Saction2(){
                 <div className=" container flex flex-col lg:flex-row items-center justify-around gap-8">
                     <div className=" relative w-[250px] h-[250px] min-w-[250px] min-h-[250px]">
                         <Image className=" relative w-full h-full z-10" src={'/saction2/logodark.png'} width={300} height={300} alt="trafic genius"    title="trafic genius"/>
-                        <Image className=" absolute top-0 left-0 w-full h-full z-0 moveSmoke" src={'/saction2/smoke.png'} width={300} height={300} alt="trafic genius"    title="trafic genius"/>
+                        <Image className=" absolute top-0 left-0 w-full h-full z-0 animate-move-smoke" src={'/saction2/smoke.png'} width={300} height={300} alt="trafic genius"    title="trafic genius"/>
                     </div>
                     <div className=" flex flex-col justify-center items-center gap-20">
                         <p className=" font-serif font-semibold flex ir  gap-2 "><CirclePlus   className=" w-10 min-w-10 h-10"/>Faites de vos rêves une réalité avec un site web interactif au design créatif !</p>

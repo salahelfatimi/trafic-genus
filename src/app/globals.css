@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .text-border{
     -webkit-text-stroke: 1px rgb(132, 125, 125)
 }

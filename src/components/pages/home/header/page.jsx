@@ -100,7 +100,7 @@ export default function Header (){
                     <div className="  gap-20 flex flex-col lg:flex-row items-center justify-center">
                         <div className=" relative w-[300px] h-[350px]">
                             <Image className=" relative w-full h-full z-10" src={'/TopHeader/bglogo.png'} width={182} height={239} alt="trafic genius"    title="traficgenius"/>
-                            <Image className=" absolute top-0 left-0 w-full h-full z-0 moveSmoke" src={'/TopHeader/smoke.png'} width={300} height={300} alt="trafic genius"    title="traficgenius"/>
+                            <Image className=" absolute top-0 left-0 w-full h-full z-0 animate-move-smoke" src={'/TopHeader/smoke.png'} width={300} height={300} alt="trafic genius"    title="traficgenius"/>
                         </div>
                         <p className="text-white w-4/5 lg:w-1/2 font-normal text-center lg:text-left text-xl sm:text-2xl font-serif">
                         Lorsque l&apos;on évolue dans un marché redoutable, il est essentiel de prendre en compte la concurrence pour être en mesure de proposer une offre pertinente.<br /><br />

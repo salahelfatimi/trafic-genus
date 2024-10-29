@@ -208,7 +208,7 @@ export default function Saction2(){
                         <h2 className="lg:text-4xl text-2xl font-black text-center text-black">
                             Des solutions spécialement conçues pour vous!
                         </h2>
-                        <p className=" font-serif font-medium text-2xl">Nous mettons tout en œuvre pour vous démarquer de vos concurrents et booster les résultats de votre entreprise à leur plein potentiel.                </p>
+                        <p className=" font-serif font-medium lg:text-2xl">Nous mettons tout en œuvre pour vous démarquer de vos concurrents et booster les résultats de votre entreprise à leur plein potentiel.                </p>
                     </div>
                     <Link href={'/appel'} target="_blank" >
                             <button className="cssbuttons-io-button ">

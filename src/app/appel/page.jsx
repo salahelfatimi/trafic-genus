@@ -11,7 +11,7 @@ export default function Appel(){
  
     return(
         
-        <div className="  bg-black   flex flex-col pt-4 ga-20 justify-between ">
+        <body className="  bg-black   flex flex-col pt-4 ga-20 justify-between ">
             
             <div className=" container  flex flex-col gap-10 items-center justify-center">
                 <div className=" bg-[#F2FD01] p-6 rounded-3xl flex  gap-4 items-center justify-center ">
@@ -34,6 +34,6 @@ export default function Appel(){
             </div>
 
             <Footer/>
-        </div>
+        </body>
     )
 }

@@ -2,10 +2,11 @@
 import { ChevronDown, SquareChevronDown, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 export default function Saction3(){
     const [clickNum,setclickNum]=useState(0)
+ 
     const [clickShow,setclickShow]=useState(0)
         const Etapes=[
             {id:0,image:'/saction3/etapes/Audit.png', title:'Audit' ,description:"Nous analysons ensemble les résultats pour pouvoir faire les ajustements nécessaires pour l’augmentation de votre taux de conversion."},
@@ -16,6 +17,20 @@ export default function Saction3(){
 
         ]
         const filterText=Etapes.find((ele) => ele.id == clickNum);
+
+       
+
+        
+
+        function scrollToSection() {
+            const section = document.getElementById("etapes");
+            if (section) {
+            window.scrollTo({
+                top: section.offsetTop,
+                behavior: "smooth",
+            });
+            }
+        }
      return (
         <div className=" py-20 flex flex-col ">
             {/* saction 1 */}
@@ -25,28 +40,28 @@ export default function Saction3(){
                             <div className="  w-screen overflow-hidden">
                                 <p className=" text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">Les 5 étapes pour mener à bien votre PROJET</p>
                             </div>
-                            <h2 className=" text-center lg:text-5xl text-3xl font-black  text-black">Les 5 étapes pour mener à bien votre <span className="text-[#F2FD01]">PROJET</span> </h2>                     
+                            <h2 className=" text-center lg:text-5xl text-3xl font-black  text-black">Les 5 étapes pour mener à bien votre PROJET </h2>                     
                         </div>  
                         <div className=" container">
                             <div className=" grid grid-cols-1 lg:grid-cols-5   justify-center text-center gap-8">
-                                <div onClick={()=>(setclickNum(0))} className={` ${clickNum==0?' bg-[#F2FD01] text-black':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
+                                <div onClick={()=>(setclickNum(0),scrollToSection())} className={` ${clickNum==0?' bg-[#F2FD01] text-black':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
                                     Étape 1 :Audit
                                 </div>
-                                <div onClick={()=>(setclickNum(1))} className={` ${clickNum==1?' bg-[#F2FD01] text-black':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
+                                <div onClick={()=>(setclickNum(1),scrollToSection())} className={` ${clickNum==1?' bg-[#F2FD01] text-black':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
                                     Étape 2 : Réalisation
                                 </div>
-                                <div onClick={()=>(setclickNum(2))} className={` ${clickNum==2?' bg-[#F2FD01] text-black':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
+                                <div onClick={()=>(setclickNum(2),scrollToSection())} className={` ${clickNum==2?' bg-[#F2FD01] text-black':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
                                 Étape 3 : Livraison et ajustements
                                 </div>
-                                <div onClick={()=>(setclickNum(3))} className={` ${clickNum==3?' bg-[#F2FD01] text-black':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
+                                <div onClick={()=>(setclickNum(3),scrollToSection())} className={` ${clickNum==3?' bg-[#F2FD01] text-black':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
                                     Étape 4 : Lancement
                                 </div>
-                                <div onClick={()=>(setclickNum(4))} className={` ${clickNum==4?' bg-[#F2FD01] text-black':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
+                                <div onClick={()=>(setclickNum(4),scrollToSection())} className={` ${clickNum==4?' bg-[#F2FD01] text-black':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
                                     Étape 5 : Suivi des résultats
                                 </div>
                             </div>
                         </div>
-                        <div className=" container flex flex-col lg:flex-row gap-8 items-center justify-center ">
+                        <div id="etapes" className=" container flex flex-col lg:flex-row gap-8 items-center justify-center ">
                             <Image src={filterText.image} width={500} height={500}/>
                             <div className="bg-[#4F4F4F] flex flex-col justify-center items-center rounded-3xl shadow-2xl gap-10 p-8 ">
                                 <h3 className=" text-[#F2FD01] text-3xl text-center ">{filterText.title}</h3>
@@ -63,8 +78,8 @@ export default function Saction3(){
             <div className="  relative  flex flex-col justify-center items-center pt-20">
                 <div className=" bg-[#F2FD01]   w-full h-24 left-0 right-0 bottom-0 absolute  rounded-full-css rotate-180"></div>
 
-                <div className="z-10 bg-[url('/BACKGROUND.jpg')] bg-cover border-[#F2FD01] border-8 shadow-2xl gap-10 rounded-3xl p-6 lg:p-20 w-fit flex flex-col justify-center items-center">
-                    <h4 className="  text-[#fff] text-2xl text-center lg:text-4xl">PRÊT POUR DÉCOLLER <span className="text-[#F2FD01]">ENSEMBLE ?</span></h4>
+                <div   className="z-10 bg-[url('/BACKGROUND.jpg')] bg-cover border-[#F2FD01] border-8 shadow-2xl gap-10 rounded-3xl p-6 lg:p-20 w-fit flex flex-col justify-center items-center">
+                    <h4 className="  text-[#fff] text-2xl text-center lg:text-4xl">PRÊT POUR DÉCOLLER ENSEMBLE ?</h4>
                     <Link href={'/appel'} target="_blank" >
                         <button className="cssbuttons-io-button ">
                             RÉSERVEZ VOTRE APPEL
@@ -154,7 +169,7 @@ export default function Saction3(){
                         <div className="  w-screen overflow-hidden">
                             <p className=" text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS</p>
                         </div>
-                        <h2 className=" text-center lg:text-5xl text-3xl font-black  text-black">UNIQUEMENT POUR LES ENTREPRENEURS <span className="text-[#F2FD01]">MOTIVÉS</span> </h2>                     
+                        <h2 className=" text-center lg:text-5xl text-3xl font-black  text-black">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
                     </div>  
                     <div className=" container flex flex-col-reverse lg:flex-row-reverse justify-center items-center">
                         <div className=" text-left   lg:w-[70%] font-serif font-medium  lg:text-2xl bg-[#F2FD01] p-8 rounded-3xl lg:rounded-r-3xl shadow-2xl">
@@ -210,7 +225,7 @@ export default function Saction3(){
                         <div className="  w-screen overflow-hidden">
                             <p className=" text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS</p>
                         </div>
-                        <h2 className=" text-center lg:text-5xl text-3xl font-black  text-black">UNIQUEMENT POUR LES ENTREPRENEURS <span className="text-[#F2FD01]">MOTIVÉS</span> </h2>                     
+                        <h2 className=" text-center lg:text-5xl text-3xl font-black  text-black">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
                     </div>  
                     <div className="  ">
                      <div class=" p-8">

@@ -13,19 +13,36 @@ export default  function FetchLogo() {
     ];
 
   return (
-    <>
-      {images.map((src, index) => (
-        <div className=" space-x-6  p-2" key={index}>
-          <Image
-            title={src.title}
-            width={500}
-            height={500}
-            src={`/appel/${src.image}`}
-            className="max-w-none duration-700    w-screen md:w-auto   "
-            alt={src.title}
-          />
-        </div>
-      ))}
-    </>
+    <div className=" flex space-x-16 overflow-hidden">
+      <div className="flex animate-loop-scroll gap-10">
+        {images.map((src, index) => (
+          <div className=" " key={index}>
+            <Image
+              title={src.title}
+              width={600}
+              height={300}
+              src={`/appel/${src.image}`}
+              className="max-w-none  h-28    w-auto   "
+              alt={src.title}
+            />
+          </div>
+        ))}
+      </div>
+      <div className="flex animate-loop-scroll gap-10" aria-hidden='true'>
+        {images.map((src, index) => (
+          <div className=" " key={index}>
+            <Image
+              title={src.title}
+              width={600}
+              height={300}
+              src={`/appel/${src.image}`}
+              className="max-w-none   h-28   w-auto   "
+              alt={src.title}
+            />
+          </div>
+        ))}
+      </div>
+
+    </div>
   );
 }

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import FetchLogoScroll from '@/components/fetchLogoScroll'
-import InfiniteHorizontalScroll from '@/components/infiniteHorizontalScroll'
 import { CircleDollarSign, Presentation, Search } from "lucide-react";
 import Link from "next/link";
 
@@ -63,9 +62,9 @@ export default function Header (){
                     <Image  className="relative z-50 lg:w-[80%] " src={'/TopHeader/tablet.png'} alt="trafic genius"    title="traficgenius" width={2000} height={1000}/>
                 </div>
                 <div className=" py-10">
-                    <InfiniteHorizontalScroll >
+                   
                         <FetchLogoScroll/>
-                    </InfiniteHorizontalScroll>
+                  
                 </div>
             </div>
 

@@ -15,19 +15,37 @@ export default  function FetchLogoScroll() {
     ];
 
   return (
-    <>
-      {images.map((src, index) => (
-        <div className=" space-x-6  p-2" key={index}>
-          <Image
-            title={src.title}
-            width={600}
-            height={300}
-            src={`/logoScroll/${src.image}`}
-            className="max-w-none grayscale hover:grayscale-0 duration-700   h-12 w-auto   "
-            alt={src.title}
-          />
-        </div>
-      ))}
-    </>
+    <div className=" flex space-x-16 overflow-hidden">
+      <div className="flex animate-loop-scroll gap-10">
+        {images.map((src, index) => (
+          <div className=" " key={index}>
+            <Image
+              title={src.title}
+              width={600}
+              height={300}
+              src={`/logoScroll/${src.image}`}
+              className="max-w-none grayscale hover:grayscale-0 duration-700   h-12 w-auto   "
+              alt={src.title}
+            />
+          </div>
+        ))}
+      </div>
+      <div className="flex animate-loop-scroll gap-10" aria-hidden='true'>
+        {images.map((src, index) => (
+          <div className=" " key={index}>
+            <Image
+              title={src.title}
+              width={600}
+              height={300}
+              src={`/logoScroll/${src.image}`}
+              className="max-w-none grayscale hover:grayscale-0 duration-700   h-12 w-auto   "
+              alt={src.title}
+            />
+          </div>
+        ))}
+      </div>
+
+    </div>
+    
   );
 }

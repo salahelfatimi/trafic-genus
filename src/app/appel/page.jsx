@@ -1,6 +1,5 @@
 import Image from "next/image";
 import FetchLogo from '@/components/fetchlogo'
-import InfiniteHorizontalScroll from '@/components/infiniteHorizontalScroll'
 import CalendlyEmbed from "@/components/CalendlyWidget";
 export default function Appel(){
  
@@ -23,9 +22,9 @@ export default function Appel(){
                 <CalendlyEmbed url="https://calendly.com/traficgenius/60min?hide_gdpr_banner=1&background_color=1a1a1a&text_color=ffffff&primary_color=f2ff00"/>
             </div>
             <div className=" py-2 border-y-4 border-[#F2FD01]">
-                    <InfiniteHorizontalScroll>
-                        <FetchLogo/>
-                    </InfiniteHorizontalScroll>
+                   
+                <FetchLogo/>
+                   
             </div>
 
         

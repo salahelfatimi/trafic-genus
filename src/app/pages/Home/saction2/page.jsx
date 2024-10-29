@@ -120,13 +120,13 @@ export default function Saction2(){
                     <div className="w-screen overflow-hidden">
                         <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">Imaginez votre projet sous son meilleur JOUR</p>
                     </div>
-                        <h2 className="lg:text-5xl text-3xl font-black text-center text-white">Imaginez votre projet sous son meilleur <span className=" text-[#F2FD01] border-[#F2FD01] ">JOUR</span></h2>
+                        <h2 className="lg:text-5xl text-3xl font-black text-center text-white">Imaginez votre projet sous son meilleur <span class=" bg-[#F2FD01] p-[0.10rem]  "><span class="relative text-black"> JOUR </span></span></h2>
                 </div>
                 <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-20 ">
                     {website.map((ele,index)=>(
                         <div key={index} className="relative">
                             <Link target="_blank" href={ele.url}><Image src={'/saction2/eye.gif'} width={640} height={640} className=" absolute -top-4 border-4 border-[#F2FD01] cursor-pointer  -left-4 z-20 h-14 w-14 rounded-full"/></Link>
-                            <Image src={`/saction2/website/${ele.image}`} className="relative  w-[318px] h-[600px] object-cover shadow-lg shadow-[#fff] duration-[10000ms] 	  rounded-3xl object-top  hover:object-bottom	" width={318} height={600} alt="trafic genius"    title="trafic genius"/>
+                            <Image src={`/saction2/website/${ele.image}`} className="relative  w-[318px] h-[300px] lg:h-[600px] object-cover shadow-lg shadow-[#fff] duration-[10000ms] 	  rounded-3xl object-top  hover:object-bottom	" width={318} height={600} alt="trafic genius"    title="trafic genius"/>
                             <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center bg-black rounded-b-3xl">
                                 <Image src={'/TopHeader/logo.png'} className=" w-[150px]" width={500} height={500} alt="trafic genius"    title="trafic genius"/>
                             </div>
@@ -145,7 +145,7 @@ export default function Saction2(){
                 </div>
                 <div className=" gap-28 flex flex-col lg:flex-row justify-center items-center">
                     <div  className="relative w-[318px]">
-                        <Image src={`/saction2/website-REDESIGN/traficgenus.png`} className="relative  w-[318px] h-[600px] object-cover shadow-lg shadow-[#fff] duration-[10000ms] 	  rounded-3xl object-top  hover:object-bottom	" width={318} height={600} alt="trafic genius"    title="trafic genius"/>
+                        <Image src={`/saction2/website-REDESIGN/traficgenus.png`} className="relative  w-[318px] h-[300px] lg:h-[600px] object-cover shadow-lg shadow-[#fff] duration-[10000ms] 	  rounded-3xl object-top  hover:object-bottom	" width={318} height={600} alt="trafic genius"    title="trafic genius"/>
                         <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center bg-black rounded-b-3xl">
                             <Image src={'/TopHeader/logo.png'} className=" w-[150px]" width={500} height={500} alt="trafic genius"    title="trafic genius"/>
                         </div>
@@ -154,7 +154,7 @@ export default function Saction2(){
                     <Image src={'/saction2/arrow.gif'} className="  lg:-rotate-90 w-[250px]" width={500} height={500} alt="trafic genius"    title="trafic genius"/>
 
                     <div  className="relative w-[318px] blur-sm hover:blur-0 duration-1000">
-                        <Image src={`/saction2/website-REDESIGN/new.png`} className="relative   w-[318px] h-[600px] object-cover shadow-lg shadow-[#fff] duration-[10000ms] 	  rounded-3xl object-top  hover:object-bottom	" width={318} height={600} alt="trafic genius"    title="trafic genius"/>
+                        <Image src={`/saction2/website-REDESIGN/new.png`} className="relative   w-[318px] h-[300px] lg:h-[600px] object-cover shadow-lg shadow-[#fff] duration-[10000ms] 	  rounded-3xl object-top  hover:object-bottom	" width={318} height={600} alt="trafic genius"    title="trafic genius"/>
                         <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center bg-black rounded-b-3xl">
                             <Image src={'/TopHeader/logo.png'} className=" w-[150px]" width={500} height={500} alt="trafic genius"    title="trafic genius"/>
                         </div>
@@ -197,18 +197,48 @@ export default function Saction2(){
                 
             </div>
         </div>
-       
+
+        {/* saction strip */}
+        <div className="bg-black py-20">
+            <div className=" container flex flex-col gap-10 items-center justify-center ">
+                <div className=" text-center text-white">
+                    <h2 className="lg:text-4xl text-2xl font-black text-center text-white">
+                        Des solutions spécialement conçues pour vous!
+                    </h2>
+                    <p className=" font-serif font-medium text-2xl">Nous mettons tout en œuvre pour vous démarquer de vos concurrents et booster les résultats de votre entreprise à leur plein potentiel.                </p>
+                </div>
+                <Link href={'/appel'} target="_blank" >
+                        <button className="cssbuttons-io-button ">
+                            Lancez votre projet !
+                            <div class="icon">
+                                <svg
+                                height="24"
+                                width="24"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                                >
+                                <path d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                    fill="currentColor"
+                                ></path>
+                                </svg>
+                            </div>
+                        </button>
+                    </Link>   
+            </div>
+        </div>
 
 
         {/* saction 11 */}
         
         <div className="bg-gradient-to-b from-[#000]  via-[#000] to-[#000]">
             <div className=" container  flex gap-28 flex-col justify-center items-center  py-20">
-                <div className="flex-col flex items-center justify-center">
+                <div className="flex-col flex items-center gap-2 justify-center">
                     <div className="w-screen overflow-hidden">
-                        <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius, UNE ÉQUIPE DE PROFESSIONNELS À VOS CÔTÉS</p>
+                        <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius , UNE ÉQUIPE DE PROFESSIONNELS À VOS CÔTÉS</p>
                     </div>
-                        <h2 className="lg:text-4xl text-3xl font-black text-center text-white">trafic genius trafic genius, UNE ÉQUIPE DE PROFESSIONNELS À <span className=" text-[#F2FD01] ">VOS CÔTÉS </span></h2>
+                        <h2 className="lg:text-4xl text-3xl font-black text-center text-white capitalize ">trafic genius, UNE ÉQUIPE DE PROFESSIONNELLES À  <span class=" bg-[#F2FD01] p-[0.10rem]  "><span class="relative text-black"> VOS CÔTÉS </span></span></h2>
                 </div>
                 
                 <div className="  lg:w-[70%] font-serif font-medium text-center lg:text-2xl bg-[#F2FD01] p-8 rounded-3xl">
@@ -244,7 +274,6 @@ export default function Saction2(){
                 
                 </div>
                 <div className="z-20">
-
                     <InfiniteHorizontalScroll>
                         <FetchText/>
                     </InfiniteHorizontalScroll>

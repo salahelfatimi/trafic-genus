@@ -15,15 +15,11 @@ export default function ButtonUp() {
         setIsVisible(scrollPosition > section.offsetTop + bottomThreshold);
       }
     }
-
-    // Add scroll event listener
     window.addEventListener("scroll", handleScroll);
-
-    // Remove event listener on component unmount
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []); // Empty dependency array means the effect runs once when the component mounts
+  }, []); 
 
   function scrollToSection() {
     const section = document.getElementById("top");

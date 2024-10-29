@@ -1,5 +1,6 @@
 import { Poppins  } from "next/font/google";
 import "./globals.css";
+import Footer from "@/components/footer/page";
 
 const poppins = Poppins ({ subsets: ["latin-ext"], weight:['900'] });
 
@@ -41,7 +42,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${poppins.className}  scroll-smooth   scrollbar scrollbar-thumb-[#F2FD01] scrollbar-track-black h-32 overflow-y-scroll`}>
         {children}
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        <Footer/>
       </body>
      
     </html>

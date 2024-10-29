@@ -1,17 +1,12 @@
-
-import Footer from "@/components/footer/page";
 import Image from "next/image";
 import FetchLogo from '@/components/fetchlogo'
 import InfiniteHorizontalScroll from '@/components/infiniteHorizontalScroll'
-import Head from "next/head";
-
 import CalendlyEmbed from "@/components/CalendlyWidget";
-
 export default function Appel(){
  
     return(
         
-        <body className="  bg-black   flex flex-col pt-4 ga-20 justify-between ">
+        <main className="  bg-black   flex flex-col pt-4 ga-20 justify-between ">
             
             <div className=" container  flex flex-col gap-10 items-center justify-center">
                 <div className=" bg-[#F2FD01] p-6 rounded-3xl flex  gap-4 items-center justify-center ">
@@ -33,7 +28,7 @@ export default function Appel(){
                     </InfiniteHorizontalScroll>
             </div>
 
-            <Footer/>
-        </body>
+        
+        </main>
     )
 }

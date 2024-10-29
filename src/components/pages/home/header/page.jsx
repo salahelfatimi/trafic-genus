@@ -1,5 +1,5 @@
 import Image from "next/image";
-import FetchLogoScroll from '@/components/fetchLogoScroll'
+import FetchLogoScroll from '@/components/tools/fetchLogoScroll'
 import { CircleDollarSign, Presentation, Search } from "lucide-react";
 import Link from "next/link";
 

@@ -25,7 +25,7 @@ export default  function FetchText() {
       {images.map((ele, index) => (
         <div className=" cursor-pointer select-none	 relative duration-700 bg-black hover:bg-gradient-to-b from-[#F2FD01] group   via-[#6a6e24] to-[#000] space-x-6  p-10 flex flex-col items-center justify-start gap-20  border-2   border-[#fff]  min-w-96  " key={index}>
             <div className=" absolute -left-1 top-28 border-l-8 border-[#F2FD01] h-48 group-hover:border-white duration-700"></div>
-            <div className="relative bg-[#F2FD01]  rounded-full p-3 group-hover:p-4 duration-700">{ele.icon}</div>
+            <div className="relative bg-[#F2FD01]  rounded-full p-3  duration-700">{ele.icon}</div>
             <p className="relative text-white font-serif font-medium text-xl text-center">{ele.title}</p>
         </div>
       ))}

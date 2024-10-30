@@ -240,7 +240,7 @@ export default function Saction2(){
         </div>
 
         <Expert/>
-        
+
         {/* saction 11 */}
         
         <div className="bg-gradient-to-b from-[#000]  via-[#000] to-[#000]">
@@ -252,7 +252,7 @@ export default function Saction2(){
                         <h2 className="lg:text-4xl text-3xl font-black text-center text-white capitalize ">trafic genius, UNE ÉQUIPE DE PROFESSIONNELLES À  <span class=" bg-[#F2FD01] p-[0.10rem]  "><span class="relative text-black"> VOS CÔTÉS </span></span></h2>
                 </div>
                 
-                <div className="  lg:w-[70%] font-serif font-medium text-center lg:text-2xl bg-[#F2FD01] p-8 rounded-3xl">
+                <div className="  lg:w-[70%] font-serif font-medium text-white text-center lg:text-2xl border-[#F2FD01] border-4 p-8 rounded-3xl">
                     <p>
                     Nous sommes la meilleure agence francophone spécialisée dans le design de tunnels de vente et sites Internet à haute rentabilité. 
                     Après avoir réalisé plus de 300 projets pour des experts, entrepreneurs et startups, nous façonnons l&apos;art du design pour la vente en ligne. <br/> <br/>

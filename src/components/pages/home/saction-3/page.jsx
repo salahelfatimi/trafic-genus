@@ -230,7 +230,7 @@ export default function Saction3(){
                     <div className="  ">
                      <div class=" p-8">
                         <details class="bg-[#F2FD01]   open:ring-[#F2FD01]  border-t-4 border-x-4  border-[#000] shadow-2xl py-10 border-b-4 rounded-t-3xl p-6 " open>
-                            <summary class="lg:text-xl font-serif font-bold leading-6 text-[#000]  select-none">
+                            <summary class="lg:text-xl font-serif font-bold leading-6 text-[#000] cursor-pointer  select-none">
                             Est-ce que vous pouvez me montrer d&apos;autres exemples de tunnels de vente ou sites Internet que vous avez réalisés ?
                             </summary>
                             <div class="mt-3 font-serif font-medium lg:text-xl  leading-6 text-black ">
@@ -238,7 +238,7 @@ export default function Saction3(){
                             </div>
                         </details>
                         <details class="bg-[#F2FD01]   open:ring-[#F2FD01]  border-x-4  border-[#000] shadow-2xl py-10 border-b-4  p-6 " >
-                            <summary class="lg:text-xl font-serif font-bold leading-6 text-[#000]  select-none">
+                            <summary class="lg:text-xl font-serif font-bold leading-6 text-[#000] cursor-pointer  select-none">
                             Est-ce que vous pouvez vous occuper du copywriting de mon tunnel de vente ou de mon site Internet ?
                             </summary>
                             <div class="mt-3 font-serif font-medium lg:text-xl  leading-6 text-black ">
@@ -246,7 +246,7 @@ export default function Saction3(){
                             </div>
                         </details>
                         <details class="bg-[#F2FD01]   open:ring-[#F2FD01]  border-x-4 border-[#000] shadow-2xl  py-10 border-b-4 p-6 " >
-                            <summary class="lg:text-xl font-serif font-bold leading-6 text-[#000]  select-none">
+                            <summary class="lg:text-xl font-serif font-bold leading-6 text-[#000] cursor-pointer  select-none">
                             Quels sont vos tarifs ?
                             </summary>
                             <div class="mt-3 font-serif font-medium lg:text-xl  leading-6 text-black ">
@@ -254,7 +254,7 @@ export default function Saction3(){
                             </div>
                         </details>
                         <details class="bg-[#F2FD01]   open:ring-[#F2FD01]  border-x-4 border-[#000] shadow-2xl py-10 border-b-4  p-6 " >
-                            <summary class="lg:text-xl font-serif font-bold leading-6 text-[#000]  select-none">
+                            <summary class="lg:text-xl font-serif font-bold leading-6 text-[#000] cursor-pointer  select-none">
                             En combien de temps êtes-vous capable de me livrer ?
                             </summary>
                             <div class="mt-3 font-serif font-medium lg:text-xl  leading-6 text-black ">
@@ -262,7 +262,7 @@ export default function Saction3(){
                             </div>
                         </details>
                         <details class="bg-[#F2FD01]   open:ring-[#F2FD01]  border-b-4 border-x-4 border-[#000] shadow-2xl rounded-b-3xl   p-6 " >
-                            <summary class="lg:text-xl font-serif font-bold leading-6 text-[#000]  select-none">
+                            <summary class="lg:text-xl font-serif font-bold leading-6 text-[#000] cursor-pointer  select-none">
                             Comment faire pour vous contacter ?
                             </summary>
                             <div class="mt-3 font-serif font-medium lg:text-xl  leading-6 text-black ">

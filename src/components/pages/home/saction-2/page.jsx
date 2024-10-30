@@ -98,7 +98,7 @@ export default function Saction2(){
             </div>
         </div>
         {/* saction 6 */}
-        <div className=" space-y-20 py-20">
+        <div className=" space-y-20 py-24">
             <div className="flex-col flex items-center ">
                 <div className="w-screen overflow-hidden">
                     <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">Tunnel de vente</p>

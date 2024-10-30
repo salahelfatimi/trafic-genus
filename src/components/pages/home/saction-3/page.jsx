@@ -183,7 +183,7 @@ export default function Saction3(){
                         
                         </div>
                         <div className="bg-[#E0E0E0]  shadow-2xl  ">
-                            <Image src={'/saction3/light.png'} className="  animate-slight-rotate-grayscale" width={300} height={600} alt="trafic genius"    title="trafic genius"/>
+                            <Image src={'/saction3/light.png'} className=" cursor-pointer  hover:grayscale-0  grayscale hover:rotate-12 duration-700" width={300} height={600} alt="trafic genius"    title="trafic genius"/>
                         </div>
                     </div>
                 </div>

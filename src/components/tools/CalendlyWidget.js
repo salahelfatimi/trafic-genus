@@ -1,8 +1,8 @@
 'use client'
 import React, { useEffect } from "react";
 
-const CalendlyEmbed = ({ url }) => {
-  useEffect(() => {
+const  CalendlyEmbed  =  ({ url })  =>  {
+   useEffect(() => {
     const head = document.querySelector("head");
     const script = document.createElement("script");
     script.setAttribute(
@@ -10,7 +10,7 @@ const CalendlyEmbed = ({ url }) => {
       "https://assets.calendly.com/assets/external/widget.js"
     );
     head.appendChild(script);
-  }, []);
+  }, [  ]);
 
   return (
     <>

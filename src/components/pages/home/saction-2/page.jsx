@@ -3,6 +3,7 @@ import { CirclePlus, Facebook, FileChartColumnIncreasing, Laptop, NotebookPen, P
 import Image from "next/image"
 import Link from "next/link"
 import InfiniteHorizontalScroll from '@/components/tools/infiniteHorizontalScroll'
+import Expert from "../expert/page"
 
 export default function Saction2(){
     const offrir =[
@@ -25,6 +26,7 @@ export default function Saction2(){
     ]
     return (
         <div className=" ">
+            
         {/* saction 5 */}
         <div className="flex flex-col justify-between py-20 items-center gap-32 bg-gradient-to-b from-[#F2FD01]  via-[#F2FD01] to-[#fff]">
           <div className="flex-col flex items-center">
@@ -198,6 +200,7 @@ export default function Saction2(){
             </div>
         </div>
 
+        
 
         {/* saction strip */}
         <div className="bg-white pt-20 ">
@@ -236,7 +239,8 @@ export default function Saction2(){
             </div>
         </div>
 
-
+        <Expert/>
+        
         {/* saction 11 */}
         
         <div className="bg-gradient-to-b from-[#000]  via-[#000] to-[#000]">

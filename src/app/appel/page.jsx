@@ -1,7 +1,7 @@
 import Image from "next/image";
 import FetchLogo from '@/components/tools/fetchlogo'
 import CalendlyEmbed from "@/components/tools/CalendlyWidget";
-export default function Appel(){
+export default  function  Appel(){
  
     return(
         

@@ -12,6 +12,8 @@
 .rounded-full-css {
   clip-path:ellipse(60% 100% at 50% -10%)
 }
+
+
   
 .paused{
   animation-play-state: paused;

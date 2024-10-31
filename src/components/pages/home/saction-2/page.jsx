@@ -122,7 +122,7 @@ export default function Saction2(){
                     <div className="w-screen overflow-hidden">
                         <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">Imaginez votre projet sous son meilleur JOUR</p>
                     </div>
-                        <h2 className="lg:text-5xl text-3xl font-black text-center text-white">Imaginez votre projet sous son meilleur <span class=" bg-[#F2FD01] p-[0.10rem]  "><span class="relative text-black"> JOUR </span></span></h2>
+                        <h2 className="lg:text-5xl text-3xl font-black text-center text-white">Imaginez votre projet sous son meilleur <span className=" bg-[#F2FD01] p-[0.10rem]  "><span className="relative text-black"> JOUR </span></span></h2>
                 </div>
                 <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-20 ">
                     {website.map((ele,index)=>(
@@ -216,7 +216,7 @@ export default function Saction2(){
                     <Link href={'/appel'} target="_blank" >
                             <button className="cssbuttons-io-button ">
                                 Lancez votre projet !
-                                <div class="icon">
+                                <div className="icon">
                                     <svg
                                     height="24"
                                     width="24"
@@ -249,7 +249,7 @@ export default function Saction2(){
                     <div className="w-screen overflow-hidden">
                         <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius , UNE ÉQUIPE DE PROFESSIONNELS À VOS CÔTÉS</p>
                     </div>
-                        <h2 className="lg:text-4xl text-3xl font-black text-center text-white capitalize ">trafic genius, UNE ÉQUIPE DE PROFESSIONNELLES À  <span class=" bg-[#F2FD01] p-[0.10rem]  "><span class="relative text-black"> VOS CÔTÉS </span></span></h2>
+                        <h2 className="lg:text-4xl text-3xl font-black text-center text-white capitalize ">trafic genius, UNE ÉQUIPE DE PROFESSIONNELLES À  <span className=" bg-[#F2FD01] p-[0.10rem]  "><span className="relative text-black"> VOS CÔTÉS </span></span></h2>
                 </div>
                 
                 <div className="  lg:w-[70%] font-serif font-medium text-white text-center lg:text-2xl border-[#F2FD01] border-4 p-8 rounded-3xl">

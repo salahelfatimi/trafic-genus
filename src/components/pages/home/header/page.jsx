@@ -26,7 +26,7 @@ export default function Header (){
                     <Link href={'/appel'} target="_blank" >
                         <button className="cssbuttons-io-button ">
                             Lancez votre projet !
-                            <div class="icon">
+                            <div className="icon">
                                 <svg
                                 height="24"
                                 width="24"

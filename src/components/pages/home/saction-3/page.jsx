@@ -62,7 +62,7 @@ export default function Saction3(){
                             </div>
                         </div>
                         <div id="etapes" className=" container flex flex-col lg:flex-row gap-8 items-center justify-center ">
-                            <Image src={filterText.image} width={500} height={500}/>
+                            <Image src={filterText.image} width={500} height={500} alt="trafic genius"    title="trafic genius"/>
                             <div className="bg-[#4F4F4F] flex flex-col justify-center items-center rounded-3xl shadow-2xl gap-10 p-8 ">
                                 <h3 className=" text-[#F2FD01] text-3xl text-center ">{filterText.title}</h3>
                                 <p className="  text-center font-serif font-semibold text-white text-xl">{filterText.description}</p>

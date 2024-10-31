@@ -107,7 +107,7 @@ export default function Saction2(){
             </div>
             <div>
                 <div className=" container grid grid-cols-1 lg:grid-cols-2 gap-8">
-                    <Image src={'/saction2/projectweb.png'} className=" hover:rotate-45 duration-700" width={500} height={500} alt="trafic genius"    title="traficgenius"/>
+                    <Image src={'/saction2/projectweb.png'} className=" hover:rotate-45 duration-700" width={500} height={500} alt="trafic genius"    title="trafic genius"/>
                     <div className=" flex flex-col justify-center gap-20">
                         <p className=" font-serif font-semibold flex  gap-4 "><CirclePlus  size={50} />Spécialisés en funnel building depuis plusieurs années, nous nous engageons à vous délivrer ce qu&apos;il y a de meilleur, au plus proche de la perfection.</p>
                         <p className="  font-serif font-semibold flex  gap-4"><CirclePlus size={50} />Attirez l&apos;attention de vos visiteurs, transformez-les en clients et augmentez votre chiffre d&apos;affaires grâce à un tunnel de vente professionnel à haute rentabilité.</p>
@@ -127,8 +127,8 @@ export default function Saction2(){
                 <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-20 ">
                     {website.map((ele,index)=>(
                         <div key={index} className="relative">
-                            <Link target="_blank" href={ele.url}><Image src={'/saction2/eye.gif'} width={640} height={640} className=" absolute -top-4 border-4 border-[#F2FD01] cursor-pointer  -left-4 z-20 h-14 w-14 rounded-full"/></Link>
-                            <Image src={`/saction2/website/${ele.image}`} className="relative  w-[318px] h-[300px] lg:h-[600px] object-cover  duration-[10000ms] 	  rounded-3xl object-top  hover:object-bottom	" width={318} height={600} alt="trafic genius"    title="trafic genius"/>
+                            <Link target="_blank" href={ele.url}><Image src={'/saction2/eye.gif'} width={640} height={640} className=" absolute -top-4 border-4 border-[#F2FD01] cursor-pointer  -left-4 z-20 h-14 w-14 rounded-full" alt="trafic genius"    title="trafic genius" /></Link>
+                            <Image src={`/saction2/website/${ele.image}`} className="relative  w-[318px] h-[300px] lg:h-[600px] object-cover  duration-[10000ms] 	  rounded-3xl object-top  hover:object-bottom	" width={318} height={600} alt={ele.title}    title={ele.title}/>
                             <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center bg-black rounded-b-3xl">
                                 <Image src={'/TopHeader/logo.png'} className=" w-[150px]" width={500} height={500} alt="trafic genius"    title="trafic genius"/>
                             </div>
@@ -233,7 +233,7 @@ export default function Saction2(){
                             </button>
                         </Link>   
                 </div>
-                <Image src={'/saction2/Striiiiiiiipe.png'} width={1920} height={1080} className=" bg-cover w-full   "/>
+                <Image src={'/saction2/Striiiiiiiipe.png'} width={1920} height={1080} className=" bg-cover w-full   " alt="trafic genius"    title="trafic genius"/>
                
                 
             </div>

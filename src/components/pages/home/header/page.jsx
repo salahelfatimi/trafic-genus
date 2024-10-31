@@ -17,7 +17,7 @@ import { resolve } from "styled-jsx/css";
                     <div className="circlePosition w-[200px] h-[200px] hidden md:block bg-[#F2FD01] rounded-[100%] absolute z-1 top-[40%] left-[20%] translate-x-[-50%] translate-y-[-50%] blur-[150px]"></div>     
                     <div className="circlePosition w-[200px] h-[200px] hidden md:block bg-[#F2FD01] rounded-[100%] absolute z-1 top-[65%] left-[90%] translate-x-[-50%] translate-y-[-50%] blur-[150px]"></div>
                     
-                    <Image src={'/TopHeader/logo.png'} width={500} height={500} alt="trafic genius"    title="traficgenius" />
+                    <Image src={'/TopHeader/logo.png'} width={500} height={500} alt="trafic genius"    title="trafic genius" />
                     <div className="flex flex-col gap-10 items-center py-20">
                     <h1 className="font-black text-center text-4xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-[#F2FD01] via-white to-[#F2FD01]">
                         Boostez vos ventes dès demain en transformant votre système de vente en aimant à clients !

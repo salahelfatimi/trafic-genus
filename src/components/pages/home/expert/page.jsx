@@ -31,7 +31,7 @@ export default function Expert(){
                         {
                             expertsDats.map((ele,index)=>(
                             <div className=' relative select-none ' key={index}>
-                                <Image src={'/expert/logo.png'} width={500} height={700} className='  absolute w-28  top-0 -left-4 z-50' quality={100}/>
+                                <Image src={'/expert/logo.png'} width={500} height={700} className='  absolute w-28  top-0 -left-4 z-50' quality={100} alt="trafic genius"    title="trafic genius"/>
                                 <div className=" relative  rounded-t-full    flex flex-col items-center   min-w-96  " > 
                                     <div className=' flex flex-col gap-8 p-10 items-center justify-center group cursor-crosshair	 hover:border-8    hover:border-[#F2FD01] hover:bg-white bg-white/0 duration-700 absolute inset-0 rounded-t-full'>
                                         <h3 className='hidden group-hover:block text-center text-4xl uppercase'>{ele.name}</h3>
@@ -40,7 +40,7 @@ export default function Expert(){
                                             <ul className='bg-black border-white duration-700 border-4 hover:border-black hover:bg-white p-2 hidden group-hover:block group'><Link href={'#'} className='' target='_blank'><Linkedin size={40} className=' hover:stroke-black  stroke-white'/></Link></ul>
                                         </li> */}
                                     </div>
-                                    <Image src={`/expert/team/${ele.image}`} width={500} height={700} className='  w-96 h-auto bg-cover ' quality={100}/>
+                                    <Image src={`/expert/team/${ele.image}`} width={500} height={700} className='  w-96 h-auto bg-cover ' quality={100} alt={ele.name}    title={ele.name}/>
 
                                 </div> 
                             </div>

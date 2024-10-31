@@ -5,8 +5,8 @@ import Link from "next/link";
 import { resolve } from "styled-jsx/css";
 
 
- export default async function Header (){
-    await new Promise((resolve) => setTimeout(resolve, 4000));
+ export default function Header (){
+  
         return(
         <div id="top">
 

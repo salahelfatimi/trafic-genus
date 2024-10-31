@@ -2,10 +2,12 @@ import Image from "next/image";
 import FetchLogoScroll from '@/components/tools/fetchLogoScroll'
 import { CircleDollarSign, Presentation, Search } from "lucide-react";
 import Link from "next/link";
+import { resolve } from "styled-jsx/css";
 
 
-export default function Header (){
-    return(
+ export default async function Header (){
+    await new Promise((resolve) => setTimeout(resolve, 4000));
+        return(
         <div id="top">
 
             {/* Header */}

@@ -63,10 +63,9 @@ import { resolve } from "styled-jsx/css";
                     </div>
                     <Image  className="relative z-50 lg:w-[80%] " src={'/TopHeader/tablet.png'} alt="trafic genius"    title="traficgenius" width={2000} height={1000}/>
                 </div>
-                <div className=" py-10">
-                   
+                <div className=" py-10 flex items-center flex-col justify-center gap-10">
+                    <h2 className=" text-4xl uppercase">Nos Partenaires</h2>
                         <FetchLogoScroll/>
-                  
                 </div>
             </div>
 

@@ -11,11 +11,8 @@ export  default  function  Home() {
   <div className=" overflow-x-hidden">
     <ButtonUp/>
     <Header/>
-
     <Saction_2/>
-    
     <Saction_3/>
-    
   </div>
   );
 }

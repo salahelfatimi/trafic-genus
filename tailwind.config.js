@@ -34,16 +34,16 @@ module.exports = {
     },
     extend: {
       animation: {
-        "loop-scroll": "loop-scroll 100s linear infinite",
+       
         "slide-bg": "slide 14s linear infinite",
         "marquee": "marquee 40s linear infinite",
         "move-smoke": "moveSmoke 15s ease-in-out infinite",
-        "slight-rotate-grayscale": "slightRotateAndGrayscaleToggle 15s ease-in-out infinite",
+        'infinite-scroll': 'infinite-scroll 25s linear infinite',
       },
       keyframes: {
-        "loop-scroll": {
-          from: { transform: "translateX(0)" },
-          to: { transform: "translateX(-100%)" },
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
         },
         slide: {
           "0%": { "background-position": "0% 50%" },
@@ -56,12 +56,7 @@ module.exports = {
         moveSmoke: {
           "0%, 100%": { transform: "translateX(0) scale(0.5)" },
           "50%": { transform: "translateX(10px) scale(1.8)" },
-        },
-        slightRotateAndGrayscaleToggle: {
-          "0%, 40%": { filter: "grayscale(100%)", transform: "rotate(0deg)" },
-          "50%, 90%": { filter: "grayscale(0%)", transform: "rotate(15deg)" },
-          "100%": { transform: "rotate(0deg)" },
-        },
+        }
       },
     },
   },

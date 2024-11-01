@@ -4,6 +4,7 @@ import Image from "next/image"
 import Link from "next/link"
 import InfiniteHorizontalScroll from '@/components/tools/infiniteHorizontalScroll'
 import Expert from "../expert/page"
+import FetchLogoScroll from "@/components/tools/fetchLogoScroll"
 
 export default function Saction2(){
     const offrir =[
@@ -139,6 +140,14 @@ export default function Saction2(){
                 
             </div>
         </div>
+
+         {/* logo scrool
+        <div className="bg-[#F2FD01] ">
+            <InfiniteHorizontalScroll>
+                <FetchLogoScroll/>
+            </InfiniteHorizontalScroll>
+        </div> */}
+
         {/* saction 8 */}
         <div className="bg-gradient-to-b from-[#F2FD01]  via-[#F2FD01] to-[#ccd42a]">
             <div className="flex container flex-col gap-20 py-20  ">
@@ -164,6 +173,8 @@ export default function Saction2(){
                 </div>
             </div>
         </div>
+
+        
 
         {/* saction 9 */}
         <div className="bg-gradient-to-b from-[#ccd42a]  via-[#F2FD01] to-[#F2FD01]">          

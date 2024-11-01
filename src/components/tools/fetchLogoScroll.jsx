@@ -3,14 +3,14 @@ import Image from "next/image";
 
 export default function FetchLogoScroll() {
   const images = [
-    { id: 1, title: 'madagascar', image: 'puma.png' },
-    { id: 2, title: 'madagascar', image: 'adidas.png' },
-    { id: 3, title: 'madagascar', image: 'puma.png' },
-    { id: 4, title: 'madagascar', image: 'adidas.png' },
-    { id: 5, title: 'madagascar', image: 'puma.png' },
-    { id: 6, title: 'madagascar', image: 'adidas.png' },
-    { id: 7, title: 'madagascar', image: 'puma.png' },
-    { id: 8, title: 'madagascar', image: 'adidas.png' },
+    { id: 1, title: 'puma madagascar', image: 'puma.png' },
+    { id: 2, title: 'adidas madagascar', image: 'adidas.png' },
+    { id: 3, title: 'puma madagascar', image: 'puma.png' },
+    { id: 4, title: 'adidas madagascar', image: 'adidas.png' },
+    { id: 5, title: 'puma madagascar', image: 'puma.png' },
+    { id: 6, title: 'adidas madagascar', image: 'adidas.png' },
+    { id: 7, title: 'puma madagascar', image: 'puma.png' },
+    { id: 8, title: 'adidas madagascar', image: 'adidas.png' },
    
  
   ];

@@ -8,7 +8,7 @@ export default function EmblaCarousel({ children }) {
 
   return (
     <div className=" overflow-hidden" ref={emblaRef}>
-      <div className="flex flex-row gap-6 	 ">
+      <div className="flex flex-row gap-6 pl-6 	 ">
       {children}
       </div>
     </div>

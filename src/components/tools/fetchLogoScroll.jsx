@@ -21,10 +21,11 @@ export default function FetchLogoScroll() {
         <li key={index} >
           <Image
               title={src.title}
-              width={600}
-              height={300}
+              width={500}
+              height={500}
+              quality={50}
               src={`/partners/${src.image}`}
-              className="max-w-none h-40 w-auto"
+              className=" h-40 w-auto"
               alt={src.title}
           />
         </li>
@@ -35,10 +36,11 @@ export default function FetchLogoScroll() {
         <li key={index} >
           <Image
               title={src.title}
-              width={600}
-              height={300}
+              width={500}
+              quality={50}
+              height={500}
               src={`/partners/${src.image}`}
-              className="max-w-none h-40 w-auto"
+              className=" h-40 w-auto"
               alt={src.title}
           />
       

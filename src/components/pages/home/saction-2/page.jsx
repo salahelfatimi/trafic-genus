@@ -47,8 +47,8 @@ export default function Saction2(){
                         <Presentation  size={60} className="" />
                     </div>
                     <div className="  gap-4  flex flex-col justify-center items-center">
-                        <h3 className=" text-xl lg:text-3xl  text-center uppercase">Tunnel de vente</h3>
-                        <p className=" text-center font-serif text-sm lg:text-base font-normal">Nous sommes des experts en création de tunnels de vente hautement performants.Nous mettons en place des stratégies personnalisées pour capturer l&apos;attention de votre audience, stimuler l&apos;engagement et générer des conversions.Notre approche axée sur les tunnels de vente vous permet d&apos;optimiser chaque étape du parcours d&apos;achat de vos prospects, afin de maximiser vos ventes et votre croissance.</p>
+                        <h3 className=" text-xl 2xl:text-3xl  text-center uppercase">Tunnel de vente</h3>
+                        <p className=" text-center font-serif text-sm 2xl:text-base font-normal">Nous sommes des experts en création de tunnels de vente hautement performants.Nous mettons en place des stratégies personnalisées pour capturer l&apos;attention de votre audience, stimuler l&apos;engagement et générer des conversions.Notre approche axée sur les tunnels de vente vous permet d&apos;optimiser chaque étape du parcours d&apos;achat de vos prospects, afin de maximiser vos ventes et votre croissance.</p>
                     </div>
                 </div>
                 <div className=" flex flex-col items-center gap-10 justify-center">
@@ -56,8 +56,8 @@ export default function Saction2(){
                         <NotebookPen  size={60} className="" />
                     </div>
                     <div className=" gap-4   flex flex-col justify-center items-center">
-                        <h3 className="text-xl lg:text-3xl  text-center uppercase">Sites internet</h3>
-                        <p className=" text-center font-serif text-sm lg:text-base font-normal">Chez trafic genius trafic genius, nous sommes spécialisés dans la conception et le développement de sites web personnalisés pour répondre aux besoins uniques de nos clients. Que vous souhaitiez créer un site vitrine pour présenter votre entreprise, un site e-commerce pour vendre vos produits en ligne, ou tout autre type de site web, nous sommes là pour vous aider.</p>
+                        <h3 className="text-xl 2xl:text-3xl  text-center uppercase">Sites internet</h3>
+                        <p className=" text-center font-serif text-sm 2xl:text-base font-normal">Chez trafic genius trafic genius, nous sommes spécialisés dans la conception et le développement de sites web personnalisés pour répondre aux besoins uniques de nos clients. Que vous souhaitiez créer un site vitrine pour présenter votre entreprise, un site e-commerce pour vendre vos produits en ligne, ou tout autre type de site web, nous sommes là pour vous aider.</p>
                     </div>
                 </div>
                 <div className=" flex flex-col items-center gap-10 justify-center">
@@ -65,8 +65,8 @@ export default function Saction2(){
                         <Target  size={60} className="" />
                     </div>
                     <div className="  gap-4  flex flex-col justify-center items-center">
-                        <h3 className="text-xl lg:text-3xl  text-center uppercase">Applications Web et Mobile</h3>
-                        <p className=" text-center font-serif text-sm lg:text-base font-normal">Nous comprenons l&apos;importance des applications web et mobiles dans le monde numérique d&apos;aujourd&apos;hui. Chez trafic genius trafic genius, nous nous spécialisons dans la création d&apos;applications sur mesure qui répondent aux besoins uniques de nos clients. Que vous souhaitiez développer une application pour votre entreprise, une plateforme de commerce électronique, une application de service à la clientèle ou toute autre idée innovante, nous sommes là pour vous aider à concrétiser votre vision.</p>
+                        <h3 className="text-xl 2xl:text-3xl  text-center uppercase">Applications Web et Mobile</h3>
+                        <p className=" text-center font-serif text-sm 2xl:text-base font-normal">Nous comprenons l&apos;importance des applications web et mobiles dans le monde numérique d&apos;aujourd&apos;hui. Chez trafic genius trafic genius, nous nous spécialisons dans la création d&apos;applications sur mesure qui répondent aux besoins uniques de nos clients. Que vous souhaitiez développer une application pour votre entreprise, une plateforme de commerce électronique, une application de service à la clientèle ou toute autre idée innovante, nous sommes là pour vous aider à concrétiser votre vision.</p>
                     </div>
                 </div>
                 <div className=" flex flex-col items-center gap-10 justify-center">
@@ -74,8 +74,8 @@ export default function Saction2(){
                         <Laptop  size={60} className="" />
                     </div>
                     <div className=" gap-4   flex flex-col justify-center items-center">
-                        <h3 className="text-xl lg:text-3xl  text-center uppercase">Automatisation</h3>
-                        <p className=" text-center font-serif text-sm lg:text-base font-normal">Nous comprenons l&apos;importance d&apos;optimiser votre processus de marketing automatisé. C&apos;est pourquoi nous offrons des fonctionnalités avancées d&apos;automatisation pour maximiser l&apos;efficacité et les résultats de votre tunnel. Grâce à nos automatisations bien pensées, vous pouvez simplifier vos tâches, économiser du temps et offrir une expérience personnalisée à chaque étape du parcours de votre audience.</p>
+                        <h3 className="text-xl 2xl:text-3xl  text-center uppercase">Automatisation</h3>
+                        <p className=" text-center font-serif text-sm 2xl:text-base font-normal">Nous comprenons l&apos;importance d&apos;optimiser votre processus de marketing automatisé. C&apos;est pourquoi nous offrons des fonctionnalités avancées d&apos;automatisation pour maximiser l&apos;efficacité et les résultats de votre tunnel. Grâce à nos automatisations bien pensées, vous pouvez simplifier vos tâches, économiser du temps et offrir une expérience personnalisée à chaque étape du parcours de votre audience.</p>
                     </div>
                 </div>
                 <div className=" flex flex-col items-center gap-10 justify-center">
@@ -83,8 +83,8 @@ export default function Saction2(){
                         <Facebook  size={60} className="" />
                     </div>
                     <div className=" gap-4   flex flex-col justify-center items-center">
-                        <h3 className="text-xl lg:text-3xl text-center uppercase">Facebook et Instagram Ads</h3>
-                        <p className=" text-center font-serif text-sm lg:text-base font-normal">Nous sommes des experts en publicités Facebook et Instagram, et nous savons comment tirer le meilleur parti de ces puissantes plateformes publicitaires. Que vous souhaitez accroître votre notoriété, générer des leads qualifiés ou augmenter vos ventes, nos services de publicités sur Facebook et Instagram peuvent vous aider à atteindre vos objectifs marketing.</p>
+                        <h3 className="text-xl 2xl:text-3xl text-center uppercase">Facebook et Instagram Ads</h3>
+                        <p className=" text-center font-serif text-sm 2xl:text-base font-normal">Nous sommes des experts en publicités Facebook et Instagram, et nous savons comment tirer le meilleur parti de ces puissantes plateformes publicitaires. Que vous souhaitez accroître votre notoriété, générer des leads qualifiés ou augmenter vos ventes, nos services de publicités sur Facebook et Instagram peuvent vous aider à atteindre vos objectifs marketing.</p>
                     </div>
                 </div>
                 <div className=" flex flex-col items-center gap-10 justify-center">
@@ -92,8 +92,8 @@ export default function Saction2(){
                         <FileChartColumnIncreasing  size={60} className="" />
                     </div>
                     <div className=" gap-4  flex flex-col justify-center items-center">
-                        <h3 className="text-xl lg:text-3xl  text-center uppercase">Accompagnement</h3>
-                        <p className=" text-center font-serif text-sm lg:text-base font-normal">Notre  approche de l&apos;accompagnement se caractérise par une approche complète et personnalisée qui vise à vous soutenir à chaque étape de votre projet. Nous croyons en l&apos;importance de comprendre vos besoins spécifiques, de vous fournir des conseils d&apos;experts et de travailler en étroite collaboration avec vous pour atteindre vos objectifs.</p>
+                        <h3 className="text-xl 2xl:text-3xl  text-center uppercase">Accompagnement</h3>
+                        <p className=" text-center font-serif text-sm 2xl:text-base font-normal">Notre  approche de l&apos;accompagnement se caractérise par une approche complète et personnalisée qui vise à vous soutenir à chaque étape de votre projet. Nous croyons en l&apos;importance de comprendre vos besoins spécifiques, de vous fournir des conseils d&apos;experts et de travailler en étroite collaboration avec vous pour atteindre vos objectifs.</p>
                     </div>
                 </div>
             </div>

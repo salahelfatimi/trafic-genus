@@ -43,7 +43,7 @@ export default function Saction3(){
                             <h2 className=" text-center lg:text-5xl text-3xl font-black  text-black">Les 5 étapes pour mener à bien votre PROJET </h2>                     
                         </div>  
                         <div className=" container">
-                            <div className=" grid grid-cols-1 lg:grid-cols-5 items-center   justify-center text-center gap-8">
+                            <div className=" grid grid-cols-1 md:grid-cols-1 2xl:grid-cols-5 items-center   justify-center text-center gap-8">
                                 <div onClick={()=>(setclickNum(0),scrollToSection())} className={` ${clickNum==0?' bg-[#F2FD01] text-black border-black border-4 shadow-2xl':'bg-[#4F4F4F] text-white  '} duration-700 cursor-pointer text 	  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-10`}>
                                     Étape 1 :Audit
                                 </div>

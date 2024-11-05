@@ -135,9 +135,7 @@ export default function Saction3(){
                                 </p>
                             </div>
                         </div>
-                        <div className=" hidden relative animate-pulse  lg:flex flex-col lg:flex-row  gap-36 justify-center items-center ">
-                        <Image src={'/saction3/traficGenius.png'} className="w-56 bg-black rounded-full" width={500} height={500} alt="trafic genius"    title="trafic genius"/>
-                        </div>
+                       
                         <div className=" flex flex-col lg:flex-row  gap-20 justify-between items-start ">
                             <div className=" relative  flex flex-col w-full ">
                             <h4 className={` bg-white  p-8 ${clickShow==3?' rounded-t-3xl':'rounded-3xl'}  flex flex-row justify-between items-center shadow-2xl border-4 border-black`}>Confiance{clickShow==3?<X onClick={()=>(setclickShow(0))}  className=" cursor-pointer"/>:<ChevronDown onClick={()=>(setclickShow(3))}  className=" cursor-pointer"/>}</h4>

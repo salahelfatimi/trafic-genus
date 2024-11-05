@@ -202,14 +202,14 @@ export default function Saction2(){
         </div> 
 
         {/* saction 10 */}
-        <div className="bg-gradient-to-b from-[#F2FD01]  via-[#F2FD01] to-[#ccd42a]">
+        {/* <div className="bg-gradient-to-b from-[#F2FD01]  via-[#F2FD01] to-[#ccd42a]">
             <div className="flex flex-col gap-20 py-20 container  ">
                 <div className=" container">
                 <Image src={ '/saction2/laptop.png'} width={1920} height={1080} className=" object-cover " alt="trafic genius"    title="trafic genius"/>
                 </div>
                 
             </div>
-        </div>
+        </div> */}
 
         
 

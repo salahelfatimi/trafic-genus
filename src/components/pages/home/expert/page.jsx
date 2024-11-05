@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 export default function Expert(){
     const expertsDats=[
-        {id:1,name:'salaheddine elfatimi',job:'Développeur',image:'SALAH.png'},
+        {id:1,name:'salaheddine elfatimi',job:'Développer full stack',image:'SALAH.png'},
         {id:2,name:'judi kleancy ibounda-ibounda',job:'Développer CMS Junior',image:'JUDI.png'},
         {id:3,name:'zineb byfanzi',job:'modératrice E-Commerce',image:'ZINEB.png'},
         {id:4,name:'Salma Regragui Dounia',job:'Custom manager',image:'SALMA.png'},

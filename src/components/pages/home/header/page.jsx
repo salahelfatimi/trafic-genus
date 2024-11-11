@@ -5,7 +5,7 @@ import Link from "next/link";
 import { resolve } from "styled-jsx/css";
 
 
- export default function Header (){
+ export default  function Header (){
   
         return(
         <div id="top">

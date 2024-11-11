@@ -6,7 +6,7 @@ import ButtonUp from "@/components/tools/buttonUp";
 
 
 
-export  default  function  Home() {
+export  default   function  Home() {
   return (
   <div className=" overflow-x-hidden">
     <ButtonUp/>

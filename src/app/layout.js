@@ -1,6 +1,7 @@
 import { Poppins  } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/footer/page";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const poppins = Poppins ({ subsets: ["latin-ext"], weight:['900'] });
 
@@ -40,6 +41,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <GoogleAnalytics gaId="G-ZT1717EM4S" />
       <body className={`${poppins.className}  scroll-smooth   scrollbar scrollbar-thumb-[#F2FD01] scrollbar-track-black h-32 overflow-y-scroll`}>
         {children}
         <Footer/>

@@ -39,6 +39,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+  
   return (
     <html lang="en">
       <GoogleAnalytics gaId="G-ZT1717EM4S" />

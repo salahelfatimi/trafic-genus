@@ -250,7 +250,9 @@ export default function Saction3(){
                             <div className="mt-3 font-serif font-medium lg:text-xl  leading-6 text-black ">
                             <p>Nos tarifs sont adaptés aux différentes demandes de nos clients. Pour en savoir plus, nous vous invitons à prendre contact avec nous directement. Nous serons ravis de répondre à toutes vos questions.</p>
                             </div>
+                            
                         </details>
+
                         <details className="bg-[#F2FD01]   open:ring-[#F2FD01]  border-x-4 border-[#000] shadow-2xl py-10 border-b-4  p-6 " >
                             <summary className="lg:text-xl font-serif font-bold leading-6 text-[#000] cursor-pointer  select-none">
                             En combien de temps êtes-vous capable de me livrer ?

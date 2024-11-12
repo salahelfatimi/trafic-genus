@@ -48,15 +48,8 @@ export default function Expert(){
                            
                            }
                             
-                            {/* <div className=' relative'>
-                                <Image src={'/expert/logo.png'} width={500} height={700} className='  absolute w-28  -top-0 -right-10 z-50' quality={100}/>
-                                <div className=" relative     flex flex-col items-center   min-w-96  " >
-                                    <Image src={'/expert/SALAteeeeeeest.png'} width={500} height={700} className='  w-96 h-auto ' quality={100}/>
-                                </div> 
-                            </div> */}
-                            
-                           
-                           
+                          
+                
                         </InfiniteHorizontalScroll>
                    
                     </div>

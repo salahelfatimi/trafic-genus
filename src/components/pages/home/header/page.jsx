@@ -80,7 +80,7 @@ import { resolve } from "styled-jsx/css";
                        
                     <h2 className=" text-white font-bold lg:text-3xl text-center">Si votre activité correspond à celle d&apos;un infopreneur, coach, consultant, prestataire de services ou d&apos;une agence…</h2>
                     <p className=" text-white text-center  lg:text-xl">Vos résultats ne reflètent pas vos ambitions.</p>
-                    <Image  className=" z-50" src={'/TopHeader/circle.gif'} width={200} height={200} alt="trafic genius"    title="traficgenius"/>
+                    <Image  className=" z-50" src={'/TopHeader/circle.gif'} width={200} height={200} alt="trafic genius"    title="trafic genius"/>
                     <h3 className=" text-white  lg:text-xl text-center">Si vous cherchez à développer votre activité, nos produits ou services peuvent vous y aider.</h3>
                     <p className=" text-white  lg:text-xl text-center font-serif font-semibold">Votre objectif étant de développer votre entreprise, vous avez mis en place un système de vente pour générer des prospects qualifiés et les convertir en clients.</p>
                 </div>    
@@ -100,7 +100,7 @@ import { resolve } from "styled-jsx/css";
                     </div>
                     <div className="  gap-20 flex flex-col lg:flex-row items-center justify-center">
                         <div className=" relative w-[300px] h-[350px]">
-                            <Image className=" relative w-full h-full z-10" src={'/TopHeader/bglogo.png'} width={182} height={239} alt="trafic genius"    title="traficgenius"/>
+                            <Image className=" relative w-full h-full z-10" src={'/TopHeader/bglogo.png'} width={182} height={239} alt="trafic genius"    title="trafic genius"/>
                             <Image className=" absolute top-0 left-0 w-full h-full z-0 animate-move-smoke" src={'/TopHeader/smoke.png'} width={300} height={300} alt="trafic genius"    title="traficgenius"/>
                         </div>
                         <p className="text-white w-4/5 lg:w-1/2 font-normal text-center lg:text-left text-xl sm:text-2xl font-serif">

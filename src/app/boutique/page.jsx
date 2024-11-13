@@ -507,7 +507,7 @@ export default function Boutique(){
                             </div>
                     </button>
                     <Image src={"/boutique/payment.png"} width={300} height={150}/>
-                    <div className=" p-8">
+                    <div className=" ">
                         <details className="bg-[#F2FD01]   open:ring-[#F2FD01]  border-t-4 border-x-4  border-[#000] shadow-2xl py-10 border-b-4 rounded-t-3xl p-6 " open>
                             <summary className="lg:text-xl  font-bold leading-6 text-[#000] cursor-pointer  select-none">
                             Pour qui est fait cet boutique ?

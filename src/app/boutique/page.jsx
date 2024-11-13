@@ -2,6 +2,7 @@
 import { BadgeCheck, BadgeInfo } from "lucide-react";
 import { Poppins } from "next/font/google";
 import Image from "next/image"
+import Link from "next/link";
 const poppins = Poppins ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
 
 export const metadata = {
@@ -490,24 +491,25 @@ export default function Boutique(){
                         Aujourd&lsquo;hui seulement <span className=" text-green-500 underline">0€</span>   <br /><br />          
                     </h2>
                     <Image src={"/boutique/arrowDown.png"} width={500} height={250}/>
-                  
-                    <button className="cssbuttons-io-button ">
-                        CLIQUEZ ICI POUR COMMANDER VOTRE BOUTIQUE                            
-                            <div className="icon">
-                                <svg
-                                height="24"
-                                width="24"
-                                viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg"
-                                >
-                                <path d="M0 0h24v24H0z" fill="none"></path>
-                                <path
-                                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                                    fill="currentColor"
-                                ></path>
-                                </svg>
-                            </div>
-                    </button>
+                    <Link href={'/appel'} target="_blank" >
+                        <button className="cssbuttons-io-button ">
+                            CLIQUEZ ICI POUR COMMANDER VOTRE BOUTIQUE                            
+                                <div className="icon">
+                                    <svg
+                                    height="24"
+                                    width="24"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                        fill="currentColor"
+                                    ></path>
+                                    </svg>
+                                </div>
+                        </button>
+                    </Link>
                     <Image src={"/boutique/payment.png"} width={300} height={150}/>
                     <div className=" ">
                         <details className="bg-[#F2FD01]   open:ring-[#F2FD01]  border-t-4 border-x-4  border-[#000] shadow-2xl py-10 border-b-4 rounded-t-3xl p-6 " open>

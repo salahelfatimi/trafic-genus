@@ -1,11 +1,13 @@
 import Image from "next/image";
 import FetchLogo from '@/components/tools/fetchlogo'
 import CalendlyEmbed from "@/components/tools/CalendlyWidget";
+import { Poppins } from "next/font/google";
+const poppins = Poppins ({ subsets: ["latin-ext"], weight:['900'] });
 export default  function  Appel(){
  
     return(
         
-        <main className="  bg-black   flex flex-col  ga-20 justify-between ">
+        <main className={`${poppins.className}  bg-black   flex flex-col  ga-20 justify-between `}>
             <div className=" bg-[#F2FD01]  flex  gap-4 items-center justify-center w-full ">
                 <Image src={'/appel/fulllogo.png'} width={100} height={100} alt="trafic genius"    title="trafic genius" />
                 <h1 className=" font-serif font-extrabold text-sm lg:text-xl text-black">Solutions Digitales de Premier Ordre : Expertise, Créativité et Performances Exceptionnelles !</h1>
@@ -19,7 +21,7 @@ export default  function  Appel(){
                 <p className=" font-bold text-xl lg:text-4xl text-white text-center">Des solutions innovantes pour maximiser vos <span className="text-[#F2FD01] ">BÉNÉFICES</span></p>
             </div>
             <div className="container pt-10">
-                <CalendlyEmbed url="https://calendly.com/traficgenius/60min?hide_gdpr_banner=1&background_color=1a1a1a&text_color=ffffff&primary_color=f2ff00"/>
+                <CalendlyEmbed url="https://calendly.com/trafic-gen-team/discutons-de-votre-business"/>
             </div>
             <div className=" py-2 border-y-4 border-[#F2FD01]">
                    

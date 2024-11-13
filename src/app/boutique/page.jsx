@@ -85,17 +85,17 @@ export default function Boutique(){
     ];
     
     const boutique=[
-        {id:2,image:'/boutique/website/1.png'},
-        {id:3,image:'/boutique/website/2.png'},
-        {id:1,image:'/boutique/website/3.png'},
+        {id:2,image:"/boutique/website/1.png"},
+        {id:3,image:"/boutique/website/2.png"},
+        {id:1,image:"/boutique/website/3.png"},
        
-        {id:4,image:'/boutique/website/4.png'},
+        {id:4,image:"/boutique/website/4.png"},
     ]
     const strip=[
-        {id:1,image:'/boutique/strip/1.png'},
-        {id:2,image:'/boutique/strip/2.png'},
-        {id:3,image:'/boutique/strip/3.png'},
-        {id:3,image:'/boutique/strip/4.png'},
+        {id:1,image:"/boutique/strip/1.png"},
+        {id:2,image:"/boutique/strip/2.png"},
+        {id:3,image:"/boutique/strip/3.png"},
+        {id:3,image:"/boutique/strip/4.png"},
        
        
     ]
@@ -146,18 +146,18 @@ export default function Boutique(){
             <div className="  container flex flex-col gap-8 items-center ">
                 {/* saction 2 */}
                 <h1 className=" text-2xl lg:text-5xl font-bold text-center text-[#EFFF00] ">Obtenez une Boutique e-commerce clé en main complète pour seulement 97€ (au lieu de 997€)</h1>
-                <p className=" text-xl lg:text-3xl font-normal text-center text-white ">Grâce à cette offre, vous allez pouvoir <span className=" underline-offset-4 underline  font-bold">obtenir votre boutique clé en main en moins de 10 jours afin d'amener votre business au niveau supérieur...</span></p>
-                <h2 className=" text-xl lg:text-3xl font-normal  text-white ">... sans devoir vous casser la tête avec la technique et chercher des tonnes d'informations et solutions à vos blocages.</h2>
-                <p className=" text-sm lg:text-lg font-normal  text-white ">Si aujourd'hui vous voulez mettre le pied à l'étrier pour enfin pouvoir vendre vos produits sur une réelle boutique e-commerce, augmenter votre chiffre d'affaires ainsi que vos profits et booster votre business en ligne...</p>
-                <h2 className=" text-base lg:text-2xl font-normal  text-white  ">...sans devoir subir les fardeaux de la technique, des blocages à répétition, des pertes d'argent à investir dans des outils qui ne vous ont apporté que tracas jusqu'ici, la dispersion jusqu'à vous perdre sur le chemin de l'entrepreneuriat et ne plus savoir où est passé votre motivation...</h2>
+                <p className=" text-xl lg:text-3xl font-normal text-center text-white ">Grâce à cette offre, vous allez pouvoir <span className=" underline-offset-4 underline  font-bold">obtenir votre boutique clé en main en moins de 10 jours afin d&lsquo;amener votre business au niveau supérieur...</span></p>
+                <h2 className=" text-xl lg:text-3xl font-normal  text-white ">... sans devoir vous casser la tête avec la technique et chercher des tonnes d&lsquo;informations et solutions à vos blocages.</h2>
+                <p className=" text-sm lg:text-lg font-normal  text-white ">Si aujourd&lsquo;hui vous voulez mettre le pied à l&lsquo;étrier pour enfin pouvoir vendre vos produits sur une réelle boutique e-commerce, augmenter votre chiffre d&lsquo;affaires ainsi que vos profits et booster votre business en ligne...</p>
+                <h2 className=" text-base lg:text-2xl font-normal  text-white  ">...sans devoir subir les fardeaux de la technique, des blocages à répétition, des pertes d&lsquo;argent à investir dans des outils qui ne vous ont apporté que tracas jusqu&lsquo;ici, la dispersion jusqu&lsquo;à vous perdre sur le chemin de l&lsquo;entrepreneuriat et ne plus savoir où est passé votre motivation...</h2>
                 <p className=" text-sm lg:text-lg font-normal  text-white text-left w-full">...pourtant vous savez que vous aviez tout pour réussir.</p>
-                <h2 className=" text-sm lg:text-lg font-normal  text-white ">C'est pour éviter tout ça que je vous propose aujourd'hui d'éliminer tous ses obstacles en vous donnant la possibilité d'obtenir la même boutique que nos clients utilisent et qui leur permet de réaliser <strong className="text-[#EFFF00]">des centaines de ventes chaque jour de façon constante et évolutive.</strong></h2>
+                <h2 className=" text-sm lg:text-lg font-normal  text-white ">C&lsquo;est pour éviter tout ça que je vous propose aujourd&lsquo;hui d&lsquo;éliminer tous ses obstacles en vous donnant la possibilité d&lsquo;obtenir la même boutique que nos clients utilisent et qui leur permet de réaliser <strong className="text-[#EFFF00]">des centaines de ventes chaque jour de façon constante et évolutive.</strong></h2>
                 <span className="text-sm lg:text-lg font-normal  text-white text-left w-full ">En voici un rapide aperçu :</span>
                 <div className=" grid grid-cols-1 lg:grid-cols-2 gap-10 items- justify-center">
                     {
                         boutique.map((ele,index)=>(
                         <div key={index} className="relative">
-                            <Image src={ele.image} className="relative  w-[318px] h-[300px] lg:h-[600px] object-cover  duration-[10000ms] 	 object-top  hover:object-bottom	" width={318} height={600} alt={''}    title={''}/>
+                            <Image src={ele.image} className="relative  w-[318px] h-[300px] lg:h-[600px] object-cover  duration-[10000ms] 	 object-top  hover:object-bottom	" width={318} height={600} alt="trafic genus" title="trafic genus"/>
                           
                         </div>
                         ))
@@ -170,7 +170,7 @@ export default function Boutique(){
                 <div className=" grid grid-cols-1 lg:grid-cols-2 gap-4">
                     <div className="border-2 p-4 rounded-lg flex flex-col gap-4" >
                         <h2 className="text-xl lg:text-3xl font-medium  text-[#EFFF00]">Raison #1 :</h2>
-                        <p className="  text-white">Ces boutiques e-commerce ont déjà changé ma vie et celle des entrepreneurs que j'ai accompagnés, et j'aimerais les partager avec plus de personnes, car je sais que ça va avoir un grand impact positif dans votre vie.</p>
+                        <p className="  text-white">Ces boutiques e-commerce ont déjà changé ma vie et celle des entrepreneurs que j&lsquo;ai accompagnés, et j&lsquo;aimerais les partager avec plus de personnes, car je sais que ça va avoir un grand impact positif dans votre vie.</p>
                     </div>
                     <div className="border-2 p-4 rounded-lg flex flex-col gap-4">
                         <h2 className="text-xl lg:text-3xl font-medium  text-[#EFFF00]">Raison #2 :</h2>
@@ -179,23 +179,23 @@ export default function Boutique(){
                 </div>
                 <span className="text-lg font-normal  text-white text-left w-full ">Je dois avouer que je suis toujours très content de recevoir les retours des participants de nos formations :</span>
                 <div className=" flex flex-col justify-center  gap-20">
-                    <Image  src={'/boutique/msg1.png'} width={400} height={300} className="  "/>
-                    <Image  src={'/boutique/msg2.png'} width={400} height={400} className=""/>
+                    <Image  src={"/boutique/msg1.png"} width={400} height={300} className="  " alt="trafic genus" title="trafic genus"/>
+                    <Image  src={"/boutique/msg2.png"} width={400} height={400} className="" alt="trafic genus" title="trafic genus"/>
 
                 </div>
                 {/* saction 3 */}
                 <h2 className=" text-xl lg:text-4xl font-bold  text-[#EFFF00] ">Êtes-vous dans l&apos;une de ces situations ?</h2>
                 <ul className="list-none space-y-4 text-lg font-medium  text-white">
-                    <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Vous ne savez pas pourquoi vous n'arrivez pas à vendre vos produits ?</li>
+                    <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Vous ne savez pas pourquoi vous n&lsquo;arrivez pas à vendre vos produits ?</li>
                     <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Vous êtes constamment bloqué à cause de problème technique pour réaliser votre projet ?</li>
-                    <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Vous avez essayé maintes et maintes fois la création d'un site mais cela n'a jamais abouti ?</li>
-                    <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Vous avez un site mais il n'est pas du tout optimisé pour la vente en ligne ?</li>
+                    <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Vous avez essayé maintes et maintes fois la création d&lsquo;un site mais cela n&lsquo;a jamais abouti ?</li>
+                    <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Vous avez un site mais il n&lsquo;est pas du tout optimisé pour la vente en ligne ?</li>
                     <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Vous avez du mal à faire décoller votre activité malgré tous les efforts fournis ?</li>
                     <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Vous avez l&apos;impression de tourner en rond sans jamais avancer ?</li>
                     <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Vous vous sentez perdu par rapport à toutes les possibilités qu&apos;on vous propose tout le temps ?</li>
                     <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Vous stagnez dans votre business et vous n&apos;arrivez pas à générer plus de ventes ?</li>
                     <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Vous vous sentez épuisé par la charge de travail qu&apos;il faut faire tous les jours sans pouvoir savourer les résultats de votre dur labeur ?</li>
-                    <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Votre chiffre d'affaires n&apos;est pas stable et vous n'êtes pas rentable ?</li>
+                    <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Votre chiffre d&lsquo;affaires n&apos;est pas stable et vous n&lsquo;êtes pas rentable ?</li>
                     <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Vous vivez constamment dans la peur de mettre la clef sous la porte ?</li>
                 </ul>
                 <span className="lg:text-lg font-normal  text-white text-left w-full ">Si vous êtes dans l&apos;une de ces situations, sachez que je comprend ce que vous ressentez.</span>
@@ -205,17 +205,17 @@ export default function Boutique(){
 
                 <h2 className=" text-xl lg:text-4xl font-bold  text-[#EFFF00] ">Je sais ce que ça fait de tout faire pour faire décoller son business sans jamais réussir</h2>
                 <div className=" flex flex-col-reverse lg:flex-row-reverse justify-between items-center">
-                    <Image  src={'/boutique/alfa.png'} width={400} height={400} className="  "/> 
+                    <Image  src={"/boutique/alfa.png"} width={400} height={400} className="  " alt="trafic genus" title="trafic genus"/> 
 
                     <p  className=" text-white text-sm lg:text-lg"> 
-                        Bonjour, je m'appelle Alvarez Mouko, et je suis spécialisé en gestion de projet et en développement d'affaires depuis plusieurs années. <br /><br />
+                        Bonjour, je m&lsquo;appelle Alvarez Mouko, et je suis spécialisé en gestion de projet et en développement d&lsquo;affaires depuis plusieurs années. <br /><br />
 
-                        Au début de ma carrière, j&apos;ai été attiré par la gestion de projet car je voulais voir l'impact direct de mon travail et avoir une influence positive sur les organisations. <br />  <br /> 
+                        Au début de ma carrière, j&apos;ai été attiré par la gestion de projet car je voulais voir l&lsquo;impact direct de mon travail et avoir une influence positive sur les organisations. <br />  <br /> 
                         Je souhaitais optimiser les processus, encadrer des équipes motivées, et, surtout, générer une réelle valeur ajoutée.
                     </p>
                 </div>
                 <p  className=" text-white text-sm lg:text-lg"> 
-                    Mais le chemin n'a pas été sans embûches… Je me suis retrouvé à travailler toujours plus, sans voir les résultats escomptés. <br />  <br /> 
+                    Mais le chemin n&lsquo;a pas été sans embûches… Je me suis retrouvé à travailler toujours plus, sans voir les résultats escomptés. <br />  <br /> 
 
                     Je devenais l&apos;esclave des projets. <br />  <br /> 
 
@@ -223,13 +223,13 @@ export default function Boutique(){
 
                     La réponse est simple : <br />  <br /> 
 
-                    En essayant d'appliquer les solutions génériques que l'on trouve un peu partout : <br />  <br /> 
+                    En essayant d&lsquo;appliquer les solutions génériques que l&lsquo;on trouve un peu partout : <br />  <br /> 
 
-                    ❌ M'embarquer sur des outils et méthodes de gestion qui n'étaient pas adaptés à la réalité du projet <br />  <br /> 
+                    ❌ M&lsquo;embarquer sur des outils et méthodes de gestion qui n&lsquo;étaient pas adaptés à la réalité du projet <br />  <br /> 
 
                     ❌ Passer mes journées à résoudre des problématiques techniques au lieu de me concentrer sur la stratégie <br />  <br /> 
 
-                    ❌ Investir dans des solutions qui promettaient des gains mais n'apportaient pas de résultats concrets <br />  <br /> 
+                    ❌ Investir dans des solutions qui promettaient des gains mais n&lsquo;apportaient pas de résultats concrets <br />  <br /> 
 
                     ❌ Essayer de mettre en place des stratégies sans réelle vision à long terme <br />  <br /> 
 
@@ -237,20 +237,20 @@ export default function Boutique(){
 
                     Finalement, après beaucoup d&apos;efforts et de remises en question, j&apos;ai réussi à concevoir et à mettre en place des projets qui ont atteint leurs objectifs et généré de véritables résultats. <br />  <br /> 
 
-                    J'étais plus déterminé que jamais ! <br /> 
+                    J&lsquo;étais plus déterminé que jamais ! <br /> 
 
-                    Aujourd'hui, mon but est de créer des stratégies de développement qui aident les entreprises à prospérer, tout en offrant une gestion de projet adaptée aux besoins de chaque organisation. <br />  <br /> 
+                    Aujourd&lsquo;hui, mon but est de créer des stratégies de développement qui aident les entreprises à prospérer, tout en offrant une gestion de projet adaptée aux besoins de chaque organisation. <br />  <br /> 
 
                     J&apos;ai hâte de continuer à faire évoluer mes compétences et de partager mes connaissances pour aider d&apos;autres projets à réussir. <br /> <br />  
                 </p>
                
 
                 {/* saction 4 */}
-                <h2 className="text-xl lg:text-4xl font-bold  text-[#EFFF00] text-center ">Rien... je n'avais toujours pas vendu 1 seul produit.</h2>
+                <h2 className="text-xl lg:text-4xl font-bold  text-[#EFFF00] text-center ">Rien... je n&lsquo;avais toujours pas vendu 1 seul produit.</h2>
                 <p className=" text-white text-sm lg:text-lg">
                     Je dois vous avouer qu&apos;à ce moment-là, j&apos;ai failli abandonner. <br /><br />
 
-                    Je commençais à me dire que “peut-être que je n'y arriverais jamais”<br /><br />
+                    Je commençais à me dire que “peut-être que je n&lsquo;y arriverais jamais”<br /><br />
 
                     Mais je voyais bien que les autres y arrivaient.<br /><br />
 
@@ -258,22 +258,22 @@ export default function Boutique(){
 
                     Ayant cette question en tête je prends la décision de ne pas lâcher et d&apos;apprendre à faire les choses comme eux.<br /><br />
 
-                    C'est là que j'ai commencé à prendre la bonne piste.<br /><br />
+                    C&lsquo;est là que j&lsquo;ai commencé à prendre la bonne piste.<br /><br />
 
-                    J'ai commencé à me former, tester et à côtoyer des entrepreneurs à succès.<br /><br />
+                    J&lsquo;ai commencé à me former, tester et à côtoyer des entrepreneurs à succès.<br /><br />
 
                     Je ne parle pas de petits entrepreneurs qui gagnent quelques centaines ou milliers d&apos;euros par mois, mais plutôt des gens qui ont bâti des business qui génèrent des millions.<br /><br />
 
                     Petit à petit mes compétences se développent et mes ventes augmentaient.<br /><br />
 
-                    Il y avait un monde entre ma première boutique et ma nouvelle boutique e-commerce, pas uniquement sur l'aspect esthétique, mais surtout sur l'aspect de la conversion...<br /><br />
+                    Il y avait un monde entre ma première boutique et ma nouvelle boutique e-commerce, pas uniquement sur l&lsquo;aspect esthétique, mais surtout sur l&lsquo;aspect de la conversion...<br /><br />
                 </p>
 
                 {/* saction 5 */}
 
                 <h2 className="text-xl lg:text-4xl font-bold  text-[#EFFF00] text-center">Plus j&apos;apprenais à concevoir des boutiques qui vendent, plus mes ventes augmentaient…</h2>
                 <p className=" text-white text-sm lg:text-lg">
-                    Cette expérience m&apos;a permis de comprendre que le secret c'est de concevoir une boutique orientée conversion et non uniquement proposition de produit. <br /><br />
+                    Cette expérience m&apos;a permis de comprendre que le secret c&lsquo;est de concevoir une boutique orientée conversion et non uniquement proposition de produit. <br /><br />
 
                     Certes, il faut avoir de bonne campagne publicitaire et de bon produit, mais il faut avant tout apprendre comment transformer un total inconnu en client.<br /><br />
 
@@ -292,7 +292,7 @@ export default function Boutique(){
                 <div className=" flex flex-col items-center justify-center gap-6 rounded-lg bg-[#4F4F4F] lg:w-[70%] p-4">
                     <h2 className=" text-xl lg:text-4xl font-bold  text-[#EFFF00] ">Imaginez juste un instant…</h2>
                     <ul className="list-none space-y-4 text-lg font-medium  text-white">
-                        <li className="flex gap-1  text-xs lg:text-sm "><BadgeCheck size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Avoir une boutique e-commerce prospère qui vous permet de mettre en valeur vos produits et de les vendre auprès de vos clients sans que vous n'ayez à sacrifier votre santé ou votre vie personnelle.</li>
+                        <li className="flex gap-1  text-xs lg:text-sm "><BadgeCheck size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Avoir une boutique e-commerce prospère qui vous permet de mettre en valeur vos produits et de les vendre auprès de vos clients sans que vous n&lsquo;ayez à sacrifier votre santé ou votre vie personnelle.</li>
                         <li className="flex gap-1  text-xs lg:text-sm "><BadgeCheck size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Avoir chaque jour des centaines de nouvelles ventes en ligne.</li>
                         <li className="flex gap-1  text-xs lg:text-sm "><BadgeCheck size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Impacter positivement la vie de centaines de clients chaque jour grâce à vos produits.</li>
                         <li className="flex gap-1  text-xs lg:text-sm "><BadgeCheck size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Être reconnu comme la référence de votre marché...</li>
@@ -301,7 +301,7 @@ export default function Boutique(){
 
                   {/* saction 7 */}
                   <div className=" flex flex-col items-center justify-center gap-6 rounded-lg  p-4">
-                    <h2 className=" text-xl lg:text-4xl font-bold  text-center text-[#EFFF00] ">J'ai ensuite conçu des boutiques à plusieurs de mes clients qui ont également eu des résultats incroyables</h2>
+                    <h2 className=" text-xl lg:text-4xl font-bold  text-center text-[#EFFF00] ">J&lsquo;ai ensuite conçu des boutiques à plusieurs de mes clients qui ont également eu des résultats incroyables</h2>
                     <p className=" text-white text-sm lg:text-lg">
                         Durant ces dernières années, j&apos;ai conçu des centaines de boutique en ligne pour aider les entrepreneurs dans leurs activités et les amener à générer plus de ventes en ligne. <br /><br />
 
@@ -309,17 +309,17 @@ export default function Boutique(){
                     </p>
                     <span className="lg:text-lg font-normal  text-white text-left w-full underline underline-offset-4">Cela inclut :</span>
                     <p className=" text-white text-sm lg:text-lg">
-                        Le textile, la joaillerie, les cosmétiques, les accessoires, l'automobile, les appareils électroménagers, le fitness, les jouets, les biens de maison, le bricolage, le jardinage, l'hygiène, le rangement, les instruments de musique, la pêche, les produits pour animaux, etc.
+                        Le textile, la joaillerie, les cosmétiques, les accessoires, l&lsquo;automobile, les appareils électroménagers, le fitness, les jouets, les biens de maison, le bricolage, le jardinage, l&lsquo;hygiène, le rangement, les instruments de musique, la pêche, les produits pour animaux, etc.
                     </p>
                     <h3 className="text-[#EFFF00] w-full text-sm lg:text-lg">Cela m&apos;a permis d&apos;avoir une vision très claire sur ce qui marche et ce qui ne marche pas.</h3>
-                    <p className=" text-white text-sm lg:text-lg w-full">J'ai permis à mes clients de profiter de cette expérience pour accélérer la croissance de leurs business et obtenir des résultats exceptionnels.</p>
+                    <p className=" text-white text-sm lg:text-lg w-full">J&lsquo;ai permis à mes clients de profiter de cette expérience pour accélérer la croissance de leurs business et obtenir des résultats exceptionnels.</p>
                 </div>
 
                 {/* saction 8 */}
 
-                <h2 className=" text-xl lg:text-4xl font-bold  text-center text-[#EFFF00] ">La mauvaise nouvelle c'est que cette offre est très limitée...</h2>
+                <h2 className=" text-xl lg:text-4xl font-bold  text-center text-[#EFFF00] ">La mauvaise nouvelle c&lsquo;est que cette offre est très limitée...</h2>
                 <p className=" text-white text-sm lg:text-lg">
-                    Vous comprenez qu'à ce prix la beaucoup de monde vont vouloir obtenir leur boutique e-commerce, mais malheureusement, je n'ai pas la capacité de produire des boutique e-commerce en ilimité pour tout le monde. <br /><br />
+                    Vous comprenez qu&lsquo;à ce prix la beaucoup de monde vont vouloir obtenir leur boutique e-commerce, mais malheureusement, je n&lsquo;ai pas la capacité de produire des boutique e-commerce en ilimité pour tout le monde. <br /><br />
 
                     Cette offre est limitée à la création de 10 boutiques e-commerces, que je ferais de A à Z pour vous.<br /><br />
 
@@ -333,7 +333,7 @@ export default function Boutique(){
                 <p className=" text-white text-sm lg:text-lg w-full">
                     Je vais créer votre boutique e-commerce qui vous permettra de vendre des produits de manière constante et évolutive... <br /><br />
 
-                    ...et ce même si vous n'avez aucune compétence technique et que vous n'avais jamais été présent sur le web.<br /><br />
+                    ...et ce même si vous n&lsquo;avez aucune compétence technique et que vous n&lsquo;avais jamais été présent sur le web.<br /><br />
 
                     Je suis heureux de vous inviter à…
                 </p>
@@ -341,7 +341,7 @@ export default function Boutique(){
                 {/* saction 9 */}
                 <h2 className=" text-xl lg:text-4xl font-bold  text-center text-[#EFFF00] ">Commander votre Boutique Clé en Main !</h2>
                 <h3 className=" text-base lg:text-2xl   text-center text-[#EFFF00] ">En moins de 10 Jours je Crée Votre Boutique clé en main pour vous permettre de vendre des centaines de produits chaque jour.</h3>
-                <Image src={'/boutique/webdesgne.png'} height={500} width={500} className=""/>
+                <Image src={"/boutique/webdesgne.png"} height={500} width={500} className=""/>
                 <p className=" text-white text-sm lg:text-lg">
                     La boutique que vous êtes sur le point de commander est le résultat de <span className=" font-bold text-[#EFFF00]"> plusieurs années de recherches et de tests sur des dizaines de business dans des dizaines de thématiques différentes. </span><br /><br />
 
@@ -357,7 +357,7 @@ export default function Boutique(){
                 </p>
 
                  {/* saction 10 */}
-                <h2 className=" text-xl lg:text-4xl font-bold  text-center text-[#EFFF00] ">À qui s'adresse cette boutique ?</h2>                
+                <h2 className=" text-xl lg:text-4xl font-bold  text-center text-[#EFFF00] ">À qui s&lsquo;adresse cette boutique ?</h2>                
                 <p className=" text-white text-sm lg:text-lg">
                     Cette boutique s&apos;adresse aux <span className=" font-bold text-[#EFFF00]">entrepreneurs qui souhaitent avoir leur boutique en ligne pour vendre leur produit </span> sans avoir besoin de se former durant des mois à la conception de site web.<br /><br />
 
@@ -365,7 +365,7 @@ export default function Boutique(){
 
                     Vous allez pouvoir recevoir votre boutique et commencer à <span className=" font-bold text-[#EFFF00]">effectuer des centaines de ventes par jour</span> sans sacrifier votre santé et votre vie personnelle et/ou familiale.<br /><br />
 
-                    Que vous soyez déjà présent en ligne ou non, seul à bord de votre entreprise ou une entreprise d'une dizaine de personnes cette boutique est faite pour vous.<br /><br />
+                    Que vous soyez déjà présent en ligne ou non, seul à bord de votre entreprise ou une entreprise d&lsquo;une dizaine de personnes cette boutique est faite pour vous.<br /><br />
 
                     Elle s&apos;adresse aux entrepreneurs qui souhaitent <span className=" font-bold text-[#EFFF00]">développer leurs business en ligne rapidement sans prendre de risques</span>  en s&apos;appuyant sur une boutique e-commerce qui a déjà fait ses preuves.    <br /><br />
                 </p>
@@ -382,7 +382,7 @@ export default function Boutique(){
                         <div key={index} className="p-6 bg-[#4f4f4f] rounded-lg shadow-lg">
                             <h2 className="text-xl font-semibold text-[#EFFF00]">{step.title}</h2>
                             <p className="mt-4 text-base text-white">Tarif normal : <span className="line-through text-red-500">{step.normalPrice}</span></p>
-                            <p className="text-lg font-bold bg-[#EFFF00] w-fit px-2 py-1">Aujourd'hui : {step.todayPrice}</p>
+                            <p className="text-lg font-bold bg-[#EFFF00] w-fit px-2 py-1">Aujourd&lsquo;hui : {step.todayPrice}</p>
                             <ul className="mt-6 list-none list-inside space-y-3">
                                 {step.description.map((desc, i) => (
                                     <li key={i} className="text-white text-sm flex gap-1"><BadgeCheck size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />{desc}</li>
@@ -397,7 +397,7 @@ export default function Boutique(){
       
                 <div className=" text-white py-20 flex flex-col gap-10 items-center justify-center">
                     <h2 className=" text-xl lg:text-4xl font-bold  text-center text-[#EFFF00] ">Attendez !</h2>
-                    <h2 className=" text-xl lg:text-4xl font-bold  text-center text-[#EFFF00] ">Ce n'est pas tout...</h2>
+                    <h2 className=" text-xl lg:text-4xl font-bold  text-center text-[#EFFF00] ">Ce n&lsquo;est pas tout...</h2>
                     <p className=" text-white text-sm lg:text-xl">
                         En commandant votre boutique aujourd&apos;hui, vous allez aussi recevoir <span className=" underline underline-offset-4">GRATUITEMENT</span>  8 Bonus d&apos;une valeur de 1876€ :
                     </p>
@@ -440,7 +440,7 @@ export default function Boutique(){
                     <div className=" grid grid-cols-1 lg:grid-cols-2 gap-y-10 gap-x-4 items- justify-center">
                         {
                             strip.map((ele,index)=>(
-                                <Image key={index} src={ele.image} className="  w-full  " width={300} height={300} alt={''}    title={''}/>
+                                <Image key={index} src={ele.image} className="  w-full  " width={300} height={300} alt={'trafic genus'}    title={'trafic genus'}/>
                             ))
                         }
                     </div>
@@ -452,9 +452,9 @@ export default function Boutique(){
                         <span className=" text-red-500">Tarif normal : <span className=" line-through">97 €</span> </span> <br /><br />
 
 
-                        Aujourd'hui seulement <span className=" text-green-500 underline">0€</span>   <br /><br />          
+                        Aujourd&lsquo;hui seulement <span className=" text-green-500 underline">0€</span>   <br /><br />          
                     </h2>
-                    <Image src={'/boutique/arrowDown.png'} width={500} height={250}/>
+                    <Image src={"/boutique/arrowDown.png"} width={500} height={250}/>
                   
                     <button className="cssbuttons-io-button ">
                         CLIQUEZ ICI POUR COMMANDER VOTRE BOUTIQUE                            
@@ -473,7 +473,7 @@ export default function Boutique(){
                                 </svg>
                             </div>
                     </button>
-                    <Image src={'/boutique/payment.png'} width={300} height={150}/>
+                    <Image src={"/boutique/payment.png"} width={300} height={150}/>
                     <div className=" p-8">
                         <details className="bg-[#F2FD01]   open:ring-[#F2FD01]  border-t-4 border-x-4  border-[#000] shadow-2xl py-10 border-b-4 rounded-t-3xl p-6 " open>
                             <summary className="lg:text-xl  font-bold leading-6 text-[#000] cursor-pointer  select-none">
@@ -482,17 +482,17 @@ export default function Boutique(){
                             <div className="mt-3 text-sm    leading-6 text-black ">
                             <p>Cette boutique clé en main est destinée aux personnes qui souhaitent lancer et développer leur activité grâce à la vente de produits en ligne. <br />
 
-                                Que vous soyez dans n'importe quel marché ou niche.<br />
+                                Que vous soyez dans n&lsquo;importe quel marché ou niche.<br />
 
                                 Que vous ayez des compétences techniques ou non.<br /><br />
 
-                                Ce programme s’adresse autant aux solopreneur qu'aux entrepreneurs avec une équipe.
+                                Ce programme s&lsquo;adresse autant aux solopreneur qu&lsquo;aux entrepreneurs avec une équipe.
                             </p>
                             </div>
                         </details>
                         <details className="bg-[#F2FD01]   open:ring-[#F2FD01]  border-x-4  border-[#000] shadow-2xl py-10 border-b-4  p-6 " >
                             <summary className="lg:text-xl  font-bold leading-6 text-[#000] cursor-pointer  select-none">
-                                Est-ce que ma boutique m'appartient une fois la livraison terminée ?
+                                Est-ce que ma boutique m&lsquo;appartient une fois la livraison terminée ?
                             </summary>
                             <div className="mt-3 text-sm    leading-6 text-black ">
                             <p>

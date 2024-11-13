@@ -165,7 +165,7 @@ export default function Boutique(){
                 </div>
                 {/* saction 2 */}
                 <span className="text-sm lg:text-lg font-normal  text-white text-left w-full ">Vous vous posez sûrement la question suivante :</span>
-                <h2 className=" text-sm lg:text-lg font-normal  text-white text-left w-full">"Pourquoi est-ce que je vous offre une boutique e-commerce clé en main pour seulement 97€ ?"</h2>
+                <h2 className=" text-sm lg:text-lg font-normal  text-white text-left w-full">&quot;Pourquoi est-ce que je vous offre une boutique e-commerce clé en main pour seulement 97€ ?&quot;</h2>
                 <span className="text-lg font-normal  text-white text-left w-full ">Il y a deux raisons :</span>
                 <div className=" grid grid-cols-1 lg:grid-cols-2 gap-4">
                     <div className="border-2 p-4 rounded-lg flex flex-col gap-4" >
@@ -174,7 +174,7 @@ export default function Boutique(){
                     </div>
                     <div className="border-2 p-4 rounded-lg flex flex-col gap-4">
                         <h2 className="text-xl lg:text-3xl font-medium  text-[#EFFF00]">Raison #2 :</h2>
-                        <p className="  text-white">J&apos;espère vous apporter un maximum de valeur pour que vous envisagiez à l&apos;avenir de rejoindre mes autres programmes d&apos;accompagnement e-commerce. Je crois fermement que l&apos;apport de valeur est le moyen le plus efficace pour construire des relations "gagnant-gagnant" sur le long terme.</p>
+                        <p className="  text-white">J&apos;espère vous apporter un maximum de valeur pour que vous envisagiez à l&apos;avenir de rejoindre mes autres programmes d&apos;accompagnement e-commerce. Je crois fermement que l&apos;apport de valeur est le moyen le plus efficace pour construire des relations &quot;gagnant-gagnant&quot; sur le long terme.</p>
                     </div>
                 </div>
                 <span className="text-lg font-normal  text-white text-left w-full ">Je dois avouer que je suis toujours très content de recevoir les retours des participants de nos formations :</span>
@@ -371,7 +371,7 @@ export default function Boutique(){
                 </p>
 
                 {/* saction 11 */}
-                <h2 className=" text-xl lg:text-4xl font-bold  text-center text-[#EFFF00] ">Voici ce que vous allez recevoir en commandant votre "Boutique Clé en Main" Aujourd&apos;hui</h2>
+                <h2 className=" text-xl lg:text-4xl font-bold  text-center text-[#EFFF00] ">Voici ce que vous allez recevoir en commandant votre &quot;Boutique Clé en Main&quot; Aujourd&apos;hui</h2>
                 <p className=" text-white text-sm lg:text-lg">
                     Nous allons prendre rendez-vous en ligne afin que nous puissions échanger sur votre projet et que vous puissiez me transmettre toutes les informations nécessaires à la conception de votre boutique en ligne. <br /><br />
 

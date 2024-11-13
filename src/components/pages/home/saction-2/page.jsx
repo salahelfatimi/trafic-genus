@@ -32,7 +32,7 @@ export default function Saction2(){
         <div className="flex flex-col justify-between py-20 items-center gap-32 bg-gradient-to-b from-[#F2FD01]  via-[#F2FD01] to-[#fff]">
           <div className="flex-col flex items-center">
             <div className="w-screen overflow-hidden">
-              <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">
+              <p className="text-border uppercase text-9xl text-transparent whitespace-nowrap animate-marquee">
                 Voici un aperçu de ce que nous sommes prêts à vous offrir !
               </p>
             </div>
@@ -102,7 +102,7 @@ export default function Saction2(){
         <div className=" space-y-20 py-24">
             <div className="flex-col flex items-center ">
                 <div className="w-screen overflow-hidden">
-                    <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">Tunnel de vente</p>
+                    <p className="text-border uppercase text-9xl  text-transparent whitespace-nowrap animate-marquee">Tunnel de vente</p>
                 </div>
                     <h2 className="lg:text-5xl text-3xl font-black text-center">Tunnel de vente</h2>
             </div>
@@ -121,7 +121,7 @@ export default function Saction2(){
             <div className=" flex gap-28 flex-col justify-center items-center bg-gradient-to-b from-black  via-black to-[#F2FD01] py-20">
                 <div className="flex-col flex items-center">
                     <div className="w-screen overflow-hidden">
-                        <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">Imaginez votre projet sous son meilleur JOUR</p>
+                        <p className="text-border uppercase text-9xl  text-transparent whitespace-nowrap animate-marquee">Imaginez votre projet sous son meilleur JOUR</p>
                     </div>
                         <h2 className="lg:text-5xl text-3xl font-black text-center text-white">Imaginez votre projet sous son meilleur <span className=" bg-[#F2FD01] p-[0.10rem]  "><span className="relative text-black"> JOUR </span></span></h2>
                 </div>
@@ -182,7 +182,7 @@ export default function Saction2(){
                 <div>
                     <div className="flex-col flex items-center">
                         <div className="w-screen overflow-hidden">
-                            <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">SITES INTERNET Sur-mesure                        </p>
+                            <p className="text-border uppercase text-9xl  text-transparent whitespace-nowrap animate-marquee">SITES INTERNET Sur-mesure                        </p>
                         </div>
                     </div>
                 </div>
@@ -258,7 +258,7 @@ export default function Saction2(){
             <div className=" container  flex gap-28 flex-col justify-center items-center  py-20">
                 <div className="flex-col flex items-center gap-2 justify-center">
                     <div className="w-screen overflow-hidden">
-                        <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius , UNE ÉQUIPE DE PROFESSIONNELS À VOS CÔTÉS</p>
+                        <p className="text-border uppercase text-9xl  text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius , UNE ÉQUIPE DE PROFESSIONNELS À VOS CÔTÉS</p>
                     </div>
                         <h2 className="lg:text-4xl text-3xl font-black text-center text-white capitalize ">trafic genius, UNE ÉQUIPE DE PROFESSIONNELLES À  <span className=" bg-[#F2FD01] p-[0.10rem]  "><span className="relative text-black"> VOS CÔTÉS </span></span></h2>
                 </div>
@@ -287,7 +287,7 @@ export default function Saction2(){
 
                 <div className="   ">
                     <div className="  w-screen overflow-hidden">
-                        <p className=" text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius</p>
+                        <p className=" text-border uppercase text-9xl  text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius</p>
                     </div>
                     <div className="container  relative">
                         <h2 className="relative container lg:text-4xl text-3xl text-center font-black  text-white">Ce qui nous rend unique  aux yeux de nos clients</h2>

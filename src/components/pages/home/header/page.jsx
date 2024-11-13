@@ -19,7 +19,7 @@ import { resolve } from "styled-jsx/css";
                     
                     <Image src={'/TopHeader/logo.png'} width={500} height={500} alt="trafic genius"    title="trafic genius" />
                     <div className="flex flex-col gap-10 items-center py-20">
-                    <h1 className=" text-center text-4xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-[#F2FD01] via-white to-[#F2FD01]">
+                    <h1 className="font-black text-center text-4xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-[#F2FD01] via-white to-[#F2FD01]">
                         Boostez vos ventes dès demain en transformant votre système de vente en aimant à clients !
                     </h1>  
                     <p className="text-xl font-semibold font-sans text-center text-white">
@@ -57,7 +57,7 @@ import { resolve } from "styled-jsx/css";
                 
                 <div  className=" relative z-50  flex container flex-col items-center justify-center ">
                     <div className=" absolute w-screen overflow-hidden">
-                        <p className="text-border uppercase text-9xl  text-transparent whitespace-nowrap animate-marquee">
+                        <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">
                         trafic genius trafic genius
                         </p>
                     </div>
@@ -92,7 +92,7 @@ import { resolve } from "styled-jsx/css";
                 <div className="flex flex-col justify-between items-center py-20  gap-32">
                     <div className="flex-col flex items-center">
                         <div className="w-screen overflow-hidden">
-                            <p className={` text-border uppercase text-9xl  text-transparent whitespace-nowrap animate-marquee`}>
+                            <p className={` text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee`}>
                             Votre marché est féroce
                             </p>
                         </div>
@@ -113,7 +113,7 @@ import { resolve } from "styled-jsx/css";
                 <div className="flex flex-col justify-between py-20 items-center gap-32">
                     <div className="flex-col flex items-center"> 
                         <div className="w-screen overflow-hidden">
-                            <p className="text-border uppercase text-9xl  text-transparent whitespace-nowrap animate-marquee">
+                            <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">
                                 Nous scalons votre business
                             </p>
                         </div>

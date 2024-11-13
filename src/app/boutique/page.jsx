@@ -1,6 +1,8 @@
 
 import { BadgeCheck, BadgeInfo } from "lucide-react";
+import { Poppins } from "next/font/google";
 import Image from "next/image"
+const poppins = Poppins ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
 
 export const metadata = {
     title: "TRAFIC GENIUS | Votre clé pour réussir votre boutique en ligne",
@@ -175,7 +177,7 @@ export default function Boutique(){
     ];
     
     return(
-        <div className="bg-black flex flex-col items-center justify-center pt-20">
+        <div className={` ${poppins.className} bg-black flex flex-col items-center justify-center pt-20`}>
             <div className="  container flex flex-col gap-8 items-center ">
                 {/* saction 2 */}
                 <h1 className=" text-2xl lg:text-5xl font-bold text-center text-[#EFFF00] ">Obtenez une Boutique e-commerce clé en main complète pour seulement 97€ (au lieu de 997€)</h1>
@@ -218,7 +220,7 @@ export default function Boutique(){
                 </div>
                 {/* saction 3 */}
                 <h2 className=" text-xl lg:text-4xl font-bold  text-[#EFFF00] ">Êtes-vous dans l&apos;une de ces situations ?</h2>
-                <ul className="list-none space-y-4 text-lg font-medium  text-white">
+                <ul className="list-none space-y-4 text-lg font-medium  text-white w-full">
                     <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Vous ne savez pas pourquoi vous n&lsquo;arrivez pas à vendre vos produits ?</li>
                     <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Vous êtes constamment bloqué à cause de problème technique pour réaliser votre projet ?</li>
                     <li className="flex gap-1  text-xs lg:text-base "><BadgeInfo size={20} className=" max-w-10 min-w-10 stroke-[#EFFF00] stroke-2 " />Vous avez essayé maintes et maintes fois la création d&lsquo;un site mais cela n&lsquo;a jamais abouti ?</li>

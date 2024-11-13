@@ -3,7 +3,7 @@ import "./globals.css";
 import Footer from "@/components/footer/page";
 import { GoogleAnalytics } from '@next/third-parties/google'
 
-const poppins = Poppins ({ subsets: ["latin-ext"], weight:['900'] });
+const poppins = Poppins ({ subsets: ["latin-ext"], weight:['900','100','200','300','400','500','600','700','800'] });
 
 export const metadata = {
   title: "TRAFIC GENIUS",

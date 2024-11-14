@@ -8,7 +8,7 @@ const poppins = Poppins ({ subsets: ["latin-ext"], weight:['100','200','300','40
 export const metadata = {
     title: "TRAFIC GENIUS | Votre clé pour réussir votre boutique en ligne",
     description: "Découvrez comment créer une boutique en ligne rentable avec TRAFIC GENIUS . Suivez des stratégies étape par étape pour lancer et développer votre entreprise e-commerce. Commencez dès aujourd'hui et libérez le potentiel de l'entrepreneuriat en ligne !",
-    metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`,),
+    metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
     keywords: ["création de boutique en ligne, entrepreneuriat en ligne, booster votre e-commerce, stratégies de vente en ligne, réussir son e-commerce, conseils pour boutique en ligne, lancer une boutique e-commerce"],
     alternates: {
       canonical: "/boutique",

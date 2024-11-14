@@ -17,12 +17,12 @@ export const metadata = {
     openGraph: {
       title: "TRAFIC GENIUS | Votre clé pour réussir votre boutique en ligne",
       description: "BOOSTEZ VOS VENTES DÈS DEMAIN EN TRANSFORMANT VOTRE SYSTÈME DE VENTE EN AIMANT À CLIENTS !",
-      url:`${process.env.NEXT_PUBLIC_BASE_URL}`,
+      url:`${process.env.NEXT_PUBLIC_BASE_URL}/appel`,
       robots: {
         index: true,
         follow: true,
       },
-      siteName: "TRAFIC GENIUS | Votre clé pour réussir votre boutique en ligne",
+      siteName: "TRAFIC GENIUS | Appel",
       images: [
         {
           url: `/opengraph-image.jpg`,

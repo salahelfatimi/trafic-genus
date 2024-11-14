@@ -18,7 +18,7 @@ export const metadata = {
     openGraph: {
       title: "TRAFIC GENIUS | Votre clé pour réussir votre boutique en ligne",
       description: "BOOSTEZ VOS VENTES DÈS DEMAIN EN TRANSFORMANT VOTRE SYSTÈME DE VENTE EN AIMANT À CLIENTS !",
-      url:`${process.env.NEXT_PUBLIC_BASE_URL}`,
+      url:`${process.env.NEXT_PUBLIC_BASE_URL}/boutique`,
       robots: {
         index: true,
         follow: true,
@@ -239,48 +239,27 @@ export default function Boutique(){
 
                 {/* saction profile */}
 
-                <h2 className=" text-xl lg:text-4xl font-bold  text-[#EFFF00] ">Je sais ce que ça fait de tout faire pour faire décoller son business sans jamais réussir</h2>
-                <div className=" flex flex-col-reverse lg:flex-row-reverse justify-between items-center">
-                    <Image  src={"/boutique/alfa.png"} width={400} height={400} className="  " alt="trafic genus" title="trafic genus"/> 
+                <h2 className=" text-xl lg:text-4xl font-bold  text-[#EFFF00] text-center ">Je sais ce que ça fait de tout faire pour faire décoller son business sans jamais réussir</h2>
+                <div className=" grid grid-cols-1 lg:grid-cols-2 gap-10">
+                    <div className=" flex flex-col   gap-3 items-center bg-[#4F4F4F] p-4 rounded-md">
+                        <Image  src={"/boutique/alfa.png"} width={200} height={200} className="  " alt="ALVAREZ MOUKO" title="ALVAREZ MOUKO"/> 
+                        <h3 className="text-lg lg:text-3xl font-bold  text-[#EFFF00]">ALVAREZ MOUKO</h3>
+                        <p  className=" text-white text-sm lg:text-lg text-center"> 
+                            Avec plus de 500 000 € de chiffre d'affaires géré pour ses clients, il est Expert en Marketing de croissance, formateur en Closing, funnel builder. <br />
 
-                    <p  className=" text-white text-sm lg:text-lg"> 
-                        Bonjour, je m&lsquo;appelle Alvarez Mouko, et je suis spécialisé en gestion de projet et en développement d&lsquo;affaires depuis plusieurs années. <br /><br />
-
-                        Au début de ma carrière, j&apos;ai été attiré par la gestion de projet car je voulais voir l&lsquo;impact direct de mon travail et avoir une influence positive sur les organisations. <br />  <br /> 
-                        Je souhaitais optimiser les processus, encadrer des équipes motivées, et, surtout, générer une réelle valeur ajoutée.
+                            Il à notamment travaillé comme conseiller commercial pour Rudy Som (qui est l'un des plus gros annonceurs dans toute la francophonie, en Afrique et dans tout Moyen-Orient.)                 
+                        </p>
+                    </div>
+                    <div className=" flex flex-col gap-3   items-center bg-[#4F4F4F] p-4 rounded-md">
+                    <Image  src={"/boutique/hamza.png"} width={200} height={200} className="  " alt="HAMZA BAROUAGUI" title="HAMZA BAROUAGUI"/> 
+                    <h3  className="text-lg lg:text-3xl font-bold  text-[#EFFF00]">HAMZA BAROUAGUI</h3>
+                    <p  className=" text-white text-sm lg:text-lg text-center"> 
+                        Growth Hacker expert en publicité Facebook, avec plus de 1M € de budget publicitaire dépensé, il a notamment travaillé pour les plus grosses pointures en francophonies comme: Rudy Som,               
                     </p>
                 </div>
-                <p  className=" text-white text-sm lg:text-lg"> 
-                    Mais le chemin n&lsquo;a pas été sans embûches… Je me suis retrouvé à travailler toujours plus, sans voir les résultats escomptés. <br />  <br /> 
-
-                    Je devenais l&apos;esclave des projets. <br />  <br /> 
-
-                    Comment en suis-je arrivé là ? <br />  <br /> 
-
-                    La réponse est simple : <br />  <br /> 
-
-                    En essayant d&lsquo;appliquer les solutions génériques que l&lsquo;on trouve un peu partout : <br />  <br /> 
-
-                    ❌ M&lsquo;embarquer sur des outils et méthodes de gestion qui n&lsquo;étaient pas adaptés à la réalité du projet <br />  <br /> 
-
-                    ❌ Passer mes journées à résoudre des problématiques techniques au lieu de me concentrer sur la stratégie <br />  <br /> 
-
-                    ❌ Investir dans des solutions qui promettaient des gains mais n&lsquo;apportaient pas de résultats concrets <br />  <br /> 
-
-                    ❌ Essayer de mettre en place des stratégies sans réelle vision à long terme <br />  <br /> 
-
-                    ❌ Me perdre dans un océan d&apos;informations sans comprendre comment les utiliser efficacement <br />  <br /> 
-
-                    Finalement, après beaucoup d&apos;efforts et de remises en question, j&apos;ai réussi à concevoir et à mettre en place des projets qui ont atteint leurs objectifs et généré de véritables résultats. <br />  <br /> 
-
-                    J&lsquo;étais plus déterminé que jamais ! <br /> 
-
-                    Aujourd&lsquo;hui, mon but est de créer des stratégies de développement qui aident les entreprises à prospérer, tout en offrant une gestion de projet adaptée aux besoins de chaque organisation. <br />  <br /> 
-
-                    J&apos;ai hâte de continuer à faire évoluer mes compétences et de partager mes connaissances pour aider d&apos;autres projets à réussir. <br /> <br />  
-                </p>
+                </div>
                
-
+               
                 {/* saction 4 */}
                 <h2 className="text-xl lg:text-4xl font-bold  text-[#EFFF00] text-center ">Rien... je n&lsquo;avais toujours pas vendu 1 seul produit.</h2>
                 <p className=" text-white text-sm lg:text-lg">

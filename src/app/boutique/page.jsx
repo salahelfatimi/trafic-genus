@@ -245,9 +245,9 @@ export default function Boutique(){
                         <Image  src={"/boutique/alfa.png"} width={200} height={200} className="  " alt="ALVAREZ MOUKO" title="ALVAREZ MOUKO"/> 
                         <h3 className="text-lg lg:text-3xl font-bold  text-[#EFFF00]">ALVAREZ MOUKO</h3>
                         <p  className=" text-white text-sm lg:text-lg text-center"> 
-                            Avec plus de 500 000 € de chiffre d'affaires géré pour ses clients, il est Expert en Marketing de croissance, formateur en Closing, funnel builder. <br />
+                            Avec plus de 500 000 € de chiffre d&apos;affaires géré pour ses clients, il est Expert en Marketing de croissance, formateur en Closing, funnel builder. <br />
 
-                            Il à notamment travaillé comme conseiller commercial pour Rudy Som (qui est l'un des plus gros annonceurs dans toute la francophonie, en Afrique et dans tout Moyen-Orient.)                 
+                            Il à notamment travaillé comme conseiller commercial pour Rudy Som (qui est l&apos;un des plus gros annonceurs dans toute la francophonie, en Afrique et dans tout Moyen-Orient.)                 
                         </p>
                     </div>
                     <div className=" flex flex-col gap-3   items-center bg-[#4F4F4F] p-4 rounded-md">

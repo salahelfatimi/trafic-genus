@@ -19,7 +19,7 @@ import { resolve } from "styled-jsx/css";
                     
                     <Image src={'/TopHeader/logo.png'} width={500} height={500} alt="trafic genius"    title="trafic genius" />
                     <div className="flex flex-col gap-10 items-center py-20">
-                    <h1 className="font-black text-center  text-4xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-[#F2FD01] via-white to-white ">
+                    <h1 className="font-black text-center  text-4xl lg:text-6xl bg-clip-text text-white ">
                         Faisons le pari Fou de faire de vous une figure d&apos;autorité respectée sur votre marché
                     </h1>  
                     <p className="text-xl font-semibold font-sans text-center text-white">

@@ -26,7 +26,7 @@ export default function FetchLogoScroll() {
               height={500}
               quality={50}
               src={`/partners/${src.image}`}
-              className=" h-40 w-auto"
+              className=" h-40 w-auto "
               alt={src.title}
           />
         </li>
@@ -41,7 +41,7 @@ export default function FetchLogoScroll() {
               quality={50}
               height={500}
               src={`/partners/${src.image}`}
-              className=" h-40 w-auto"
+              className=" h-40 w-auto "
               alt={src.title}
           />
       

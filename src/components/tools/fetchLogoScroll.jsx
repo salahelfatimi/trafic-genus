@@ -4,18 +4,19 @@ export default function FetchLogoScroll() {
   const images = [
     { id: 1, title: 'puma madagascar', image: 'puma.png' },
     { id: 2, title: 'adidas madagascar', image: 'adidas.png' },
-    { id: 3, title: 'puma madagascar', image: 'puma.png' },
-    { id: 4, title: 'adidas madagascar', image: 'adidas.png' },
-    { id: 5, title: 'puma madagascar', image: 'puma.png' },
-    { id: 6, title: 'adidas madagascar', image: 'adidas.png' },
-    { id: 7, title: 'puma madagascar', image: 'puma.png' },
-    { id: 8, title: 'adidas madagascar', image: 'adidas.png' },
+    { id: 3, title: '3pe batiment', image: '3pe.png' },
+    { id: 4, title: 'chahm couture', image: 'chahm.png' },
+    { id: 5, title: 'dayaf & co', image: 'dayaf&co.png' },
+    { id: 6, title: '3pebat ecoenergie', image: 'ecoEnergie.png' },
+    { id: 7, title: 'leyane', image: 'leyane.png' },
+    { id: 8, title: 'next level group', image: 'nextlevel.png' },
+    { id: 9, title: 'skyline immo', image: 'skylineImmo.png' },
    
  
   ];
 
   return (
-    <div className="w-full inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
+    <div className="w-full  inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-200px),transparent_100%)]">
     <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-infinite-scroll">
       {images.map((src, index) => ( 
         <li key={index} >

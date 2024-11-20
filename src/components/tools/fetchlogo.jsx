@@ -7,9 +7,7 @@ export default  function FetchLogo() {
         { image: "logo.png", title: "trafic genius" },
         { image: "logo.png", title: "trafic genius" },
         { image: "logo.png", title: "trafic genius" },
-        { image: "logo.png", title: "trafic genius" },
-       
-       
+        { image: "logo.png", title: "trafic genius" },  
     ];
 
   return (

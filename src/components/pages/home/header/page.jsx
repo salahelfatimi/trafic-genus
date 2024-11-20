@@ -3,6 +3,7 @@ import FetchLogoScroll from '@/components/tools/fetchLogoScroll'
 import { CircleDollarSign, Presentation, Search } from "lucide-react";
 import Link from "next/link";
 import { resolve } from "styled-jsx/css";
+import Testimonial from "../testimonial/page";
 
 
  export default  function Header (){
@@ -109,7 +110,7 @@ import { resolve } from "styled-jsx/css";
                         </p>
                     </div>
                 </div>
-
+                <Testimonial/>
                 <div className="flex flex-col justify-between py-20 items-center gap-32">
                     <div className="flex-col flex items-center"> 
                         <div className="w-screen overflow-hidden">

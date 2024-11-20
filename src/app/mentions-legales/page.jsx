@@ -61,7 +61,7 @@ export default function MentionsLegales(){
                 </p>
                 
                 <p className="mb-4">
-                    L'hébergement du site est assuré par la société <span className="font-semibold ">Hostinger</span>.
+                    L&apos;hébergement du site est assuré par la société <span className="font-semibold ">Hostinger</span>.
                 </p>
                 
                 <p className="mb-4">

@@ -52,18 +52,18 @@ export default function ClauseDeNonResponsabilite() {
           représentée par <span className="font-semibold">HAMZA BAROUAGUI</span>{" "}
           & <span className="font-semibold">ALVAREZ MOUKO</span> ne peuvent et
           ne font aucune garantie quant à votre capacité à obtenir des résultats
-          ou à gagner de l'argent avec nos idées, informations, outils ou
+          ou à gagner de l&apos;argent avec nos idées, informations, outils ou
           stratégies.
         </p>
 
         <p className="mb-4">
-          Ce que nous pouvons garantir, c'est votre satisfaction à l'égard de
+          Ce que nous pouvons garantir, c&apos;est votre satisfaction à l&apos;égard de
           notre formation. Nous vous offrons une{" "}
           <span className="font-semibold text-[#EFFF00]">
             garantie de satisfaction à 100% de 7 jours
           </span>{" "}
           sur les prestations de service et produits que nous vendons, donc si
-          vous n'êtes pas satisfait pour quelque raison que ce soit de la
+          vous n&apos;êtes pas satisfait pour quelque raison que ce soit de la
           qualité de notre service ou formation, demandez simplement votre
           argent.
         </p>
@@ -75,13 +75,13 @@ export default function ClauseDeNonResponsabilite() {
 
         <p className="mb-4">
           Rien sur cette page, aucun de nos sites Web, ni aucun de nos contenus
-          ou programmes n'est une promesse ou une garantie de résultats ou de
-          revenus futurs, et nous n'offrons aucun conseil juridique, médical,
+          ou programmes n&apos;est une promesse ou une garantie de résultats ou de
+          revenus futurs, et nous n&apos;offrons aucun conseil juridique, médical,
           fiscal ou autre.
         </p>
 
         <p className="mb-4">
-          Tous les chiffres financiers référencés ici, ou sur l'un de nos sites,
+          Tous les chiffres financiers référencés ici, ou sur l&apos;un de nos sites,
           sont uniquement illustratifs de concepts et ne doivent pas être
           considérés comme des gains moyens, des gains exacts ou des promesses
           de performances réelles ou futures.
@@ -89,7 +89,7 @@ export default function ClauseDeNonResponsabilite() {
 
         <p className="mb-4">
           Soyez prudent et consultez toujours votre comptable, votre avocat ou
-          votre conseiller professionnel avant d'agir sur cette information ou
+          votre conseiller professionnel avant d&apos;agir sur cette information ou
           sur toute information liée à un changement de style de vie ou à votre
           entreprise ou vos finances.
         </p>

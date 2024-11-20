@@ -15,6 +15,12 @@ export default function Footer(){
                 UK | TRAFIC GENIUS LTD 📍: 128 City Road, London, United Kingdom, EC1V 2NX <br />
                 US | TRAFIC GENIUS LLC 📍: 131 Continental Dr, Suite 305, Newark, 19713, county of New Castle, DELAWARE<br />
               </p>
+              <div className=" flex flex-col  md:flex-row text-xs text-center gap-2 text-[#9F9B9A]">
+                <Link className=" hover:underline  underline-offset-2" href={'/mentions-legales'}>Mentions légales</Link>
+                <Link className=" hover:underline  underline-offset-2" href={'/clause-de-non-responsabilite'}>Clause de non-responsabilité</Link>
+                <Link className=" hover:underline  underline-offset-2" href={'/conditions-generales-de-vente'}> Conditions générales de vente</Link>
+              </div>
+            
               <div className="flex gap-6">
                 <Link href={'https://www.instagram.com/trafic_genius/'} target="_blank" className="bg-[#F2FD01] p-1 rounded-md group hover:bg-black border-[#F2FD01] border-2 duration-500"><InstagramIcon size={30} className=" stroke-[#000] group-hover:stroke-[#F2FD01]" /></Link>
                 <Link href={'https://www.linkedin.com/company/trafic-genius'} target="_blank" className="bg-[#F2FD01] p-1 rounded-md group hover:bg-black border-[#F2FD01] border-2 duration-500"><LinkedinIcon size={30} className=" stroke-[#000] group-hover:stroke-[#F2FD01]" /></Link>

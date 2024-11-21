@@ -38,7 +38,7 @@ module.exports = {
         "slide-bg": "slide 14s linear infinite",
         "marquee": "marquee 40s linear infinite",
         "move-smoke": "moveSmoke 15s ease-in-out infinite",
-        'infinite-scroll': 'infinite 25s linear infinite',
+        'infinite-scroll': 'infinite 80s linear infinite',
       },
       keyframes: {
         infinite: {

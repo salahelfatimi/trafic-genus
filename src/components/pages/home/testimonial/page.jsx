@@ -9,20 +9,19 @@ export default function Testimonial(){
     return(
         <div className="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-8 justify-center container py-10 bg-black">
         {testimonial.map((ele, index) => (
-          <div key={index} className="relative w-full " style={{ paddingTop: "70%" }}>
+
+          <div key={index} style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
             <iframe
+              width="100%"
+              height="100%"
               src={ele.src}
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              style={{
-                position: "absolute",
-                top: 0,
-                left: 0,
-                width: "100%",
-                height: "100%",
-              }}
+              allowFullScreen
+              style={{ position: 'absolute', top: 0, left: 0 }}
               referrerPolicy="unsafe-url"
             ></iframe>
+
           </div>
         ))}
       </div>

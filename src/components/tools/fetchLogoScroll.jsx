@@ -11,6 +11,11 @@ export default function FetchLogoScroll() {
     { id: 7, title: 'leyane', image: 'leyane.png' },
     { id: 8, title: 'next level group', image: 'nextlevel.png' },
     { id: 9, title: 'skyline immo', image: 'skylineImmo.png' },
+    { id: 10, title: 'click Funnels', image: 'clickFunnels.png' },
+    { id: 11, title: 'nextjs', image: 'nextjs.png' },
+    { id: 12, title: 'wordPress', image: 'wordPress.png' },
+    { id: 13, title: 'webFlow', image: 'webFlow.png' },
+    { id: 13, title: 'systeme.Io', image: 'systemeIo.png' },
    
  
   ];

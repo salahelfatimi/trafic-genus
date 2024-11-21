@@ -110,7 +110,18 @@ import Testimonial from "../testimonial/page";
                         </p>
                     </div>
                 </div>
-                {/* <Testimonial/> */}
+                {/* Testimonial */}
+                <div>
+                    <div className="flex-col flex items-center">
+                        <div className="w-screen overflow-hidden">
+                            <p className={` text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee`}>
+                            Quand les experts parlent de nous
+                            </p>
+                        </div>
+                        <h2 className="text-2xl sm:text-5xl font-black text-white text-center">Quand les experts parlent de nous</h2>
+                    </div>
+                    <Testimonial/>
+                </div>
                 <div className="flex flex-col justify-between py-20 items-center gap-32">
                     <div className="flex-col flex items-center"> 
                         <div className="w-screen overflow-hidden">

@@ -19,7 +19,7 @@ import Testimonial from "../testimonial/page";
                     <div className="circlePosition w-[200px] h-[200px] hidden md:block bg-[#F2FD01] rounded-[100%] absolute z-1 top-[65%] left-[90%] translate-x-[-50%] translate-y-[-50%] blur-[150px]"></div>
                     
                     <Image src={'/TopHeader/logo.png'} width={500} height={500} alt="trafic genius"    title="trafic genius" />
-                    <div className="flex flex-col gap-4 items-center py-20">
+                    <div className="flex flex-col gap-4 items-center py-10">
                     <h1 className="font-black text-center text-xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-[#F2FD01] via-white to-[#F2FD01]">
                             Faisons le pari Fou de faire de vous une figure d&apos;autorité respectée sur votre marché
                     </h1>  
@@ -53,7 +53,7 @@ import Testimonial from "../testimonial/page";
 
             {/* Saction 1 */}
 
-            <div className=" bg-[#F2FD01]  relative flex flex-col justify-between gap-20 z-20 py-20">
+            <div className=" bg-[#F2FD01]  relative flex flex-col justify-between gap-20 z-20 py-10">
                 <div className=" bg-black bg-[url('/TopHeader/bg.png')] lg:bg-cover w-full h-72   top-0 rounded-full-css absolute "></div>
                 
                 <div  className=" relative z-50  flex container flex-col items-center justify-center ">

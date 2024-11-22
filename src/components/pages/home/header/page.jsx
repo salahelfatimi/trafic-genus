@@ -19,11 +19,11 @@ import Testimonial from "../testimonial/page";
                     <div className="circlePosition w-[200px] h-[200px] hidden md:block bg-[#F2FD01] rounded-[100%] absolute z-1 top-[65%] left-[90%] translate-x-[-50%] translate-y-[-50%] blur-[150px]"></div>
                     
                     <Image src={'/TopHeader/logo.png'} width={500} height={500} alt="trafic genius"    title="trafic genius" />
-                    <div className="flex flex-col gap-10 items-center py-20">
-                    <h1 className="font-black text-center text-4xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-[#F2FD01] via-white to-[#F2FD01]">
+                    <div className="flex flex-col gap-4 items-center py-20">
+                    <h1 className="font-black text-center text-xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-[#F2FD01] via-white to-[#F2FD01]">
                             Faisons le pari Fou de faire de vous une figure d&apos;autorité respectée sur votre marché
                     </h1>  
-                    <p className="text-xl font-semibold font-sans text-center text-white">
+                    <p className=" text-xs lg:text-xl font-semibold font-sans text-center text-white">
                         Des solutions innovantes pour maximiser vos bénéfices dès demain avec nos tunnels de vente à haut rendement grâce à des designs sublimes et performants que nous réalisons pour vous dans un délai record.
                     </p>  
                     <Link href={'/appel'} target="_blank" >
@@ -65,7 +65,7 @@ import Testimonial from "../testimonial/page";
                     <Image  className="relative z-50 lg:w-[80%] " src={'/TopHeader/tablet.png'} alt="trafic genius"    title="traficgenius" width={2000} height={1000}/>
                 </div>
                 <div className=" py-10 flex items-center flex-col justify-center gap-10">
-                    <h2 className=" text-4xl uppercase">Nos Partenaires</h2>
+                    <h2 className=" lg:text-4xl uppercase">Nos Partenaires</h2>
                         <FetchLogoScroll/>
                 </div>
             </div>
@@ -97,14 +97,14 @@ import Testimonial from "../testimonial/page";
                             Votre marché est féroce
                             </p>
                         </div>
-                        <h2 className="text-2xl sm:text-5xl font-black text-white">Votre marché est féroce</h2>
+                        <h2 className=" sm:text-5xl font-black text-white">Votre marché est féroce</h2>
                     </div>
                     <div className="  gap-20 flex flex-col lg:flex-row items-center justify-center">
                         <div className=" relative w-[300px] h-[350px]">
                             <Image className=" relative w-full h-full z-10" src={'/TopHeader/bglogo.png'} width={182} height={239} alt="trafic genius"    title="trafic genius"/>
                             <Image className=" absolute top-0 left-0 w-full h-full z-0 animate-move-smoke" src={'/TopHeader/smoke.png'} width={300} height={300} alt="trafic genius"    title="traficgenius"/>
                         </div>
-                        <p className="text-white w-4/5 lg:w-1/2 font-normal text-center lg:text-left text-xl sm:text-2xl font-serif">
+                        <p className="text-white w-4/5 lg:w-1/2 font-normal text-center lg:text-left  sm:text-2xl font-serif">
                         Lorsque l&apos;on évolue dans un marché redoutable, il est essentiel de prendre en compte la concurrence pour être en mesure de proposer une offre pertinente.<br /><br />
                         Un mauvais choix de design ou de copywriting peut vous coûter très cher. Le choix d&apos;une bonne équipe est une étape cruciale pour mener à bien vos projets et atteindre vos objectifs.
                         </p>
@@ -118,7 +118,7 @@ import Testimonial from "../testimonial/page";
                             Quand les experts parlent de nous
                             </p>
                         </div>
-                        <h2 className="text-2xl sm:text-5xl font-black text-white text-center">Quand les experts parlent de nous</h2>
+                        <h2 className=" sm:text-5xl font-black text-white text-center">Quand les experts parlent de nous</h2>
                     </div>
                     <Testimonial/>
                 </div>
@@ -131,7 +131,7 @@ import Testimonial from "../testimonial/page";
                         </div>
 
                         {/* Other static content */}
-                        <h2 className="lg:text-5xl text-3xl font-black text-center text-white">Nous scalons votre business</h2>
+                        <h2 className="lg:text-5xl  font-black text-center text-white">Nous scalons votre business</h2>
                         <p className="font-medium lg:text-2xl font-serif text-center text-white">
                         En déployant un système personnalisé, performant et prêt à générer des résultats rapidement.
                         </p>
@@ -142,19 +142,19 @@ import Testimonial from "../testimonial/page";
                             <div className="bg-[#F0FF01] hover:bg-[#2F3033] hover:-rotate-45 duration-700 rounded-full p-1">
                                 <Search size={70} className=" stroke-[#000] hover:stroke-white  duration-700 cursor-pointer	 p-2 "/>
                             </div>
-                            <h3 className=" lg:text-2xl text-xl font-bold text-center font-serif text-white">Convertissez un maximum de prospects.</h3>
+                            <h3 className=" lg:text-2xl  font-bold text-center font-serif text-white">Convertissez un maximum de prospects.</h3>
                         </div>
                         <div className=" flex flex-col gap-4 items-center justify-center">
                             <div className="bg-[#F0FF01] hover:bg-[#2F3033] hover:-rotate-45 duration-700 rounded-full p-1">
                                 <Presentation size={70} className=" stroke-[#000] hover:stroke-white  duration-700 cursor-pointer	 p-2 "/>
                             </div>
-                            <h3 className=" lg:text-2xl text-xl font-bold text-center font-serif text-white">Obtenez des leads qualifiés performants.</h3>
+                            <h3 className=" lg:text-2xl  font-bold text-center font-serif text-white">Obtenez des leads qualifiés performants.</h3>
                         </div>
                         <div className=" flex flex-col gap-4 items-center justify-center">
                             <div className="bg-[#F0FF01] hover:bg-[#2F3033] hover:-rotate-45 duration-700 rounded-full p-1">
                                 <CircleDollarSign size={70} className=" stroke-[#000] hover:stroke-white  duration-700 cursor-pointer	 p-2 "/>
                             </div>
-                            <h3 className=" lg:text-2xl text-xl font-bold text-center font-serif text-white">Boostez vos ventes et votre chiffre d&apos;affaires</h3>
+                            <h3 className=" lg:text-2xl  font-bold text-center font-serif text-white">Boostez vos ventes et votre chiffre d&apos;affaires</h3>
                         </div>
                         
                     </div>

@@ -23,7 +23,7 @@ export default function Expert(){
                         Une agence fondée par des  experts du business en ligne
                     </p>
                 </div>
-                    <h2 className="text-2xl sm:text-5xl font-black text-white text-center">Une agence fondée par des  experts du business en ligne</h2>
+                    <h2 className="text-lg sm:text-5xl font-black text-white text-center">Une agence fondée par des  experts du business en ligne</h2>
                 </div>
                 <div className='   '>
                     <div className=''>

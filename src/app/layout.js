@@ -62,10 +62,20 @@ export default function RootLayout({ children }) {
         `,
         }}
       />
+     
       <GoogleAnalytics gaId={process.env.ANALYTICS_ID} />
       <body className={` scroll-smooth   scrollbar scrollbar-thumb-[#F2FD01] scrollbar-track-black h-32 overflow-y-scroll`}>
         {children}
         <Footer/>
+        <noscript>
+          <img
+            height="1"
+            width="1"
+            style={{ display: 'none' }}
+            src="https://www.facebook.com/tr?id=1624065915126787&ev=PageView&noscript=1"
+            alt=""
+          />
+        </noscript>
       </body>
     </html>
   );

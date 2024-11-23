@@ -13,7 +13,7 @@ import Testimonial from "../testimonial/page";
 
             {/* Header */}
 
-            <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover  bg-black  z-30   flex items-center justify-center">
+            <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-4 bg-black  z-30   flex items-center justify-center">
                 <div className=" z-10 flex flex-col items-center justify-center container">
                     <div className="circlePosition w-[200px] h-[200px] hidden md:block bg-[#F2FD01] rounded-[100%] absolute z-1 top-[40%] left-[20%] translate-x-[-50%] translate-y-[-50%] blur-[150px]"></div>     
                     <div className="circlePosition w-[200px] h-[200px] hidden md:block bg-[#F2FD01] rounded-[100%] absolute z-1 top-[65%] left-[90%] translate-x-[-50%] translate-y-[-50%] blur-[150px]"></div>

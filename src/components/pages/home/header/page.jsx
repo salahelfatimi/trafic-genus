@@ -21,10 +21,10 @@ import Testimonial from "../testimonial/page";
                     <Image src={'/TopHeader/logo.png'} width={500} height={500} alt="trafic genius"    title="trafic genius" />
                     <div className="flex flex-col gap-4 items-center py-10">
                     <h1 className="font-black text-center text-xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-[#F2FD01] via-white to-[#F2FD01]">
-                            Faisons le pari Fou de faire de vous une figure d&apos;autorité respectée sur votre marché
+                            Faisons le pari Fou de faire de vous une figure d&apos;autorité respectée sur votre marché.
                     </h1>  
                     <p className=" text-xs lg:text-xl font-semibold font-sans text-center text-white">
-                        Des solutions innovantes pour maximiser vos bénéfices dès demain avec nos tunnels de vente à haut rendement grâce à des designs sublimes et performants que nous réalisons pour vous dans un délai record.
+                        Nous aidons les chefs d&apos;entreprises et entrepreneurs du Web à trouver des nouveaux clients prêt à payer pour leurs produits ou services avec des résultats garantis
                     </p>  
                     <Link href={'/appel'} target="_blank" >
                         <button className="cssbuttons-io-button ">
@@ -65,7 +65,7 @@ import Testimonial from "../testimonial/page";
                     <Image  className="relative z-50 lg:w-[80%] " src={'/TopHeader/tablet.png'} alt="trafic genius"    title="traficgenius" width={2000} height={1000}/>
                 </div>
                 <div className=" py-10 flex items-center flex-col justify-center gap-10">
-                    <h2 className=" lg:text-4xl uppercase">Nos Partenaires</h2>
+                    <h2 className=" lg:text-4xl uppercase">Ils nous font confiance</h2>
                         <FetchLogoScroll/>
                 </div>
             </div>
@@ -79,11 +79,11 @@ import Testimonial from "../testimonial/page";
                   
                 <div className="  right-0 left-0 lg:w-[60rem] w-screen shadow-2xl  relative  z-20  bg-black border-4 border-[#fff] container flex flex-col justify-between items-center gap-12 py-24">
                        
-                    <h2 className=" text-white font-bold lg:text-3xl text-center">Si votre activité correspond à celle d&apos;un infopreneur, coach, consultant, prestataire de services ou d&apos;une agence…</h2>
+                    <h2 className=" text-white font-bold lg:text-3xl text-center">Si vous êtes formateur, coach, consultant, prestataire de service, auteur, conférencier ou créateur de contenu, je veux qu&apos;on se parle !</h2>
                     <p className=" text-white text-center  lg:text-xl">Vos résultats ne reflètent pas vos ambitions.</p>
                     <Image  className=" z-50" src={'/TopHeader/circle.gif'} width={200} height={200} alt="trafic genius"    title="trafic genius"/>
                     <h3 className=" text-white  lg:text-xl text-center">Si vous cherchez à développer votre activité, nos produits ou services peuvent vous y aider.</h3>
-                    <p className=" text-white  lg:text-xl text-center font-serif font-semibold">Votre objectif étant de développer votre entreprise, vous avez mis en place un système de vente pour générer des prospects qualifiés et les convertir en clients.</p>
+                    <p className=" text-white  lg:text-xl text-center font-serif font-semibold">Maintenant vous pouvez enfin obtenir plus de prospects, dans un seul objectif celui de réaliser plus de vente grâce un vrai marketing rapide, puissant et scalable</p>
                 </div>    
             </div>
 
@@ -105,8 +105,7 @@ import Testimonial from "../testimonial/page";
                             <Image className=" absolute top-0 left-0 w-full h-full z-0 animate-move-smoke" src={'/TopHeader/smoke.png'} width={300} height={300} alt="trafic genius"    title="traficgenius"/>
                         </div>
                         <p className="text-white w-4/5 lg:w-1/2 font-normal text-center lg:text-left  sm:text-2xl font-serif">
-                        Lorsque l&apos;on évolue dans un marché redoutable, il est essentiel de prendre en compte la concurrence pour être en mesure de proposer une offre pertinente.<br /><br />
-                        Un mauvais choix de design ou de copywriting peut vous coûter très cher. Le choix d&apos;une bonne équipe est une étape cruciale pour mener à bien vos projets et atteindre vos objectifs.
+                        Notre Team se lève le matin avec un seul but : vous aider à accroître vos bénéfices, vous libérer du temps, gagner en qualité de vie et atteindre vos objectifs.
                         </p>
                     </div>
                 </div>

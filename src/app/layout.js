@@ -3,7 +3,6 @@ import FacebookPixel from "@/components/tools/facebookPixel";
 import "./globals.css";
 import Footer from "@/components/footer/page";
 import { GoogleAnalytics } from '@next/third-parties/google'
-import Head from "next/head";
 
 
 
@@ -46,17 +45,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <GoogleAnalytics gaId={process.env.ANALYTICS_ID} />
-      <Head>
-        <noscript>
-          <img
-            height="1"
-            width="1"
-            style={{ display: 'none' }}
-            src={`https://www.facebook.com/tr?id=${process.env.NEXT_PUBLIC_FB_PIXEL_ID}&ev=PageView&noscript=1`}
-          />
-        </noscript>
-      </Head>
-     
       <body className={` scroll-smooth   scrollbar scrollbar-thumb-[#F2FD01] scrollbar-track-black h-32 overflow-y-scroll`}>
         <FacebookPixel />
         {children}

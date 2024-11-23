@@ -42,7 +42,7 @@ export default function RootLayout({ children }) {
   
   return (
     <html lang="en">
-      <GoogleAnalytics gaId="G-ZT1717EM4S" />
+      <GoogleAnalytics gaId={process.env.ANALYTICS_ID} />
       <body className={` scroll-smooth   scrollbar scrollbar-thumb-[#F2FD01] scrollbar-track-black h-32 overflow-y-scroll`}>
         {children}
         <Footer/>

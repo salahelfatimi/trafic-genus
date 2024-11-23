@@ -46,7 +46,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <GoogleAnalytics gaId={process.env.ANALYTICS_ID} />
       <Head>
-        <Script
+        <script
           id="fb-pixel"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{

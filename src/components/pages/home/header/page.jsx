@@ -20,10 +20,10 @@ import Testimonial from "../testimonial/page";
                     
                     <Image src={'/TopHeader/logo.png'} width={500} height={500} alt="trafic genius"    title="trafic genius" />
                     <div className="flex flex-col gap-4 items-center py-10">
-                    <h1 className="font-black text-center text-xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-[#F2FD01] via-white to-[#F2FD01]">
+                    <h1 className="font-bold text-center text-xl lg:text-6xl bg-clip-text text-transparent bg-gradient-to-r from-[#F2FD01] via-white to-[#F2FD01]">
                             Faisons le pari Fou de faire de vous une figure d&apos;autorité respectée sur votre marché.
                     </h1>  
-                    <p className=" text-xs lg:text-xl font-semibold font-sans text-center text-white">
+                    <p className=" text-xs lg:text-xl text-center text-white">
                         Nous aidons les chefs d&apos;entreprises et entrepreneurs du Web à trouver des nouveaux clients prêt à payer pour leurs produits ou services avec des résultats garantis
                     </p>  
                     <Link href={'/appel'} target="_blank" >
@@ -65,7 +65,7 @@ import Testimonial from "../testimonial/page";
                     <Image  className="relative z-50 lg:w-[80%] " src={'/TopHeader/tablet.png'} alt="trafic genius"    title="traficgenius" width={2000} height={1000}/>
                 </div>
                 <div className=" py-10 flex items-center flex-col justify-center gap-10">
-                    <h2 className=" lg:text-4xl uppercase">Ils nous font confiance</h2>
+                    <h2 className=" lg:text-4xl font-semibold uppercase">Ils nous font confiance</h2>
                         <FetchLogoScroll/>
                 </div>
             </div>
@@ -79,11 +79,11 @@ import Testimonial from "../testimonial/page";
                   
                 <div className="  right-0 left-0 lg:w-[60rem] w-screen shadow-2xl  relative  z-20  bg-black border-4 border-[#fff] container flex flex-col justify-between items-center gap-12 py-24">
                        
-                    <h2 className=" text-white font-bold lg:text-3xl text-center">Si vous êtes formateur, coach, consultant, prestataire de service, auteur, conférencier ou créateur de contenu, je veux qu&apos;on se parle !</h2>
+                    <h2 className=" text-white font-semibold lg:text-3xl text-center">Si vous êtes formateur, coach, consultant, prestataire de service, auteur, conférencier ou créateur de contenu, je veux qu&apos;on se parle !</h2>
                     <p className=" text-white text-center  lg:text-xl">Vos résultats ne reflètent pas vos ambitions.</p>
                     <Image  className=" z-50" src={'/TopHeader/circle.gif'} width={200} height={200} alt="trafic genius"    title="trafic genius"/>
                     <h3 className=" text-white  lg:text-xl text-center">Si vous cherchez à développer votre activité, nos produits ou services peuvent vous y aider.</h3>
-                    <p className=" text-white  lg:text-xl text-center font-serif font-semibold">Maintenant vous pouvez enfin obtenir plus de prospects, dans un seul objectif celui de réaliser plus de vente grâce un vrai marketing rapide, puissant et scalable</p>
+                    <p className=" text-white  lg:text-xl text-center  font-medium">Maintenant vous pouvez enfin obtenir plus de prospects, dans un seul objectif celui de réaliser plus de vente grâce un vrai marketing rapide, puissant et scalable</p>
                 </div>    
             </div>
 
@@ -97,14 +97,14 @@ import Testimonial from "../testimonial/page";
                             Votre marché est féroce
                             </p>
                         </div>
-                        <h2 className=" sm:text-5xl font-black text-white">Votre marché est féroce</h2>
+                        <h2 className=" sm:text-4xl font-bold text-white">Votre marché est féroce</h2>
                     </div>
                     <div className="  gap-20 flex flex-col lg:flex-row items-center justify-center">
                         <div className=" relative w-[300px] h-[350px]">
                             <Image className=" relative w-full h-full z-10" src={'/TopHeader/bglogo.png'} width={182} height={239} alt="trafic genius"    title="trafic genius"/>
                             <Image className=" absolute top-0 left-0 w-full h-full z-0 animate-move-smoke" src={'/TopHeader/smoke.png'} width={300} height={300} alt="trafic genius"    title="traficgenius"/>
                         </div>
-                        <p className="text-white w-4/5 lg:w-1/2 font-normal text-center lg:text-left  sm:text-2xl font-serif">
+                        <p className="text-white w-4/5 lg:w-1/2 font-light text-center lg:text-left  sm:text-2xl ">
                         Notre Team se lève le matin avec un seul but : vous aider à accroître vos bénéfices, vous libérer du temps, gagner en qualité de vie et atteindre vos objectifs.
                         </p>
                     </div>
@@ -117,7 +117,7 @@ import Testimonial from "../testimonial/page";
                             Quand les experts parlent de nous
                             </p>
                         </div>
-                        <h2 className=" sm:text-5xl font-black text-white text-center">Quand les experts parlent de nous</h2>
+                        <h2 className=" sm:text-4xl font-bold text-white text-center">Quand les experts parlent de nous</h2>
                     </div>
                     <Testimonial/>
                 </div>
@@ -130,8 +130,8 @@ import Testimonial from "../testimonial/page";
                         </div>
 
                         {/* Other static content */}
-                        <h2 className="lg:text-5xl  font-black text-center text-white">Nous scalons votre business</h2>
-                        <p className="font-medium lg:text-2xl font-serif text-center text-white">
+                        <h2 className="lg:text-4xl  font-bold text-center text-white">Nous scalons votre business</h2>
+                        <p className="font-extralight lg:text-2xl  text-center text-white">
                         En déployant un système personnalisé, performant et prêt à générer des résultats rapidement.
                         </p>
                     </div>
@@ -141,19 +141,19 @@ import Testimonial from "../testimonial/page";
                             <div className="bg-[#F0FF01] hover:bg-[#2F3033] hover:-rotate-45 duration-700 rounded-full p-1">
                                 <Search size={70} className=" stroke-[#000] hover:stroke-white  duration-700 cursor-pointer	 p-2 "/>
                             </div>
-                            <h3 className=" lg:text-2xl  font-bold text-center font-serif text-white">Convertissez un maximum de prospects.</h3>
+                            <h3 className=" lg:text-2xl  font-light text-center  text-white">Convertissez un maximum de prospects.</h3>
                         </div>
                         <div className=" flex flex-col gap-4 items-center justify-center">
                             <div className="bg-[#F0FF01] hover:bg-[#2F3033] hover:-rotate-45 duration-700 rounded-full p-1">
                                 <Presentation size={70} className=" stroke-[#000] hover:stroke-white  duration-700 cursor-pointer	 p-2 "/>
                             </div>
-                            <h3 className=" lg:text-2xl  font-bold text-center font-serif text-white">Obtenez des leads qualifiés performants.</h3>
+                            <h3 className=" lg:text-2xl  font-light text-center  text-white">Obtenez des leads qualifiés performants.</h3>
                         </div>
                         <div className=" flex flex-col gap-4 items-center justify-center">
                             <div className="bg-[#F0FF01] hover:bg-[#2F3033] hover:-rotate-45 duration-700 rounded-full p-1">
                                 <CircleDollarSign size={70} className=" stroke-[#000] hover:stroke-white  duration-700 cursor-pointer	 p-2 "/>
                             </div>
-                            <h3 className=" lg:text-2xl  font-bold text-center font-serif text-white">Boostez vos ventes et votre chiffre d&apos;affaires</h3>
+                            <h3 className=" lg:text-2xl  font-light text-center  text-white">Boostez vos ventes et votre chiffre d&apos;affaires</h3>
                         </div>
                         
                     </div>

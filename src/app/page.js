@@ -4,7 +4,7 @@ import Saction_2 from "@/components/pages/home/saction-2/page";
 import Saction_3 from "@/components/pages/home/saction-3/page";
 import ButtonUp from "@/components/tools/buttonUp";
 import { Poppins } from "next/font/google";
-const poppins = Poppins ({ subsets: ["latin-ext"], weight:['900'] });
+const poppins = Poppins ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
 
 
 

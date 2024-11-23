@@ -19,11 +19,11 @@ export default function Expert(){
             <div className=' flex flex-col gap-20' >
                 <div className="flex-col flex items-center  ">
                 <div className="w-screen overflow-hidden">
-                    <p className={` text-border uppercase text-9xl font-white text-transparent whitespace-nowrap animate-marquee`}>
+                    <p className={` text-border uppercase text-9xl font-black font-white text-transparent whitespace-nowrap animate-marquee`}>
                         Une agence fondée par des  experts du business en ligne
                     </p>
                 </div>
-                    <h2 className="text-lg sm:text-5xl font-black text-white text-center">Une agence fondée par des  experts du business en ligne</h2>
+                    <h2 className="text-lg sm:text-4xl font-bold text-white text-center">Une agence fondée par des  experts du business en ligne</h2>
                 </div>
                 <div className='   '>
                     <div className=''>

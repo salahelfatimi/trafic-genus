@@ -2,7 +2,7 @@ import Image from "next/image";
 import FetchLogo from '@/components/tools/fetchlogo'
 import CalendlyEmbed from "@/components/tools/CalendlyWidget";
 import { Poppins } from "next/font/google";
-const poppins = Poppins ({ subsets: ["latin-ext"], weight:['900'] });
+const poppins = Poppins ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
 
 export const metadata = {
     title: "TRAFIC GENIUS | Appel",

@@ -7,7 +7,7 @@ export default function Footer(){
       <footer className="flex flex-col  " >
         <div className="bg-[url('/BACKGROUND.jpg')] bg-cover py-10 gap-10  flex flex-col items-center justify-center ">
             <Image src={'/TopHeader/logo.png'} width={500} height={500} alt="Logo" />
-              <p className={`  select-none flex gap-1 flex-row   text-center items-center  capitalize  font-sans text-xs px-4 lg:text-sm  justify-centerxt-start text-[#9F9B9A] `}>
+              <p className={`  select-none flex gap-1 flex-row   text-center items-center  capitalize   text-xs px-4 lg:text-sm  justify-centerxt-start text-[#9F9B9A] `}>
                 Ce site ne fait pas partie du site YouTube™, Google™, Facebook™, Google Inc. ou Facebook Inc. <br />
                 De plus, ce site n’est PAS approuvé par YouTube™, Google™ ou Facebook™ en aucune façon.<br />
                 FACEBOOK™ est une marque de commerce de FACEBOOK, Inc. GOOGLE™ et YOUTUBE™ sont des marques de commerce de GOOGLE Inc.<br /><br />
@@ -29,7 +29,7 @@ export default function Footer(){
         </div>
         <div className=" bg-[#F2FD01] py-10">
           <div className=" flex flex-col gap-4 items-center justify-center  container ">
-              <p className={` text-black font-serif select-none flex  flex-col lg:flex-row  text-xl items-center font-bold capitalize text-center lg:text-start  `}>
+              <p className={` text-black select-none flex   flex-col lg:flex-row  text-xl items-center font-medium capitalize text-center lg:text-start  `}>
                   Copyright &copy; {new Date().getFullYear()} trafic genius . Touts les droits sont réservés
               </p>
           </div>

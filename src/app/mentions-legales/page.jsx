@@ -4,7 +4,7 @@ const poppins = Poppins ({ subsets: ["latin-ext"], weight:['100','200','300','40
 
 export const metadata = {
     title: "TRAFIC GENIUS | Mentions légales",
-    description: "BOOSTEZ VOS VENTES DÈS DEMAIN EN TRANSFORMANT VOTRE SYSTÈME DE VENTE EN AIMANT À CLIENTS !",
+    description: "Nous aidons les chefs d’entreprises et entrepreneurs à trouver de nouveaux clients prêts à payer leurs produits et services avec garantie.",
     metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
     alternates: {
       canonical: "/mentions-legales",
@@ -13,7 +13,7 @@ export const metadata = {
     },
     openGraph: {
       title: "TRAFIC GENIUS | Mentions légales",
-      description: "BOOSTEZ VOS VENTES DÈS DEMAIN EN TRANSFORMANT VOTRE SYSTÈME DE VENTE EN AIMANT À CLIENTS !",
+      description: "Nous aidons les chefs d’entreprises et entrepreneurs à trouver de nouveaux clients prêts à payer leurs produits et services avec garantie.",
       url:`${process.env.NEXT_PUBLIC_BASE_URL}/mentions-legales`,
       robots: {
         index: true,

@@ -7,7 +7,7 @@ const poppins = Poppins({
 
 export const metadata = {
     title: "TRAFIC GENIUS | Clause de non-responsabilité",
-    description: "BOOSTEZ VOS VENTES DÈS DEMAIN EN TRANSFORMANT VOTRE SYSTÈME DE VENTE EN AIMANT À CLIENTS !",
+    description: "Nous aidons les chefs d’entreprises et entrepreneurs à trouver de nouveaux clients prêts à payer leurs produits et services avec garantie.",
     metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
     alternates: {
       canonical: "/clause-de-non-responsabilite",
@@ -16,7 +16,7 @@ export const metadata = {
     },
     openGraph: {
       title: "TRAFIC GENIUS | Clause de non-responsabilité",
-      description: "BOOSTEZ VOS VENTES DÈS DEMAIN EN TRANSFORMANT VOTRE SYSTÈME DE VENTE EN AIMANT À CLIENTS !",
+      description: "Nous aidons les chefs d’entreprises et entrepreneurs à trouver de nouveaux clients prêts à payer leurs produits et services avec garantie.",
       url:`${process.env.NEXT_PUBLIC_BASE_URL}/clause-de-non-responsabilite`,
       robots: {
         index: true,

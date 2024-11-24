@@ -6,17 +6,17 @@ const poppins = Poppins ({ subsets: ["latin-ext"], weight:['100','200','300','40
 
 export const metadata = {
     title: "TRAFIC GENIUS | Appel",
-    description: "Découvrez comment créer une boutique en ligne rentable avec TRAFIC GENIUS . Suivez des stratégies étape par étape pour lancer et développer votre entreprise e-commerce. Commencez dès aujourd'hui et libérez le potentiel de l'entrepreneuriat en ligne !",
-    metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`,),
-    keywords: ["création de boutique en ligne, entrepreneuriat en ligne, booster votre e-commerce, stratégies de vente en ligne, réussir son e-commerce, conseils pour boutique en ligne, lancer une boutique e-commerce"],
+    description: "Nous aidons les chefs d’entreprises et entrepreneurs à trouver de nouveaux clients prêts à payer leurs produits et services avec garantie.",
+    metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
+    keywords: ["trouver de nouveaux clients, clients prêts à payer, aide aux entrepreneurs, acquisition de clients, solutions pour chefs d’entreprise, garantie de résultats, stratégie de prospection, augmenter les ventes, services pour entrepreneurs, accompagnement business"],
     alternates: {
       canonical: "/appel",
   
       
     },
     openGraph: {
-      title: "TRAFIC GENIUS | Votre clé pour réussir votre boutique en ligne",
-      description: "BOOSTEZ VOS VENTES DÈS DEMAIN EN TRANSFORMANT VOTRE SYSTÈME DE VENTE EN AIMANT À CLIENTS !",
+      title: "TRAFIC GENIUS | Appel",
+      description: "Nous aidons les chefs d’entreprises et entrepreneurs à trouver de nouveaux clients prêts à payer leurs produits et services avec garantie.",
       url:`${process.env.NEXT_PUBLIC_BASE_URL}/appel`,
       robots: {
         index: true,

@@ -44,6 +44,7 @@ export default function RootLayout({ children }) {
   
   return (
     <html lang="en">
+      <GoogleAnalytics gaId={process.env.ANALYTICS_ID} />
       <Script
         id="fb-pixel"
         strategy="afterInteractive"
@@ -62,8 +63,6 @@ export default function RootLayout({ children }) {
         `,
         }}
       />
-     
-      <GoogleAnalytics gaId={process.env.ANALYTICS_ID} />
       <body className={` scroll-smooth   scrollbar scrollbar-thumb-[#F2FD01] scrollbar-track-black h-32 overflow-y-scroll`}>
         {children}
         <Footer/>

@@ -3,8 +3,8 @@ import Header from "@/components/pages/home/header/page";
 import Saction_2 from "@/components/pages/home/saction-2/page";
 import Saction_3 from "@/components/pages/home/saction-3/page";
 import ButtonUp from "@/components/tools/buttonUp";
-import { Exo_2, Montserrat, Poppins } from "next/font/google";
-const poppins = Exo_2 ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
+import { Exo_2 } from "next/font/google";
+const exo_2 = Exo_2 ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
 
 export const metadata = {
   title: "TRAFIC GENIUS",
@@ -41,7 +41,7 @@ export const metadata = {
 
 export  default function Home() {
   return (
-  <div className={`${poppins.className} overflow-x-hidden`}>
+  <div className={`${exo_2.className} overflow-x-hidden`}>
     <ButtonUp/>
     <Header/>
     <Saction_2/>

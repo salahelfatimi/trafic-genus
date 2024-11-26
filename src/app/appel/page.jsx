@@ -1,8 +1,8 @@
 import Image from "next/image";
 import FetchLogo from '@/components/tools/fetchlogo'
 import CalendlyEmbed from "@/components/tools/CalendlyWidget";
-import { Poppins } from "next/font/google";
-const poppins = Poppins ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
+import { Exo_2 } from "next/font/google";
+const exo_2 = Exo_2 ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
 
 export const metadata = {
     title: "TRAFIC GENIUS | Appel",
@@ -41,10 +41,10 @@ export default  function  Appel(){
  
     return(
         
-        <main className={`${poppins.className}  bg-black   flex flex-col  ga-20 justify-between `}>
+        <main className={`${exo_2.className}  bg-black   flex flex-col  ga-20 justify-between `}>
             <div className=" bg-[#F2FD01]  flex  gap-4 items-center justify-center w-full ">
                 <Image src={'/appel/fulllogo.png'} width={100} height={100} alt="trafic genius"    title="trafic genius" />
-                <h1 className=" font-serif font-extrabold text-sm lg:text-xl text-black">Solutions Digitales de Premier Ordre : Expertise, Créativité et Performances Exceptionnelles !</h1>
+                <h1 className="font-medium text-sm lg:text-xl text-black">Solutions Digitales de Premier Ordre : Expertise, Créativité et Performances Exceptionnelles !</h1>
             </div>
             <div className=" container  flex flex-col gap-10 items-center justify-center">
                 

@@ -2,7 +2,6 @@ import Image from "next/image";
 import FetchLogoScroll from '@/components/tools/fetchLogoScroll'
 import { CircleDollarSign, Presentation, Search } from "lucide-react";
 import Link from "next/link";
-import { resolve } from "styled-jsx/css";
 import Testimonial from "../testimonial/page";
 
 
@@ -13,53 +12,53 @@ import Testimonial from "../testimonial/page";
 
             {/* Header */}
 
-            <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-4 bg-black  z-30   flex items-center justify-center">
-                <div className=" z-10 flex flex-col items-center justify-center container">
+            <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-4 bg-black  z-30   flex flex-col container items-center justify-center">
+               
                     <Image src={'/TopHeader/logo.png'} width={400} height={400} className=" w-64 lg:w-1/3" alt="trafic genius"    title="trafic genius" />
                     <div className="flex flex-col gap-4 items-center py-4">
-                    <h1 className="font-bold text-center text-xl lg:text-5xl uppercase  text-[#F2FD01]">
-                        <span className=" text-white">Faisons le pari fou de faire de vous</span> une figure d&apos;autorité respectée <span className=" text-white"> sur votre marché.</span> 
-                    </h1>
-                    {/* video */}
-                    <div className="relative w-full lg:w-[75vh] pt-[57%] md:pt-[30%] lg:pt-[24%] rounded-lg overflow-hidden">
-                        <iframe
-                            src="https://app.videas.fr/embed/media/e6e65956-8483-4ecf-ada4-8b8bce3ce215/?title=false&logo=false&thumbnail_duration=false&controls=false&info=true"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                            className="absolute top-0 left-0 w-full h-full object-cover"
-                            referrerPolicy="unsafe-url"
-                        ></iframe>
-                    </div>
+                        <h1 className="font-bold text-center text-xl lg:text-5xl uppercase  text-[#F2FD01]">
+                            <span className=" text-white">Faisons le pari fou de faire de vous</span> une figure d&apos;autorité respectée <span className=" text-white"> sur votre marché.</span> 
+                        </h1>
+                        {/* video */}
+                        <div className="relative w-full lg:w-[75vh] pt-[57%] md:pt-[30%] lg:pt-[24%] rounded-lg overflow-hidden">
+                            <iframe
+                                src="https://app.videas.fr/embed/media/e6e65956-8483-4ecf-ada4-8b8bce3ce215/?title=false&logo=false&thumbnail_duration=false&controls=false&info=true"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                                className="absolute top-0 left-0 w-full h-full object-cover"
+                                referrerPolicy="unsafe-url"
+                            ></iframe>
+                        </div>
 
-                    <p className=" text-xs lg:text-base text-center text-white font-normal">
-                        Nous aidons les chefs d&apos;entreprises et entrepreneurs du Web à trouver des nouveaux clients <br /> prêt à payer pour leurs produits ou services avec des résultats garantis
-                    </p>  
-                    <Link href={'/appel'} target="_blank" >
-                        <button className="cssbuttons-io-button ">
-                            Lancez votre projet !
-                            <div className="icon">
-                                <svg
-                                height="24"
-                                width="24"
-                                viewBox="0 0 24 24"
-                                xmlns="http://www.w3.org/2000/svg"
-                                >
-                                <path d="M0 0h24v24H0z" fill="none"></path>
-                                <path
-                                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                                    fill="currentColor"
-                                ></path>
-                                </svg>
-                            </div>
-                        </button>
-                    </Link>   
+                        <p className=" text-xs lg:text-base text-center text-white font-normal">
+                            Nous aidons les chefs d&apos;entreprises et entrepreneurs du Web à trouver des nouveaux clients <br /> prêt à payer pour leurs produits ou services avec des résultats garantis
+                        </p>  
+                        <Link href={'/appel'} target="_blank" >
+                            <button className="cssbuttons-io-button ">
+                                Lancez votre projet !
+                                <div className="icon">
+                                    <svg
+                                    height="24"
+                                    width="24"
+                                    viewBox="0 0 24 24"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                        d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                        fill="currentColor"
+                                    ></path>
+                                    </svg>
+                                </div>
+                            </button>
+                        </Link>   
                     </div>
-                </div>
+                
             </div>
 
             {/* Saction 1 */}
-            <div className=" bg-[#F2FD01]  relative flex flex-col justify-between gap-20 z-20 pt-44">
+            <div className=" bg-[#F2FD01]  relative flex flex-col justify-between gap-10 z-20 pt-40">
                 <div className=" bg-black bg-[url('/TopHeader/bg.png')] lg:bg-cover w-full h-28   top-0 rounded-full-css absolute "></div>
                 <div  className=" relative z-50  flex container flex-col items-center justify-center ">
                     <div className=" absolute w-screen overflow-hidden">
@@ -92,7 +91,7 @@ import Testimonial from "../testimonial/page";
             
             <div className="   relative  bg-black  ">
                 <div className="rounded-full-css bg-[#F2FD01] w-full rotate-180 h-16 bottom-0 absolute z-10 "></div>
-                <div className="flex flex-col justify-between items-center py-20  gap-32">
+                <div className="flex flex-col justify-between items-center py-10  gap-32">
                     <div className="flex-col flex items-center">
                         <div className="w-screen overflow-hidden">
                             <p className={` text-border font-sans uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee`}>
@@ -112,18 +111,16 @@ import Testimonial from "../testimonial/page";
                     </div>
                 </div>
                 {/* Testimonial */}
-                <div>
-                    <div className="flex-col flex items-center">
-                        <div className="w-screen overflow-hidden">
-                            <p className={`font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee`}>
-                            Quand les experts parlent de nous
-                            </p>
-                        </div>
-                        <h2 className=" lg:text-4xl text-2xl font-bold text-white text-center">Quand les experts parlent de nous</h2>
+                <div className="flex-col flex items-center gap-10">
+                    <div className="w-screen overflow-hidden">
+                        <p className={`font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee`}>
+                        Quand les experts parlent de nous
+                        </p>
                     </div>
+                    <h2 className=" lg:text-4xl text-2xl font-bold text-white text-center">Quand les experts parlent de nous</h2>
                     <Testimonial/>
                 </div>
-                <div className="flex flex-col justify-between py-20 items-center gap-32">
+                <div className="flex flex-col justify-between pb-10 items-center gap-10">
                     <div className="flex-col flex items-center"> 
                         <div className="w-screen overflow-hidden">
                             <p className="text-border font-sans uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">
@@ -137,7 +134,7 @@ import Testimonial from "../testimonial/page";
                         En déployant un système personnalisé, performant et prêt à générer des résultats rapidement.
                         </p>
                     </div>
-                    <div className=" container grid grid-cols-1 lg:grid-cols-3 gap-12">
+                    <div className=" container grid grid-cols-1 lg:grid-cols-3 gap-12 pb-14">
                        
                         <div className=" flex flex-col gap-4 items-center justify-center">
                             <div className="bg-[#F0FF01] hover:bg-[#2F3033] hover:-rotate-45 duration-700 rounded-full p-1">

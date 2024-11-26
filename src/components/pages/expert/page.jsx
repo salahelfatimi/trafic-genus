@@ -14,7 +14,7 @@ export default function Expert(){
         
     ]
     return(
-        <div className='bg-black py-20 '>
+        <div className='bg-black pb-10 '>
             <div className=' flex flex-col gap-20' >
                 <div className="flex-col flex items-center  ">
                 <div className="w-screen overflow-hidden">

@@ -8,7 +8,7 @@ export default function Testimonial(){
        
     ]
     return(
-        <div className="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-8 justify-center container py-10 bg-black">
+        <div className="grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-8 justify-center container pb-10 bg-black">
         {testimonial.map((ele, index) => (
 
           <div key={index} style={{

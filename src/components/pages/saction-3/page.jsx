@@ -1,8 +1,8 @@
 'use client'
-import { ChevronDown, SquareChevronDown, X } from "lucide-react";
+import { ChevronDown, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 export default function Saction3(){
     const [clickNum,setClickNum]=useState(0)
@@ -65,7 +65,7 @@ export default function Saction3(){
             </div>
             {/* saction 2 */}
 
-            <div className="bg-[#F2FD01]     flex flex-col justify-center items-center pt-20">
+            <div className="bg-[#F2FD01]     flex flex-col justify-center items-center pb-10">
           
 
 
@@ -97,7 +97,7 @@ export default function Saction3(){
             {/* saction 3 */}
             <div className=" bg-[#F2FD01]">
                 
-                <div className=" container relative flex flex-col gap-24 items-center justify-center py-20 ">
+                <div className=" container relative flex flex-col gap-16 items-center justify-center  pb-10 ">
                     <div className=" ">
                         <div className=" flex flex-col ">
                             <div className="  w-screen overflow-hidden">
@@ -155,7 +155,7 @@ export default function Saction3(){
             {/* saction 4 */}
             <div className="bg-[#F2FD01] relative ">
             <div className="rounded-full-css bg-black w-full rotate-180 h-16 bottom-0 absolute z-10 "></div>
-                <div className=" container flex flex-col gap-20  py-20">
+                <div className=" container flex flex-col gap-20   pb-20">
                     <div className=" flex flex-col items-center justify-center  ">
                         <div className="  w-screen overflow-hidden">
                             <p className=" font-sans  text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS</p>
@@ -174,14 +174,14 @@ export default function Saction3(){
                         
                         </div>
                         <div className=" rounded-2xl  ">
-                            <Image src={'/saction3/light.png'} className=" cursor-pointer  hover:grayscale-0  grayscale hover:rotate-12 duration-700" width={300} height={600} alt="trafic genius"    title="trafic genius"/>
+                            <Image src={'/saction3/light.png'} className=" cursor-pointer  hover:grayscale-0  grayscale hover:rotate-12 duration-700" width={250} height={500} alt="trafic genius"    title="trafic genius"/>
                         </div>
                     </div>
                 </div>
             </div>
             {/* saction 5 */}
 
-            <div className=" container relative  flex flex-col justify-center items-center pt-20">
+            <div className=" container relative  flex flex-col justify-center items-center  pb-10">
 
                 <div className="z-10 bg-[url('/BACKGROUND.jpg')] bg-cover border-8 shadow-2xl border-[#F2FD01]  gap-10 rounded-3xl p-6 lg:p-20  flex flex-col justify-center items-center">
                     <h4 className="  text-[#fff]  text-center lg:text-4xl text-2xl  font-bold">Boostez votre entreprise grâce à notre expertise en scaling</h4>
@@ -211,7 +211,7 @@ export default function Saction3(){
                
             </div>
             <div className=" bg-black">
-                <div className=" py-20 md:container">
+                <div className="  pb-10 md:container">
                     <div className=" flex flex-col items-center justify-center  ">
                         <div className="  w-screen overflow-hidden">
                             <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS</p>

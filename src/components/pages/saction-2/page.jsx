@@ -19,7 +19,7 @@ export default function Saction2(){
         <div className=" ">
             
         {/* saction 5 */}
-        <div className="flex flex-col justify-between py-20 items-center gap-32 bg-[#F2FD01] relative ">
+        <div className="flex flex-col justify-between pb-20 items-center gap-20 bg-[#F2FD01] relative ">
         <div className="rounded-full-css bg-black w-full rotate-180 h-16 bottom-0 absolute z-10 "></div>
           <div className="flex-col flex items-center">
             <div className="w-screen overflow-hidden">
@@ -90,7 +90,7 @@ export default function Saction2(){
             </div>
         </div>
         {/* saction 6 */}
-        <div className=" space-y-20 py-24 bg-black">
+        <div className=" space-y-20 pb-10 bg-black">
             <div className="flex-col flex items-center ">
                 <div className="w-screen overflow-hidden">
                     <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee ">Tunnel de vente</p>
@@ -109,7 +109,7 @@ export default function Saction2(){
         </div>
         {/* saction 7 */}
         <div className="">
-            <div className=" flex gap-28 flex-col justify-center items-center bg-black py-20 relative">
+            <div className=" flex gap-28 flex-col justify-center items-center bg-black pb-20 relative">
             <div className="rounded-full-css bg-[#F2FD01] w-full rotate-180 h-16 bottom-0 absolute z-10 "></div>
                 <div className="flex-col flex items-center">
                     <div className="w-screen overflow-hidden">
@@ -134,7 +134,7 @@ export default function Saction2(){
         </div>
         {/* saction 8 */}
         <div className="bg-[#F2FD01]">
-            <div className="flex container flex-col gap-20 py-20  ">
+            <div className="flex container flex-col gap-20 pb-10  ">
                 <div className=" ">
                     <h2 className="lg:text-4xl text-2xl font-bold text-center text-black">JETEZ UN COUP D&apos;ŒIL SUR UN DE NOS “REDESIGN“ EXPÉRIENCES, POUR VOIR CE QUE NOUS POUVONS FAIRE                </h2>
                 </div>
@@ -162,7 +162,7 @@ export default function Saction2(){
 
         {/* saction 9 */}
         <div className="bg-[#F2FD01]">          
-            <div className="flex flex-col gap-20 py-20 container  ">
+            <div className="flex flex-col gap-20 pb-10  container  ">
                 <div>
                     <div className="flex-col flex items-center">
                         <div className="w-screen overflow-hidden">
@@ -187,7 +187,7 @@ export default function Saction2(){
 
         {/* saction 10 */}
         <div className="bg-[#F2FD01]  ">
-            <div className="flex flex-col gap-20 py-20 container  ">
+            <div className="flex flex-col gap-20 pb-10 container  ">
                 <div className=" container">
                 <Image src={ '/saction2/laptop.png'} width={1920} height={1080} className=" object-cover " alt="trafic genius"    title="trafic genius"/>
                 </div>
@@ -198,7 +198,7 @@ export default function Saction2(){
         
 
         {/* saction strip */}
-        <div className="bg-[#F2FD01] pt-20 relative ">
+        <div className="bg-[#F2FD01] pb-10 relative ">
         <div className="rounded-full-css bg-black w-full rotate-180 h-20 bottom-0 absolute z-10 "></div>
             <div className=" flex flex-col gap-8 ">
                
@@ -240,7 +240,7 @@ export default function Saction2(){
         {/* saction 11 */}
         
         <div className="bg-gradient-to-b from-[#000]  via-[#000] to-[#000]">
-            <div className=" container  flex gap-28 flex-col justify-center items-center  py-20">
+            <div className=" container  flex gap-20 flex-col justify-center items-center  pb-10">
                 <div className="flex-col flex items-center gap-2 justify-center">
                     <div className="w-screen overflow-hidden">
                         <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius , UNE ÉQUIPE DE PROFESSIONNELS À VOS CÔTÉS</p>
@@ -267,7 +267,7 @@ export default function Saction2(){
 
         {/* saction 12 */}
         <div className="bg-black ">          
-            <div className="  py-20   flex flex-col gap-20">
+            <div className="  pb-10  flex flex-col gap-20">
                 <div className="   ">
                     <div className="  w-screen overflow-hidden">
                         <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius</p>
@@ -276,7 +276,6 @@ export default function Saction2(){
                         <h2 className="relative container lg:text-4xl text-2xl text-center font-bold  text-white">Ce qui nous rend unique  aux yeux de nos clients</h2>
 
                     </div>
-                
                 </div>
                 <div className="z-20">
                     <InfiniteHorizontalScroll>

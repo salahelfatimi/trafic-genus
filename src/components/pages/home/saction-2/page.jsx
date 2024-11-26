@@ -4,18 +4,8 @@ import Image from "next/image"
 import Link from "next/link"
 import InfiniteHorizontalScroll from '@/components/tools/infiniteHorizontalScroll'
 import Expert from "../expert/page"
-import FetchLogoScroll from "@/components/tools/fetchLogoScroll"
 
 export default function Saction2(){
-    const offrir =[
-        {id:1,title:'Tunnel de vente' , description:"Nous sommes des experts en création de tunnels de vente hautement performants.Nous mettons en place des stratégies personnalisées pour capturer l'attention de votre audience, stimuler l'engagement et générer des conversions.Notre approche axée sur les tunnels de vente vous permet d'optimiser chaque étape du parcours d'achat de vos prospects, afin de maximiser vos ventes et votre croissance."},
-        {id:2,title:'Sites internet' , description:"Chez trafic genius trafic genius, nous sommes spécialisés dans la conception et le développement de sites web personnalisés pour répondre aux besoins uniques de nos clients. Que vous souhaitiez créer un site vitrine pour présenter votre entreprise, un site e-commerce pour vendre vos produits en ligne, ou tout autre type de site web, nous sommes là pour vous aider."},
-        {id:3,title:'Applications Web et Mobile' , description:"Nous comprenons l'importance des applications web et mobiles dans le monde numérique d'aujourd'hui. Chez trafic genius trafic genius, nous nous spécialisons dans la création d'applications sur mesure qui répondent aux besoins uniques de nos clients. Que vous souhaitiez développer une application pour votre entreprise, une plateforme de commerce électronique, une application de service à la clientèle ou toute autre idée innovante, nous sommes là pour vous aider à concrétiser votre vision."},
-        {id:4,title:'Automatisation' , description:"Nous comprenons l'importance d'optimiser votre processus de marketing automatisé. C'est pourquoi nous offrons des fonctionnalités avancées d'automatisation pour maximiser l'efficacité et les résultats de votre tunnel. Grâce à nos automatisations bien pensées, vous pouvez simplifier vos tâches, économiser du temps et offrir une expérience personnalisée à chaque étape du parcours de votre audience."},
-        {id:5,title:'Facebook et Instagram Ads' , description:"Nous sommes des experts en publicités Facebook et Instagram, et nous savons comment tirer le meilleur parti de ces puissantes plateformes publicitaires. Que vous souhaitez accroître votre notoriété, générer des leads qualifiés ou augmenter vos ventes, nos services de publicités sur Facebook et Instagram peuvent vous aider à atteindre vos objectifs marketing."},
-        {id:6,title:'Accompagnement' , description:"Notre approche de l'accompagnement se caractérise par une approche complète et personnalisée qui vise à vous soutenir à chaque étape de votre projet. Nous croyons en l'importance de comprendre vos besoins spécifiques, de vous fournir des conseils d'experts et de travailler en étroite collaboration avec vous pour atteindre vos objectifs."},
-
-    ]
     const website =[
         {title:'Trafic Genus',image:'traficgenus.png',url:'https://traficgenius.com'},
         {title:'nextlevelgroup',image:'nextlevelgroup.png',url:'https://nextlevelgroup.fr/'},
@@ -29,14 +19,15 @@ export default function Saction2(){
         <div className=" ">
             
         {/* saction 5 */}
-        <div className="flex flex-col justify-between py-20 items-center gap-32 bg-gradient-to-b from-[#F2FD01]  via-[#F2FD01] to-[#fff]">
+        <div className="flex flex-col justify-between py-20 items-center gap-32 bg-[#F2FD01] relative ">
+        <div className="rounded-full-css bg-black w-full rotate-180 h-16 bottom-0 absolute z-10 "></div>
           <div className="flex-col flex items-center">
             <div className="w-screen overflow-hidden">
-              <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">
+              <p className="font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">
                 Voici un aperçu de ce que nous sommes prêts à vous offrir !
               </p>
             </div>
-            <h2 className="lg:text-4xl text-lg font-bold text-center">
+            <h2 className="lg:text-4xl text-2xl  font-bold text-center">
               Voici un aperçu de ce que nous sommes prêts à vous offrir !
             </h2>
           </div>
@@ -47,7 +38,7 @@ export default function Saction2(){
                         <Presentation  size={60} className="" />
                     </div>
                     <div className="  gap-4  flex flex-col justify-center items-center">
-                        <h3 className=" 2xl:text-3xl font-semibold  text-center uppercase">Tunnel de vente</h3>
+                        <h3 className=" 2xl:text-3xl text-lg font-semibold  text-center uppercase">Tunnel de vente</h3>
                         <p className=" text-center  text-xs 2xl:text-sm font-light">Nous sommes des experts en création de tunnels de vente hautement performants.Nous mettons en place des stratégies personnalisées pour capturer l&apos;attention de votre audience, stimuler l&apos;engagement et générer des conversions.Notre approche axée sur les tunnels de vente vous permet d&apos;optimiser chaque étape du parcours d&apos;achat de vos prospects, afin de maximiser vos ventes et votre croissance.</p>
                     </div>
                 </div>
@@ -56,7 +47,7 @@ export default function Saction2(){
                         <NotebookPen  size={60} className="" />
                     </div>
                     <div className=" gap-4   flex flex-col justify-center items-center">
-                        <h3 className=" 2xl:text-3xl font-semibold text-center uppercase">Sites internet</h3>
+                        <h3 className=" 2xl:text-3xl text-lg font-semibold text-center uppercase">Sites internet</h3>
                         <p className=" text-center  text-xs 2xl:text-sm font-light">Chez trafic genius trafic genius, nous sommes spécialisés dans la conception et le développement de sites web personnalisés pour répondre aux besoins uniques de nos clients. Que vous souhaitiez créer un site vitrine pour présenter votre entreprise, un site e-commerce pour vendre vos produits en ligne, ou tout autre type de site web, nous sommes là pour vous aider.</p>
                     </div>
                 </div>
@@ -65,7 +56,7 @@ export default function Saction2(){
                         <Target  size={60} className="" />
                     </div>
                     <div className="  gap-4  flex flex-col justify-center items-center">
-                        <h3 className="2xl:text-3xl font-semibold text-center uppercase">Applications Web et Mobile</h3>
+                        <h3 className="2xl:text-3xl text-lg font-semibold text-center uppercase">Applications Web et Mobile</h3>
                         <p className=" text-center  text-xs 2xl:text-sm font-light">Nous comprenons l&apos;importance des applications web et mobiles dans le monde numérique d&apos;aujourd&apos;hui. Chez trafic genius trafic genius, nous nous spécialisons dans la création d&apos;applications sur mesure qui répondent aux besoins uniques de nos clients. Que vous souhaitiez développer une application pour votre entreprise, une plateforme de commerce électronique, une application de service à la clientèle ou toute autre idée innovante, nous sommes là pour vous aider à concrétiser votre vision.</p>
                     </div>
                 </div>
@@ -74,7 +65,7 @@ export default function Saction2(){
                         <Laptop  size={60} className="" />
                     </div>
                     <div className=" gap-4   flex flex-col justify-center items-center">
-                        <h3 className=" 2xl:text-3xl font-semibold text-center uppercase">Automatisation</h3>
+                        <h3 className=" 2xl:text-3xl text-lg font-semibold text-center uppercase">Automatisation</h3>
                         <p className=" text-center  text-xs 2xl:text-sm font-light">Nous comprenons l&apos;importance d&apos;optimiser votre processus de marketing automatisé. C&apos;est pourquoi nous offrons des fonctionnalités avancées d&apos;automatisation pour maximiser l&apos;efficacité et les résultats de votre tunnel. Grâce à nos automatisations bien pensées, vous pouvez simplifier vos tâches, économiser du temps et offrir une expérience personnalisée à chaque étape du parcours de votre audience.</p>
                     </div>
                 </div>
@@ -83,7 +74,7 @@ export default function Saction2(){
                         <Facebook  size={60} className="" />
                     </div>
                     <div className=" gap-4   flex flex-col justify-center items-center">
-                        <h3 className=" 2xl:text-3xl font-semibold text-center uppercase">Facebook et Instagram Ads</h3>
+                        <h3 className=" 2xl:text-3xl text-lg font-semibold text-center uppercase">Facebook et Instagram Ads</h3>
                         <p className=" text-center  text-xs 2xl:text-sm font-light">Nous sommes des experts en publicités Facebook et Instagram, et nous savons comment tirer le meilleur parti de ces puissantes plateformes publicitaires. Que vous souhaitez accroître votre notoriété, générer des leads qualifiés ou augmenter vos ventes, nos services de publicités sur Facebook et Instagram peuvent vous aider à atteindre vos objectifs marketing.</p>
                     </div>
                 </div>
@@ -92,38 +83,39 @@ export default function Saction2(){
                         <FileChartColumnIncreasing  size={60} className="" />
                     </div>
                     <div className=" gap-4  flex flex-col justify-center items-center">
-                        <h3 className=" 2xl:text-3xl  font-semibold text-center uppercase">Accompagnement</h3>
+                        <h3 className=" 2xl:text-3xl text-lg  font-semibold text-center uppercase">Accompagnement</h3>
                         <p className=" text-center  text-xs 2xl:text-sm font-light">Notre  approche de l&apos;accompagnement se caractérise par une approche complète et personnalisée qui vise à vous soutenir à chaque étape de votre projet. Nous croyons en l&apos;importance de comprendre vos besoins spécifiques, de vous fournir des conseils d&apos;experts et de travailler en étroite collaboration avec vous pour atteindre vos objectifs.</p>
                     </div>
                 </div>
             </div>
         </div>
         {/* saction 6 */}
-        <div className=" space-y-20 py-24">
+        <div className=" space-y-20 py-24 bg-black">
             <div className="flex-col flex items-center ">
                 <div className="w-screen overflow-hidden">
-                    <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">Tunnel de vente</p>
+                    <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee ">Tunnel de vente</p>
                 </div>
-                    <h2 className="lg:text-5xl text-lg font-black text-center">Tunnel de vente</h2>
+                    <h2 className="lg:text-4xl text-2xl font-black text-center text-white">Tunnel de vente</h2>
             </div>
             <div>
                 <div className=" container grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <Image src={'/saction2/projectweb.png'} className=" hover:rotate-45 duration-700" width={500} height={500} alt="trafic genius"    title="trafic genius"/>
                     <div className=" flex flex-col justify-center gap-20">
-                        <p className="  text-xs lg:text-base flex  gap-4 "><CirclePlus  size={50} />Spécialisés en funnel building depuis plusieurs années, nous nous engageons à vous délivrer ce qu&apos;il y a de meilleur, au plus proche de la perfection.</p>
-                        <p className="   text-xs lg:text-base flex  gap-4"><CirclePlus size={50} />Attirez l&apos;attention de vos visiteurs, transformez-les en clients et augmentez votre chiffre d&apos;affaires grâce à un tunnel de vente professionnel à haute rentabilité.</p>
+                        <p className="  text-xs lg:text-base flex  gap-4 text-white "><CirclePlus  size={50} />Spécialisés en funnel building depuis plusieurs années, nous nous engageons à vous délivrer ce qu&apos;il y a de meilleur, au plus proche de la perfection.</p>
+                        <p className="   text-xs lg:text-base flex  gap-4 text-white"><CirclePlus size={50} />Attirez l&apos;attention de vos visiteurs, transformez-les en clients et augmentez votre chiffre d&apos;affaires grâce à un tunnel de vente professionnel à haute rentabilité.</p>
                     </div>
                 </div>
             </div>
         </div>
         {/* saction 7 */}
         <div className="">
-            <div className=" flex gap-28 flex-col justify-center items-center bg-gradient-to-b from-black  via-black to-[#F2FD01] py-20">
+            <div className=" flex gap-28 flex-col justify-center items-center bg-black py-20 relative">
+            <div className="rounded-full-css bg-[#F2FD01] w-full rotate-180 h-16 bottom-0 absolute z-10 "></div>
                 <div className="flex-col flex items-center">
                     <div className="w-screen overflow-hidden">
-                        <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">Imaginez votre projet sous son meilleur JOUR</p>
+                        <p className="font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">Imaginez votre projet sous son meilleur JOUR</p>
                     </div>
-                        <h2 className="lg:text-4xl text-lg font-bold text-center text-white">Imaginez votre projet sous son meilleur <span className=" bg-[#F2FD01] p-[0.10rem]  "><span className="relative text-black"> JOUR </span></span></h2>
+                        <h2 className="lg:text-4xl text-2xl font-bold text-center text-white">Imaginez votre projet sous son meilleur JOUR </h2>
                 </div>
                 <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-20 ">
                     {website.map((ele,index)=>(
@@ -141,10 +133,10 @@ export default function Saction2(){
             </div>
         </div>
         {/* saction 8 */}
-        <div className="bg-gradient-to-b from-[#F2FD01]  via-[#F2FD01] to-[#ccd42a]">
+        <div className="bg-[#F2FD01]">
             <div className="flex container flex-col gap-20 py-20  ">
                 <div className=" ">
-                    <h2 className="lg:text-4xl text-lg font-bold text-center text-black">JETEZ UN COUP D&apos;ŒIL SUR UN DE NOS “REDESIGN“ EXPÉRIENCES, POUR VOIR CE QUE NOUS POUVONS FAIRE                </h2>
+                    <h2 className="lg:text-4xl text-2xl font-bold text-center text-black">JETEZ UN COUP D&apos;ŒIL SUR UN DE NOS “REDESIGN“ EXPÉRIENCES, POUR VOIR CE QUE NOUS POUVONS FAIRE                </h2>
                 </div>
                 <div className=" gap-28 flex flex-col lg:flex-row justify-center items-center">
                     <div  className="relative w-[318px]">
@@ -169,12 +161,12 @@ export default function Saction2(){
         
 
         {/* saction 9 */}
-        <div className="bg-gradient-to-b from-[#ccd42a]  via-[#F2FD01] to-[#F2FD01]">          
+        <div className="bg-[#F2FD01]">          
             <div className="flex flex-col gap-20 py-20 container  ">
                 <div>
                     <div className="flex-col flex items-center">
                         <div className="w-screen overflow-hidden">
-                            <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">SITES INTERNET Sur-mesure                        </p>
+                            <p className="font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">SITES INTERNET Sur-mesure                        </p>
                         </div>
                     </div>
                 </div>
@@ -194,7 +186,7 @@ export default function Saction2(){
         </div> 
 
         {/* saction 10 */}
-        <div className="bg-gradient-to-b from-[#F2FD01]  via-[#F2FD01] to-[#ccd42a]">
+        <div className="bg-[#F2FD01]  ">
             <div className="flex flex-col gap-20 py-20 container  ">
                 <div className=" container">
                 <Image src={ '/saction2/laptop.png'} width={1920} height={1080} className=" object-cover " alt="trafic genius"    title="trafic genius"/>
@@ -206,12 +198,13 @@ export default function Saction2(){
         
 
         {/* saction strip */}
-        <div className="bg-white pt-20 ">
+        <div className="bg-[#F2FD01] pt-20 relative ">
+        <div className="rounded-full-css bg-black w-full rotate-180 h-20 bottom-0 absolute z-10 "></div>
             <div className=" flex flex-col gap-8 ">
                
                 <div className=" container flex flex-col gap-10 items-center justify-center ">
                     <div className=" text-center text-black">
-                        <h2 className="lg:text-4xl text-lg font-bold text-center text-black">
+                        <h2 className="lg:text-4xl text-2xl font-bold text-center text-black">
                             Des solutions spécialement conçues pour vous!
                         </h2>
                         <p className="  font-light lg:text-xl">Nous mettons tout en œuvre pour vous démarquer de vos concurrents et booster les résultats de votre entreprise à leur plein potentiel.                </p>
@@ -250,9 +243,9 @@ export default function Saction2(){
             <div className=" container  flex gap-28 flex-col justify-center items-center  py-20">
                 <div className="flex-col flex items-center gap-2 justify-center">
                     <div className="w-screen overflow-hidden">
-                        <p className="text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius , UNE ÉQUIPE DE PROFESSIONNELS À VOS CÔTÉS</p>
+                        <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius , UNE ÉQUIPE DE PROFESSIONNELS À VOS CÔTÉS</p>
                     </div>
-                        <h2 className="lg:text-4xl text-lg font-bold text-center text-white capitalize ">trafic genius, UNE ÉQUIPE DE PROFESSIONNELLES À  <span className=" bg-[#F2FD01] p-[0.10rem]  "><span className="relative text-black"> VOS CÔTÉS </span></span></h2>
+                        <h2 className="lg:text-4xl text-2xl font-bold text-center text-white capitalize ">trafic genius, UNE ÉQUIPE DE PROFESSIONNELLES À  <span className=" bg-[#F2FD01] p-[0.10rem]  "><span className="relative text-black"> VOS CÔTÉS </span></span></h2>
                 </div>
                 
                 <div className="  lg:w-[70%]  font-light text-white text-center lg:text-2xl border-[#F2FD01] border-4 p-4 rounded-3xl">
@@ -274,15 +267,13 @@ export default function Saction2(){
 
         {/* saction 12 */}
         <div className="bg-black ">          
-            <div className="  py-20 relative z-20   flex flex-col gap-20">
-                <div className=" bg-gradient-to-b bg-white w-full h-72 bottom-0 absolute z-0 "></div>
-
+            <div className="  py-20   flex flex-col gap-20">
                 <div className="   ">
                     <div className="  w-screen overflow-hidden">
-                        <p className=" text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius</p>
+                        <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius</p>
                     </div>
                     <div className="container  relative">
-                        <h2 className="relative container lg:text-4xl text-lg text-center font-bold  text-white">Ce qui nous rend unique  aux yeux de nos clients</h2>
+                        <h2 className="relative container lg:text-4xl text-2xl text-center font-bold  text-white">Ce qui nous rend unique  aux yeux de nos clients</h2>
 
                     </div>
                 

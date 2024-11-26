@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react"
 
 export default function Saction3(){
-    const [clickNum,setclickNum]=useState(0)
+    const [clickNum,setClickNum]=useState(0)
  
     const [clickShow,setclickShow]=useState(0)
         const Etapes=[
@@ -17,55 +17,45 @@ export default function Saction3(){
 
         ]
         const filterText=Etapes.find((ele) => ele.id == clickNum);
-
-       
-
-        
-
-        function scrollToSection() {
-            const section = document.getElementById("etapes");
-            if (section) {
-            window.scrollTo({
-                top: section.offsetTop,
-                behavior: "smooth",
-            });
+        function scrollToSection(e) {
+            e.preventDefault(); 
+            const targetSection = document.querySelector('#sactionEtapes');
+            if (targetSection) {
+                targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
             }
+
         }
      return (
-        <div className=" py-20 flex flex-col ">
+        <div className=" flex flex-col bg-black  ">
             {/* saction 1 */}
-            <div className=" bg-white">
+            <div className=" relative pb-20">
+             <div className="rounded-full-css bg-[#F2FD01] w-full rotate-180 h-16 bottom-0 absolute z-10 "></div>
                 <div className="  container flex flex-col items-center justify-center gap-20">
                         <div className=" flex flex-col items-center justify-center  ">
                             <div className="  w-screen overflow-hidden">
-                                <p className=" text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">Les 5 étapes pour mener à bien votre PROJET</p>
+                                <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">Les 5 étapes pour mener à bien votre PROJET</p>
                             </div>
-                            <h2 className=" text-center lg:text-4xl text-lg font-bold  text-black">Les 5 étapes pour mener à bien votre PROJET </h2>                     
+                            <h2 className=" text-center lg:text-4xl text-2xl font-bold  text-white">Les 5 étapes pour mener à bien votre PROJET </h2>                     
                         </div>  
                         <div className=" container">
-                            <div className=" grid grid-cols-1 md:grid-cols-1 2xl:grid-cols-5 items-center   justify-center text-center gap-8">
-                                <div onClick={()=>(setclickNum(0),scrollToSection())} className={` ${clickNum==0?' bg-[#F2FD01] text-black border-black border-4 shadow-2xl':'bg-[#4F4F4F] text-white  '} duration-700 cursor-pointer  font-medium hover:bg-[#F2FD01] hover:text-black  rounded-xl p-6`}>
-                                    Étape 1 :Audit
-                                </div>
-                                <div onClick={()=>(setclickNum(1),scrollToSection())} className={` ${clickNum==1?' bg-[#F2FD01] text-black border-black border-4 shadow-2xl':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer  font-medium  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-6`}>
-                                    Étape 2 : Réalisation
-                                </div>
-                                <div onClick={()=>(setclickNum(2),scrollToSection())} className={` ${clickNum==2?' bg-[#F2FD01] text-black border-black border-4 shadow-2xl':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer  font-medium  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-6`}>
-                                Étape 3 : Livraison et ajustements
-                                </div>
-                                <div onClick={()=>(setclickNum(3),scrollToSection())} className={` ${clickNum==3?' bg-[#F2FD01] text-black border-black border-4 shadow-2xl':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer  font-medium  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-6`}>
-                                    Étape 4 : Lancement
-                                </div>
-                                <div onClick={()=>(setclickNum(4),scrollToSection())} className={` ${clickNum==4?' bg-[#F2FD01] text-black border-black border-4 shadow-2xl':'bg-[#4F4F4F] text-white '} duration-700 cursor-pointer  font-medium  hover:bg-[#F2FD01] hover:text-black  rounded-xl p-6`}>
-                                    Étape 5 : Suivi des résultats
-                                </div>
+                            <div className="grid grid-cols-1 md:grid-cols-1 2xl:grid-cols-5 items-center justify-center text-center gap-8">
+                                {Etapes.map((step, index) => (
+                                    <button
+                                        
+                                        key={index}
+                                        onClick={(e) => {scrollToSection(e),setClickNum(index);}}
+                                        className={`${clickNum === index? "bg-black text-white border-[#F2FD01] border-4 shadow-2xl": "bg-[#F2FD01] text-black"} duration-700 cursor-pointer font-bold hover:bg-black border-[#F2FD01] border-4 hover:text-white rounded-xl p-4`}>
+                                        Étape {index + 1} : {step.title}
+                                    </button>
+                                
+                                ))}
                             </div>
                         </div>
-                        <div id="etapes" className=" container flex flex-col lg:flex-row gap-8 items-center justify-center ">
+                        <div id="sactionEtapes" className=" container flex flex-col lg:flex-row gap-8 items-center justify-center py-6">
                             <Image src={filterText.image} width={500} height={500} alt="trafic genius"  className=" lg:w-1/3"   title="trafic genius"/>
-                            <div className="bg-[#4F4F4F] flex flex-col justify-center items-center rounded-md shadow-2xl gap-4 p-2 ">
-                                <h3 className=" text-[#F2FD01] text-4xl text-center font-bold ">{filterText.title}</h3>
-                                <p className="  text-center  font-medium text-white text-sm lg:text-xl">{filterText.description}</p>
+                            <div className="bg-black flex flex-col justify-center items-center rounded-2xl shadow-2xl gap-4 p-4 border-4 border-[#F2FD01] ">
+                                <h3 className=" text-white text-4xl text-center font-bold ">{filterText.title}</h3>
+                                <p className="  text-center   text-white  text-sm lg:text-base">{filterText.description}</p>
                             </div>
                         
                         </div>
@@ -75,11 +65,12 @@ export default function Saction3(){
             </div>
             {/* saction 2 */}
 
-            <div className="  relative  flex flex-col justify-center items-center pt-20">
-                <div className=" bg-[#F2FD01]   w-full h-24 left-0 right-0 bottom-0 absolute  rounded-full-css rotate-180"></div>
+            <div className="bg-[#F2FD01]     flex flex-col justify-center items-center pt-20">
+          
+
 
                 <div   className="z-10 bg-[url('/BACKGROUND.jpg')] bg-cover border-[#F2FD01] border-8 shadow-2xl gap-10 rounded-3xl p-6 lg:p-20 w-fit flex flex-col justify-center items-center">
-                    <h4 className="  text-[#fff] text-lg font-bold text-center lg:text-4xl">PRÊT POUR DÉCOLLER ENSEMBLE ?</h4>
+                    <h4 className="  text-[#fff]  font-bold text-center lg:text-4xl text-2xl">PRÊT POUR DÉCOLLER ENSEMBLE ?</h4>
                     <Link href={'/appel'} target="_blank" >
                         <button className="cssbuttons-io-button ">
                             RÉSERVEZ VOTRE APPEL
@@ -104,14 +95,15 @@ export default function Saction3(){
             </div>
 
             {/* saction 3 */}
-            <div className=" bg-gradient-to-b from-[#F2FD01]  via-[#F2FD01] to-[#ccd42a]">
+            <div className=" bg-[#F2FD01]">
+                
                 <div className=" container relative flex flex-col gap-24 items-center justify-center py-20 ">
                     <div className=" ">
                         <div className=" flex flex-col ">
                             <div className="  w-screen overflow-hidden">
-                                <p className=" text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius</p>
+                                <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius</p>
                             </div>
-                            <h2 className=" text-center lg:text-4xl text-lg font-bold  text-black">Ensemble on développe de votre entreprise AVEC</h2>                     
+                            <h2 className=" text-center lg:text-4xl text-2xl font-bold  text-black">Ensemble on développe de votre entreprise AVEC</h2>                     
                         </div> 
 
                     </div>
@@ -119,7 +111,7 @@ export default function Saction3(){
                         <div className=" flex flex-col lg:flex-row  gap-20 justify-between items-start  ">
                             <div className=" relative  flex flex-col w-full ">
                             <h4 className={` bg-white  text-sm font-bold p-6 ${clickShow==1?' rounded-t-3xl':'rounded-3xl'}  flex flex-row justify-between items-center shadow-2xl border-4 border-black`}>Réactivité{clickShow==1?<X onClick={()=>(setclickShow(0))}  className=" cursor-pointer"/>:<ChevronDown onClick={()=>(setclickShow(1))}  className=" cursor-pointer"/>}</h4>
-                            <p className={` top-20 lg:absolute z-10 rounded-b-3xl leading-loose font-medium font-serif  bg-white p-6  ${clickShow==1?' block border-x-4 border-b-4 border-black':' hidden '} `}>
+                            <p className={` top-20 lg:absolute z-10 rounded-b-3xl leading-loose font-medium  bg-white p-6  ${clickShow==1?' block border-x-4 border-b-4 border-black':' hidden '} `}>
                                     Nous sommes conscients que votre temps est précieux et votre réussite est cruciale pour vous. <br /><br /> 
                                     C&apos;est pourquoi nous avons mis en place un système efficace et réunit une équipe d&apos;experts talentueux et dévoués pour donner vie à votre projet en un temps record, sans compromettre la qualité.<br /><br /> 
                                     Nous sommes passionnés par la création de solutions exceptionnelles qui répondent à vos besoins uniques, tout en veillant à ce que votre projet soit livré dans les meilleurs délais possible. <br /><br /> 
@@ -128,7 +120,7 @@ export default function Saction3(){
                             </div>
                             <div className="  relative flex flex-col  w-full ">
                                 <h4 className={` bg-white  text-sm font-bold p-6 ${clickShow==2?' rounded-t-3xl':'rounded-3xl'}  flex flex-row justify-between items-center shadow-2xl border-4 border-black`}>Innovation{clickShow==2?<X onClick={()=>(setclickShow(0))}  className=" cursor-pointer"/>:<ChevronDown onClick={()=>(setclickShow(2))}  className=" cursor-pointer"/>}</h4>
-                                <p className={`top-20 lg:absolute z-10 rounded-b-3xl leading-loose font-medium font-serif  bg-white p-6 ${clickShow==2?' block border-x-4 border-b-4 border-black':'hidden'} `}>
+                                <p className={`top-20 lg:absolute z-10 rounded-b-3xl leading-loose font-medium  bg-white p-6 ${clickShow==2?' block border-x-4 border-b-4 border-black':'hidden'} `}>
                                     Nous sommes conscients que votre temps est précieux et votre réussite est cruciale pour vous.<br /><br />
                                     Chez nous, l&apos;innovation est au cœur de notre approche. Nous sommes constamment à la recherche des dernières technologies et méthodes pour offrir à nos clients les solutions les plus performantes.<br /><br />
                                     Notre engagement envers l&apos;excellence nous pousse à investir continuellement dans la recherche et le développement, pour que nos clients puissent bénéficier des avancées les plus récentes dans leur domaine.
@@ -139,7 +131,7 @@ export default function Saction3(){
                         <div className=" flex flex-col lg:flex-row  gap-20 justify-between items-start ">
                             <div className=" relative  flex flex-col w-full ">
                             <h4 className={` bg-white  text-sm font-bold p-6 ${clickShow==3?' rounded-t-3xl':'rounded-3xl'}  flex flex-row justify-between items-center shadow-2xl border-4 border-black`}>Confiance{clickShow==3?<X onClick={()=>(setclickShow(0))}  className=" cursor-pointer"/>:<ChevronDown onClick={()=>(setclickShow(3))}  className=" cursor-pointer"/>}</h4>
-                                <p className={`top-20 lg:absolute z-10 rounded-b-3xl leading-loose font-medium font-serif  bg-white p-6  ${clickShow==3?' block border-x-4 border-b-4 border-black':' hidden '} `}>
+                                <p className={`top-20 lg:absolute z-10 rounded-b-3xl leading-loose font-medium  bg-white p-6  ${clickShow==3?' block border-x-4 border-b-4 border-black':' hidden '} `}>
                                     Nous sommes une agence à taille humaine et nous sommes fiers de maintenir cette proximité avec tous nos clients.<br /><br />
                                     En tant que véritable partenaire au sein de votre entreprise, nous défendons vos intérêts et mettons tout en œuvre pour assurer votre réussite.<br /><br />
                                     Nous sommes disponibles à tout moment pour répondre à vos questions, vous conseiller et vous accompagner. <br /><br />
@@ -148,7 +140,7 @@ export default function Saction3(){
                             </div>
                             <div className=" relative  flex flex-col  w-full ">
                                 <h4 className={` bg-white  text-sm font-bold p-6 ${clickShow==4?' rounded-t-3xl':'rounded-3xl'}  flex flex-row justify-between items-center shadow-2xl border-4 border-black`}>Satisfaction{clickShow==4?<X onClick={()=>(setclickShow(0))}  className=" cursor-pointer"/>:<ChevronDown onClick={()=>(setclickShow(4))}  className=" cursor-pointer"/>}</h4>
-                                <p className={`top-20 lg:absolute z-10 rounded-b-3xl leading-loose font-medium font-serif  bg-white p-6 ${clickShow==4?' block border-x-4 border-b-4 border-black':'hidden'} `}>
+                                <p className={`top-20 lg:absolute z-10 rounded-b-3xl leading-loose font-medium  bg-white p-6 ${clickShow==4?' block border-x-4 border-b-4 border-black':'hidden'} `}>
                                 Nous mettons un point d&apos;honneur à être transparents dans notre manière de travailler et à vous tenir informés de l&apos;avancement de votre projet à chaque étape.<br /><br />
                                 Notre objectif est de vous accompagner dans la réalisation de vos objectifs, en vous offrant des solutions sur mesure qui répondent à vos besoins spécifiques.<br /><br />
                                 Nous croyons en une relation de confiance avec nos clients, basée sur une communication ouverte et honnête. <br /><br />
@@ -161,16 +153,17 @@ export default function Saction3(){
             </div>
 
             {/* saction 4 */}
-            <div className="bg-white">
+            <div className="bg-[#F2FD01] relative ">
+            <div className="rounded-full-css bg-black w-full rotate-180 h-16 bottom-0 absolute z-10 "></div>
                 <div className=" container flex flex-col gap-20  py-20">
                     <div className=" flex flex-col items-center justify-center  ">
                         <div className="  w-screen overflow-hidden">
-                            <p className=" text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS</p>
+                            <p className=" font-sans  text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS</p>
                         </div>
-                        <h2 className=" text-center lg:text-4xl text-lg font-bold  text-black">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
+                        <h2 className=" text-center lg:text-4xl text-2xl font-bold  text-black">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
                     </div>  
                     <div className=" container flex flex-col-reverse lg:flex-row-reverse justify-center items-center">
-                        <div className=" text-left   lg:w-[70%] font-light text-sm  lg:text-xl border-[#000] border-4 p-6   shadow-2xl">
+                        <div className=" text-left   lg:w-[70%] font-light text-sm  lg:text-xl bg-[#000] text-white  rounded-xl p-6   shadow-2xl">
                             <p>
                                 Nous sommes passionnés par ce que nous faisons et nous croyons que notre passion transparaît dans notre travail. Nous sommes toujours à la recherche de nouvelles opportunités pour améliorer et développer nos compétences, afin de fournir à nos clients les solutions les plus innovantes et les plus performantes. <br /><br />
 
@@ -180,7 +173,7 @@ export default function Saction3(){
                             </p>
                         
                         </div>
-                        <div className="bg-[#E0E0E0]  shadow-2xl  ">
+                        <div className=" rounded-2xl  ">
                             <Image src={'/saction3/light.png'} className=" cursor-pointer  hover:grayscale-0  grayscale hover:rotate-12 duration-700" width={300} height={600} alt="trafic genius"    title="trafic genius"/>
                         </div>
                     </div>
@@ -191,9 +184,9 @@ export default function Saction3(){
             <div className=" container relative  flex flex-col justify-center items-center pt-20">
 
                 <div className="z-10 bg-[url('/BACKGROUND.jpg')] bg-cover border-8 shadow-2xl border-[#F2FD01]  gap-10 rounded-3xl p-6 lg:p-20  flex flex-col justify-center items-center">
-                    <h4 className="  text-[#fff] text-lg text-center lg:text-4xl  font-bold">Boostez votre entreprise grâce à notre expertise en scaling</h4>
+                    <h4 className="  text-[#fff]  text-center lg:text-4xl text-2xl  font-bold">Boostez votre entreprise grâce à notre expertise en scaling</h4>
                     <div className=" border-t-4 border-[#F2FD01] w-full"></div>
-                    <p className="  text-sm  text-white font-extralight text-center lg:text-2xl">Prenez contact et échangeons ensemble sur votre projet
+                    <p className="  text-sm  text-white  text-center lg:text-2xl">Prenez contact et échangeons ensemble sur votre projet
                     </p>
                     <Link href={'/appel'} target="_blank" >
                     <button className="cssbuttons-io-button ">
@@ -217,13 +210,13 @@ export default function Saction3(){
                 </div>
                
             </div>
-            <div className=" bg-white">
+            <div className=" bg-black">
                 <div className=" py-20 md:container">
                     <div className=" flex flex-col items-center justify-center  ">
                         <div className="  w-screen overflow-hidden">
-                            <p className=" text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS</p>
+                            <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS</p>
                         </div>
-                        <h2 className=" text-center lg:text-4xl text-lg font-bold  text-black">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
+                        <h2 className=" text-center lg:text-4xl text-2xl font-bold  text-white">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
                     </div>  
                     <div className="  ">
                      <div className=" p-8">

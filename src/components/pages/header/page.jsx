@@ -82,7 +82,7 @@ import Testimonial from "../testimonial/page";
                     <h2 className=" text-white font-semibold lg:text-3xl text-center">Si vous êtes formateur, coach, consultant, prestataire de service, auteur, conférencier ou créateur de contenu, il faut que l&apos;on parle !</h2>
                     <p className=" text-white text-center  lg:text-xl">Vos résultats ne reflètent pas vos ambitions.</p>
                     <Image src={'/appel/logoyellow.png'} width={100} height={100} alt="trafic genius" className=" animate-bounce"    title="trafic genius" />
-                    <h3 className=" text-white  lg:text-xl text-center">Si vous cherchez à développer votre activité, nos produits ou services peuvent vous y aider.</h3>
+                    <h3 className=" text-white  lg:text-xl text-center">Nous souhaitons connaître qui vous êtes, les obstacles qui s&apos;abattent les résultats que vous souhaitez obtenir.</h3>
                     <p className=" text-white  lg:text-xl text-center  font-medium">Maintenant vous pouvez enfin obtenir plus de prospects, dans un seul objectif celui de réaliser plus de vente grâce un vrai marketing rapide, puissant et scalable</p>
                 </div>    
             </div>

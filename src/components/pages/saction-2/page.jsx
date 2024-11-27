@@ -250,14 +250,9 @@ export default function Saction2(){
                 
                 <div className="  lg:w-[70%]  font-light text-white text-center lg:text-2xl border-[#F2FD01] border-4 p-4 rounded-3xl">
                     <p>
-                    Nous sommes la meilleure agence francophone spécialisée dans le design de tunnels de vente et sites Internet à haute rentabilité. 
-                    Après avoir réalisé plus de 300 projets pour des experts, entrepreneurs et startups, nous façonnons l&apos;art du design pour la vente en ligne. <br/> <br/>
+                        Nous sommes la meilleure agence marketing francophone spécialisé dans l&apos;acquisition de Trafic de qualité, avec plus de 3 millions € dépensés en publicité Facebook, et plus de 5000 Leads qualifiés générés en Cold Calling, nous mettrons à votre disposition, une équipe essentiellement composée d&apos;experts selon votre besoin de croissance. <br /><br />
 
-                    Notre équipe est exclusivement composée d&apos;experts dans leur domaine, des perfectionnistes tels que des designers, des funnel builders, des copywriters, des développeurs web, des médias buyers
-
-                    Nous sommes tous animés par la volonté d&apos;aider nos clients à dépasser leurs limites. <br/> <br/>
-
-                    Notre engagement à aider nos clients à aller au-delà de leurs limites nous pousse à investir du cœur, de l&apos;énergie et de l&apos;intention dans tout ce que nous faisons
+                        De l&apos;imagination à la réalisation de votre projet, nous vous aidons à obtenir plus de prospects afin de réaliser plus de vente, dans un seul et unique objectif, celui de faire plus de profits et vos positionner comme une figure d&apos;autorité respectée sur votre marché.                
                     </p>
                 </div>
 

@@ -7,26 +7,26 @@ const exo_2 = Exo_2 ({ subsets: ["latin-ext"], weight:['100','200','300','400','
 
 export async function generateMetadata(){
   return {
-    title: "TRAFIC GENIUS",
+    title: "Trafic Genius",
     alternates: {
       canonical: "/",
     },
     openGraph: {
-      title: "TRAFIC GENIUS",
+      title: "Trafic Genius",
       description: "Nous aidons les chefs d’entreprises et entrepreneurs à trouver de nouveaux clients prêts à payer leurs produits et services avec garantie.",
       url:`${process.env.NEXT_PUBLIC_BASE_URL}`,
       robots: {
         index: true,
         follow: true,
       },
-      siteName: "TRAFIC GENIUS",
+      siteName: "Trafic Genius",
       images: [
         {
           url: `/opengraph-image.jpg`,
           secureUrl: `/opengraph-image.jpg`,
           width: 1200,
           height: 675,
-          alt: `TRAFIC GENIUS`,
+          alt: "Trafic Genius",
         }
       ],
       type: "website",

@@ -120,7 +120,7 @@ export default function Saction2(){
                 <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-20 ">
                     {website.map((ele,index)=>(
                         <div key={index} className="relative">
-                            <Link target="_blank" href={ele.url}><Image src={'/saction2/eye.gif'} width={640} height={640} className=" absolute -top-4 border-2 border-[#F2FD01] cursor-pointer  -left-4 z-20 h-10 w-10 rounded-full" alt="trafic genius"    title="trafic genius" /></Link>
+                            <Link target="_blank" href={ele.url}><Image src={'/saction2/eye.gif'} width={640} height={640} className=" absolute -top-4 border-2 border-[#F2FD01] cursor-pointer  -left-4 z-20 h-10 w-10 rounded-full" alt="trafic genius"    title="trafic genius" unoptimized/></Link>
                             <Image src={`/saction2/website/${ele.image}`} className="relative w-[318px] h-[300px] lg:h-[600px] object-cover  duration-[10000ms] border-4 border-[#F2FD01]  rounded-2xl object-top  hover:object-bottom	" width={318} height={600} alt={ele.title}    title={ele.title}/>
                             <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center bg-black border-[#F2FD01]  rounded-b-2xl border-b-4 border-x-4">
                                 <Image src={'/TopHeader/logo.png'} className=" w-[150px] py-2" width={500} height={500} alt="trafic genius"    title="trafic genius"/>
@@ -146,7 +146,7 @@ export default function Saction2(){
                         </div>
                     </div>
 
-                    <Image src={'/saction2/arrow.gif'} className="  lg:-rotate-90 w-[250px]" width={500} height={500} alt="trafic genius"    title="trafic genius"/>
+                    <Image src={'/saction2/arrow.gif'} className="  rotate-90 lg:rotate-0 w-[200px]" width={500} height={500} alt="trafic genius"    title="trafic genius" unoptimized/>
 
                     <div  className="relative w-[318px] blur-sm hover:blur-0 duration-1000">
                         <Image src={`/saction2/website-REDESIGN/new.png`} className="relative   w-[318px] h-[300px] lg:h-[600px] object-cover  duration-[10000ms] 	  rounded-3xl object-top  hover:object-bottom	" width={318} height={600} alt="trafic genius"    title="trafic genius"/>
@@ -252,7 +252,7 @@ export default function Saction2(){
                     <p>
                         Nous sommes la meilleure agence marketing francophone spécialisé dans l&apos;acquisition de Trafic de qualité, avec plus de 3 millions € dépensés en publicité Facebook, et plus de 5000 Leads qualifiés générés en Cold Calling, nous mettrons à votre disposition, une équipe essentiellement composée d&apos;experts selon votre besoin de croissance. <br /><br />
 
-                        De l&apos;imagination à la réalisation de votre projet, nous vous aidons à obtenir plus de prospects afin de réaliser plus de vente, dans un seul et unique objectif, celui de faire plus de profits et vos positionner comme une figure d&apos;autorité respectée sur votre marché.                
+                        De l&apos;imagination à la réalisation de votre projet, nous vous aidons à obtenir plus de prospects afin de réaliser plus de vente, dans un seul et unique objectif, celui de faire plus de profits et vous positionner comme une figure d&apos;autorité respectée sur votre marché.                
                     </p>
                 </div>
 

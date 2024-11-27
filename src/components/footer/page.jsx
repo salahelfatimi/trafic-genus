@@ -22,9 +22,11 @@ export default function Footer(){
               </div>
             
               <div className="flex gap-6">
-                <Link href={'https://www.instagram.com/trafic_genius/'} target="_blank" className="bg-[#F2FD01] p-1 rounded-md group hover:bg-black border-[#F2FD01] border-2 duration-500"><InstagramIcon size={30} className=" stroke-[#000] group-hover:stroke-[#F2FD01]" /></Link>
-                <Link href={'https://www.linkedin.com/company/trafic-genius'} target="_blank" className="bg-[#F2FD01] p-1 rounded-md group hover:bg-black border-[#F2FD01] border-2 duration-500"><LinkedinIcon size={30} className=" stroke-[#000] group-hover:stroke-[#F2FD01]" /></Link>
-                <Link href={'https://www.facebook.com/traficgenius'} target="_blank" className="bg-[#F2FD01] p-1 rounded-md group hover:bg-black border-[#F2FD01] border-2 duration-500"><FacebookIcon size={30} className=" stroke-[#000] group-hover:stroke-[#F2FD01]"/></Link>
+                <Link href={'https://www.instagram.com/trafic_genius/'} target="_blank" className="bg-[#F2FD01] p-1 rounded-md group  border-[#F2FD01] border-2 duration-500"><InstagramIcon size={25} className=" " /></Link>
+                <Link href={'https://www.linkedin.com/company/trafic-genius'} target="_blank" className="bg-[#F2FD01] p-1 rounded-md group  border-[#F2FD01] border-2 duration-500"><LinkedinIcon size={25} className=" " /></Link>
+                <Link href={'https://www.facebook.com/traficgenius'} target="_blank" className="bg-[#F2FD01] p-1 rounded-md group  border-[#F2FD01] border-2 duration-500"><FacebookIcon size={25} className="  "/></Link>
+                <Link href={'https://snapchat.com/t/37ZQI5I9'} target="_blank" className="bg-[#F2FD01] p-1 rounded-md group  border-[#F2FD01] border-2 duration-500"><Image src={'/footer/snapchat.png'} width='25' height='25'  className="  "/></Link>
+
               </div>
         </div>
         <div className=" bg-[#F2FD01] py-10">

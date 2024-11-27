@@ -32,7 +32,7 @@ import Testimonial from "../testimonial/page";
                         </div>
 
                         <p className=" text-xs lg:text-base text-center text-white font-normal">
-                            Nous aidons les chefs d&apos;entreprises et entrepreneurs du Web à trouver des nouveaux clients <br /> prêt à payer pour leurs produits ou services avec des résultats garantis
+                            Nous aidons les chefs d&apos;entreprises et entrepreneurs du Web à trouver des nouveaux clients  prêt à payer pour leurs produits ou services avec des résultats garantis
                         </p>  
                         <Link href={'/appel'} target="_blank" >
                             <button className="cssbuttons-io-button ">

@@ -79,7 +79,7 @@ import Testimonial from "../testimonial/page";
                 <div className="  rounded-full-css rotate-180 bg-black w-full h-28 bottom-0 absolute z-10 "></div>
                 <div className="shadow-2xl relative z-20  px-10 mx-4  lg:mx-20 bg-black border-4 border-[#fff] rounded-3xl  flex flex-col  justify-between items-center gap-12 py-8">
                        
-                    <h2 className=" text-white font-semibold lg:text-3xl text-center">Si vous êtes formateur, coach, consultant, prestataire de service, auteur, conférencier ou créateur de contenu, je veux qu&apos;on se parle !</h2>
+                    <h2 className=" text-white font-semibold lg:text-3xl text-center">Si vous êtes formateur, coach, consultant, prestataire de service, auteur, conférencier ou créateur de contenu, il faut que l&apos;on parle !</h2>
                     <p className=" text-white text-center  lg:text-xl">Vos résultats ne reflètent pas vos ambitions.</p>
                     <Image src={'/appel/logoyellow.png'} width={100} height={100} alt="trafic genius" className=" animate-bounce"    title="trafic genius" />
                     <h3 className=" text-white  lg:text-xl text-center">Si vous cherchez à développer votre activité, nos produits ou services peuvent vous y aider.</h3>

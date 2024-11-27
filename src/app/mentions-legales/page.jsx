@@ -3,13 +3,9 @@ import { Poppins } from "next/font/google";
 const poppins = Poppins ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
 
 export const metadata = {
-    title: "TRAFIC GENIUS | Mentions légales",
-    description: "Nous aidons les chefs d’entreprises et entrepreneurs à trouver de nouveaux clients prêts à payer leurs produits et services avec garantie.",
-    metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
+    title: "Mentions légales",
     alternates: {
       canonical: "/mentions-legales",
-  
-      
     },
     openGraph: {
       title: "TRAFIC GENIUS | Mentions légales",

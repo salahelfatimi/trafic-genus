@@ -1,19 +1,15 @@
 import Image from "next/image";
 import FetchLogoScroll from '@/components/tools/fetchLogoScroll'
-import { CircleDollarSign, Laptop, Presentation, Search, TvMinimal } from "lucide-react";
+import { CircleDollarSign, Search, TvMinimal } from "lucide-react";
 import Link from "next/link";
 import Testimonial from "../testimonial/page";
 
 
  export default  function Header (){
-  
         return(
         <div id="top">
-
             {/* Header */}
-
             <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-4 bg-black  z-30   flex flex-col  items-center justify-center">
-               
                     <Image src={'/TopHeader/logo.png'} width={400} height={400} className=" w-64 lg:w-1/3" alt="trafic genius"    title="trafic genius" />
                     <div className="flex flex-col gap-4 items-center py-4 container">
                         <h1 className="font-bold text-center text-xl lg:text-5xl uppercase  text-[#F2FD01]">
@@ -54,9 +50,7 @@ import Testimonial from "../testimonial/page";
                             </button>
                         </Link>   
                     </div>
-                
             </div>
-
             {/* Saction 1 */}
             <div className=" bg-[#F2FD01]  relative flex flex-col justify-between gap-10 z-20 pt-40">
                 <div className=" bg-black bg-[url('/TopHeader/bg.png')] lg:bg-cover w-full h-28   top-0 rounded-full-css absolute "></div>
@@ -72,13 +66,11 @@ import Testimonial from "../testimonial/page";
                         <FetchLogoScroll/>
                 </div>
             </div>
-
             {/* Saction 2 */}
             <div className="relative bg-[#F2FD01] flex items-center justify-center">
                 <div className="rounded-full-css bg-[#F2FD01] w-full h-28 top-0 absolute z-10 "></div>
                 <div className="  rounded-full-css rotate-180 bg-black w-full h-28 bottom-0 absolute z-10 "></div>
-                <div className="shadow-2xl relative z-20  px-10 mx-4  lg:mx-20 bg-black border-4 border-[#fff] rounded-3xl  flex flex-col  justify-between items-center gap-12 py-8">
-                       
+                <div className="shadow-2xl relative z-20  px-10 mx-4  lg:mx-20 bg-black border-4 border-[#fff] rounded-3xl  flex flex-col  justify-between items-center gap-12 py-8">  
                     <h2 className=" text-white font-semibold lg:text-3xl text-center">Si vous êtes formateur, coach, consultant, prestataire de service, auteur, conférencier ou créateur de contenu, il faut que l&apos;on parle !</h2>
                     <p className=" text-white text-center  lg:text-xl">Vos résultats ne reflètent pas vos ambitions.</p>
                     <Image src={'/appel/logoyellow.png'} width={100} height={100} alt="trafic genius" className=" animate-bounce"    title="trafic genius" />

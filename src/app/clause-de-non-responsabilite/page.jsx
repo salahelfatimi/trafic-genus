@@ -5,14 +5,10 @@ const poppins = Poppins({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
-export const metadata = {
-    title: "TRAFIC GENIUS | Clause de non-responsabilité",
-    description: "Nous aidons les chefs d’entreprises et entrepreneurs à trouver de nouveaux clients prêts à payer leurs produits et services avec garantie.",
-    metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
+export const generateMetadata = {
+    title: "Clause de non-responsabilité",
     alternates: {
       canonical: "/clause-de-non-responsabilite",
-  
-      
     },
     openGraph: {
       title: "TRAFIC GENIUS | Clause de non-responsabilité",

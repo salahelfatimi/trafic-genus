@@ -8,7 +8,10 @@ import Script from "next/script";
 
 
 export const metadata = {
-   metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
+    title: {  template: "Trafic Genius | %s " },
+    description: "Nous aidons les chefs d’entreprises et entrepreneurs à trouver de nouveaux clients prêts à payer leurs produits et services avec garantie.",
+    keywords: ["trouver de nouveaux clients, clients prêts à payer, aide aux entrepreneurs, acquisition de clients, solutions pour chefs d’entreprise, garantie de résultats, stratégie de prospection, augmenter les ventes, services pour entrepreneurs, accompagnement business"],
+    metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
 };
 
 export default function RootLayout({ children }) {

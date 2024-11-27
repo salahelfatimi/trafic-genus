@@ -1,6 +1,6 @@
 import Image from "next/image";
 import FetchLogoScroll from '@/components/tools/fetchLogoScroll'
-import { CircleDollarSign, Presentation, Search } from "lucide-react";
+import { CircleDollarSign, Laptop, Presentation, Search } from "lucide-react";
 import Link from "next/link";
 import Testimonial from "../testimonial/page";
 
@@ -136,20 +136,20 @@ import Testimonial from "../testimonial/page";
                     <div className=" container grid grid-cols-1 lg:grid-cols-3 gap-12 pb-14">
                        
                         <div className=" flex flex-col gap-4 items-center justify-center">
-                            <div className="bg-[#F0FF01] hover:bg-[#2F3033] hover:-rotate-45 duration-700 rounded-full p-1">
-                                <Search size={70} className=" stroke-[#000] hover:stroke-white  duration-700 cursor-pointer	 p-2 "/>
+                            <div className="bg-[#F0FF01]  hover:-rotate-45 duration-700 rounded-full p-1">
+                                <Search size={70} className=" stroke-[#000] duration-700 cursor-pointer	 p-2 "/>
                             </div>
-                            <h3 className=" lg:text-2xl  font-light text-center  text-white">Convertissez un maximum de prospects.</h3>
+                            <h3 className=" lg:text-2xl  font-light text-center text-white">Convertissez un maximum de prospects.</h3>
                         </div>
                         <div className=" flex flex-col gap-4 items-center justify-center">
-                            <div className="bg-[#F0FF01] hover:bg-[#2F3033] hover:-rotate-45 duration-700 rounded-full p-1">
-                                <Presentation size={70} className=" stroke-[#000] hover:stroke-white  duration-700 cursor-pointer	 p-2 "/>
+                            <div className="bg-[#F0FF01]  hover:-rotate-45 duration-700 rounded-full p-1">
+                                <Laptop  size={70} className=" stroke-[#000]   duration-700 cursor-pointer	 p-2 "/>
                             </div>
-                            <h3 className=" lg:text-2xl  font-light text-center  text-white">Obtenez des leads qualifiés performants.</h3>
+                            <h3 className=" lg:text-2xl  font-light text-center text-white">Obtenez des leads qualifiés performants.</h3>
                         </div>
                         <div className=" flex flex-col gap-4 items-center justify-center">
-                            <div className="bg-[#F0FF01] hover:bg-[#2F3033] hover:-rotate-45 duration-700 rounded-full p-1">
-                                <CircleDollarSign size={70} className=" stroke-[#000] hover:stroke-white  duration-700 cursor-pointer	 p-2 "/>
+                            <div className="bg-[#F0FF01]  hover:-rotate-45 duration-700 rounded-full p-1">
+                                <CircleDollarSign size={70} className=" stroke-[#000] duration-700 cursor-pointer	 p-2 "/>
                             </div>
                             <h3 className=" lg:text-2xl  font-light text-center  text-white">Boostez vos ventes et votre chiffre d&apos;affaires</h3>
                         </div>

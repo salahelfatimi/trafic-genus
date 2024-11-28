@@ -52,13 +52,10 @@ export default function GoogleTranslate({ prefLangCookie }) {
 
   return (
     <div>
-      {/* Hidden Google Translate element */}
       <div
         id="google_translate_element"
         style={{ visibility: "hidden", width: "1px", height: "1px" }}
       ></div>
-
-      {/* Custom Language Selector with Flags */}
       <div className="relative select-none flex items-center justify-center">
         <div
           onClick={() => setOpen(!open)}
@@ -79,8 +76,6 @@ export default function GoogleTranslate({ prefLangCookie }) {
               "French"}
           </span>
         </div>
-
-        {/* Dropdown menu */}
         <div
           className={`absolute top-12 border-4 border-[#F2FD01] ${
             open ? "block" : "hidden"
@@ -112,7 +107,6 @@ export default function GoogleTranslate({ prefLangCookie }) {
         </div>
       </div>
 
-      {/* Load Google Translate Script */}
       <Script
         src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
         strategy="afterInteractive"

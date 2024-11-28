@@ -1,5 +1,6 @@
 import { cookies } from "next/headers";
-import GoogleTranslate from "./GoogleTranslate";
+import GoogleTranslate from "./googleTranslate";
+
 
 // Helper to get language preference from cookies
 export const getPrefLangCookie = () => {
@@ -8,6 +9,5 @@ export const getPrefLangCookie = () => {
 
 export default function Translate() {
   const prefLangCookie = getPrefLangCookie();
-
   return <GoogleTranslate prefLangCookie={prefLangCookie} />;
 }

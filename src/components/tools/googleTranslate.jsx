@@ -66,9 +66,9 @@ export default function GoogleTranslate({ prefLangCookie }) {
 function LanguageSelector({ onChange, value }) {
   const langCookie = value.split("/")[2] || "fr"; // Default to French if no cookie is found
   return (
-    <select onChange={(e) => onChange(e.target.value)} value={langCookie} className=" text-lg  rounded-lg py-1 px-10 bg-black text-[#F2FD01] border-4 border-[#F2FD01] ">
+    <select onChange={(e) => onChange(e.target.value)} value={langCookie} className=" text-lg  rounded py-1 px-10 bg-[#F2FD01]  text-black border-4 border-[#F2FD01] ">
       {languages.map((lang) => (
-        <option value={lang.value} key={lang.value} className=" text-[#F2FD01]">
+        <option value={lang.value} key={lang.value} className=" text-black">
           {lang.label}
         </option>
       ))}

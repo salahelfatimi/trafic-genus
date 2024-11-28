@@ -351,7 +351,7 @@ export default function Boutique(){
                 {/* saction 9 */}
                 <h2 className=" text-xl lg:text-4xl font-bold  text-center text-[#EFFF00] ">Commander votre Boutique Clé en Main !</h2>
                 <h3 className=" text-base lg:text-2xl   text-center text-[#EFFF00] ">En moins de 10 Jours je Crée Votre Boutique clé en main pour vous permettre de vendre des centaines de produits chaque jour.</h3>
-                <Image src={"/boutique/webdesgne.png"} height={500} width={500} className=""/>
+                <Image src={"/boutique/webdesgne.png"} height={500} width={500} className="" alt="trafic genus" title="trafic genus"/>
                 <p className=" text-white text-sm lg:text-lg">
                     La boutique que vous êtes sur le point de commander est le résultat de <span className=" font-bold text-[#EFFF00]"> plusieurs années de recherches et de tests sur des dizaines de business dans des dizaines de thématiques différentes. </span><br /><br />
 
@@ -464,7 +464,7 @@ export default function Boutique(){
 
                         Aujourd&lsquo;hui seulement <span className=" text-green-500 underline">0€</span>   <br /><br />          
                     </h2>
-                    <Image src={"/boutique/arrowDown.png"} width={500} height={250}/>
+                    <Image src={"/boutique/arrowDown.png"} width={500} height={250} alt="trafic genus" title="trafic genus"/>
                     <Link href={'/appel'} target="_blank" >
                         <button className="cssbuttons-io-button ">
                             CLIQUEZ ICI POUR COMMANDER VOTRE BOUTIQUE                            
@@ -484,7 +484,7 @@ export default function Boutique(){
                                 </div>
                         </button>
                     </Link>
-                    <Image src={"/boutique/payment.png"} width={300} height={150}/>
+                    <Image src={"/boutique/payment.png"} width={300} height={150} alt="trafic genus" title="trafic genus"/>
                     <div className=" ">
                         <details className="bg-[#F2FD01]   open:ring-[#F2FD01]  border-t-4 border-x-4  border-[#000] shadow-2xl py-10 border-b-4 rounded-t-3xl p-6 " open>
                             <summary className="lg:text-xl  font-bold leading-6 text-[#000] cursor-pointer  select-none">

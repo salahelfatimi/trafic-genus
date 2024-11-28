@@ -1,19 +1,13 @@
-import React from "react";
-
 import { cookies } from "next/headers";
-import GoogleTranslate from "./googleTranslate";
+import GoogleTranslate from "./GoogleTranslate";
 
 // Helper to get language preference from cookies
 export const getPrefLangCookie = () => {
-  return cookies().get("googtrans")?.value ?? "en";
+  return cookies().get("googtrans")?.value?.split("/")[2] ?? "fr";
 };
 
-export default function Transalte() {
+export default function Translate() {
   const prefLangCookie = getPrefLangCookie();
 
-  return (
-    <div>
-      <GoogleTranslate prefLangCookie={prefLangCookie} />
-    </div>
-  );
+  return <GoogleTranslate prefLangCookie={prefLangCookie} />;
 }

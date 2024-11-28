@@ -3,7 +3,6 @@ import FetchLogoScroll from '@/components/tools/fetchLogoScroll'
 import { CircleDollarSign, Search, TvMinimal } from "lucide-react";
 import Link from "next/link";
 import Testimonial from "../testimonial/page";
-import Translate from "@/components/tools/translate";
 
 
  export default  function Header (){
@@ -12,10 +11,8 @@ import Translate from "@/components/tools/translate";
             {/* Header */}
            
             <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-4 bg-black    flex flex-col  items-center justify-center">
-                    <div className=" w-full flex justify-end fixed top-4 right-4 z-[100]  ">
-                        <Translate/> 
-                    </div>
-                    <Image src={'/TopHeader/logo.png'} width={400} height={400} className=" w-64 lg:w-1/3" alt="trafic genius"    title="trafic genius" />
+                 
+                    <Image src={'/TopHeader/logo.png'} width={400} height={400} priority  className=" w-64 lg:w-1/3" alt="trafic genius"    title="trafic genius" />
                     <div className="flex flex-col gap-4 items-center py-4 container">
                         <h1 className="font-bold text-center text-xl lg:text-5xl uppercase  text-[#F2FD01]">
                             <span className=" text-white">Faisons le pari fou de faire de vous</span> une figure d&apos;autorité respectée <span className=" text-white"> sur votre marché.</span> 

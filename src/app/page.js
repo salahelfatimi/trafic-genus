@@ -3,6 +3,7 @@ import Saction_2 from "@/components/pages/saction-2/page";
 import Saction_3 from "@/components/pages/saction-3/page";
 import ButtonUp from "@/components/tools/buttonUp";
 import { Exo_2 } from "next/font/google";
+
 const exo_2 = Exo_2 ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
 
 export async function generateMetadata(){

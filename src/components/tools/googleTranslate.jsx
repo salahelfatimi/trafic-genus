@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Script from "next/script";
@@ -44,38 +43,31 @@ export default function GoogleTranslate({ prefLangCookie }) {
   return (
     <div>
       {/* Hidden Google Translate element */}
-      <div
-        id="google_translate_element"
-        style={{ visibility: "hidden", width: "1px", height: "1px" }}
-      ></div>
-
+      <div id="google_translate_element"style={{ visibility: "hidden", width: "1px", height: "1px" }}></div>
       {/* Custom Language Selector with Flags */}
-      <div className="relative select-none">
-        <div
-          onClick={() => (setOpen(!open))}
-          className="cursor-pointer flex items-center space-x-2 bg-[#F2FD01] hover:bg-white duration-700 border-4 border-black text-black py-2 px-4 rounded-lg w-40"
-        >
+      <div className="relative select-none flex items-center justify-center">
+        <div onClick={() => (setOpen(!open))} className="cursor-pointer flex items-center space-x-2 bg-black hover:bg-[#F2FD01] hover:text-black duration-700 border-2 border-[#F2FD01]  text-white md:p-2 p-1  md:w-40"
+>
           <Image
             src={languages.find((lang) => lang.value === langCookie)?.flag || "/flags/fr.png"}
             alt={langCookie}
-            width={20}
-            height={20}
+             className=" w-10 md:w-6  object-cover"
+            width={100}
+            height={100}
           />
-          <span>{languages.find((lang) => lang.value === langCookie)?.label || "French"}</span>
+          <span className=" md:block hidden">{languages.find((lang) => lang.value === langCookie)?.label || "French"}</span>
         </div>
 
         {/* Dropdown menu */}
-        <div
-          className={`absolute top-12 left-0 w-full bg-white  rounded  ${open?'hidden':'block'}`}
-        >
+        <div className={`absolute top-12   border-4 border-[#F2FD01]    ${open?'hidden':'block '}`}>
           {languages.map((lang) => (
             <div
               key={lang.value}
               onClick={() => {onChange(lang.value),setOpen(!open)}}
-              className="cursor-pointer flex items-center space-x-2 py-2 px-4 hover:bg-[#F2FD01] duration-500"
+              className={` ${lang.value===langCookie?'bg-black text-white':'bg-[#F2FD01]'} text-black hover:text-white cursor-pointer flex items-center  gap-2  md:p-2 p-1  md:w-40 md:px-4 hover:bg-black duration-500`}
             >
-              <Image src={lang.flag} alt={lang.label} width={20} height={20} />
-              <span>{lang.label}</span>
+              <Image src={lang.flag} alt={lang.label} width={100} height={100} className="w-10 md:w-6 object-cover" />
+              <span className=" md:block hidden">{lang.label}</span>
             </div>
           ))}
         </div>

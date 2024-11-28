@@ -11,8 +11,8 @@ import Translate from "@/components/tools/translate";
         <div id="top">
             {/* Header */}
            
-            <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-4 bg-black  z-30   flex flex-col  items-center justify-center">
-                    <div className=" w-full flex justify-end fixed top-4 right-4  ">
+            <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-4 bg-black    flex flex-col  items-center justify-center">
+                    <div className=" w-full flex justify-end fixed top-4 right-4 z-[100]  ">
                         <Translate/> 
                     </div>
                     <Image src={'/TopHeader/logo.png'} width={400} height={400} className=" w-64 lg:w-1/3" alt="trafic genius"    title="trafic genius" />
@@ -21,7 +21,7 @@ import Translate from "@/components/tools/translate";
                             <span className=" text-white">Faisons le pari fou de faire de vous</span> une figure d&apos;autorité respectée <span className=" text-white"> sur votre marché.</span> 
                         </h1>
                         {/* video */}
-                        <div className="relative w-full lg:w-[75vh] pt-[57%] md:pt-[30%] lg:pt-[24%] rounded-lg overflow-hidden">
+                        <div className="relative z-30 w-full lg:w-[75vh] pt-[57%] md:pt-[30%] lg:pt-[24%] rounded-lg overflow-hidden">
                             <iframe
                                 src="https://app.videas.fr/embed/media/e6e65956-8483-4ecf-ada4-8b8bce3ce215/?title=false&logo=false&thumbnail_duration=false&controls=false&info=true"
                                 frameBorder="0"
@@ -59,7 +59,7 @@ import Translate from "@/components/tools/translate";
             {/* Saction 1 */}
             <div className=" bg-[#F2FD01]  relative flex flex-col justify-between gap-10 z-20 pt-40">
                 <div className=" bg-black bg-[url('/TopHeader/bg.png')] lg:bg-cover w-full h-28   top-0 rounded-full-css absolute "></div>
-                <div  className=" relative z-50  flex container flex-col items-center justify-center ">
+                <div  className=" relative z-20  flex container flex-col items-center justify-center ">
                     <div className=" absolute w-screen overflow-hidden">
                         <p className="text-border font-sans uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">
                         trafic genius trafic genius

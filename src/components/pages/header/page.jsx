@@ -3,13 +3,18 @@ import FetchLogoScroll from '@/components/tools/fetchLogoScroll'
 import { CircleDollarSign, Search, TvMinimal } from "lucide-react";
 import Link from "next/link";
 import Testimonial from "../testimonial/page";
+import Transalte from "@/components/tools/transalte";
 
 
  export default  function Header (){
         return(
         <div id="top">
             {/* Header */}
-            <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-4 bg-black  z-30   flex flex-col  items-center justify-center">
+           
+            <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-2 bg-black  z-30   flex flex-col  items-center justify-center">
+                    <div className=" w-full flex justify-end container py-4">
+                        <Transalte/> 
+                    </div>
                     <Image src={'/TopHeader/logo.png'} width={400} height={400} className=" w-64 lg:w-1/3" alt="trafic genius"    title="trafic genius" />
                     <div className="flex flex-col gap-4 items-center py-4 container">
                         <h1 className="font-bold text-center text-xl lg:text-5xl uppercase  text-[#F2FD01]">

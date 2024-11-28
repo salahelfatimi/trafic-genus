@@ -13,6 +13,20 @@
   clip-path:ellipse(60% 100% at 50% -10%)
 }
 
+/* Hide the Google Translate banner frame */
+.goog-te-banner-frame {
+  display: none !important;
+}
+
+/* Hide the Google Translate frame content */
+body {
+  top: 0px !important;
+}
+
+/* Hide other elements related to Google Translate */
+iframe.skiptranslate {
+  display: none !important;
+}
 
   
 .paused{

@@ -88,11 +88,7 @@ export default function GoogleTranslate({ prefLangCookie }) {
                 onChange(lang.value);
                 setOpen(!open);
               }}
-              className={`${
-                lang.value === langCookie
-                  ? "bg-black text-white"
-                  : "bg-[#F2FD01]"
-              } text-black hover:text-white cursor-pointer flex items-center gap-2 md:p-2 p-1 md:w-40 md:px-4 hover:bg-black duration-500`}
+              className={`${lang.value === langCookie? "bg-black text-white": "bg-[#b0b733]"} text-black hover:text-white cursor-pointer flex items-center gap-2 md:p-2 p-1 md:w-40 md:px-4 hover:bg-black duration-500`}
             >
               <Image
                 src={lang.flag}

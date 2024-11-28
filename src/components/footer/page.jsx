@@ -7,14 +7,14 @@ export default function Footer(){
       <footer className="flex flex-col  " >
         <div className="bg-[url('/BACKGROUND.jpg')] bg-cover py-10 gap-10  flex flex-col items-center justify-center ">
             <Image src={'/TopHeader/logo.png'} width={500} height={500} alt="Logo" />
-              <p className={`  select-none flex gap-1 flex-row   text-center items-center  capitalize   text-xs px-4 lg:text-sm  justify-centerxt-start text-[#9F9B9A] `}>
-                Ce site ne fait pas partie du site YouTube™, Google™, Facebook™, Google Inc. ou Facebook Inc. <br />
-                De plus, ce site n’est PAS approuvé par YouTube™, Google™ ou Facebook™ en aucune façon.<br />
-                FACEBOOK™ est une marque de commerce de FACEBOOK, Inc. GOOGLE™ et YOUTUBE™ sont des marques de commerce de GOOGLE Inc.<br /><br />
+              <div className={`  select-none flex gap-1 flex-col   text-center items-center  capitalize   text-xs px-4 lg:text-sm  justify-centerxt-start text-[#9F9B9A] `}>
+                <p>Ce site ne fait pas partie du site YouTube™, Google™, Facebook™, Google Inc. ou Facebook Inc. </p>
+                <p>De plus, ce site n’est PAS approuvé par YouTube™, Google™ ou Facebook™ en aucune façon.</p>
+                <p>FACEBOOK™ est une marque de commerce de FACEBOOK, Inc. GOOGLE™ et YOUTUBE™ sont des marques de commerce de GOOGLE Inc.</p>
 
-                UK | TRAFIC GENIUS LTD 📍: 128 City Road, London, United Kingdom, EC1V 2NX <br />
-                US | TRAFIC GENIUS LLC 📍: 131 Continental Dr, Suite 305, Newark, 19713, county of New Castle, DELAWARE<br />
-              </p>
+                <p className=" pt-4">UK | TRAFIC GENIUS LTD 📍: 128 City Road, London, United Kingdom, EC1V 2NX </p>
+                <p>US | TRAFIC GENIUS LLC 📍: 131 Continental Dr, Suite 305, Newark, 19713, county of New Castle, DELAWARE</p>
+              </div>
               <div className=" flex flex-col  md:flex-row text-xs text-center gap-2 text-[#9F9B9A]">
                 <Link className=" hover:underline  underline-offset-2" href={'/mentions-legales'}>Mentions légales</Link>
                 <Link className=" hover:underline  underline-offset-2" href={'/clause-de-non-responsabilite'}>Clause de non-responsabilité</Link>

@@ -1,46 +1,45 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React, { useState, useEffect } from "react";
+import Image from "next/image";
 import Script from "next/script";
 
-// Supported languages
+// Supported languages with flag images
 const languages = [
-  { label: "French", value: "fr" }, // Set French as the first option
-  { label: "English", value: "en" },
-  { label: "Spanish", value: "es" },
-  { label: "German", value: "de" },
-  { label: "Arabic", value: "ar" },
+  { label: "French", value: "fr", flag: "/flags/fr.png" },
+  { label: "English", value: "en", flag: "/flags/en.png" },
+  { label: "Spanish", value: "es", flag: "/flags/es.png" },
+  { label: "German", value: "de", flag: "/flags/de.png" },
+  { label: "Arabic", value: "ar", flag: "/flags/ar.png" },
 ];
 
 // Initialize Google Translate
 function googleTranslateElementInit() {
   new window.google.translate.TranslateElement(
     {
-      pageLanguage: "fr", // Set French as the default language
+      pageLanguage: "auto",
       includedLanguages: languages.map((lang) => lang.value).join(","),
     },
     "google_translate_element"
   );
 }
 
-// Main Google Translate Component
 export default function GoogleTranslate({ prefLangCookie }) {
-  const [langCookie, setLangCookie] = useState(
-    decodeURIComponent(prefLangCookie || "/en/fr") // Default to French
-  );
-
-  // Hook to set up Google Translate after component mounts
-  useEffect(() => {
-    window.googleTranslateElementInit = googleTranslateElementInit;
-  }, []);
+  const [langCookie, setLangCookie] = useState(prefLangCookie || "fr");
+  const [open, setOpen] = useState(true);
 
   // Handle language change
   const onChange = (value) => {
-    setLangCookie(`/en/${value}`);
+    setLangCookie(value);
     const element = document.querySelector(".goog-te-combo");
     element.value = value;
     element.dispatchEvent(new Event("change"));
   };
+
+  useEffect(() => {
+    // Initialize Google Translate
+    window.googleTranslateElementInit = googleTranslateElementInit;
+  }, []);
 
   return (
     <div>
@@ -50,8 +49,37 @@ export default function GoogleTranslate({ prefLangCookie }) {
         style={{ visibility: "hidden", width: "1px", height: "1px" }}
       ></div>
 
-      {/* Custom Language Selector */}
-      <LanguageSelector onChange={onChange} value={langCookie} />
+      {/* Custom Language Selector with Flags */}
+      <div className="relative select-none">
+        <div
+          onClick={() => (setOpen(!open))}
+          className="cursor-pointer flex items-center space-x-2 bg-[#F2FD01] hover:bg-white duration-700 border-4 border-black text-black py-2 px-4 rounded-lg w-40"
+        >
+          <Image
+            src={languages.find((lang) => lang.value === langCookie)?.flag || "/flags/fr.png"}
+            alt={langCookie}
+            width={20}
+            height={20}
+          />
+          <span>{languages.find((lang) => lang.value === langCookie)?.label || "French"}</span>
+        </div>
+
+        {/* Dropdown menu */}
+        <div
+          className={`absolute top-12 left-0 w-full bg-white  rounded  ${open?'hidden':'block'}`}
+        >
+          {languages.map((lang) => (
+            <div
+              key={lang.value}
+              onClick={() => {onChange(lang.value),setOpen(!open)}}
+              className="cursor-pointer flex items-center space-x-2 py-2 px-4 hover:bg-[#F2FD01] duration-500"
+            >
+              <Image src={lang.flag} alt={lang.label} width={20} height={20} />
+              <span>{lang.label}</span>
+            </div>
+          ))}
+        </div>
+      </div>
 
       {/* Load Google Translate Script */}
       <Script
@@ -59,19 +87,5 @@ export default function GoogleTranslate({ prefLangCookie }) {
         strategy="afterInteractive"
       />
     </div>
-  );
-}
-
-// Language Selector Component
-function LanguageSelector({ onChange, value }) {
-  const langCookie = value.split("/")[2] || "fr"; // Default to French if no cookie is found
-  return (
-    <select onChange={(e) => onChange(e.target.value)} value={langCookie} className=" text-lg  rounded py-1 px-10 bg-[#F2FD01]  text-black border-4 border-[#F2FD01] ">
-      {languages.map((lang) => (
-        <option value={lang.value} key={lang.value} className=" text-black">
-          {lang.label}
-        </option>
-      ))}
-    </select>
   );
 }

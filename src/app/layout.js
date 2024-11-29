@@ -9,7 +9,7 @@ import Translate from "@/components/tools/translate";
 
 
 export const metadata = {
-    title: {  template: "Trafic Genius | %s " },
+    title: {  template: "Trafic Genius  | Marketing Agency | %s " },
     description: "Nous aidons les chefs d’entreprises et entrepreneurs à trouver de nouveaux clients prêts à payer leurs produits et services avec garantie.",
     keywords: ["trouver de nouveaux clients, clients prêts à payer, aide aux entrepreneurs, acquisition de clients, solutions pour chefs d’entreprise, garantie de résultats, stratégie de prospection, augmenter les ventes, services pour entrepreneurs, accompagnement business"],
     metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
@@ -40,9 +40,9 @@ export default function RootLayout({ children }) {
       />
       <body className={` scroll-smooth   scrollbar scrollbar-thumb-[#F2FD01] scrollbar-track-black h-32 overflow-y-scroll`}>
         <main>
-          <div className=" w-full flex justify-end fixed top-4 right-4 z-[100]  ">
+          {/* <div className=" w-full flex justify-end fixed top-4 right-4 z-[100]  ">
             <Translate/> 
-          </div>
+          </div> */}
           {children}
           <Footer/>
           <noscript>

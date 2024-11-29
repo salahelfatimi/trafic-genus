@@ -8,7 +8,7 @@ const exo_2 = Exo_2 ({ subsets: ["latin-ext"], weight:['100','200','300','400','
 
 export async function generateMetadata(){
   return {
-    title: "Trafic Genius",
+    title: "Trafic Genius | Marketing Agency ",
     alternates: {
       canonical: "/",
     },

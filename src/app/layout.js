@@ -39,22 +39,11 @@ export default function RootLayout({ children }) {
         }}
       />
       <body className={` scroll-smooth   scrollbar scrollbar-thumb-[#F2FD01] scrollbar-track-black h-32 overflow-y-scroll`}>
-        <main>
           {/* <div className=" w-full flex justify-end fixed top-4 right-4 z-[100]  ">
             <Translate/> 
           </div> */}
           {children}
           <Footer/>
-          <noscript>
-            <img
-              height="1"
-              width="1"
-              style={{ display: 'none' }}
-              src={`https://www.facebook.com/tr?id=${process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID}&ev=PageView&noscript=1`}
-              alt=""
-            />
-          </noscript>
-        </main>
       </body>
     </html>
   );

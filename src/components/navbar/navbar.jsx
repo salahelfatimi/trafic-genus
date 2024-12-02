@@ -18,7 +18,7 @@ export default function Navbar() {
 
     const items=[
         {title:'accueil',href:'/'},
-        {title:'Blogs',href:'/blogs'},
+        {title:'Blog',href:'/blogs'},
         {title:'Contact',href:'/contact'},
        
     ]

@@ -10,9 +10,7 @@ import Testimonial from "../testimonial/page";
         <div>
             {/* Header */}
            
-            <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-4 bg-black  pt-20  flex flex-col  items-center justify-center">
-                 
-                    {/* <Image src={'/TopHeader/logo.png'} width={400} height={400} priority  className=" w-64 lg:w-1/3" alt="trafic genius"    title="trafic genius" /> */}
+            <div className="relative bg-[url('/topHeader/bg.png')] lg:bg-cover py-4 bg-black  pt-20  flex flex-col  items-center justify-center">    
                     <div className="flex flex-col gap-4 items-center py-4 container">
                         <h2 className="font-bold text-center text-xl lg:text-5xl uppercase  text-[#F2FD01]">
                             <span className=" text-white">Faisons le pari fou de faire de vous</span> une figure d&apos;autorité respectée <span className=" text-white"> sur votre marché.</span> 
@@ -55,7 +53,7 @@ import Testimonial from "../testimonial/page";
             </div>
             {/* Saction 1 */}
             <div className=" bg-[#F2FD01]  relative flex flex-col justify-between gap-10 z-20 pt-40">
-                <div className=" bg-black bg-[url('/TopHeader/bg.png')] lg:bg-cover w-full h-28   top-0 rounded-full-css absolute "></div>
+                <div className=" bg-black bg-[url('/topHeader/bg.png')] lg:bg-cover w-full h-28   top-0 rounded-full-css absolute "></div>
                 <div  className=" relative z-20  flex container flex-col items-center justify-center ">
                     <div className=" absolute w-screen overflow-hidden">
                         <p className="text-border font-sans uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">
@@ -95,8 +93,8 @@ import Testimonial from "../testimonial/page";
                     </div>
                     <div className="  gap-20 flex flex-col lg:flex-row items-center justify-center">
                         <div className=" relative w-[300px] h-[350px]">
-                            <Image className=" relative w-full h-full z-10" src={'/TopHeader/bglogo.png'} width={182} height={239} alt="trafic genius"    title="trafic genius"/>
-                            <Image className=" absolute top-0 left-0 w-full h-full z-0 animate-move-smoke" src={'/TopHeader/smoke.png'} width={300} height={300} alt="trafic genius"    title="traficgenius"/>
+                            <Image className=" relative w-full h-full z-10" src={'/topHeader/bglogo.png'} width={182} height={239} alt="trafic genius"    title="trafic genius"/>
+                            <Image className=" absolute top-0 left-0 w-full h-full z-0 animate-move-smoke" src={'/topHeader/smoke.png'} width={300} height={300} alt="trafic genius"    title="traficgenius"/>
                         </div>
                         <p className="text-white w-4/5 lg:w-1/2 font-light text-center lg:text-left  sm:text-2xl ">
                         Notre Team se lève le matin avec un seul but : vous aider à accroître vos bénéfices, vous libérer du temps, gagner en qualité de vie et atteindre vos objectifs.

@@ -50,20 +50,29 @@ export default function DetailsBlog({ id }) {
   return (
     <div className="bg-black">
         <div className="relative">
-            {post.featured_media && (
-                <div className="relative w-full">
-                    {post._embedded?.['wp:featuredmedia']?.[0]?.source_url && (
-                        <Image
-                            src={post._embedded['wp:featuredmedia'][0].source_url}
-                            alt={post.title.rendered}
-                            width={1920}
-                            height={1080}
-                            className="h-[100vh] w-full object-cover object-bottom"
-                        />
-                    )}
-                    <div className="absolute inset-0 bg-black opacity-65"></div>
-                </div>
-            )}
+        {post && (
+  <div
+    key={post.id}
+    className="relative flex flex-col lg:flex-row justify-around items-center gap-3"
+  >
+    <div className="relative w-full">
+      <Image
+        src={
+          post._embedded?.['wp:featuredmedia']?.[0]?.source_url ||
+          '/opengraph-image.jpg'
+        }
+        alt={post.title.rendered || 'Default Alt Text'}
+        width={1920}
+        height={1080}
+        className="h-[100vh] w-full object-cover object-bottom"
+      />
+      <div className="absolute inset-0 bg-black opacity-65"></div>
+    </div>
+
+   
+  </div>
+)}
+
             <h2 className="absolute inset-0 z-10 text-white text-3xl lg:text-5xl font-bold text-center flex justify-center items-center">
                 {post.title.rendered}
             </h2>

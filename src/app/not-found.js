@@ -6,7 +6,7 @@ export default function NotFound() {
   return (
     <>
       <div className=" container flex flex-col gap-10 items-center justify-center  h-screen   bg-black inset-0 ">
-        <Image src={'/TopHeader/logo.png'} width={500} height={500} alt="Logo" />
+        <Image src={'/logo.png'} width={500} height={500} alt="trafic genius" />
 
         <p className=" font-bold text-2xl flex items-center gap-2 flex-col text-center justify-center text-white">
           Il semble que cette page n&apos;existe pas

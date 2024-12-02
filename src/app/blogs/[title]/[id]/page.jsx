@@ -11,7 +11,7 @@ export async function generateMetadata({ params: { id } }) {
 
     return {
       title: blogs.title.rendered,
-      description:  blogs.excerpt.rendered || 'No description available', // Added fallback for description
+      description:  blogs.content.rendered || 'No description available', // Added fallback for description
       alternates: {
         canonical: `/blogs/${encodeURIComponent(blogs.title.rendered.trim().replace(/[/%\s]+/g, "-"))}/${blogs.id}`,
       },

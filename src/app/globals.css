@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.prose h2 {
+  color: #ff5733; /* Change to your desired color */
+}
+
 
 .text-border{
     -webkit-text-stroke: 1px rgb(132, 125, 125)

@@ -3,6 +3,7 @@ import { BadgeCheck, BadgeInfo } from "lucide-react";
 import { Poppins } from "next/font/google";
 import Image from "next/image"
 import Link from "next/link";
+import Script from "next/script";
 const poppins = Poppins ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
 
 export async function generateMetadata(){
@@ -174,6 +175,24 @@ export default function Boutique(){
     
     return(
         <div className={` ${poppins.className} bg-black flex flex-col items-center justify-center pt-20`}>
+            <Script
+                id="fb-pixel"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{
+                __html: `
+                    !function(f,b,e,v,n,t,s)
+                    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                    n.queue=[];t=b.createElement(e);t.async=!0;
+                    t.src=v;s=b.getElementsByTagName(e)[0];
+                    s.parentNode.insertBefore(t,s)}(window, document,'script',
+                    'https://connect.facebook.net/en_US/fbevents.js');
+                    fbq('init', '${process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID}');
+                    fbq('track', 'PageView');
+                `,
+                }}
+            />
             <div className="  container flex flex-col gap-8 items-center ">
                 {/* saction 2 */}
                 <h1 className=" text-2xl lg:text-5xl font-bold text-center text-[#EFFF00] ">Obtenez une Boutique e-commerce clé en main complète pour seulement 97€ (au lieu de 997€)</h1>

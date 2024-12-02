@@ -14,6 +14,8 @@ export default function Footer(){
 
                 <p className=" pt-4">UK | TRAFIC GENIUS LTD 📍: 128 City Road, London, United Kingdom, EC1V 2NX </p>
                 <p>US | TRAFIC GENIUS LLC 📍: 131 Continental Dr, Suite 305, Newark, 19713, county of New Castle, DELAWARE</p>
+                <p>MA | TRAFIC GENIUS  📍: Gueliz, Boulevard Moulay Rachid, Centre d'affaires Essalam 1ér Étage, Bureaux 12 & 13, Marrakech 40000</p>
+
               </div>
               <div className=" flex flex-col  md:flex-row text-xs text-center gap-2 text-[#9F9B9A]">
                 <Link className=" hover:underline  underline-offset-2" href={'/mentions-legales'}>Mentions légales</Link>
@@ -25,7 +27,7 @@ export default function Footer(){
                 <Link href={'https://www.instagram.com/trafic_genius/'} target="_blank" className="bg-[#F2FD01] p-1 rounded-md group  border-[#F2FD01] border-2 duration-500"><InstagramIcon size={25} className=" " /></Link>
                 <Link href={'https://www.linkedin.com/company/trafic-genius'} target="_blank" className="bg-[#F2FD01] p-1 rounded-md group  border-[#F2FD01] border-2 duration-500"><LinkedinIcon size={25} className=" " /></Link>
                 <Link href={'https://www.facebook.com/traficgenius'} target="_blank" className="bg-[#F2FD01] p-1 rounded-md group  border-[#F2FD01] border-2 duration-500"><FacebookIcon size={25} className="  "/></Link>
-                <Link href={'https://snapchat.com/t/37ZQI5I9'} target="_blank" className="bg-[#F2FD01] p-1 rounded-md group  border-[#F2FD01] border-2 duration-500"><Image src={'/footer/snapchat.png'} width='25' height='25'  className="  "/></Link>
+                <Link href={'https://snapchat.com/t/37ZQI5I9'} target="_blank" className="bg-[#F2FD01] p-1 rounded-md group  border-[#F2FD01] border-2 duration-500"><Image src={'/footer/snapchat.png'} width='25' height='25'  className="  " alt="snapchat trafic genius"/></Link>
 
               </div>
         </div>

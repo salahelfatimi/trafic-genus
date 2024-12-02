@@ -14,7 +14,7 @@ export default function Footer(){
 
                 <p className=" pt-4">UK | TRAFIC GENIUS LTD 📍: 128 City Road, London, United Kingdom, EC1V 2NX </p>
                 <p>US | TRAFIC GENIUS LLC 📍: 131 Continental Dr, Suite 305, Newark, 19713, county of New Castle, DELAWARE</p>
-                <p>MA | TRAFIC GENIUS  📍: Gueliz, Boulevard Moulay Rachid, Centre d'affaires Essalam 1ér Étage, Bureaux 12 & 13, Marrakech 40000</p>
+                <p>MA | TRAFIC GENIUS  📍: Gueliz, Boulevard Moulay Rachid, Centre d&apos;affaires Essalam 1ér Étage, Bureaux 12 & 13, Marrakech 40000</p>
 
               </div>
               <div className=" flex flex-col  md:flex-row text-xs text-center gap-2 text-[#9F9B9A]">

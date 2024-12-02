@@ -7,10 +7,10 @@ import Testimonial from "../testimonial/page";
 
  export default  function Header (){
         return(
-        <div id="top">
+        <div className="">
             {/* Header */}
            
-            <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-4 bg-black    flex flex-col  items-center justify-center">
+            <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-4 bg-black pt-20   flex flex-col  items-center justify-center">
                  
                     {/* <Image src={'/TopHeader/logo.png'} width={400} height={400} priority  className=" w-64 lg:w-1/3" alt="trafic genius"    title="trafic genius" /> */}
                     <div className="flex flex-col gap-4 items-center py-4 container">

@@ -30,9 +30,15 @@ export default function RootLayout({ children }) {
             {children}
           </main>
           <Footer/>
-          <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=1624065915126787&ev=PageView&noscript=1"
-          /></noscript>
+          <noscript>
+            <img
+              height="1"
+              width="1"
+              style={{ display: "none" }}
+              src="https://www.facebook.com/tr?id=1624065915126787&ev=PageView&noscript=1"
+              alt=""
+            />
+          </noscript>
       </body>
     </html>
   );

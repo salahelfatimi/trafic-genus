@@ -4,7 +4,7 @@ const nextConfig = {
         remotePatterns: [
             {
                 protocol: 'https',
-                hostname: 'lime-tiger-201835.hostingersite.com',
+                hostname: 'digitaleraholding.com',
                 pathname: '/wp-content/uploads/**',
             },
         ],

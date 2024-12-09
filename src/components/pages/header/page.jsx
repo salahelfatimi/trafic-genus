@@ -14,9 +14,9 @@ import Testimonial from "../testimonial/page";
                  
                     {/* <Image src={'/TopHeader/logo.png'} width={400} height={400} priority  className=" w-64 lg:w-1/3" alt="trafic genius"    title="trafic genius" /> */}
                     <div className="flex flex-col gap-4 items-center py-4 container">
-                        <h1 className="font-bold text-center text-xl lg:text-5xl uppercase  text-[#F2FD01]">
+                        <h2 className="font-bold text-center text-xl lg:text-5xl uppercase  text-[#F2FD01]">
                             <span className=" text-white">Faisons le pari fou de faire de vous</span> une figure d&apos;autorité respectée <span className=" text-white"> sur votre marché.</span> 
-                        </h1>
+                        </h2>
                         {/* video */}
                         <div className="relative z-30 w-full lg:w-[75vh] pt-[57%] md:pt-[30%] lg:pt-[24%] rounded-lg overflow-hidden">
                             <iframe

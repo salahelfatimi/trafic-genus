@@ -1,6 +1,5 @@
 
 import { CircleX, FileText, Users } from "lucide-react";
-import Image from "next/image";
 export default  function FetchText() {
     const images = [
         { title: "On vous garantit un résultat unique et 100% personnalisé pour vous démarquer" , icon:<FileText size={50} className=" " /> },

@@ -3,6 +3,7 @@ import FetchLogo from '@/components/tools/fetchlogo'
 import CalendlyEmbed from "@/components/tools/CalendlyWidget";
 import { Exo_2 } from "next/font/google";
 import Script from "next/script";
+import Navbar from "@/components/navbar/navbar";
 const exo_2 = Exo_2 ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
 
 export async function generateMetadata(){
@@ -40,31 +41,12 @@ export default  function  Appel(){
     return(
         
         <main className={`${exo_2.className}  bg-black   flex flex-col  gap-20 justify-between pt-20 `}>
-          <Script
-            id="fb-pixel"
-            strategy="afterInteractive"
-            dangerouslySetInnerHTML={{
-              __html: `
-                !function(f,b,e,v,n,t,s)
-                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-                n.queue=[];t=b.createElement(e);t.async=!0;
-                t.src=v;s=b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t,s)}(window, document,'script',
-                'https://connect.facebook.net/en_US/fbevents.js');
-                fbq('init', '${process.env.NEXT_PUBLIC_FACEBOOK_PIXEL_ID}');
-                fbq('track', 'PageView');
-              `,
-            }}
-          />
+          <Navbar/>
             <div className=" bg-[#F2FD01]  flex  gap-4 items-center justify-center w-full ">
                 <Image src={'/appel/fulllogo.png'} width={100} height={100} alt="trafic genius"    title="trafic genius" />
                 <h2 className="font-medium text-sm lg:text-xl text-black">Solutions Digitales de Premier Ordre : Expertise, Créativité et Performances Exceptionnelles !</h2>
             </div>
             <div className=" container  flex flex-col gap-10 items-center justify-center">
-                
-
                 <h2 className=" py-10 font-black text-center text-4xl md:text-7xl lg:text-9xl bg-clip-text text-transparent bg-[url('/appel/logoyellow.png')] bg-[#42384D] uppercase  bg-auto bg-no-repeat bg-top animate-slide-bg">
                     trafic genius
                 </h2>                
@@ -74,9 +56,7 @@ export default  function  Appel(){
                 <CalendlyEmbed url="https://calendly.com/trafic-gen-team/discutons-de-votre-business"/>
             </div>
             <div className=" py-2 border-y-4 border-[#F2FD01]">
-                   
                 <FetchLogo/>
-                   
             </div>
 
         

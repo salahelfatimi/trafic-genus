@@ -1,10 +1,12 @@
 "use client";
 import React from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import Autoplay from "embla-carousel-autoplay";
+import AutoScroll from 'embla-carousel-auto-scroll'
 
 export default function EmblaCarousel({ children }) {
-  const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay()]);
+  const [emblaRef] = useEmblaCarousel({ loop: true }, [
+    AutoScroll({ stopOnInteraction:false ,speed: 0.6  })
+  ])
 
   return (
     <div className=" overflow-hidden" ref={emblaRef}>

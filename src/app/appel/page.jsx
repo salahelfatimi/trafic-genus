@@ -40,8 +40,9 @@ export default  function  Appel(){
  
     return(
         
-        <main className={`${exo_2.className}  bg-black   flex flex-col  gap-20 justify-between pt-20 `}>
+        <main className={`${exo_2.className}bg-black`}>
           <Navbar/>
+          <div className="flex flex-col  gap-20 justify-between pt-20">
             <div className=" bg-[#F2FD01]  flex  gap-4 items-center justify-center w-full ">
                 <Image src={'/appel/fulllogo.png'} width={100} height={100} alt="trafic genius"    title="trafic genius" />
                 <h2 className="font-medium text-sm lg:text-xl text-black">Solutions Digitales de Premier Ordre : Expertise, Créativité et Performances Exceptionnelles !</h2>
@@ -53,11 +54,13 @@ export default  function  Appel(){
                 <p className=" font-bold text-xl lg:text-4xl text-white text-center">Des solutions innovantes pour maximiser vos <span className="text-[#F2FD01] ">BÉNÉFICES</span></p>
             </div>
             <div className="container pt-10">
-                <CalendlyEmbed url="https://calendly.com/trafic-gen-team/discutons-de-votre-business"/>
+                <CalendlyEmbed url="https://calendly.com/trafic-genius/diagnostique-offert"/>
             </div>
             <div className=" py-2 border-y-4 border-[#F2FD01]">
                 <FetchLogo/>
             </div>
+          </div>
+           
 
         
         </main>

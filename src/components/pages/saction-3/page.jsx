@@ -17,11 +17,23 @@ export default function Saction3(){
 
         ]
         const filterText=Etapes.find((ele) => ele.id == clickNum);
+
+        const handleClick = () => {
+            const section = document.querySelector('#sactionEtapes');
+            if (section) {
+                const sectionTop = section.offsetTop;
+                const offset = window.innerHeight / 2 - section.offsetHeight / 2;
+                window.scrollTo({
+                    top: sectionTop - offset,
+                    behavior: 'smooth',
+                });
+            }
+        };
         function scrollToSection(e) {
             e.preventDefault(); 
             const targetSection = document.querySelector('#sactionEtapes');
             if (targetSection) {
-                targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                targetSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
             }
 
         }

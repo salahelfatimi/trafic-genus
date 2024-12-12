@@ -1,6 +1,7 @@
 import FetchLogoScroll from '@/components/tools/fetchLogoScroll'
 import Link from "next/link";
 import Testimonial from "@/components/pages/testimonial/page";
+import Image from 'next/image';
 
 
 
@@ -9,7 +10,8 @@ import Testimonial from "@/components/pages/testimonial/page";
         <div className="">
             
             {/* Header */}
-            <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-4 bg-black pt-20   flex flex-col  items-center justify-center">
+            <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-4 bg-black pt-10   flex flex-col  items-center justify-center">
+                        <Image src={'/TopHeader/logo.png'} width={400} height={400} priority  className=" w-64 lg:w-1/3" alt="trafic genius"    title="trafic genius" />
                         <div className="flex flex-col gap-4 items-center py-4 container">
                         <h2 className="font-bold text-center text-xl lg:text-5xl uppercase  text-[#F2FD01]">
                             <span className=" text-white">Faisons le pari fou de faire de vous</span> une figure d&apos;autorité respectée <span className=" text-white"> sur votre marché.</span> 

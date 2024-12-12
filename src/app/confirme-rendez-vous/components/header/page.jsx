@@ -18,16 +18,16 @@ import Testimonial from "@/components/pages/testimonial/page";
                             Nous aidons les chefs d&apos;entreprises et entrepreneurs du Web à trouver des nouveaux clients  prêt à payer pour leurs produits ou services avec des résultats garantis
                         </p>  
                          {/* video */}
-                        {/* <div className="relative z-30 w-full lg:w-[75vh] pt-[57%] md:pt-[30%] lg:pt-[24%] rounded-lg overflow-hidden">
+                        <div className="relative z-30 w-full lg:w-[100vh] pt-[57%] md:pt-[30%] lg:pt-[24%] rounded-lg overflow-hidden">
                             <iframe
-                                src="https://app.videas.fr/embed/media/e6e65956-8483-4ecf-ada4-8b8bce3ce215/?title=false&logo=false&thumbnail_duration=false&controls=false&info=true"
+                                src="https://app.videas.fr/embed/media/163f0840-7b97-40b3-a997-18d37d5664aa/?title=false&logo=false&thumbnail_duration=false&controls=false&info=true"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
                                 className="absolute top-0 left-0 w-full h-full object-cover"
                                 referrerPolicy="unsafe-url"
                             ></iframe>
-                        </div> */}
+                        </div>
                         <Link href={'/appel'} target="_blank" >
                             <button className="cssbuttons-io-button ">
                                 Lancez votre projet !

@@ -13,13 +13,13 @@ import Testimonial from "../testimonial/page";
             <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-4 bg-black pt-20   flex flex-col  items-center justify-center">   
                     {/* <Image src={'/TopHeader/logo.png'} width={400} height={400} priority  className=" w-64 lg:w-1/3" alt="trafic genius"    title="trafic genius" /> */}
                     <div className="flex flex-col gap-4 items-center py-4 container">
-                        <h2 className="font-bold text-center text-xl lg:text-5xl uppercase  text-[#F2FD01]">
+                        <h1 className="font-bold text-center text-xl lg:text-5xl uppercase  text-[#F2FD01]">
                             <span className=" text-white">Faisons le pari fou de faire de vous</span> une figure d&apos;autorité respectée <span className=" text-white"> sur votre marché.</span> 
-                        </h2>
+                        </h1>
                         {/* video */}
                         <div className="relative z-30 w-full lg:w-[75vh] pt-[57%] md:pt-[30%] lg:pt-[24%] rounded-lg overflow-hidden">
                             <iframe
-                                src="https://app.videas.fr/embed/media/e6e65956-8483-4ecf-ada4-8b8bce3ce215/?title=false&logo=false&thumbnail_duration=false&controls=false&info=true"
+                                src="https://app.videas.fr/embed/media/163f0840-7b97-40b3-a997-18d37d5664aa/?title=false&logo=false&thumbnail_duration=false&controls=false&info=true"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen

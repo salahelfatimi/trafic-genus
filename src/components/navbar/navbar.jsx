@@ -29,16 +29,13 @@ export default function Navbar() {
             <div className={`fixed z-40 top-0 right-0 left-0 p-4 flex justify-between items-center ${isScrolled ? 'bg-black ' : 'bg-transparent'}  duration-500`}>
                 <Link href={'/'} className="w-fit flex gap-1 items-center">
                     <Image
-                        src='/fulllogo.png'
+                        src='/TopHeader/logo.png'
                         width={500}
                         height={500}
-                        className="w-12"
+                        className="w-56"
                         alt="Trafic Genius"
                         title="Trafic Genius"
                     />
-                    <h1 className={`${isScrolled ? 'text-[#efff01] ' : 'text-white'} font-bold text-xl`}>
-                        Trafic Genius
-                    </h1>
                 </Link>
                 <button onClick={()=>(setOpenMenu(!openMenu))} className="bg-[#efff01] p-1 lg:hidden block">
                     <Menu size={35} className=" stroke-black "/>

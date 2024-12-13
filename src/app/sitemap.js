@@ -30,6 +30,7 @@ export default async function sitemap() {
     { url: `${baseUrl}/conditions-generales-de-vente`, lastModified: new Date() },
     { url: `${baseUrl}/clause-de-non-responsabilite`, lastModified: new Date() },
     { url: `${baseUrl}/blogs`, lastModified: new Date() },
+    { url: `${baseUrl}/confirme-rendez-vous`, lastModified: new Date() },
     ...dynamicPaths,
   ];
 }

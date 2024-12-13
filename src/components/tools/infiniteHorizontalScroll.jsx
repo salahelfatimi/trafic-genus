@@ -5,7 +5,7 @@ import AutoScroll from 'embla-carousel-auto-scroll'
 
 export default function EmblaCarousel({ children }) {
   const [emblaRef] = useEmblaCarousel({ loop: true }, [
-    AutoScroll({ stopOnInteraction:false ,speed: 10000  })
+    AutoScroll({ stopOnInteraction:false ,speed: 0.6  })
   ])
 
   return (

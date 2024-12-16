@@ -1,13 +1,26 @@
+'use client'
 import Image from "next/image";
 import FetchLogoScroll from '@/components/tools/fetchLogoScroll'
-import { CircleDollarSign, Search, TvMinimal } from "lucide-react";
+import { CircleDollarSign, Play, Search, TvMinimal, X } from "lucide-react";
 import Link from "next/link";
 import Testimonial from "../testimonial/page";
+import Script from "next/script";
+import { useState } from "react";
 
 
  export default  function Header (){
+    const [showVideo, setShowVideo] = useState(false);
+
+    const handleShowVideo = () => {
+        setShowVideo(true);
+    };
+
+    const handleCloseVideo = () => {
+        setShowVideo(false);
+    };
         return(
         <div className="">
+           
             {/* Header */}
            
             <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-4 bg-black pt-20   flex flex-col  items-center justify-center">   
@@ -17,19 +30,27 @@ import Testimonial from "../testimonial/page";
                             <span className=" text-white">Faisons le pari fou de faire de vous</span> une figure d&apos;autorité respectée <span className=" text-white"> sur votre marché.</span> 
                         </h1>
                         {/* video */}
-                        <div className="relative z-30 w-full lg:w-[75vh] pt-[57%] md:pt-[30%] lg:pt-[24%] rounded-lg overflow-hidden">
-                            <iframe
-                                src="https://app.videas.fr/embed/media/163f0840-7b97-40b3-a997-18d37d5664aa/?title=false&logo=false&thumbnail_duration=false&controls=false&info=true"
-                                frameBorder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen
-                                className="absolute top-0 left-0 w-full h-full object-cover"
-                                referrerPolicy="unsafe-url"
-                            ></iframe>
-                        </div>
-
+                        {!showVideo && (
+                            <div className="relative cursor-pointer group" onClick={handleShowVideo}>
+                                <img src="/coverVideo.jpg" alt="Video Thumbnail" className="w-full max-w-lg border-8 border-[#F2FD01] rounded-lg shadow-lg"/>
+                                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40  transition-opacity">
+                                    <span className="bg-[#F2FD01] border-4 border-black animate-pulse rounded-full p-3 text-xl font-semibold"><Play size={40} /></span>
+                                </div>
+                            </div>
+                        )}
+                        {/* Fullscreen Video */}
+                        {showVideo && (
+                            <div className="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center">
+                                <div className="relative w-full h-full max-w-full max-h-[100vh]">
+                                    <iframe src="https://app.videas.fr/embed/media/5e3faf9a-3333-46cb-971a-f64cee286545/?title=false&logo=false&thumbnail_duration=false&loop=true&info=true&thumbnail=video" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className="absolute top-0 left-0 w-full h-full" referrerPolicy="unsafe-url"></iframe>
+                                    <button onClick={handleCloseVideo} className="absolute flex items-center justify-center gap-2 top-4 right-4 bg-white text-black px-3 py-1 rounded-full font-bold hover:bg-gray-200">
+                                        <X size={30}/> Fermer
+                                    </button>
+                                </div>
+                            </div>
+                        )}
                         <p className=" text-xs lg:text-base text-center text-white font-normal">
-                            Nous aidons les chefs d&apos;entreprises et entrepreneurs du Web à trouver des nouveaux clients  prêt à payer pour leurs produits ou services avec des résultats garantis
+                            Nous aidons les chefs d&apos;entreprises et entrepreneurs du Web à trouver des nouveaux clients  prêt à payer pour <br className="hidden lg:block" /> leurs produits ou services avec des résultats garantis
                         </p>  
                         <Link href={'/appel'} target="_blank" >
                             <button className="cssbuttons-io-button ">
@@ -49,7 +70,23 @@ import Testimonial from "../testimonial/page";
                                     </svg>
                                 </div>
                             </button>
-                        </Link>   
+                        </Link> 
+                        <div
+                            className="trustpilot-widget  block lg:hidden "
+                            data-locale="fr-FR"
+                            data-template-id="56278e9abfbbba0bdcd568bc"
+                            data-businessunit-id="675c30c57e82157e62454e10"
+                            data-style-height="60px"
+                            data-style-width="100%"
+                            >
+                                <a
+                                href="https://fr.trustpilot.com/review/traficgenius.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                Trustpilot
+                            </a>
+                        </div>  
                     </div>
             </div>
             {/* Saction 1 */}

@@ -179,7 +179,7 @@ export default function Saction3(){
                             <p>
                                 Nous sommes passionnés par ce que nous faisons et nous croyons que notre passion transparaît dans notre travail. Nous sommes toujours à la recherche de nouvelles opportunités pour améliorer et développer nos compétences, afin de fournir à nos clients les solutions les plus innovantes et les plus performantes. <br /><br />
 
-                                Chez Get Funnels, nous sommes fiers de notre culture d&apos;entreprise axée sur la collaboration et le partage des connaissances. <br /><br />
+                                Chez Trafic Genius, nous sommes fiers de notre culture d&apos;entreprise axée sur la collaboration et le partage des connaissances. <br /><br />
 
                                 Nous aimons travailler en équipe pour partager nos idées et trouver les meilleures solutions pour nos clients.     <br /><br />
                             </p>

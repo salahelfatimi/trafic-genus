@@ -4,10 +4,12 @@ export default function Expert(){
     const expertsDats=[
         {id:1,name:'salaheddine elfatimi',job:'Développer full stack',image:'SALAH.png'},
         {id:2,name:'judi kleancy ibounda-ibounda',job:'Développer CMS Junior',image:'JUDI.png'},
-        {id:3,name:'zineb byfanzi',job:'modératrice E-Commerce',image:'ZINEB.png'},
-        {id:4,name:'Salma Regragui Dounia',job:'Custom manager',image:'SALMA.png'},
         {id:5,name:'hind lagheryeb',job:'Assistante Direction',image:'HIND.png'},
         {id:6,name:'chris jeffrey bibang',job:'graphiste , designer',image:'CHRIS.png'},
+        {id:7,name:'salaheddine elfatimi',job:'Développer full stack',image:'SALAH.png'},
+        {id:8,name:'judi kleancy ibounda-ibounda',job:'Développer CMS Junior',image:'JUDI.png'},
+        {id:9,name:'hind lagheryeb',job:'Assistante Direction',image:'HIND.png'},
+        {id:10,name:'chris jeffrey bibang',job:'graphiste , designer',image:'CHRIS.png'},
         
        
         

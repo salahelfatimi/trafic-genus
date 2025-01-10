@@ -3,18 +3,14 @@ import Saction2 from "./components/saction-2/page";
 import Saction3 from "./components/saction-3/page";
 import ButtonUp from "./components/tools/buttonUp";
 
-
-
-
-
 export async function generateMetadata(){
   return {
-    title: "Confirme Rendez Vous",
+    title: "Accompagnement",
     alternates: {
       canonical: "/accompagnement",
     },
     openGraph: {
-      title: "confirme Rende Vous",
+      title: "Accompagnement",
       description: "Nous aidons les chefs d’entreprises et entrepreneurs à trouver de nouveaux clients prêts à payer leurs produits et services avec garantie.",
       url:`${process.env.NEXT_PUBLIC_BASE_URL}/accompagnement`,
       robots: {
@@ -28,7 +24,7 @@ export async function generateMetadata(){
           secureUrl: `/opengraph-image.jpg`,
           width: 1200,
           height: 675,
-          alt: "confirme Rendez Vous",
+          alt: "Accompagnement",
         }
       ],
       type: "website",

@@ -32,7 +32,7 @@ export const metadata = {
 
 export default function MentionsLegales(){
     return(
-        <div className="bg-black">
+        <div className="bg-black ">
             <div className={`${poppins.className} p-6  text-white  lg:text-base text-xs md:text-sm  text-center  container`}>
                 <h2 className="text-4xl font-bold  mb-4 text-center text-[#EFFF00]">Mentions Légales</h2>
                 
@@ -57,7 +57,7 @@ export default function MentionsLegales(){
                 </p>
                 
                 <p className="mb-4">
-                    L&apos;hébergement du site est assuré par la société <span className="font-semibold ">Hostinger</span>.
+                    L&apos;hébergement du site est assuré par la société <span className="font-semibold ">Vercel</span>.
                 </p>
                 
                 <p className="mb-4">

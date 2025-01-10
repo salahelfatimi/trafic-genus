@@ -38,15 +38,14 @@ export default function RootLayout({ children }) {
           `,
         }}/>
       <GoogleAnalytics gaId={process.env.ANALYTICS_ID} />
-      <body className={`${exo_2.className} scroll-smooth  bg-black scrollbar scrollbar-thumb-[#F2FD01] scrollbar-track-black h-32 overflow-y-scroll`}>
+      <body className={`${exo_2.className}  scroll-smooth  bg-black scrollbar scrollbar-thumb-[#F2FD01] scrollbar-track-black h-32 overflow-y-scroll`}>
           {/* <div className=" w-full flex justify-end fixed top-4 right-4 z-[100]  ">
             <Translate/> 
           </div> */}
-        
           <main className=" ">
             {children}
+            <Footer/>
           </main>
-          <Footer/>
           
       </body>
     </html>

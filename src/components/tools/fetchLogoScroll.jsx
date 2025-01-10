@@ -24,11 +24,11 @@ export default function FetchLogoScroll() {
     { id: 13, title: "NJ3D", image: 'NJ3D.png' },
   ];
   return (
-    <div className=" w-full">
+    <div className=" w-full select-none">
       <div className="py-10 overflow-hidden" ref={emblaRef}>
         <div className="flex flex-row flex-nowrap gap-20 pl-10 active:cursor-grabbing cursor-grab">      
           {images.map((src, index) => ( 
-            <img key={index} title={src.title} width={500} height={500} quality={50} src={`/partners/${src.image}`} className=" h-44 w-auto " alt={src.title} />
+            <img key={index} title={src.title} width={500} height={500} quality={50} src={`/partners/${src.image}`} className=" h-48 w-auto " alt={src.title} />
           ))}
         </div>
       </div>

@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import {CheckCheck, Play, X } from 'lucide-react';
 import Resultats from "../tools/resultats";
+import FetchLogoScroll from "@/components/tools/fetchLogoScroll";
 
 export default  function Header (){
         const [showVideo, setShowVideo] = useState(false);
@@ -29,7 +30,7 @@ export default  function Header (){
             setShowVideo(false);
         };
         return(
-        <div className="flex flex-col gap-6 items-center justify-center">
+        <div className="flex flex-col gap-10 items-center justify-center">
             {/* Header */}
             <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover bg-black pt-4 min-h-screen  flex flex-col  items-center justify-center">
                 <Image src={'/TopHeader/logo.png'} width={400} height={400} priority  className=" w-64 lg:w-1/3" alt="trafic genius"    title="trafic genius" />
@@ -70,7 +71,6 @@ export default  function Header (){
                         </Link> 
                 </div>
             </div>
-
             {/* Testimonial */}
             <div className="relative  bg-black   ">
                 <div className="flex-col flex items-center gap-10 pb-20">
@@ -130,21 +130,42 @@ export default  function Header (){
                 </Link>         
             </div>
              {/* saction 2 */}
-             <div className="bg-black flex flex-col justify-center items-center gap-10 ">
+            <div className="bg-black flex flex-col justify-center items-center gap-10 ">
                 <div className=" container  flex gap-10 flex-col justify-center items-center  ">
                     <div className="flex-col flex items-center gap-2 justify-center">
                         <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-white  text-center uppercase leading-relaxed">Imaginez juste un  <span className="text-primary"> instant… </span></h2>
                     </div>
                     <img className=" lg:w-[80%]" src="/accompagnement/ImaginezJusteUnInstant.gif" alt="Imaginez Juste Un Instant" />
-                    
                 </div>
-                  
             </div>
+
             {/* saction 3 */}
+            
+            <div className="bg-black ">
+                <div className=" container  flex gap-20 flex-col justify-center items-center  pb-10">
+                    <div className="flex-col flex items-center gap-2 justify-center">
+                            <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-white  text-center uppercase leading-relaxed">trafic genius, UNE ÉQUIPE DE PROFESSIONNELLES À  <span className="relative text-primary"> VOS CÔTÉS </span></h2>
+                    </div>
+                    <div className="  lg:w-[70%]  font-light text-white text-center lg:text-2xl border-primary  border-4 p-4 rounded-3xl">
+                        <p>
+                            Nous sommes la meilleure agence marketing francophone spécialisé dans l&apos;acquisition de Trafic de qualité, avec plus de 3 millions € dépensés en publicité Facebook, et plus de 5000 Leads qualifiés générés en Cold Calling, nous mettrons à votre disposition, une équipe essentiellement composée d&apos;experts selon votre besoin de croissance. <br /><br />
+                            De l&apos;imagination à la réalisation de votre projet, nous vous aidons à obtenir plus de prospects afin de réaliser plus de vente, dans un seul et unique objectif, celui de faire plus de profits et vous positionner comme une figure d&apos;autorité respectée sur votre marché.                
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            {/* saction 4 */}
             <div className="">
+                <div className=" bg-primary  relative flex flex-col justify-between gap-10 z-20 pt-40">
+                    <div className=" bg-black  w-full h-28   top-0 rounded-full-css absolute "></div>
+                    <div className=" py-10 flex items-center flex-col justify-center gap-10">
+                        <h2 className=" text-xl md:text-4xl lg:text-6xl font-black text-black  text-center uppercase leading-relaxed">Ils nous font confiance</h2>
+                        <FetchLogoScroll/>
+                    </div>
+                </div>
                 <div className=" flex gap-28 flex-col justify-center items-center bg-primary py-20 relative  w-screen">
                 <div className="rounded-full-css bg-black w-full rotate-180 h-16 bottom-0 absolute z-10 "></div>
-                <div className="rounded-full-css bg-black w-full rotate-0 h-16 top-0 absolute z-10 "></div>
                     <div className="flex-col flex items-center">
                             <h2 className="container text-xl md:text-4xl lg:text-6xl font-black text-black  text-center uppercase leading-relaxed">Imaginez votre projet sous son meilleur JOUR </h2>
                     </div>
@@ -158,8 +179,6 @@ export default  function Header (){
                             </div>
                         ))}
                     </div>
-                    
-                    
                 </div>
             </div>
         </div>

@@ -164,7 +164,7 @@ export default  function Header (){
                         <FetchLogoScroll/>
                     </div>
                 </div>
-                <div className=" flex gap-28 flex-col justify-center items-center bg-primary py-20 relative  w-screen">
+                <div className=" flex gap-28 flex-col justify-center items-center bg-primary py-20 relative  ">
                 <div className="rounded-full-css bg-black w-full rotate-180 h-16 bottom-0 absolute z-10 "></div>
                     <div className="flex-col flex items-center">
                             <h2 className="container text-xl md:text-4xl lg:text-6xl font-black text-black  text-center uppercase leading-relaxed">Imaginez votre projet sous son meilleur JOUR </h2>

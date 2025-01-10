@@ -20,8 +20,8 @@ export default function Saction2(){
                             Avec mon équipe, nous avons tester plusieurs méthodes, diverses combinaison et rassemblé les meilleurs <br className=' hidden lg:block' /> stratégies pour t&apos;aider à obtenir de résultats concrets.
                         </p>                     </div>
                         <Link href={'/appel'} target="_blank" >
-                                <button className="cssbuttons-io-button ">
-                                    Lancez votre projet !
+                                <button className="cssbuttons-io-button uppercase">
+                                    je me lance maintenant !
                                     <div className="icon">
                                         <svg
                                         height="24"

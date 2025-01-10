@@ -49,8 +49,8 @@ export default function Saction3(){
                     <p className="  text-sm  text-white  text-center lg:text-2xl">Prenez contact et échangeons ensemble sur votre projet
                     </p>
                     <Link href={'/appel'} target="_blank" >
-                    <button className="cssbuttons-io-button ">
-                        RÉSERVEZ VOTRE APPEL
+                    <button className="cssbuttons-io-button uppercase ">
+                        je me lance maintenant !
                         <div className="icon">
                             <svg
                                 height="24"

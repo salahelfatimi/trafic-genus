@@ -34,7 +34,7 @@ export default function Expert(){
                                 {expertsDats.map((ele,index)=>(
                                     <div className=' relative select-none ' key={index}>
                                         <img src={'/expert/logo.png'} width={500} height={700} className='  absolute w-28  top-0 -left-4 z-50' quality={100} alt="trafic genius"    title="trafic genius"/>
-                                        <div className=" relative  rounded-t-full    flex flex-col items-center   min-w-80  " > 
+                                        <div className=" relative  rounded-t-full    flex flex-col items-center   min-w-80 lg:min-w-96  " > 
                                             <img src={`/expert/team/${ele.image}`} width={500} height={700} className='  w-96 h-auto bg-cover  ' quality={100} alt={ele.name}    title={ele.name}/>
                                         </div> 
                                     </div>

@@ -23,14 +23,15 @@ export default async function sitemap() {
   }
 
   return [
-    { url: `${baseUrl}`, lastModified: new Date() },
-    { url: `${baseUrl}/appel`, lastModified: new Date() },
-    { url: `${baseUrl}/boutique`, lastModified: new Date() },
-    { url: `${baseUrl}/mentions-legales`, lastModified: new Date() },
-    { url: `${baseUrl}/conditions-generales-de-vente`, lastModified: new Date() },
-    { url: `${baseUrl}/clause-de-non-responsabilite`, lastModified: new Date() },
-    { url: `${baseUrl}/blogs`, lastModified: new Date() },
-    { url: `${baseUrl}/confirme-rendez-vous`, lastModified: new Date() },
+    { url: `${baseUrl}`, lastModified: '2024-08-10T09:18:15.131Z' },
+    { url: `${baseUrl}/appel`, lastModified: '2024-08-10T09:18:15.131Z'},
+    { url: `${baseUrl}/boutique`, lastModified: '2024-08-10T09:18:15.131Z' },
+    { url: `${baseUrl}/mentions-legales`, lastModified: '2024-08-10T09:18:15.131Z' },
+    { url: `${baseUrl}/conditions-generales-de-vente`, lastModified: '2024-08-10T09:18:15.131Z' },
+    { url: `${baseUrl}/clause-de-non-responsabilite`, lastModified: '2024-08-10T09:18:15.131Z' },
+    { url: `${baseUrl}/blogs`, lastModified: '2024-11-10T09:18:15.131Z' },
+    { url: `${baseUrl}/confirme-rendez-vous`, lastModified: '2024-08-10T09:18:15.131Z' },
+    { url: `${baseUrl}/accompagnement`, lastModified: '2025-01-10T09:18:15.131Z' },
     ...dynamicPaths,
   ];
 }

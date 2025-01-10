@@ -30,7 +30,7 @@ export default function Expert(){
                 </div>
                     <div className=" w-full">
                         <div className="py-10 overflow-hidden" ref={emblaRef}>
-                            <div className="flex flex-row flex-nowrap gap-6 pl-10">
+                            <div className="flex flex-row flex-nowrap gap-6 pl-10 cursor-grab active:cursor-grabbing">
                                 {expertsDats.map((ele,index)=>(
                                     <div className=' relative select-none ' key={index}>
                                         <img src={'/expert/logo.png'} width={500} height={700} className='  absolute w-28  top-0 -left-4 z-50' quality={100} alt="trafic genius"    title="trafic genius"/>

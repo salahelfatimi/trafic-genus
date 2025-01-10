@@ -14,13 +14,9 @@ export default function Saction3(){
             <div className="bg-[#F2FD01] relative py-16">
             <div className="rounded-full-css bg-black w-full rotate-180 h-16 bottom-0 absolute z-10 "></div>
             <div className="rounded-full-css bg-black w-full h-16 top-0 absolute z-10 "></div>
-
-                <div className=" container flex flex-col gap-20   pb-20">
-                    <div className=" flex flex-col items-center justify-center  ">
-                        <div className="  w-screen overflow-hidden">
-                            <p className=" font-sans  text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS</p>
-                        </div>
-                        <h2 className=" text-center lg:text-4xl text-2xl font-bold  text-black">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
+                <div className=" container flex flex-col gap-20 py-20">
+                    <div className=" container flex flex-col items-center justify-center  ">
+                        <h2 className=" text-xl md:text-4xl lg:text-6xl font-black text-black  text-center uppercase leading-relaxed ">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
                     </div>  
                     <div className=" container flex flex-col-reverse lg:flex-row-reverse justify-center items-center">
                         <div className=" text-left   lg:w-[70%] font-light text-sm  lg:text-xl bg-[#000] text-white  rounded-xl p-6   shadow-2xl">
@@ -72,11 +68,8 @@ export default function Saction3(){
             </div>
             <div className=" bg-black">
                 <div className="  pb-10 md:container">
-                    <div className=" flex flex-col items-center justify-center  ">
-                        <div className="  w-screen overflow-hidden">
-                            <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS</p>
-                        </div>
-                        <h2 className=" text-center lg:text-4xl text-2xl font-bold  text-white">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
+                    <div className=" container flex flex-col items-center justify-center  ">
+                        <h2 className=" text-xl md:text-4xl lg:text-6xl font-black text-white   text-center uppercase leading-relaxed ">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
                     </div>  
                     <div className="  ">
                      <div className=" p-8">

@@ -20,13 +20,8 @@ export default function Expert(){
     return(
         <div className='bg-black pb-10 '>
             <div className=' flex flex-col gap-20' >
-                <div className="flex-col flex items-center  ">
-                <div className="w-screen overflow-hidden">
-                    <p className={`font-sans text-border uppercase text-9xl font-black font-white text-transparent whitespace-nowrap animate-marquee`}>
-                        Une agence fondée par des  experts du business en ligne
-                    </p>
-                </div>
-                    <h2 className="lg:text-4xl text-2xl font-bold text-white text-center">Une agence fondée par des  experts du business en ligne</h2>
+                <div className="flex-col flex items-center container  ">
+                    <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-white  text-center uppercase leading-relaxed">Une agence fondée par des  experts du business en ligne</h2>
                 </div>
                     <div className=" w-full">
                         <div className="py-10 overflow-hidden" ref={emblaRef}>

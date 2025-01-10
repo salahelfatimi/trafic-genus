@@ -33,6 +33,10 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        primary: '#F2FD01', 
+       
+      },
       animation: {
        
         "slide-bg": "slide 14s linear infinite",

@@ -4,25 +4,18 @@ import FetchLogoScroll from '@/components/tools/fetchLogoScroll'
 import { CircleDollarSign, Play, Search, TvMinimal, X } from "lucide-react";
 import Link from "next/link";
 import Testimonial from "../testimonial/page";
-import Script from "next/script";
 import { useState } from "react";
-
-
  export default  function Header (){
     const [showVideo, setShowVideo] = useState(false);
-
     const handleShowVideo = () => {
         setShowVideo(true);
     };
-
     const handleCloseVideo = () => {
         setShowVideo(false);
     };
         return(
         <div className="">
-           
             {/* Header */}
-           
             <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-4 bg-black pt-20   flex flex-col  items-center justify-center">   
                     {/* <Image src={'/TopHeader/logo.png'} width={400} height={400} priority  className=" w-64 lg:w-1/3" alt="trafic genius"    title="trafic genius" /> */}
                     <div className="flex flex-col gap-4 items-center py-4 container">

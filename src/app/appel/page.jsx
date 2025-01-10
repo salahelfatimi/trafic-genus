@@ -2,7 +2,6 @@ import Image from "next/image";
 import FetchLogo from '@/components/tools/fetchlogo'
 import CalendlyEmbed from "@/components/tools/CalendlyWidget";
 import { Exo_2 } from "next/font/google";
-import Script from "next/script";
 import Navbar from "@/components/navbar/navbar";
 const exo_2 = Exo_2 ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
 

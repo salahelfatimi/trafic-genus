@@ -6,7 +6,6 @@ import { useState } from "react"
 
 export default function Saction3(){
     const [clickNum,setClickNum]=useState(0)
- 
     const [clickShow,setclickShow]=useState(0)
         const Etapes=[
             {id:0,image:'/saction3/etapes/Audit.png', title:'Audit' ,description:"Nous analysons ensemble les résultats pour pouvoir faire les ajustements nécessaires pour l’augmentation de votre taux de conversion."},
@@ -17,7 +16,6 @@ export default function Saction3(){
 
         ]
         const filterText=Etapes.find((ele) => ele.id == clickNum);
-
         const handleClick = () => {
             const section = document.querySelector('#sactionEtapes');
             if (section) {
@@ -53,7 +51,6 @@ export default function Saction3(){
                             <div className="grid grid-cols-1 md:grid-cols-1 2xl:grid-cols-5 items-center justify-center text-center gap-8">
                                 {Etapes.map((step, index) => (
                                     <button
-                                        
                                         key={index}
                                         onClick={(e) => {scrollToSection(e),setClickNum(index);}}
                                         className={`${clickNum === index? "bg-black text-white border-[#F2FD01] border-4 shadow-2xl": "bg-[#F2FD01] text-black"} duration-700 cursor-pointer font-bold hover:bg-black border-[#F2FD01] border-4 hover:text-white rounded-xl p-4`}>
@@ -69,18 +66,11 @@ export default function Saction3(){
                                 <h3 className=" text-white text-4xl text-center font-bold ">{filterText.title}</h3>
                                 <p className="  text-center   text-white  text-sm lg:text-base">{filterText.description}</p>
                             </div>
-                        
-                        </div>
-                            
-                            
+                        </div>    
                 </div>
             </div>
             {/* saction 2 */}
-
             <div className="bg-[#F2FD01]     flex flex-col justify-center items-center pb-10">
-          
-
-
                 <div   className="z-10 bg-[url('/BACKGROUND.jpg')] bg-cover border-[#F2FD01] border-8 shadow-2xl gap-10 rounded-3xl p-6 lg:p-20 w-fit flex flex-col justify-center items-center">
                     <h4 className="  text-[#fff]  font-bold text-center lg:text-4xl text-2xl">PRÊT POUR DÉCOLLER ENSEMBLE ?</h4>
                     <Link href={'/appel'} target="_blank" >
@@ -103,12 +93,9 @@ export default function Saction3(){
                         </button>
                     </Link>
                 </div>
-               
             </div>
-
             {/* saction 3 */}
             <div className=" bg-[#F2FD01]">
-                
                 <div className=" container relative flex flex-col gap-16 items-center justify-center  pb-10 ">
                     <div className=" ">
                         <div className=" flex flex-col ">
@@ -116,8 +103,7 @@ export default function Saction3(){
                                 <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius</p>
                             </div>
                             <h2 className=" text-center lg:text-4xl text-2xl font-bold  text-black">Ensemble on développe de votre entreprise AVEC</h2>                     
-                        </div> 
-
+                        </div>
                     </div>
                     <div className=" container flex flex-col gap-20  ">
                         <div className=" flex flex-col lg:flex-row  gap-20 justify-between items-start  ">
@@ -183,7 +169,6 @@ export default function Saction3(){
 
                                 Nous aimons travailler en équipe pour partager nos idées et trouver les meilleures solutions pour nos clients.     <br /><br />
                             </p>
-                        
                         </div>
                         <div className=" rounded-2xl  ">
                             <Image src={'/saction3/light.png'} className=" cursor-pointer  hover:grayscale-0  grayscale hover:rotate-12 duration-700" width={250} height={500} alt="trafic genius"    title="trafic genius"/>
@@ -192,9 +177,7 @@ export default function Saction3(){
                 </div>
             </div>
             {/* saction 5 */}
-
             <div className=" container relative  flex flex-col justify-center items-center  pb-10">
-
                 <div className="z-10 bg-[url('/BACKGROUND.jpg')] bg-cover border-8 shadow-2xl border-[#F2FD01]  gap-10 rounded-3xl p-6 lg:p-20  flex flex-col justify-center items-center">
                     <h4 className="  text-[#fff]  text-center lg:text-4xl text-2xl  font-bold">Boostez votre entreprise grâce à notre expertise en scaling</h4>
                     <div className=" border-t-4 border-[#F2FD01] w-full"></div>
@@ -274,15 +257,10 @@ export default function Saction3(){
                             <p>Pour nous contacter, vous pouvez cliquer sur l&apos;un des boutons « Prendre contact maintenant » que vous trouverez sur cette page. Après avoir rempli un court formulaire, nous reviendrons vers vous dans les plus brefs délais.</p>
                             </div>
                         </details>
-                        
                     </div>
                     </div>
                 </div>
             </div>
-            
-
-        
-
         </div>
      )
 }

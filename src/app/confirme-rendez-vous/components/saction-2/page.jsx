@@ -1,10 +1,7 @@
-import FetchText from "@/components/tools/fetchText"
+import Expert from "@/components/pages/expert/page"
 import { CirclePlus, Facebook, FileChartColumnIncreasing, Laptop, NotebookPen, Presentation, Target } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
-import InfiniteHorizontalScroll from '@/components/tools/infiniteHorizontalScroll'
-import Expert from "@/components/pages/expert/page"
-
 
 export default function Saction2(){
     const website =[

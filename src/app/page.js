@@ -2,12 +2,9 @@ import Navbar from "@/components/navbar/navbar";
 import Header from "@/components/pages/header/page";
 import Saction_2 from "@/components/pages/saction-2/page";
 import Saction_3 from "@/components/pages/saction-3/page";
-import ButtonUp from "@/components/tools/buttonUp";
-import Script from "next/script";
+import ButtonUp from "@/components/tools/buttonFix";
 
-
-
-export async function generateMetadata(){
+export async function generateMetadata() {
   return {
     title: "Trafic Genius | Marketing Agency ",
     alternates: {
@@ -16,7 +13,7 @@ export async function generateMetadata(){
     openGraph: {
       title: "Trafic Genius",
       description: "Nous aidons les chefs d’entreprises et entrepreneurs à trouver de nouveaux clients prêts à payer leurs produits et services avec garantie.",
-      url:`${process.env.NEXT_PUBLIC_BASE_URL}`,
+      url: `${process.env.NEXT_PUBLIC_BASE_URL}`,
       robots: {
         index: true,
         follow: true,
@@ -32,20 +29,20 @@ export async function generateMetadata(){
         }
       ],
       type: "website",
-    
+
     },
   }
 };
 
-export  default function Home() {
+export default function Home() {
   return (
-  <div className={` overflow-x-hidden `}>
-   
-    <Navbar/>
-    <ButtonUp/>
-    <Header/>
-    <Saction_2/>
-    <Saction_3/>
-  </div>
+    <div className={` overflow-x-hidden `}>
+
+      <Navbar />
+      <ButtonUp />
+      <Header />
+      <Saction_2 />
+      <Saction_3 />
+    </div>
   );
 }

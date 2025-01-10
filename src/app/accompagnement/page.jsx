@@ -11,12 +11,12 @@ export async function generateMetadata(){
   return {
     title: "Confirme Rendez Vous",
     alternates: {
-      canonical: "/confirme-rendez-vous",
+      canonical: "/accompagnement",
     },
     openGraph: {
       title: "confirme Rende Vous",
       description: "Nous aidons les chefs d’entreprises et entrepreneurs à trouver de nouveaux clients prêts à payer leurs produits et services avec garantie.",
-      url:`${process.env.NEXT_PUBLIC_BASE_URL}/confirme-rendez-vous`,
+      url:`${process.env.NEXT_PUBLIC_BASE_URL}/accompagnement`,
       robots: {
         index: true,
         follow: true,

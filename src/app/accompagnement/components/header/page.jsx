@@ -33,7 +33,7 @@ export default  function Header (){
         return(
         <div className="flex flex-col  items-center justify-center">
             {/* Header */}
-            <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover bg-black pt-4   flex flex-col  items-center justify-center">
+            <div className="relative bg-black py-4   flex flex-col  items-center justify-center">
                 <Image src={'/TopHeader/logo.png'} width={400} height={400} priority  className=" w-64 lg:w-[15%]" alt="trafic genius"    title="trafic genius" />
                 <div className="flex flex-col gap-6 items-center py-4 container">
                         <h1 className="font-black text-center text-xl md:text-4xl lg:text-4xl  uppercase ">

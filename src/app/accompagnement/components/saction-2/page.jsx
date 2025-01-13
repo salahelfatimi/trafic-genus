@@ -14,11 +14,11 @@ export default function Saction2(){
             <div className=" flex flex-col gap-8 ">
                 <div className=" container flex flex-col gap-10 items-center justify-center ">
                     <div className="flex flex-col gap-8 text-center text-black">
-                        <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-white  text-center uppercase leading-relaxed">
+                        <h2 className="text-xl md:text-4xl lg:text-4xl font-black text-white  text-center uppercase leading-relaxed">
                             Des solutions spécialement conçues pour vous!
                         </h2>
                         <p className=" text-sm lg:text-base text-center text-white font-normal">
-                            Avec mon équipe, nous avons tester plusieurs méthodes, diverses combinaison et rassemblé les meilleurs <br className=' hidden lg:block' /> stratégies pour t&apos;aider à obtenir de résultats concrets.
+                            Avec mon équipe, nous avons testé plusieurs méthodes, diverses combinaison et rassemblé les meilleurs <br className=' hidden lg:block' /> stratégies pour t&apos;aider à obtenir de résultats concrets.
                         </p>                     </div>
                         <Link href={'/appel'} target="_blank" >
                                 <button className="cssbuttons-io-button uppercase">
@@ -45,32 +45,7 @@ export default function Saction2(){
                 
             </div>
         </div>
-
         <Expert/>
-
-        {/* saction 11 */}
-        
-        <div className="bg-black ">
-            <div className=" container  flex gap-20 flex-col justify-center items-center  pb-10">
-                <div className=" container flex-col flex items-center gap-2 justify-center">
-                        <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-white  text-center uppercase leading-relaxed">trafic genius, UNE ÉQUIPE DE PROFESSIONNELLES À  <span className="relative text-primary"> VOS CÔTÉS </span></h2>
-                </div>
-                <div className="  lg:w-[70%]   font-light text-white lg:text-2xl border-[#F2FD01] border-4 p-10 rounded-3xl">
-                    <ul className="flex flex-col gap-4 list-disc list list-outside leading-relaxed ">
-                        <li >Un magnifique site e-commerce qui transforme les visiteurs en acheteurs enthousiastes</li>
-                        <li>1 produits gagnants sélectionnés par moi et mon équipe d&apos;experts, directement préchargés dans votre boutique pour que vous puissiez commencer à réaliser des ventes dès le premier jour</li>
-                        <li>Notre thème Premium personnalisé qui démarque instantanément votre boutique de la concurrence</li>
-                        <li>​​Connexion transparente à des fournisseurs de confiance qui expédieront rapidement vos produits gagnants et feront en sorte que les clients reviennent commander sur votre boutique</li>
-                        <li>​Un système d&apos;automatisation des commandes de votre boutique vous permettant d&apos;expédier rapidement les produits aux clients sans effort et sans avoir à lever le petit doigt</li>    
-                    </ul>
-                </div>
-
-                
-            </div>
-        </div>
-
-      
-        
       </div>
     )
 }

@@ -16,7 +16,7 @@ export default function Saction3(){
             <div className="rounded-full-css bg-black w-full h-16 top-0 absolute z-10 "></div>
                 <div className=" container flex flex-col gap-20 py-20">
                     <div className=" container flex flex-col items-center justify-center  ">
-                        <h2 className=" text-xl md:text-4xl lg:text-6xl font-black text-black  text-center uppercase leading-relaxed ">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
+                        <h2 className=" text-xl md:text-4xl lg:text-4xl font-black text-black  text-center uppercase leading-relaxed ">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
                     </div>  
                     <div className=" container flex flex-col-reverse lg:flex-row-reverse justify-center items-center">
                         <div className=" text-left   lg:w-[70%] font-light text-sm  lg:text-xl bg-[#000] text-white  rounded-xl p-6   shadow-2xl">
@@ -69,7 +69,7 @@ export default function Saction3(){
             <div className=" bg-black">
                 <div className="  pb-10 md:container">
                     <div className=" container flex flex-col items-center justify-center  ">
-                        <h2 className=" text-xl md:text-4xl lg:text-6xl font-black text-white   text-center uppercase leading-relaxed ">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
+                        <h2 className=" text-xl md:text-4xl lg:text-4xl font-black text-white   text-center uppercase leading-relaxed ">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
                     </div>  
                     <div className="  ">
                      <div className=" p-8">

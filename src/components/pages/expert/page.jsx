@@ -14,16 +14,15 @@ export default function Expert(){
         {id:2,name:'judi kleancy ibounda-ibounda',job:'Développer CMS Junior',image:'JUDI.png'},
         {id:5,name:'hind lagheryeb',job:'Assistante Direction',image:'HIND.png'},
         {id:6,name:'chris jeffrey bibang',job:'graphiste , designer',image:'CHRIS.png'},
-        {id:7,name:'salaheddine elfatimi',job:'Développer full stack',image:'SALAH.png'},
-        {id:8,name:'judi kleancy ibounda-ibounda',job:'Développer CMS Junior',image:'JUDI.png'},
-        {id:9,name:'hind lagheryeb',job:'Assistante Direction',image:'HIND.png'},
-        {id:10,name:'chris jeffrey bibang',job:'graphiste , designer',image:'CHRIS.png'},
+        {id:7,name:'ADNANE',job:"Chargé d'affaires",image:'ADNANE.png'},
+        {id:8,name:'BILAL',job:'project and sales manager',image:'BILAL.png'},
+        {id:9,name:'CHANCY',job:'Closer',image:'CHANCY.png'},
     ]
     return(
         <div className='bg-black pb-10 '>
             <div className=' flex flex-col gap-20' >
                 <div className="flex-col flex items-center container  ">
-                    <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-white  text-center uppercase leading-relaxed">Une agence fondée par des  experts du business en ligne</h2>
+                    <h2 className="text-xl md:text-4xl lg:text-4xl font-black text-white  text-center uppercase leading-relaxed">Une agence fondée par des  experts du business en ligne</h2>
                 </div>
                     <div className=" w-full">
                         <div className="py-10 overflow-hidden" ref={emblaRef}>

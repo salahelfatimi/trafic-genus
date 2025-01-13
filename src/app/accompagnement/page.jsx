@@ -5,13 +5,14 @@ import ButtonUp from "./components/tools/buttonUp";
 
 export async function generateMetadata(){
   return {
-    title: "Accompagnement",
+    title: "Boostez Vos Ventes avec une Boutique Clé en Main",
+    description: "Obtenez une boutique e-commerce clé en main optimisée en 5 jours, avec un produits gagnants, un thème premium et un systèmes automatisés.",
     alternates: {
       canonical: "/accompagnement",
     },
     openGraph: {
-      title: "Accompagnement",
-      description: "Nous aidons les chefs d’entreprises et entrepreneurs à trouver de nouveaux clients prêts à payer leurs produits et services avec garantie.",
+      title: "Trafic Genius - Boostez Vos Ventes avec une Boutique Clé en Main",
+      description: "Obtenez une boutique e-commerce clé en main optimisée en 5 jours, avec un produits gagnants, un thème premium et un systèmes automatisés.",
       url:`${process.env.NEXT_PUBLIC_BASE_URL}/accompagnement`,
       robots: {
         index: true,

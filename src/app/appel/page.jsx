@@ -50,7 +50,7 @@ export default  function  Appel(){
                 <h2 className=" py-10 font-black text-center text-4xl md:text-7xl lg:text-9xl bg-clip-text text-transparent bg-[url('/appel/logoyellow.png')] bg-[#42384D] uppercase  bg-auto bg-no-repeat bg-top animate-slide-bg">
                     trafic genius
                 </h2>                
-                <h2 className="text-xl md:text-4xl lg:text-4xl font-black text-white  text-center uppercase leading-relaxed">Attention, pour préserver la qualité du résultat, cette offre ne sera accessible qu&apos;à 10 personnes.</h2>
+                <h2 className="text-xl md:text-4xl lg:text-4xl font-black text-white  text-center uppercase leading-relaxed">Attention, pour préserver <span className=" text-primary">la qualité du résultat</span>, cette offre <br /> ne sera accessible qu&apos;à <span className=" text-primary">10 personnes.</span> </h2>
             </div>
             <div className="container pt-10">
                 <CalendlyEmbed url="https://calendly.com/trafic-genius/diagnostique-offert"/>

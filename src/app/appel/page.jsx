@@ -44,7 +44,7 @@ export default  function  Appel(){
           <div className="flex flex-col  gap-20 justify-between pt-20">
             <div className=" bg-[#F2FD01]  flex  gap-4 items-center justify-center w-full ">
                 <Image src={'/appel/fulllogo.png'} width={100} height={100} alt="trafic genius"    title="trafic genius" />
-                <h2 className="font-medium text-sm lg:text-xl text-black">Solutions Digitales de Premier Ordre : Expertise, Créativité et Performances Exceptionnelles !</h2>
+                <h2 className="text-xl md:text-4xl lg:text-4xl font-black text-white  text-center uppercase leading-relaxed">Attention, pour préserver la qualité du résultat, cette offre ne sera accessible qu&apos;à 10 personnes.</h2>
             </div>
             <div className=" container  flex flex-col gap-10 items-center justify-center">
                 <h2 className=" py-10 font-black text-center text-4xl md:text-7xl lg:text-9xl bg-clip-text text-transparent bg-[url('/appel/logoyellow.png')] bg-[#42384D] uppercase  bg-auto bg-no-repeat bg-top animate-slide-bg">

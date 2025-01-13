@@ -15,8 +15,7 @@ export default function Saction2(){
                 <div className=" container flex flex-col gap-10 items-center justify-center ">
                     <div className="flex flex-col gap-8 text-center text-black">
                         <h2 className="text-xl md:text-4xl lg:text-4xl font-black text-white  text-center uppercase leading-relaxed">
-                            Des solutions spécialement conçues pour vous!
-                        </h2>
+                            Découvre comment atteindre 1 000 € en seulement 5 jours – Clique ici pour commencer maintenant !                        </h2>
                         <p className=" text-sm lg:text-base text-center text-white font-normal">
                             Avec mon équipe, nous avons testé plusieurs méthodes, diverses combinaison et rassemblé les meilleurs <br className=' hidden lg:block' /> stratégies pour t&apos;aider à obtenir de résultats concrets.
                         </p>                     </div>

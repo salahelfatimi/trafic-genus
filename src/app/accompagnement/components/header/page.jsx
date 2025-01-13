@@ -53,7 +53,7 @@ export default  function Header (){
                         <p className=" text-sm lg:text-base text-center text-white font-normal">
                             Nous avons testé plusieurs méthodes, diverses combinaisons et rassemblé les meilleurs <br className=' hidden lg:block' /> stratégies pour t&apos;aider à obtenir de résultats concrets.
                         </p>  
-                        <Link href={'/appel'} target="_blank" >
+                        <Link href={'/accompagnement/appel'} target="_blank" >
                             <button className="cssbuttons-io-button uppercase">
                                 je me lance maintenant !
                                 <div className="icon">
@@ -112,7 +112,7 @@ export default  function Header (){
 
                     </div>
                 </div>
-                <Link href={'/appel'} target="_blank" >
+                <Link href={'/accompagnement/appel'} target="_blank" >
                     <button className="cssbuttons-io-button uppercase">
                         je me lance maintenant !
                         <div className="icon">
@@ -149,7 +149,7 @@ export default  function Header (){
                         </ul>
                     </div>
                 </div>
-                <Link href={'/appel'} target="_blank" >
+                <Link href={'/accompagnement/appel'} target="_blank" >
                     <button className="cssbuttons-io-button uppercase">
                         je me lance maintenant !
                         <div className="icon">

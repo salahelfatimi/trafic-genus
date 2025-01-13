@@ -58,10 +58,10 @@ export default function Saction2(){
                 <div className="  lg:w-[70%]   font-light text-white lg:text-2xl border-[#F2FD01] border-4 p-10 rounded-3xl">
                     <ul className="flex flex-col gap-4 list-disc list list-outside leading-relaxed ">
                         <li >Un magnifique site e-commerce qui transforme les visiteurs en acheteurs enthousiastes</li>
-                        <li>1 produits gagnants sélectionnés par moi et mon équipe d'experts, directement préchargés dans votre boutique pour que vous puissiez commencer à réaliser des ventes dès le premier jour</li>
+                        <li>1 produits gagnants sélectionnés par moi et mon équipe d&apos;experts, directement préchargés dans votre boutique pour que vous puissiez commencer à réaliser des ventes dès le premier jour</li>
                         <li>Notre thème Premium personnalisé qui démarque instantanément votre boutique de la concurrence</li>
                         <li>​​Connexion transparente à des fournisseurs de confiance qui expédieront rapidement vos produits gagnants et feront en sorte que les clients reviennent commander sur votre boutique</li>
-                        <li>​Un système d'automatisation des commandes de votre boutique vous permettant d'expédier rapidement les produits aux clients sans effort et sans avoir à lever le petit doigt</li>    
+                        <li>​Un système d&apos;automatisation des commandes de votre boutique vous permettant d&apos;expédier rapidement les produits aux clients sans effort et sans avoir à lever le petit doigt</li>    
                     </ul>
                 </div>
 

@@ -35,7 +35,7 @@ export default  function Header (){
             {/* Header */}
             <div className="relative bg-black py-4   flex flex-col  items-center justify-center">
                 <Image src={'/TopHeader/logo.png'} width={400} height={400} priority  className=" w-64 lg:w-[15%]" alt="trafic genius"    title="trafic genius" />
-                <div className="flex flex-col gap-6 items-center py-4 container">
+                <div className="flex flex-col gap-4 items-center py-4 container">
                         <h1 className="font-black text-center text-xl md:text-4xl lg:text-4xl  uppercase ">
                             <span className=" text-white leading-relaxed"> <span className=" text-primary">1 000 €</span> en seulement <span className=" text-primary"> 5 jours</span> grace à une <br  className=" hidden lg:block"/> <span className=" text-primary">boutique   optimisée</span> clé en main </span> 
                         </h1>

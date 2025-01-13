@@ -145,7 +145,7 @@ export default  function Header (){
                             <li className=" flex flex-row gap-2 items-start "><PackageSearch size={30} className="animate-bounce lg:max-w-12 max-w-8 min-w-8 lg:min-w-12" />01 produit gagnant sélectionné par mon équipe et moi, directement préchargé dans ta boutique pour que tu puisses commencer à réaliser des ventes dès le premier jour.</li>
                             <li className=" flex flex-row gap-2 items-start "><HandHeart size={30} className="animate-bounce lg:max-w-12 max-w-8 min-w-8 lg:min-w-12" />Notre thème Premium personnalisé qui démarque instantanément ta boutique de la concurrence.</li>
                             <li className=" flex flex-row gap-2 items-start "><PlaneTakeoff size={30} className="animate-bounce lg:max-w-12 max-w-8 min-w-8 lg:min-w-12" />​Connexion transparente à des fournisseurs de confiance qui expédieront rapidement tes produits gagnants et feront en sorte que tes clients reviennent commander sur ta boutique.</li>
-                            <li className=" flex flex-row gap-2 items-start "><Cpu size={30} className="animate-bounce lg:max-w-12 max-w-8 min-w-8 lg:min-w-12" />Un système d'automatisation des commandes de ta boutique te permettant d'expédier rapidement les produits à tes clients sans effort et sans avoir à lever le petit doigt.</li>    
+                            <li className=" flex flex-row gap-2 items-start "><Cpu size={30} className="animate-bounce lg:max-w-12 max-w-8 min-w-8 lg:min-w-12" />Un système d&apos;automatisation des commandes de ta boutique te permettant d&apos;expédier rapidement les produits à tes clients sans effort et sans avoir à lever le petit doigt.</li>    
                         </ul>
                     </div>
                 </div>

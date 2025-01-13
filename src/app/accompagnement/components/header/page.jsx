@@ -46,7 +46,7 @@ export default  function Header (){
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                                 allowFullScreen 
                                 referrerPolicy="unsafe-url"
-                                className="w-full aspect-video h-[200px] md:h-[400px] lg:h-[300px] xl:h-[350px] rounded-2xl shadow-2xl shadow-white "
+                                className="w-full aspect-video h-[200px] md:h-[400px] lg:h-[300px] xl:h-[350px] rounded-2xl shadow-2xl shadow-white/60 "
                                
                             ></iframe>
                         </div>

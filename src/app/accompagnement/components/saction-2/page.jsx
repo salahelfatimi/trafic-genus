@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import Expert from "@/components/pages/expert/page"
+import { MessageCircleWarningIcon } from "lucide-react"
 
 
 export default function Saction2(){
@@ -54,12 +55,14 @@ export default function Saction2(){
                 <div className=" container flex-col flex items-center gap-2 justify-center">
                         <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-white  text-center uppercase leading-relaxed">trafic genius, UNE ÉQUIPE DE PROFESSIONNELLES À  <span className="relative text-primary"> VOS CÔTÉS </span></h2>
                 </div>
-                <div className="  lg:w-[70%]  font-light text-white text-center lg:text-2xl border-[#F2FD01] border-4 p-4 rounded-3xl">
-                    <p>
-                        Nous sommes la meilleure agence marketing francophone spécialisé dans l&apos;acquisition de Trafic de qualité, avec plus de 3 millions € dépensés en publicité Facebook, et plus de 5000 Leads qualifiés générés en Cold Calling, nous mettrons à votre disposition, une équipe essentiellement composée d&apos;experts selon votre besoin de croissance. <br /><br />
-
-                        De l&apos;imagination à la réalisation de votre projet, nous vous aidons à obtenir plus de prospects afin de réaliser plus de vente, dans un seul et unique objectif, celui de faire plus de profits et vous positionner comme une figure d&apos;autorité respectée sur votre marché.                
-                    </p>
+                <div className="  lg:w-[70%]   font-light text-white lg:text-2xl border-[#F2FD01] border-4 p-10 rounded-3xl">
+                    <ul className="flex flex-col gap-4 list-disc list list-outside leading-relaxed ">
+                        <li >Un magnifique site e-commerce qui transforme les visiteurs en acheteurs enthousiastes</li>
+                        <li>1 produits gagnants sélectionnés par moi et mon équipe d'experts, directement préchargés dans votre boutique pour que vous puissiez commencer à réaliser des ventes dès le premier jour</li>
+                        <li>Notre thème Premium personnalisé qui démarque instantanément votre boutique de la concurrence</li>
+                        <li>​​Connexion transparente à des fournisseurs de confiance qui expédieront rapidement vos produits gagnants et feront en sorte que les clients reviennent commander sur votre boutique</li>
+                        <li>​Un système d'automatisation des commandes de votre boutique vous permettant d'expédier rapidement les produits aux clients sans effort et sans avoir à lever le petit doigt</li>    
+                    </ul>
                 </div>
 
                 

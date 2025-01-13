@@ -24,8 +24,8 @@ export default function Saction2(){
                     Voici un aperçu de ce que nous sommes prêts à vous offrir !
                 </p>
                 </div>
-                <h2 className="lg:text-4xl text-2xl  font-bold text-center">
-                Voici un aperçu de ce que nous sommes prêts à vous offrir !
+                <h2 className=" container text-xl md:text-4xl lg:text-6xl font-black text-black  text-center uppercase ">
+                    Voici un aperçu de ce que nous sommes prêts à vous offrir !
                 </h2>
             </div>
                 <div className=" container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10  items-start justify-center">
@@ -92,7 +92,7 @@ export default function Saction2(){
                     <div className="w-screen overflow-hidden">
                         <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee ">Tunnel de vente</p>
                     </div>
-                        <h2 className="lg:text-4xl text-2xl font-black text-center text-white">Tunnel de vente</h2>
+                        <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-white  text-center uppercase  container">Tunnel de vente</h2>
                 </div>
                 <div>
                     <div className=" container grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -112,7 +112,7 @@ export default function Saction2(){
                         <div className="w-screen overflow-hidden">
                             <p className="font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">Imaginez votre projet sous son meilleur JOUR</p>
                         </div>
-                            <h2 className="lg:text-4xl text-2xl font-bold text-center text-white">Imaginez votre projet sous son meilleur JOUR </h2>
+                            <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-white  text-center uppercase  container">Imaginez votre projet sous son meilleur JOUR </h2>
                     </div>
                     <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center justify-center gap-20 ">
                         {website.map((ele,index)=>(
@@ -125,15 +125,13 @@ export default function Saction2(){
                             </div>
                         ))}
                     </div>
-                    
-                    
                 </div>
             </div>
             {/* saction 8 */}
             <div className="bg-[#F2FD01]">
                 <div className="flex container flex-col gap-20 pb-10  ">
                     <div className=" ">
-                        <h2 className="lg:text-4xl text-2xl font-bold text-center text-black">JETEZ UN COUP D&apos;ŒIL SUR UN DE NOS “REDESIGN“ EXPÉRIENCES, POUR VOIR CE QUE NOUS POUVONS FAIRE                </h2>
+                        <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-black  text-center uppercase  container">JETEZ UN COUP D&apos;ŒIL SUR UN DE NOS “REDESIGN“ EXPÉRIENCES, POUR VOIR CE QUE NOUS POUVONS FAIRE                </h2>
                     </div>
                     <div className=" gap-28 flex flex-col lg:flex-row justify-center items-center">
                         <div  className="relative w-[318px]">
@@ -142,9 +140,7 @@ export default function Saction2(){
                                 <Image src={'/TopHeader/logo.png'} className=" w-[150px]" width={500} height={500} alt="trafic genius"    title="trafic genius"/>
                             </div>
                         </div>
-
                         <Image src={'/saction2/arrow.gif'} className="  rotate-90 lg:rotate-0 w-[200px]" width={500} height={500} alt="trafic genius"    title="trafic genius" unoptimized/>
-
                         <div  className="relative w-[318px] blur-sm hover:blur-0 duration-1000">
                             <Image src={`/saction2/website-REDESIGN/new.png`} className="relative   w-[318px] h-[300px] lg:h-[600px] object-cover  duration-[10000ms] 	  rounded-3xl object-top  hover:object-bottom	" width={318} height={600} alt="trafic genius"    title="trafic genius"/>
                             <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center bg-black rounded-b-3xl">
@@ -173,7 +169,6 @@ export default function Saction2(){
                             <p className="   flex text-xs lg:text-base   gap-2 "><CirclePlus   className=" w-6 min-w-6 h-6"/>Faites de vos rêves une réalité avec un site web interactif au design créatif !</p>
                             <p className=" lg:pl-20     text-xs lg:text-base flex  gap-2"><CirclePlus  className=" w-6 min-w-6 h-6"/>Un site internet unique, personnalisé et avant-gardiste pour vous démarquer pour maximiser votre rentabilité.</p>
                             <p className="    flex text-xs lg:text-base  gap-2"><CirclePlus className=" w-6 min-w-6 h-6" />Nous nous engageons à ce que chacune des pages que nous créons soit parfaitement optimisée pour une expérience utilisateur optimale sur ordinateur et mobile.</p>
-
                     </div>
                     </div>
                 </div>
@@ -184,7 +179,6 @@ export default function Saction2(){
                     <div className=" container">
                     <Image src={ '/saction2/laptop.png'} width={1920} height={1080} className=" object-cover " alt="trafic genius"    title="trafic genius"/>
                     </div>
-                    
                 </div>
             </div>
             {/* saction strip */}
@@ -194,7 +188,7 @@ export default function Saction2(){
                 
                     <div className=" container flex flex-col gap-10 items-center justify-center ">
                         <div className=" text-center text-black">
-                            <h2 className="lg:text-4xl text-2xl font-bold text-center text-black">
+                            <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-black  text-center uppercase  container">
                                 Des solutions spécialement conçues pour vous!
                             </h2>
                             <p className="  font-light lg:text-xl">Nous mettons tout en œuvre pour vous démarquer de vos concurrents et booster les résultats de votre entreprise à leur plein potentiel.                </p>
@@ -232,7 +226,7 @@ export default function Saction2(){
                         <div className="w-screen overflow-hidden">
                             <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius , UNE ÉQUIPE DE PROFESSIONNELS À VOS CÔTÉS</p>
                         </div>
-                            <h2 className="lg:text-4xl text-2xl font-bold text-center text-white capitalize ">trafic genius, UNE ÉQUIPE DE PROFESSIONNELLES À  <span className=" bg-[#F2FD01] p-[0.10rem]  "><span className="relative text-black"> VOS CÔTÉS </span></span></h2>
+                            <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-white  text-center uppercase  container">trafic genius, UNE ÉQUIPE DE PROFESSIONNELLES À  <span className="relative text-primary"> VOS CÔTÉS </span></h2>
                     </div>
                     
                     <div className="  lg:w-[70%]  font-light text-white text-center lg:text-2xl border-[#F2FD01] border-4 p-4 rounded-3xl">
@@ -254,7 +248,7 @@ export default function Saction2(){
                             <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius</p>
                         </div>
                         <div className="container  relative">
-                            <h2 className="relative container lg:text-4xl text-2xl text-center font-bold  text-white">Ce qui nous rend unique  aux yeux de nos clients</h2>
+                            <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-white  text-center uppercase  container">Ce qui nous rend unique  aux yeux de nos clients</h2>
 
                         </div>
                     </div>

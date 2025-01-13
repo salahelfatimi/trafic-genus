@@ -45,7 +45,7 @@ export default function Saction3(){
                             <div className="  w-screen overflow-hidden">
                                 <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">Les 5 étapes pour mener à bien votre PROJET</p>
                             </div>
-                            <h2 className=" text-center lg:text-4xl text-2xl font-bold  text-white">Les 5 étapes pour mener à bien votre PROJET </h2>                     
+                            <h2 className=" text-xl md:text-4xl lg:text-6xl font-black text-white  text-center uppercase  container ">Les 5 étapes pour mener à bien votre PROJET </h2>                     
                         </div>  
                         <div className=" container">
                             <div className="grid grid-cols-1 md:grid-cols-1 2xl:grid-cols-5 items-center justify-center text-center gap-8">
@@ -102,7 +102,7 @@ export default function Saction3(){
                             <div className="  w-screen overflow-hidden">
                                 <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">trafic genius trafic genius</p>
                             </div>
-                            <h2 className=" text-center lg:text-4xl text-2xl font-bold  text-black">Ensemble on développe de votre entreprise AVEC</h2>                     
+                            <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-black  text-center uppercase  container">Ensemble on développe de votre entreprise AVEC</h2>                     
                         </div>
                     </div>
                     <div className=" container flex flex-col gap-20  ">
@@ -158,7 +158,7 @@ export default function Saction3(){
                         <div className="  w-screen overflow-hidden">
                             <p className=" font-sans  text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS</p>
                         </div>
-                        <h2 className=" text-center lg:text-4xl text-2xl font-bold  text-black">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
+                        <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-black  text-center uppercase  container">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
                     </div>  
                     <div className=" container flex flex-col-reverse lg:flex-row-reverse justify-center items-center">
                         <div className=" text-left   lg:w-[70%] font-light text-sm  lg:text-xl bg-[#000] text-white  rounded-xl p-6   shadow-2xl">
@@ -211,7 +211,7 @@ export default function Saction3(){
                         <div className="  w-screen overflow-hidden">
                             <p className=" font-sans text-border uppercase text-9xl font-black text-transparent whitespace-nowrap animate-marquee">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS</p>
                         </div>
-                        <h2 className=" text-center lg:text-4xl text-2xl font-bold  text-white">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
+                        <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-white  text-center uppercase  container">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
                     </div>  
                     <div className="  ">
                      <div className=" p-8">

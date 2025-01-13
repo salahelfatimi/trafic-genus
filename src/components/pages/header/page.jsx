@@ -19,8 +19,8 @@ import { useState } from "react";
             <div className="relative bg-[url('/TopHeader/bg.png')] lg:bg-cover py-4 bg-black pt-20   flex flex-col  items-center justify-center">   
                     {/* <Image src={'/TopHeader/logo.png'} width={400} height={400} priority  className=" w-64 lg:w-1/3" alt="trafic genius"    title="trafic genius" /> */}
                     <div className="flex flex-col gap-4 items-center py-4 container">
-                        <h1 className="font-bold text-center text-xl lg:text-5xl uppercase  text-[#F2FD01]">
-                            <span className=" text-white">Faisons le pari fou de faire de vous</span> une figure d&apos;autorité respectée <span className=" text-white"> sur votre marché.</span> 
+                        <h1 className="text-xl md:text-4xl lg:text-6xl font-black text-primary  text-center uppercase ">
+                            <span className="leading-relaxed text-white">Faisons le pari fou de faire de vous</span> une figure d&apos;autorité respectée <span className="leading-relaxed text-white"> sur votre marché.</span> 
                         </h1>
                         {/* video */}
                         {!showVideo && (
@@ -93,7 +93,7 @@ import { useState } from "react";
                     </div>
                 </div>
                 <div className=" py-10 flex items-center flex-col justify-center gap-10">
-                    <h2 className=" lg:text-4xl text-2xl font-semibold uppercase">Ils nous font confiance</h2>
+                    <h2 className=" text-xl md:text-4xl lg:text-6xl font-black text-black  text-center uppercase ">Ils nous font confiance</h2>
                         <FetchLogoScroll/>
                 </div>
             </div>
@@ -120,7 +120,7 @@ import { useState } from "react";
                             Votre marché est féroce
                             </p>
                         </div>
-                        <h2 className=" lg:text-4xl text-2xl font-bold text-white">Votre marché est féroce</h2>
+                        <h2 className=" text-xl md:text-4xl lg:text-6xl font-black text-white  text-center uppercase  ">Votre marché est féroce</h2>
                     </div>
                     <div className="  gap-20 flex flex-col lg:flex-row items-center justify-center">
                         <div className=" relative w-[300px] h-[350px]">
@@ -139,7 +139,7 @@ import { useState } from "react";
                         Quand les experts parlent de nous
                         </p>
                     </div>
-                    <h2 className=" lg:text-4xl text-2xl font-bold text-white text-center">Quand les experts parlent de nous</h2>
+                    <h2 className=" text-xl md:text-4xl lg:text-6xl font-black text-white  text-center uppercase ">Quand les experts parlent de nous</h2>
                     <Testimonial/>
                 </div>
                 <div className="flex flex-col justify-between pb-10 items-center gap-10">
@@ -151,7 +151,7 @@ import { useState } from "react";
                         </div>
 
                         {/* Other static content */}
-                        <h2 className="lg:text-4xl text-2xl font-bold text-center text-white">Nous scalons votre business</h2>
+                        <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-white  text-center uppercase ">Nous scalons votre business</h2>
                         <p className="font-extralight lg:text-2xl  text-center text-white">
                         En déployant un système personnalisé, performant et prêt à générer des résultats rapidement.
                         </p>

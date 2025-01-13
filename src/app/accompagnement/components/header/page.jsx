@@ -41,7 +41,7 @@ export default  function Header (){
                         {/* video */}
                         {!showVideo && (
                             <div className="relative cursor-pointer group" onClick={handleShowVideo}>
-                                <img src="/coverVideo.jpg" alt="Video Thumbnail" className="w-full max-w-lg border-8 border-primary rounded-lg shadow-lg"/>
+                                <img src="/accompagnement/coverVideo.jpg" alt="Video Thumbnail" className="w-full max-w-xl border-8 border-primary rounded-lg shadow-lg"/>
                                 <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40  transition-opacity">
                                     <span className="bg-primary border-4 border-black animate-pulse rounded-full p-3 text-xl font-semibold"><Play size={40} /></span>
                                 </div>
@@ -51,7 +51,7 @@ export default  function Header (){
                         {showVideo && (
                             <div className="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center">
                                 <div className="relative w-full h-full max-w-full max-h-[100vh]">
-                                    <iframe src="https://app.videas.fr/embed/media/5e3faf9a-3333-46cb-971a-f64cee286545/?title=false&logo=false&thumbnail_duration=false&loop=true&info=true&thumbnail=video" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className="absolute top-0 left-0 w-full h-full" referrerPolicy="unsafe-url"></iframe>
+                                    <iframe src="https://app.videas.fr/embed/media/07977a04-d2b4-4279-ad78-7fcbac6ed648/?title=false&logo=false&thumbnail_duration=false&loop=true&info=true&thumbnail=video" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen className="absolute top-0 left-0 w-full h-full" referrerPolicy="unsafe-url"></iframe>
                                     <button onClick={handleCloseVideo} className="absolute flex items-center justify-center gap-2 top-4 right-4 bg-white text-black px-3 py-1 rounded-full font-bold hover:bg-gray-200">
                                         <X size={30}/> Fermer
                                     </button>
@@ -138,23 +138,6 @@ export default  function Header (){
                     <img className=" lg:w-[80%]" src="/accompagnement/ImaginezJusteUnInstant.gif" alt="Imaginez Juste Un Instant" />
                 </div>
             </div>
-
-            {/* saction 3 */}
-            
-            <div className="bg-black ">
-                <div className=" container  flex gap-20 flex-col justify-center items-center  pb-10">
-                    <div className="flex-col flex items-center gap-2 justify-center">
-                            <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-white  text-center uppercase leading-relaxed">trafic genius, UNE ÉQUIPE DE PROFESSIONNELLES À  <span className="relative text-primary"> VOS CÔTÉS </span></h2>
-                    </div>
-                    <div className="  lg:w-[70%]  font-light text-white text-center lg:text-2xl border-primary  border-4 p-4 rounded-3xl">
-                        <p>
-                            Nous sommes la meilleure agence marketing francophone spécialisé dans l&apos;acquisition de Trafic de qualité, avec plus de 3 millions € dépensés en publicité Facebook, et plus de 5000 Leads qualifiés générés en Cold Calling, nous mettrons à votre disposition, une équipe essentiellement composée d&apos;experts selon votre besoin de croissance. <br /><br />
-                            De l&apos;imagination à la réalisation de votre projet, nous vous aidons à obtenir plus de prospects afin de réaliser plus de vente, dans un seul et unique objectif, celui de faire plus de profits et vous positionner comme une figure d&apos;autorité respectée sur votre marché.                
-                        </p>
-                    </div>
-                </div>
-            </div>
-
             {/* saction 4 */}
             <div className="">
                 <div className=" bg-primary  relative flex flex-col justify-between gap-10 z-20 pt-40">
@@ -166,8 +149,8 @@ export default  function Header (){
                 </div>
                 <div className=" flex gap-28 flex-col justify-center items-center bg-primary py-20 relative  ">
                 <div className="rounded-full-css bg-black w-full rotate-180 h-16 bottom-0 absolute z-10 "></div>
-                    <div className="flex-col flex items-center">
-                            <h2 className="container text-xl md:text-4xl lg:text-6xl font-black text-black  text-center uppercase leading-relaxed">Imaginez votre projet sous son meilleur JOUR </h2>
+                    <div className="flex-col flex items-center gap-2 justify-center ">
+                        <h2 className="text-xl md:text-4xl lg:text-6xl font-black text-black  text-center uppercase leading-relaxed ">Obtenez Votre Propre <br /> Site  E-commerce Entièrement <br /> Optimisé En Moins De 24 heures...</h2>
                     </div>
                     <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center gap-20 ">
                         {website.map((ele,index)=>(

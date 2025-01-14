@@ -47,13 +47,13 @@ export default  function  Appel(){
                 <h2 className="font-medium text-sm lg:text-xl text-black">Solutions Digitales de Premier Ordre : Expertise, Créativité et Performances Exceptionnelles !</h2>
             </div>
             <div className=" container  flex flex-col gap-10 items-center justify-center">
-                <h2 className=" py-10 font-black text-center text-4xl md:text-7xl lg:text-9xl bg-clip-text text-transparent bg-[url('/appel/logoyellow.png')] bg-[#42384D] uppercase  bg-auto bg-no-repeat bg-top animate-slide-bg">
+                <h2 className=" py-10 font-black text-center text-4xl md:text-7xl lg:text-9xl text-primary   uppercase  ">
                     trafic genius
-                </h2>                
+                </h2>                   
                 <p className=" font-bold text-xl lg:text-4xl text-white text-center">Des solutions innovantes pour maximiser vos <span className="text-[#F2FD01] ">BÉNÉFICES</span></p>
             </div>
             <div className="container pt-10">
-                <CalendlyEmbed url="https://calendly.com/trafic-genius/diagnostique-offert"/>
+                <CalendlyEmbed url="https://calendly.com/trafic-genius/diagnostique-offert-clone?hide_event_type_details=1&hide_gdpr_banner=1"/>
             </div>
             <div className=" py-2 border-y-4 border-[#F2FD01]">
                 <FetchLogo/>

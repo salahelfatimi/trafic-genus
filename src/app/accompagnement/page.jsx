@@ -1,3 +1,4 @@
+import Footer from "./components/footer/page";
 import Header from "./components/header/page";
 import Saction2 from "./components/saction-2/page";
 import Saction3 from "./components/saction-3/page";
@@ -41,6 +42,7 @@ export  default function Home() {
     <Header/>
     <Saction2/>
     <Saction3/>
+    <Footer/>
   </div>
   );
 }

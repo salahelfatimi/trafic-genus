@@ -1,3 +1,4 @@
+import Footer from "@/components/footer/page";
 import { Poppins } from "next/font/google";
 
 const poppins = Poppins ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
@@ -30,6 +31,7 @@ export const generateMetadata = {
   };
 export default function ConditionsGeneralesDeVente(){
     return(
+      <>
         <div className={`${poppins.className}  container  px-4 py-8 bg-black`}>
         <h2 className="text-3xl font-bold text-center text-[#EFFF00] mb-6">
           Conditions Générales de Vente
@@ -200,6 +202,8 @@ export default function ConditionsGeneralesDeVente(){
           </div>
         </div>
       </div>
+      <Footer/>
+      </>
 
     )
 }

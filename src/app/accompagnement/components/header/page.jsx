@@ -72,11 +72,11 @@ export default  function Header (){
             </div>
             {/* saction 1 */}
             <div className="bg-black flex flex-col justify-center items-center gap-10 pb-10">
-                <div className=" container  flex gap-20 flex-col justify-center items-center  pb-10">
+                <div className=" container  flex gap-14 flex-col justify-center items-center  pb-10">
                     <div className="flex-col flex items-center gap-2 justify-center">
-                        <h2 className="container text-xl md:text-4xl lg:text-4xl font-black text-white  text-center uppercase leading-relaxed flex flex-row gap-3 items-center"><TriangleAlert size={50} className=" max-w-12 min-h-12 stroke-primary animate-bounce" />Attention ceci n&apos;est pas une Formation   <span className="text-primary"> en ligne </span></h2>
+                        <h2 className="container text-xl md:text-4xl lg:text-4xl font-black text-white  text-start uppercase leading-relaxed flex flex-row gap-3 items-center"><TriangleAlert size={60} className=" max-w-12 min-h-12 stroke-primary animate-bounce" /><span>Attention ceci n&apos;est pas une Formation <span className="text-primary"> en ligne </span></span></h2>
                     </div>
-                    <div className=" grid grid-cols-1 lg:grid-cols-2  gap-10">
+                    <div className=" grid grid-cols-1 lg:grid-cols-2  gap-20">
                         <div className=" flex flex-col gap-8 items-center">
                             <h2 className=" text-xl lg:text-3xl font-bold  text-green-500 flex justify-center items-center gap-4 "><CheckCheck size={50} className=" stroke-white rounded-full  bg-green-500 stroke-2 p-1 " /> c&apos;est fait pour toi si  </h2>
                             <ul className="list-none space-y-4 text-lg font-medium  text-white w-full">
@@ -136,8 +136,8 @@ export default  function Header (){
             </div>
             {/* saction 11 */}
         
-            <div className="bg-black flex flex-col items-center gap-10 py-10 ">
-                <div className=" container  flex gap-20 flex-col justify-center items-center  pb-10">
+            <div className="bg-black flex flex-col items-center gap-10 py-6 ">
+                <div className=" container  flex gap-20 flex-col justify-center items-center  ">
                     <div className="  lg:w-[70%]   font-light text-white  border-[#F2FD01] border-4 p-10 rounded-3xl">
                         <ul className="flex flex-col gap-10 list-outside leading-relaxed text-sm lg:text-lg ">
                             <li className=" flex flex-row gap-2 items-start "><Store size={30} className="animate-bounce lg:max-w-12 max-w-8 min-w-8 lg:min-w-12"/>Une magnifique boutique e-commerce qui transforme les visiteurs en acheteurs enthousiastes </li>
@@ -156,15 +156,15 @@ export default  function Header (){
                         </div>
                     </button>
                 </Link> 
-                <p className=" text-sm lg:text-base text-center text-white font-normal">
+                <p className=" text-sm lg:text-base text-center text-white font-normal container">
                     Nous avons testé plusieurs méthodes, diverses combinaisons et rassemblé les meilleurs <br className=' hidden lg:block' /> stratégies pour t&apos;aider à obtenir de résultats concrets.
                 </p>  
             </div>
             {/* saction 4 */}
             <div className="">
-                <div className=" bg-primary  relative flex flex-col justify-between gap-10 z-20 pt-40">
-                    <div className=" bg-black  w-full h-28   top-0 rounded-full-css absolute "></div>
-                    <div className=" py-10 flex items-center flex-col justify-center gap-10">
+                <div className=" bg-primary  relative flex flex-col justify-between gap-10 z-20 pt-20">
+                    <div className=" bg-black  w-full h-14   top-0 rounded-full-css absolute "></div>
+                    <div className="  flex items-center flex-col justify-center gap-10">
                         <h2 className=" text-xl md:text-4xl lg:text-4xl font-black text-black  text-center uppercase ">Ils nous font confiance</h2>
                         <FetchLogoScroll/>
                     </div>

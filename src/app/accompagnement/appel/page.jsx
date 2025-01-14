@@ -40,8 +40,7 @@ export default  function  Appel(){
     return(
         
         <main className={`${exo_2.className}bg-black`}>
-          <Navbar/>
-          <div className="flex flex-col  gap-20 justify-between pt-20">
+          <div className="flex flex-col  gap-20 justify-between ">
             <div className=" bg-[#F2FD01]  flex  gap-4 items-center justify-center w-full ">
                 <Image src={'/appel/fulllogo.png'} width={100} height={100} alt="trafic genius"    title="trafic genius" />
                 <h2 className="font-medium text-sm lg:text-xl text-black">Comment passer de 0 à 1 000 € en seulement 5 jours grace à une boutique optimisée clé en main</h2>

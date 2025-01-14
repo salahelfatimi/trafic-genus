@@ -11,10 +11,10 @@ export default function Saction3(){
           
 
             {/* saction 4 */}
-            <div className="bg-[#F2FD01] relative py-16">
+            <div className="bg-[#F2FD01] relative py-10">
             <div className="rounded-full-css bg-black w-full rotate-180 h-16 bottom-0 absolute z-10 "></div>
             <div className="rounded-full-css bg-black w-full h-16 top-0 absolute z-10 "></div>
-                <div className=" container flex flex-col gap-20 py-20">
+                <div className=" container flex flex-col gap-10 py-10">
                     <div className=" container flex flex-col items-center justify-center  ">
                         <h2 className=" text-xl md:text-4xl lg:text-4xl font-black text-black  text-center uppercase leading-relaxed ">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
                     </div>  
@@ -66,64 +66,6 @@ export default function Saction3(){
                 </div>
                
             </div>
-            <div className=" bg-black">
-                <div className="  pb-10 md:container">
-                    <div className=" container flex flex-col items-center justify-center  ">
-                        <h2 className=" text-xl md:text-4xl lg:text-4xl font-black text-white   text-center uppercase leading-relaxed ">UNIQUEMENT POUR LES ENTREPRENEURS MOTIVÉS </h2>                     
-                    </div>  
-                    <div className="  ">
-                     <div className=" p-8">
-                        <details className="bg-[#F2FD01]   open:ring-[#F2FD01]  border-t-4 border-x-4  border-[#000] shadow-2xl py-10 border-b-4 rounded-t-3xl p-4 " open>
-                            <summary className="lg:text-xl text-base  font-medium leading-6 text-[#000] cursor-pointer  select-none">
-                            Est-ce que vous pouvez me montrer d&apos;autres exemples de tunnels de vente ou sites Internet que vous avez réalisés ?
-                            </summary>
-                            <div className="mt-3  font-light lg:text-lg text-xs  leading-6 text-black ">
-                            <p>Oui, si vous le souhaitez nous pouvons vous présenter d&apos;autres exemples de tunnels de vente ou sites Internet que ceux qui figurent sur cette page. Il suffit de prendre contact avec nous en cliquant sur l&apos;un des boutons « Prendre contact maintenant » et nous vous ferons parvenir nos dernières réalisations.</p>
-                            </div>
-                        </details>
-                        <details className="bg-[#F2FD01]   open:ring-[#F2FD01]  border-x-4  border-[#000] shadow-2xl py-10 border-b-4  p-4 " >
-                            <summary className="lg:text-xl  font-medium leading-6 text-[#000] cursor-pointer  select-none">
-                            Est-ce que vous pouvez vous occuper du copywriting de mon tunnel de vente ou de mon site Internet ?
-                            </summary>
-                            <div className="mt-3  font-light lg:text-lg text-xs  leading-6 text-black ">
-                            <p>Oui, nous pouvons vous fournir un tunnel de vente ou site Internet complet de A à Z y compris avec le copywriting. Si c&apos;est ce que vous souhaitez, nous pouvons en parler ensemble lors de votre appel stratégique offert.</p>
-                            </div>
-                        </details>
-                        <details className="bg-[#F2FD01]   open:ring-[#F2FD01]  border-x-4 border-[#000] shadow-2xl  py-10 border-b-4 p-4 " >
-                            <summary className="lg:text-xl  font-medium leading-6 text-[#000] cursor-pointer  select-none">
-                            Quels sont vos tarifs ?
-                            </summary>
-                            <div className="mt-3  font-light lg:text-lg text-xs  leading-6 text-black ">
-                            <p>Nos tarifs sont adaptés aux différentes demandes de nos clients. Pour en savoir plus, nous vous invitons à prendre contact avec nous directement. Nous serons ravis de répondre à toutes vos questions.</p>
-                            </div>
-                            
-                        </details>
-
-                        <details className="bg-[#F2FD01]   open:ring-[#F2FD01]  border-x-4 border-[#000] shadow-2xl py-10 border-b-4  p-4 " >
-                            <summary className="lg:text-xl  font-medium leading-6 text-[#000] cursor-pointer  select-none">
-                            En combien de temps êtes-vous capable de me livrer ?
-                            </summary>
-                            <div className="mt-3  font-light lg:text-lg text-xs  leading-6 text-black ">
-                            <p>En moyenne, nous pouvons vous livrer dans un délai de 7 à 15 jours ouvrés en fonction du nombre de pages et de la complexité de votre projet.</p>
-                            </div>
-                        </details>
-                        <details className="bg-[#F2FD01]   open:ring-[#F2FD01]  border-b-4 border-x-4 border-[#000] shadow-2xl rounded-b-3xl   p-4 " >
-                            <summary className="lg:text-xl  font-medium leading-6 text-[#000] cursor-pointer  select-none">
-                            Comment faire pour vous contacter ?
-                            </summary>
-                            <div className="mt-3  font-light lg:text-lg text-xs leading-6 text-black ">
-                            <p>Pour nous contacter, vous pouvez cliquer sur l&apos;un des boutons « Prendre contact maintenant » que vous trouverez sur cette page. Après avoir rempli un court formulaire, nous reviendrons vers vous dans les plus brefs délais.</p>
-                            </div>
-                        </details>
-                        
-                    </div>
-                    </div>
-                </div>
-            </div>
-            
-
-        
-
         </div>
      )
 }

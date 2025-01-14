@@ -19,13 +19,13 @@ export default function Expert(){
         {id:9,name:'CHANCY',job:'Closer',image:'CHANCY.png'},
     ]
     return(
-        <div className='bg-black pb-10 '>
+        <div className='bg-black py-10 '>
             <div className=' flex flex-col gap-20' >
                 <div className="flex-col flex items-center container  ">
                     <h2 className="text-xl md:text-4xl lg:text-4xl font-black text-white  text-center uppercase leading-relaxed">Une agence fondée par des  experts du business en ligne</h2>
                 </div>
                     <div className=" w-full">
-                        <div className="py-10 overflow-hidden" ref={emblaRef}>
+                        <div className="py-2 overflow-hidden" ref={emblaRef}>
                             <div className="flex flex-row flex-nowrap gap-6 pl-10 cursor-grab active:cursor-grabbing">
                                 {expertsDats.map((ele,index)=>(
                                     <div className=' relative select-none ' key={index}>

@@ -41,18 +41,16 @@ export default  function  Appel(){
     return(
         
         <main className={`${exo_2.className}bg-black`}>
-          <div className="flex flex-col  gap-20 justify-between ">
+          <div className="flex flex-col  gap-10 justify-between ">
             <div className=" bg-[#F2FD01]  flex  gap-4 items-center justify-center w-full ">
                 <Image src={'/appel/fulllogo.png'} width={100} height={100} alt="trafic genius"    title="trafic genius" />
                 <h2 className="font-medium text-sm lg:text-xl text-black">Comment passer de 0 à 1 000 € en seulement 5 jours grace à une boutique optimisée clé en main</h2>
             </div>
             <div className=" container  flex flex-col gap-10 items-center justify-center">
-                <h2 className=" py-10 font-black text-center text-4xl md:text-7xl lg:text-9xl text-primary   uppercase  ">
-                    trafic genius
-                </h2>                
+                            
                 <h2 className="text-xl md:text-4xl lg:text-4xl font-black text-white  text-center uppercase leading-relaxed">Attention, pour préserver <span className=" text-primary">la qualité du résultat</span>, cette offre ne sera accessible qu&apos;à <span className=" text-primary">10 personnes.</span> </h2>
             </div>
-            <div className="container pt-10">
+            <div className="container ">
                 <CalendlyEmbed url="https://calendly.com/trafic-genius/diagnostique-offert-clone"/>
             </div>
             <div className=" py-2 border-y-4 border-[#F2FD01]">

@@ -59,7 +59,7 @@ export default  function  Appel(){
                 <FetchLogo/>
             </div>
           </div>
-           <Footer/>
+          <Footer/>
         </main>
     )
 }

@@ -3,6 +3,7 @@ import FetchLogo from '@/components/tools/fetchlogo'
 import CalendlyEmbed from "@/components/tools/CalendlyWidget";
 import { Exo_2 } from "next/font/google";
 import Navbar from "@/components/navbar/navbar";
+import Footer from "../components/footer/page";
 const exo_2 = Exo_2 ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
 
 export async function generateMetadata(){
@@ -58,7 +59,7 @@ export default  function  Appel(){
                 <FetchLogo/>
             </div>
           </div>
-           
+          <Footer/>
 
         
         </main>

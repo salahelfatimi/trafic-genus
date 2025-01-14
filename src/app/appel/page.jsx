@@ -53,7 +53,7 @@ export default  function  Appel(){
                 <p className=" font-bold text-xl lg:text-4xl text-white text-center">Des solutions innovantes pour maximiser vos <span className="text-[#F2FD01] ">BÉNÉFICES</span></p>
             </div>
             <div className="container pt-10">
-                <CalendlyEmbed url="https://calendly.com/trafic-genius/diagnostique-offert-clone?hide_event_type_details=1&hide_gdpr_banner=1"/>
+                <CalendlyEmbed url="https://calendly.com/trafic-genius/diagnostique-offert-clone"/>
             </div>
             <div className=" py-2 border-y-4 border-[#F2FD01]">
                 <FetchLogo/>

@@ -53,7 +53,7 @@ export default  function  Appel(){
                 <h2 className="text-xl md:text-4xl lg:text-4xl font-black text-white  text-center uppercase leading-relaxed">Attention, pour préserver <span className=" text-primary">la qualité du résultat</span>, cette offre ne sera accessible qu&apos;à <span className=" text-primary">10 personnes.</span> </h2>
             </div>
             <div className="container pt-10">
-                <CalendlyEmbed url="https://calendly.com/trafic-genius/diagnostique-offert-clone?hide_event_type_details=1&hide_gdpr_banner=1"/>
+                <CalendlyEmbed url="https://calendly.com/trafic-genius/diagnostique-offert-clone"/>
             </div>
             <div className=" py-2 border-y-4 border-[#F2FD01]">
                 <FetchLogo/>

@@ -20,7 +20,15 @@ export default function RootLayout({ children }) {
   
   return (
     <html lang="fr">
-       <Script
+      <GoogleAnalytics gaId={process.env.ANALYTICS_ID} />
+      <body className={`${exo_2.className}    scroll-smooth  bg-black scrollbar scrollbar-thumb-[#F2FD01] scrollbar-track-black h-32 overflow-y-scroll`}>
+          {/* <div className=" w-full flex justify-end fixed top-4 right-4 z-[100]  ">
+            <Translate/> 
+          </div> */}
+          <main className=" ">
+            {children}
+          </main>
+          <Script
         id="fb-pixel"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
@@ -42,15 +50,6 @@ export default function RootLayout({ children }) {
             src="https://www.facebook.com/tr?id=1624065915126787&ev=PageView
             &noscript=1"/>
         </noscript>
-      <GoogleAnalytics gaId={process.env.ANALYTICS_ID} />
-      <body className={`${exo_2.className}    scroll-smooth  bg-black scrollbar scrollbar-thumb-[#F2FD01] scrollbar-track-black h-32 overflow-y-scroll`}>
-          {/* <div className=" w-full flex justify-end fixed top-4 right-4 z-[100]  ">
-            <Translate/> 
-          </div> */}
-          <main className=" ">
-            {children}
-          </main>
-          
       </body>
     </html>
   );

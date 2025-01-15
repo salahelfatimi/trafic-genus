@@ -1,10 +1,7 @@
 
 import "./globals.css";
-import Footer from "@/components/footer/page";
 import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'
 import Script from "next/script";
-import Translate from "@/components/tools/translate";
-import Navbar from "@/components/navbar/navbar";
 import { Exo_2 } from "next/font/google";
 const exo_2 = Exo_2 ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
 

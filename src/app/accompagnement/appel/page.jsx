@@ -10,12 +10,12 @@ export async function generateMetadata(){
   return {
     title: " Appel",
     alternates: {
-      canonical: "/appel",
+      canonical: "/accompagnement/appel",
     },
     openGraph: {
       title: "TRAFIC GENIUS | Appel",
       description: "Nous aidons les chefs d’entreprises et entrepreneurs à trouver de nouveaux clients prêts à payer leurs produits et services avec garantie.",
-      url:`${process.env.NEXT_PUBLIC_BASE_URL}/appel`,
+      url:`${process.env.NEXT_PUBLIC_BASE_URL}/accompagnement/appel`,
       robots: {
         index: true,
         follow: true,

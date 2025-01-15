@@ -1,6 +1,7 @@
 import { Exo_2 } from "next/font/google";
 import Script from "next/script";
 import Head from "next/head";
+import { GoogleTagManager } from "@next/third-parties/google";
 const exo_2 = Exo_2 ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
 
 
@@ -11,7 +12,7 @@ export const metadata = {
     metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
 };
 
-export default function PizzeriaLayout({ children }) {
+export default function Layout({ children }) {
     return( 
         <>
           <Script
@@ -36,6 +37,7 @@ export default function PizzeriaLayout({ children }) {
               src="https://www.facebook.com/tr?id=1624065915126787&ev=PageView
               &noscript=1"/>
           </noscript>
+          <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_MEASUREMENT_ID_MANAGER} />
           <div className={`${exo_2.className}`} >
             {children}
           </div>

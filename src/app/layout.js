@@ -37,11 +37,6 @@ export default function RootLayout({ children }) {
             fbq('track', 'PageView');
           `,
         }}/>
-        <noscript>
-            <img height="1" width="1" 
-            src="https://www.facebook.com/tr?id=1624065915126787&ev=PageView
-            &noscript=1"/>
-        </noscript>
       <GoogleAnalytics gaId={process.env.ANALYTICS_ID} />
       <body className={`${exo_2.className}    scroll-smooth  bg-black scrollbar scrollbar-thumb-[#F2FD01] scrollbar-track-black h-32 overflow-y-scroll`}>
           {/* <div className=" w-full flex justify-end fixed top-4 right-4 z-[100]  ">

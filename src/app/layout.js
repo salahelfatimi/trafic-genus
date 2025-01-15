@@ -1,7 +1,7 @@
 
 import "./globals.css";
 import Footer from "@/components/footer/page";
-import { GoogleAnalytics } from '@next/third-parties/google'
+import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'
 import Script from "next/script";
 import Translate from "@/components/tools/translate";
 import Navbar from "@/components/navbar/navbar";
@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <GoogleAnalytics gaId={process.env.ANALYTICS_ID} />
-      <GoogleTagManager gtmId='GTM-MNSZL9NN' />
+      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_MEASUREMENT_ID_MANAGER} />
       <body className={`${exo_2.className}    scroll-smooth  bg-black scrollbar scrollbar-thumb-[#F2FD01] scrollbar-track-black h-32 overflow-y-scroll`}>
           {/* <div className=" w-full flex justify-end fixed top-4 right-4 z-[100]  ">
             <Translate/> 

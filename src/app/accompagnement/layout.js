@@ -15,7 +15,6 @@ export const metadata = {
 export default function Layout({ children }) {
     return( 
         <>
-          <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_MEASUREMENT_ID_MANAGER} />
           <div className={`${exo_2.className}`} >
             {children}
           </div>

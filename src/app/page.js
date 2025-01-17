@@ -4,6 +4,7 @@ import Header from "@/components/pages/header/page";
 import Saction_2 from "@/components/pages/saction-2/page";
 import Saction_3 from "@/components/pages/saction-3/page";
 import ButtonUp from "@/components/tools/buttonFix";
+import LoadingPage from "@/components/tools/loading";
 
 export async function generateMetadata() {
   return {
@@ -38,6 +39,7 @@ export async function generateMetadata() {
 export default function Home() {
   return (
     <div className={` overflow-x-hidden `}>
+      <LoadingPage/>
       <Navbar />
       <ButtonUp />
       <Header />

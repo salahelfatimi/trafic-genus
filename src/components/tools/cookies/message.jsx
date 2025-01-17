@@ -5,7 +5,7 @@ import { useState } from "react"
 
 export default function MessageCookies() {
     const [cookiesAccepted, setCookiesAccepted] = useState(false);
-    const [isVisible, setIsVisible] = useState(true);
+    const [isVisible, setIsVisible] = useState(false);
   
     const handleCookiesDecision = (accepted) => {
       setCookiesAccepted(accepted);
@@ -19,6 +19,8 @@ export default function MessageCookies() {
       if (savedPreference !== null) {
         setCookiesAccepted(savedPreference === "true");
         setIsVisible(false);
+      }else{
+        setIsVisible(true)
       }
       }
       fetchLocalStorage()

@@ -39,7 +39,6 @@ export async function generateMetadata() {
 export default function Home() {
   return (
     <div className={` overflow-x-hidden `}>
-      <LoadingPage/>
       <Navbar />
       <ButtonUp />
       <Header />

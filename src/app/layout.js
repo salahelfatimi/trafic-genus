@@ -3,6 +3,7 @@ import "./globals.css";
 import { GoogleAnalytics, GoogleTagManager } from '@next/third-parties/google'
 import Script from "next/script";
 import { Exo_2 } from "next/font/google";
+import MessageCookies from "@/components/tools/cookies/message";
 const exo_2 = Exo_2 ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
 
 
@@ -17,14 +18,13 @@ export default function RootLayout({ children }) {
   
   return (
     <html lang="fr">
-      <GoogleAnalytics gaId={process.env.ANALYTICS_ID} />
-      <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_MEASUREMENT_ID_MANAGER} />
       <body className={`${exo_2.className}    scroll-smooth  bg-black scrollbar scrollbar-thumb-[#F2FD01] scrollbar-track-black h-32 overflow-y-scroll`}>
           {/* <div className=" w-full flex justify-end fixed top-4 right-4 z-[100]  ">
             <Translate/> 
           </div> */}
           <main className=" ">
             {children}
+            <MessageCookies/>
           </main>
       </body>
     </html>

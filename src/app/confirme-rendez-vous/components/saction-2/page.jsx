@@ -5,13 +5,16 @@ import Link from "next/link"
 
 export default function Saction2(){
     const website =[
-        {title:'Trafic Genus',image:'traficgenus.png',url:'https://traficgenius.com'},
-        {title:'nextlevelgroup',image:'nextlevelgroup.png',url:'https://nextlevelgroup.fr/'},
-        {title:'3pebatiment',image:'3pebatiment.png',url:'https://3pebatiment.fr/accueil-3pebat/'},
-        {title:'3pebat-ecoenergie',image:'3pebat-ecoenergie.png',url:'https://3pebat-ecoenergie.fr/'},
-        {title:'skyline-immo',image:'skyline-immo.png',url:'https://skyline-immo.com/'},
-        {title:'leyane',image:'leyane.png',url:'https://leyane.com/'},
-
+        {title:'Trafic Genus',image:'Nj3d-Marrakech.png',url:'https://nj3d-marrakech.com'},
+        {title:'Trafic Genus',image:'saveurs-de-sprairies.png',url:'https://saveursdesprairies.com'},
+        {title:'nextlevelgroup',image:'dayaf-&-Co.png',url:'https://www.dayafandco.com'},
+        {title:'3pebatiment',image:'French-O-Paname.png',url:'https://www.french-opaname.com'},
+        {title:'3pebat-ecoenergie',image:'Elhabri-Concept.png',url:'https://elhabriconcept.com'},
+        {title:'nextlevelgroup',image:'nextlevelgroup.png',url:'https://nextlevelgroup.fr'},
+        {title:'3pebatiment',image:'3pebatiment.png',url:'https://3pebatiment.fr/accueil-3pebat'},
+        {title:'3pebat-ecoenergie',image:'3pebat-ecoenergie.png',url:'https://3pebat-ecoenergie.fr'},
+        {title:'skyline-immo',image:'skyline-immo.png',url:'https://skyline-immo.com'},
+        {title:'leyane',image:'leyane.png',url:'https://leyane.com'},
     ]
     return (
         <div className=" ">

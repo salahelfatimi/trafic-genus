@@ -6,12 +6,16 @@ import Expert from "../expert/page"
 
 export default function Saction2(){
     const website =[
-        {title:'Trafic Genus',image:'traficgenus.png',url:'https://traficgenius.com'},
-        {title:'nextlevelgroup',image:'nextlevelgroup.png',url:'https://nextlevelgroup.fr/'},
-        {title:'3pebatiment',image:'3pebatiment.png',url:'https://3pebatiment.fr/accueil-3pebat/'},
-        {title:'3pebat-ecoenergie',image:'3pebat-ecoenergie.png',url:'https://3pebat-ecoenergie.fr/'},
-        {title:'skyline-immo',image:'skyline-immo.png',url:'https://skyline-immo.com/'},
-        {title:'leyane',image:'leyane.png',url:'https://leyane.com/'},
+        {title:'Trafic Genus',image:'Nj3d-Marrakech.png',url:'https://nj3d-marrakech.com'},
+        {title:'Trafic Genus',image:'saveurs-de-sprairies.png',url:'https://saveursdesprairies.com'},
+        {title:'nextlevelgroup',image:'dayaf-&-Co.png',url:'https://www.dayafandco.com'},
+        {title:'3pebatiment',image:'French-O-Paname.png',url:'https://www.french-opaname.com'},
+        {title:'3pebat-ecoenergie',image:'Elhabri-Concept.png',url:'https://elhabriconcept.com'},
+        {title:'nextlevelgroup',image:'nextlevelgroup.png',url:'https://nextlevelgroup.fr'},
+        {title:'3pebatiment',image:'3pebatiment.png',url:'https://3pebatiment.fr/accueil-3pebat'},
+        {title:'3pebat-ecoenergie',image:'3pebat-ecoenergie.png',url:'https://3pebat-ecoenergie.fr'},
+        {title:'skyline-immo',image:'skyline-immo.png',url:'https://skyline-immo.com'},
+        {title:'leyane',image:'leyane.png',url:'https://leyane.com'},
     ]
     return (
         <div className=" ">
@@ -135,14 +139,14 @@ export default function Saction2(){
                     </div>
                     <div className=" gap-28 flex flex-col lg:flex-row justify-center items-center">
                         <div  className="relative w-[318px]">
-                            <Image src={`/saction2/website-REDESIGN/traficgenus.png`} className="relative  w-[318px] h-[300px] lg:h-[600px] object-cover  duration-[10000ms] 	  rounded-3xl object-top  hover:object-bottom	" width={318} height={600} alt="trafic genius"    title="trafic genius"/>
+                            <Image src={`/saction2/website-REDESIGN/old.png`} className="relative  w-[318px] h-[300px] lg:h-[600px] object-cover  duration-[10000ms] 	  rounded-3xl object-top  hover:object-bottom	" width={318} height={600} alt="trafic genius"    title="trafic genius"/>
                             <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center bg-black rounded-b-3xl">
                                 <Image src={'/TopHeader/logo.png'} className=" w-[150px]" width={500} height={500} alt="trafic genius"    title="trafic genius"/>
                             </div>
                         </div>
                         <Image src={'/saction2/arrow.gif'} className="  rotate-90 lg:rotate-0 w-[200px]" width={500} height={500} alt="trafic genius"    title="trafic genius" unoptimized/>
                         <div  className="relative w-[318px] blur-sm hover:blur-0 duration-1000">
-                            <Image src={`/saction2/website-REDESIGN/new.png`} className="relative   w-[318px] h-[300px] lg:h-[600px] object-cover  duration-[10000ms] 	  rounded-3xl object-top  hover:object-bottom	" width={318} height={600} alt="trafic genius"    title="trafic genius"/>
+                            <Image src={`/saction2/website-REDESIGN/saveurs-de-sprairies.png`} className="relative   w-[318px] h-[300px] lg:h-[600px] object-cover  duration-[10000ms] 	  rounded-3xl object-top  hover:object-bottom	" width={318} height={600} alt="trafic genius"    title="trafic genius"/>
                             <div className="absolute bottom-0 left-0 right-0 flex items-center justify-center bg-black rounded-b-3xl">
                                 <Image src={'/TopHeader/logo.png'} className=" w-[150px]" width={500} height={500} alt="trafic genius"    title="trafic genius"/>
                             </div>

@@ -14,12 +14,17 @@ export default function MessageCookies() {
     };
   
     useState(() => {
-      const savedPreference = localStorage.getItem("cookiesAccepted");
+      const fetchLocalStorage = async () => {
+      const savedPreference = await localStorage.getItem("cookiesAccepted");
       if (savedPreference !== null) {
         setCookiesAccepted(savedPreference === "true");
         setIsVisible(false);
       }
-    }, []);
+      }
+      fetchLocalStorage()
+    }, 
+      
+      []);
     return (
       <>
         {isVisible && (

@@ -1,3 +1,4 @@
+import MessageCookies from "@/components/tools/cookies/message";
 import { Exo_2 } from "next/font/google";
 import Script from "next/script";
 
@@ -28,6 +29,7 @@ export const metadata = {
 export default function Layout({ children }) {
   return (
     <>
+      <MessageCookies/>
       <div className={`${exo_2.className}`}>{children}</div>
     </>
   );

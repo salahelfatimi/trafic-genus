@@ -4,6 +4,7 @@ import Header from "@/components/pages/header/page";
 import Saction_2 from "@/components/pages/saction-2/page";
 import Saction_3 from "@/components/pages/saction-3/page";
 import ButtonUp from "@/components/tools/buttonFix";
+import MessageCookies from "@/components/tools/cookies/message";
 import LoadingPage from "@/components/tools/loading";
 
 export async function generateMetadata() {
@@ -39,6 +40,7 @@ export async function generateMetadata() {
 export default function Home() {
   return (
     <div className={` overflow-x-hidden `}>
+      <MessageCookies/>
       <Navbar />
       <ButtonUp />
       <Header />

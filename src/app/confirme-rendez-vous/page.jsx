@@ -3,6 +3,7 @@ import Header from "./components/header/page";
 import Saction2 from "./components/saction-2/page";
 import Saction3 from "./components/saction-3/page";
 import ButtonUp from "@/components/tools/buttonFix";
+import MessageCookies from "@/components/tools/cookies/message";
 
 
 
@@ -41,6 +42,7 @@ export async function generateMetadata() {
 export default function Home() {
   return (
     <div className={` overflow-x-hidden `}>
+      <MessageCookies/>
       <ButtonUp />
       <Header />
       <Saction2 />

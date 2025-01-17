@@ -2,32 +2,31 @@
 
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google"
 import Link from "next/link";
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 export default function MessageCookies() {
-    const [cookiesAccepted, setCookiesAccepted] = useState(false);
-    const [isVisible, setIsVisible] = useState(false);
-  
-    const handleCookiesDecision = (accepted) => {
-      setCookiesAccepted(accepted);
-      setIsVisible(false);
+  const [cookiesAccepted, setCookiesAccepted] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleCookiesDecision = (accepted) => {
+    setCookiesAccepted(accepted);
+    setIsVisible(false);
+    if (typeof window !== "undefined") {
       localStorage.setItem("cookiesAccepted", accepted);
-    };
-  
-    useState(() => {
-      const fetchLocalStorage = async () => {
-      const savedPreference = await localStorage.getItem("cookiesAccepted");
+    }
+  };
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const savedPreference = localStorage.getItem("cookiesAccepted");
       if (savedPreference !== null) {
         setCookiesAccepted(savedPreference === "true");
         setIsVisible(false);
-      }else{
-        setIsVisible(true)
+      } else {
+        setIsVisible(true);
       }
-      }
-      fetchLocalStorage()
-    }, 
-      
-      []);
+    }
+  }, []);
     return (
       <>
         {isVisible && (

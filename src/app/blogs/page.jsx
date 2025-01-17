@@ -1,6 +1,7 @@
 import Navbar from "@/components/navbar/navbar";
 import AllBlogs from "@/components/pages/blogs/allBlogs";
 import LatestBlog from "@/components/pages/blogs/latestBlog";
+import MessageCookies from "@/components/tools/cookies/message";
 import { Exo_2 } from "next/font/google";
 const exo_2 = Exo_2 ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
 
@@ -38,6 +39,7 @@ export default function Blogs(){
     
     return(
         <div className={`${exo_2.className} bg-black flex flex-col  `}>
+            <MessageCookies/>
             <Navbar/>
             <LatestBlog/>
             <div className="container flex flex-col gap-10">

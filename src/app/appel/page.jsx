@@ -4,6 +4,7 @@ import CalendlyEmbed from "@/components/tools/CalendlyWidget";
 import { Exo_2 } from "next/font/google";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/page";
+import MessageCookies from "@/components/tools/cookies/message";
 const exo_2 = Exo_2 ({ subsets: ["latin-ext"], weight:['100','200','300','400','500','600','700','800','900'] });
 
 export async function generateMetadata(){
@@ -40,6 +41,7 @@ export default  function  Appel(){
  
     return(
         <main className={`${exo_2.className}bg-black`}>
+          <MessageCookies/>
           <Navbar/>
           <div className="flex flex-col  gap-20 justify-between pt-20">
             <div className=" bg-[#F2FD01]  flex  gap-4 items-center justify-center w-full ">

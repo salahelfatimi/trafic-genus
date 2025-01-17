@@ -1,5 +1,6 @@
 
 import Footer from "@/components/footer/page";
+import MessageCookies from "@/components/tools/cookies/message";
 import { BadgeCheck, BadgeInfo } from "lucide-react";
 import { Poppins } from "next/font/google";
 import Image from "next/image"
@@ -176,6 +177,7 @@ export default function Boutique(){
     
     return(
         <>
+        <MessageCookies/>
         <div className={` ${poppins.className} bg-black flex flex-col items-center justify-center pt-20`}>
             <div className="  container flex flex-col gap-8 items-center ">
                 {/* saction 2 */}

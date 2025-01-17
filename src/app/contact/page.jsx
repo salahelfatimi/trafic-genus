@@ -3,6 +3,7 @@ import Script from "next/script";
 import Form from "./form";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/page";
+import MessageCookies from "@/components/tools/cookies/message";
 
 export  function generateMetadata() {
     return {
@@ -41,6 +42,7 @@ export  function generateMetadata() {
 export default function Contact(){
   return(
     <div className=" flex flex-col gap-12  ">
+      <MessageCookies/>
       <Navbar/>
       <Form/>
       <Footer/>

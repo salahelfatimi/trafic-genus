@@ -9,7 +9,7 @@ export default function PhoneIcon(){
             src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" 
             strategy="lazyOnload" 
           />
-        <div className=" z-50 flex gap-2 items-center    fixed bottom-20 right-2 animate-bounce">
+        <div className=" z-50 flex gap-2 items-center    fixed bottom-4 right-2 animate-bounce">
               <span className="   text-xs  text-center text-black select-none  border-2 border-black bg-[#EFFF0A] rounded-full items-center justify-center py-2 px-4">
                   <div>Avez vous besoin d&apos;aide? </div>
                   <strong>Discutez avec nous</strong>

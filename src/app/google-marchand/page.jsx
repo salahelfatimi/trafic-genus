@@ -41,7 +41,7 @@ export default function Trafic_google_marchant(){
             <h1 className="font-bold text-center text-xl md:text-4xl lg:text-4xl  uppercase ">
               <span className="text-white leading-relaxed">Bienvenue chez <span className="text-primary font-black">Trafic Genius</span> - Votre partenaire pour dominer votre marché grâce à <span className="text-primary font-black">Google Marchand</span> .</span>
             </h1>
-            <img src="/trafic-google-marchant/google.png" className=" object-cover lg:h-72 h-64 shadow-2xl shadow-white/60   rounded-2xl" alt="trafic google marchant" title="trafic google marchant" />
+            <img src="/trafic-google-marchant/google.png" className=" object-cover lg:h-72 h-64 shadow-2xl shadow-white/60   rounded-2xl" alt="google marchand" title="google marchand" />
             <p className=" text-white text-center text-sm lg:text-base">
               Vous cherchez à maximiser la visibilité de votre entreprise avec <span  className=" text-primary font-medium">Google Marchand</span> ? <br />
               Chez <span  className=" text-primary font-medium">Trafic Genius</span> , nous vous aidons à  optimiser votre présence en ligne.

@@ -33,6 +33,8 @@ export default async function sitemap() {
     { url: `${baseUrl}/confirme-rendez-vous`, lastModified: '2024-08-10T09:18:15.131Z' },
     { url: `${baseUrl}/accompagnement`, lastModified: '2025-01-10T09:18:15.131Z' },
     { url: `${baseUrl}/accompagnement/appel`, lastModified: '2025-01-10T09:18:15.131Z' },
+    { url: `${baseUrl}/google-marchand`, lastModified: '2025-01-21T09:18:15.131Z' },
+
     ...dynamicPaths,
   ];
 }

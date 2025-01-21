@@ -4,15 +4,15 @@ import Products from "./components/product/page";
 
 export async function generateMetadata(){
     return {
-      title: "GOOGLE MARCHANT - Online Vision Marchant",
-      description: "Optimisez votre visibilité avec Google Marchant et Online Vision Marchant : boostez vos ventes en ligne grâce à un référencement et SEO adaptés à vos besoins.",
+      title: " Google Marchand | Maximisez Votre Visibilité avec Trafic Genius ",
+      description: "Boostez votre visibilité en ligne avec Trafic Genius, votre expert en Google Marchand. Attirez un trafic qualifié, augmentez vos ventes et optimisez votre présence grâce à nos solutions personnalisées. This title and description include your target keyword 'Google Marchand' while appealing to potential clients by highlighting the value you offer.",
       alternates: {
-        canonical: "/trafic-google-marchant",
+        canonical: "/google-marchand",
       },
       openGraph: {
         title: "GOOGLE MARCHANT - Online Vision Marchant",
-        description: "Optimisez votre visibilité avec Google Marchant et Online Vision Marchant : boostez vos ventes en ligne grâce à un référencement et SEO adaptés à vos besoins.",
-        url:`${process.env.NEXT_PUBLIC_BASE_URL}/trafic-google-marchant`,
+        description: "Boostez votre visibilité en ligne avec Trafic Genius, votre expert en Google Marchand. Attirez un trafic qualifié, augmentez vos ventes et optimisez votre présence grâce à nos solutions personnalisées.This title and description include your target keyword 'Google Marchand' while appealing to potential clients by highlighting the value you offer.",
+        url:`${process.env.NEXT_PUBLIC_BASE_URL}/google-marchand`,
         robots: {
           index: true,
           follow: true,
@@ -24,7 +24,7 @@ export async function generateMetadata(){
             secureUrl: `/opengraph-image.jpg`,
             width: 1200,
             height: 675,
-            alt: "GOOGLE MARCHANT - Online Vision Marchant",
+            alt: "Maximisez Votre Visibilité avec Trafic Genius | Google Marchand",
           }
         ],
         type: "website",
@@ -36,16 +36,16 @@ export async function generateMetadata(){
 export default function Trafic_google_marchant(){
     return(
         <div>
-          <div className=" flex flex-col items-center justify-between container py-4 gap-4 ">
+          <div className=" flex flex-col items-center justify-between container py-4 gap-10 ">
             <Image src={'/TopHeader/logo.png'} width={400} height={400} priority  className=" w-64 lg:w-[30%]" alt="trafic genius"    title="trafic genius" />
-            <h1 className="font-black text-center text-xl md:text-4xl lg:text-4xl  uppercase ">
-                <span className=" text-white leading-relaxed"><span  className=" text-primary">La réussite </span> de votre présence <span  className=" text-primary">en ligne</span> dépend essentiellement du <span  className=" text-primary">référencement</span>.</span> 
+            <h1 className="font-bold text-center text-xl md:text-4xl lg:text-4xl  uppercase ">
+              <span className="text-white leading-relaxed">Bienvenue chez <span className="text-primary font-black">Trafic Genius</span> - Votre partenaire pour dominer votre marché grâce à <span className="text-primary font-black">Google Marchand</span> .</span>
             </h1>
             <img src="/trafic-google-marchant/google.png" className=" object-cover lg:h-72 h-64 shadow-2xl shadow-white/60   rounded-2xl" alt="trafic google marchant" title="trafic google marchant" />
             <p className=" text-white text-center text-sm lg:text-base">
-                Le référencement et le positionnement de votre site sur <span className=" text-primary font-medium">Google</span>, également connu sous le nom de <span className=" text-primary font-medium">&quot;SEO&quot;(Search Engine Optimization)</span>, sont des éléments essentiels pour rendre votre <span className=" text-primary font-medium">entreprise visible auprès de vos clients potentiels en ligne</span>. C&apos;est comme avoir une 
-                vitrine dans une rue piétonne pour votre boutique - sans elle, votre entreprise est condamnée à l&apos;échec. Notre équipe de techniciens utilise divers outils et techniques pour optimiser votre présence sur Google, y compris l&apos;analyse des mots clés pertinents et 
-                l&apos;étude de la position de vos concurrents. Notre objectif est de vous aider à être <span className=" text-primary font-extrafont-medium">facilement trouvable sur Google par vos clients potentiels</span> , et ce, avant vos concurrents. <span className=" text-primary font-extrafont-medium">Nous avons développé différentes formules adaptées à chaque budget</span>.
+              Vous cherchez à maximiser la visibilité de votre entreprise avec <span  className=" text-primary font-medium">Google Marchand</span> ? <br />
+              Chez <span  className=" text-primary font-medium">Trafic Genius</span> , nous vous aidons à  optimiser votre présence en ligne.
+              un trafic qualifié, et des ventes boostées .        
             </p>
           </div>
           <div>

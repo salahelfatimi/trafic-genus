@@ -3,7 +3,7 @@ import Stripe from "stripe";
 export async function GET(request) {
   const stripe = await new Stripe(process.env.STRIPE_SECRET_KEY);
   try {
-    const products = await stripe.products.list({limit:10,active:true,});
+    const products = await stripe.products.list({limit:10,active:true});
     return new Response(JSON.stringify(products.data), {
       status: 200,
       headers: { "Content-Type": "application/json" },

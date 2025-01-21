@@ -9,9 +9,7 @@ const exo_2 = Exo_2({
 
 export const metadata = {
   title: { template: "Trafic Genius  | %s" },
-  description:"Optimisez votre visibilité avec Google Marchant et Online Vision Marchant : boostez vos ventes en ligne grâce à un référencement et SEO adaptés à vos besoins.",
-  keywords: ['Market','Google Market	','Vision Market	','Google','Online Vision Market','GOOGLE ONE	','Google Ads	','GOOGLE POST	','GOOGLE STATS	','GOOGLE STATS PACK'],
-
+  description: "Boostez votre visibilité en ligne avec Trafic Genius, votre expert en Google Marchand. Attirez un trafic qualifié, augmentez vos ventes et optimisez votre présence grâce à nos solutions personnalisées. This title and description include your target keyword 'Google Marchand' while appealing to potential clients by highlighting the value you offer.",
   metadataBase: new URL(`${process.env.NEXT_PUBLIC_BASE_URL}`),
 };
 

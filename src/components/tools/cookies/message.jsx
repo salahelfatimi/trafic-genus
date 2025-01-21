@@ -44,8 +44,8 @@ export default function MessageCookies() {
         )}
         {cookiesAccepted && (
           <>
-            <GoogleAnalytics gaId='G-X7E8PXR2HK' />
-            <GoogleTagManager gtmId='GTM-MNSZL9NN' />
+            <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_ANALYTICS_ID} />
+            <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_MEASUREMENT_ID_MANAGER} />
 
           </>
         )}

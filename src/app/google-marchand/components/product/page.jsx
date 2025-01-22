@@ -64,12 +64,12 @@ export default function Products() {
       )}
       <div className=" bg-black  w-full h-28   top-0 rounded-full-css absolute "></div>
       <div className="container  flex flex-col gap-10 items-center  ">
-        <h2 className=" text-black rounded py-4 text-center font-black text-3xl lg:text-6xl">Votre Packs Clé en Main</h2>
+        <h2 className=" text-black rounded py-4 text-center font-black text-3xl lg:text-6xl">Votre Pack Clé en Main Optimisé pour Google Marchand</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {products.map((product) => (
             <div key={product.id} className="bg-black shadow-2xl shadow-black/40 p-6 rounded-3xl text-white flex flex-col gap-4 items-center justify-between">
               <img src={product.images[0]} alt={product.name} title={product.name} className="h-80" />
-              <h2 className="text-primary font-extrabold">{product.name}</h2>
+              <h3 className="text-primary font-extrabold">{product.name}</h3>
               <p className="text-sm">{product.description}</p>
               <button onClick={() => handleBuy(product.id)} className="rounded-lg bg-primary hover:bg-black border-2 border-primary hover:text-primary duration-700 w-full text-black py-2 font-bold">Acheter Maintenant</button>
             </div>

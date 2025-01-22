@@ -65,30 +65,28 @@ export default function AllPosts({ type, category }) {
         <Loading />
       ) : (
         <>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
             {postsToDisplay.length > 0 ? (
-                postsToDisplay.map((post) => (
-                    <div key={post.id} className="flex flex-col gap-3">
-                        {post._embedded?.['wp:featuredmedia']?.[0]?.source_url && (
-                            <Image
-                                src={post._embedded?.['wp:featuredmedia']?.[0]?.source_url ||'/opengraph-image.jpg'}
-                                alt={post.title.rendered}
-                                width={1920}
-                                height={1080}
-                                className="h-[50vh] object-cover object-center rounded-2xl border-4 border-[#EFFF01]"
-                            />
-                        )}
-                        <h2 className="text-[#EFFF01] text-sm font-bold" dangerouslySetInnerHTML={{ __html: post.title.rendered }} />
-                        <p className="text-white text-xs font-light" dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} />
-                        <Link href={`/blogs/${encodeURIComponent(post.title.rendered.trim().replace(/[/%\s]+/g, "-"))}/${post.id}`} className=" bg-[#EFFF01] hover:bg-black hover:text-[#EFFF01] duration-700 rounded py-2 px-4 text-center font-bold border-2 border-[#EFFF01] ">
-                            En savoir plus
-                        </Link>
-                    </div>
-                ))
+              postsToDisplay.map((post) => (
+                <div key={post.id} className="flex flex-col gap-3">
+                  <Image
+                    src={post._embedded?.['wp:featuredmedia']?.[0]?.source_url || '/opengraph-image.jpg'}
+                    alt={post.title.rendered}
+                    width={1920}
+                    height={1080}
+                    className="w-full object-cover object-center rounded-2xl border-4 border-[#EFFF01]"
+                  />
+                  <h2 className="text-[#EFFF01] text-sm font-bold" dangerouslySetInnerHTML={{ __html: post.title.rendered }} />
+                  <p className="text-white text-xs font-light" dangerouslySetInnerHTML={{ __html: post.excerpt.rendered }} />
+                  <Link href={`/blogs/${encodeURIComponent(post.title.rendered.trim().replace(/[/%\s]+/g, "-"))}/${post.id}`} className=" bg-[#EFFF01] hover:bg-black hover:text-[#EFFF01] duration-700 rounded py-2 px-4 text-center font-bold border-2 border-[#EFFF01] ">
+                    En savoir plus
+                  </Link>
+                </div>
+              ))
             ) : (
-                <p>Pas de blogs disponibles...</p>
+              <p>Pas de blogs disponibles...</p>
             )}
-        </div>
+          </div>
         </>
       )}
 

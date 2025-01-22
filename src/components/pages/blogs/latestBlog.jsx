@@ -53,7 +53,7 @@ export default function LatestBlog() {
             </div>
 
             <div className="container absolute bottom-8 flex flex-col justify-between gap-4">
-            <h2
+            <h1
                 className="text-[#EFFF01] text-xl lg:text-3xl font-bold"
                 dangerouslySetInnerHTML={{ __html: latestPost.title.rendered }}
             />

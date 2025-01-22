@@ -64,6 +64,7 @@ export default function DetailsBlog({ id }) {
         alt={post.title.rendered || 'Default Alt Text'}
         width={1920}
         height={1080}
+        title={post.title.rendered || 'Default Alt Text'}
         className="h-[100vh] w-full object-cover object-bottom"
       />
       <div className="absolute inset-0 bg-black opacity-65"></div>
@@ -73,9 +74,9 @@ export default function DetailsBlog({ id }) {
   </div>
 )}
 
-            <h2 className="absolute inset-0 z-10 text-white text-3xl lg:text-5xl font-bold text-center flex justify-center items-center">
+            <h1 className="absolute inset-0 z-10 text-white text-3xl lg:text-5xl font-bold text-center flex justify-center items-center">
                 {post.title.rendered}
-            </h2>
+            </h1>
              {/* Date Section */}
             <div className="absolute bottom-0 right-0 p-4 font-black mt-6 text-lg bg-black text-[#EFFF01] rounded-tl-3xl">
                 <span>Publié le {new Date(post.date).toLocaleDateString('fr-FR')}</span>

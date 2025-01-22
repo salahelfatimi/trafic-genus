@@ -3,19 +3,29 @@ import { useEffect } from "react";
 export function GoogleAnalytics({ gaId }) {
   useEffect(() => {
     if (!gaId) return;
-
     window.dataLayer = window.dataLayer || [];
     function gtag() {
       window.dataLayer.push(arguments);
     }
+    const updateConsent = (consent) => {
+      gtag("consent", "update", {
+        ad_storage: consent ? "granted" : "denied",
+        analytics_storage: consent ? "granted" : "denied",
+      });
+    };
+    const savedPreference = localStorage.getItem("cookiesAccepted");
+    const consent = savedPreference === "true";
+    updateConsent(consent);
 
-    gtag("consent", "default", {
-      ad_storage: "granted",
-      analytics_storage: "granted",
+    window.addEventListener("cookiesConsentChanged", (event) => {
+      updateConsent(event.detail);
     });
-
     gtag("js", new Date());
     gtag("config", gaId);
+
+    return () => {
+      window.removeEventListener("cookiesConsentChanged", updateConsent);
+    };
   }, [gaId]);
 
   return null;
@@ -31,14 +41,25 @@ export function GoogleTagManager({ gtmId }) {
     document.head.appendChild(script);
 
     window.dataLayer = window.dataLayer || [];
-    window.dataLayer.push({
-      event: "consent_update",
-      ad_storage: "granted",
-      analytics_storage: "granted",
+    const updateConsent = (consent) => {
+      window.dataLayer.push({
+        event: "consent_update",
+        ad_storage: consent ? "granted" : "denied",
+        analytics_storage: consent ? "granted" : "denied",
+      });
+    };
+
+    const savedPreference = localStorage.getItem("cookiesAccepted");
+    const consent = savedPreference === "true";
+    updateConsent(consent);
+
+    window.addEventListener("cookiesConsentChanged", (event) => {
+      updateConsent(event.detail);
     });
 
     return () => {
       document.head.removeChild(script);
+      window.removeEventListener("cookiesConsentChanged", updateConsent);
     };
   }, [gtmId]);
 

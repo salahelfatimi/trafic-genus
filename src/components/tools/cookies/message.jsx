@@ -13,6 +13,8 @@ export default function MessageCookies() {
     setIsVisible(false);
     if (typeof window !== "undefined") {
       localStorage.setItem("cookiesAccepted", accepted);
+      const event = new CustomEvent("cookiesConsentChanged", { detail: accepted });
+      window.dispatchEvent(event);
     }
   };
 
@@ -43,12 +45,10 @@ export default function MessageCookies() {
               </div>
             </div>
         )}
-        {cookiesAccepted && (
           <>
             <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_ANALYTICS_ID} />
             <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_MEASUREMENT_ID_MANAGER} />
           </>
-        )}
       </>
     );
   }

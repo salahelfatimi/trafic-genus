@@ -71,7 +71,10 @@ export default function AllPosts({ type, category }) {
                     <div key={post.id} className="flex flex-col gap-3">
                         {post._embedded?.['wp:featuredmedia']?.[0]?.source_url && (
                             <Image
-                                src={post._embedded['wp:featuredmedia'][0].source_url}
+                                src={
+                                  latestPost._embedded?.['wp:featuredmedia']?.[0]?.source_url ||
+                                  '/opengraph-image.jpg'
+                                  }
                                 alt={post.title.rendered}
                                 width={1920}
                                 height={1080}

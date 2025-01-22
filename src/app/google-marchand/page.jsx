@@ -35,23 +35,32 @@ export async function generateMetadata(){
 
 export default function Trafic_google_marchant(){
     return(
-        <div>
-          <div className=" flex flex-col items-center justify-between container py-4 gap-10 ">
-            <Image src={'/TopHeader/logo.png'} width={400} height={400} priority  className=" w-64 lg:w-[30%]" alt="trafic genius"    title="trafic genius" />
-            <h1 className="font-bold text-center text-xl md:text-4xl lg:text-4xl  uppercase ">
-              <span className="text-white leading-relaxed">Bienvenue chez <span className="text-primary font-black">Trafic Genius</span> - Votre partenaire pour dominer votre marché grâce à <span className="text-primary font-black">Google Marchand</span> .</span>
-            </h1>
-            <img src="/trafic-google-marchant/google.png" className=" object-cover lg:h-72 h-64 shadow-2xl shadow-white/60   rounded-2xl" alt="google marchand" title="google marchand" />
-            <p className=" text-white text-center text-sm lg:text-base">
-              Vous cherchez à maximiser la visibilité de votre entreprise avec <span  className=" text-primary font-medium">Google Marchand</span> ? <br />
-              Chez <span  className=" text-primary font-medium">Trafic Genius</span> , nous vous aidons à  optimiser votre présence en ligne.
-              un trafic qualifié, et des ventes boostées .        
-            </p>
-          </div>
-          <div>
-            <Products/>
-          </div>
+      <div>
+        <div className=" flex flex-col items-center justify-between container py-4 gap-8 ">
+        <Image src={'/TopHeader/logo.png'} width={400} height={400} priority  className=" w-64 lg:w-[30%]" alt="trafic genius"    title="trafic genius" />
+        <h1 className="font-bold text-center text-xl md:text-4xl lg:text-4xl  uppercase ">
+          <span className="text-white leading-relaxed">Bienvenue chez <span className="text-primary font-black">Trafic Genius</span> - Votre partenaire pour dominer votre marché grâce à <span className="text-primary font-black">Google Marchand</span> .</span>
+        </h1>
+        <div className=" ">
+          <video
+            src="/google-marchant/bgVideo.mp4"
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="w-full aspect-video max-w-xl rounded-3xl shadow-2xl shadow-white/60"
+          ></video>
         </div>
-        
+        <p className=" text-white text-center text-sm lg:text-base">
+          Vous cherchez à maximiser la visibilité de votre entreprise avec <span  className=" text-primary font-medium">Google Marchand</span> ? <br />
+          Chez <span  className=" text-primary font-medium">Trafic Genius</span> , nous vous aidons à  optimiser votre présence en ligne.
+          un trafic qualifié, et des ventes boostées .        
+        </p>
+        </div>
+        <div>
+        <Products/>
+        </div>
+      </div>
+      
     )
 }

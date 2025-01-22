@@ -55,6 +55,13 @@ export default function Products() {
 
   return (
     <div className="bg-primary relative py-28">
+      {
+        processing && (
+          <div className="bg-black w-full h-full top-0 left-0 fixed flex flex-col items-center justify-center gap-4 z-50">
+              <Image src={'/appel/logoyellow.png'} width={100} height={100} alt="trafic genius" className=" animate-spin w-24" title="trafic genius" />
+              <p className="text-white font-semibold lg:text-3xl text-center">En Cours ...</p>
+          </div>
+      )}
       <div className=" bg-black  w-full h-28   top-0 rounded-full-css absolute "></div>
       <div className="container  flex flex-col gap-10 items-center  ">
         <h2 className=" text-black rounded py-4 text-center font-black text-3xl lg:text-6xl">Votre Packs Clé en Main</h2>

@@ -1,8 +1,8 @@
 'use client'
 
-import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google"
 import Link from "next/link";
 import { useEffect, useState } from "react"
+import { GoogleAnalytics, GoogleTagManager } from "./google";
 
 export default function MessageCookies() {
   const [cookiesAccepted, setCookiesAccepted] = useState(false);
@@ -27,6 +27,7 @@ export default function MessageCookies() {
       }
     }
   }, []);
+
     return (
       <>
         {isVisible && (
@@ -46,7 +47,6 @@ export default function MessageCookies() {
           <>
             <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_ANALYTICS_ID} />
             <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_MEASUREMENT_ID_MANAGER} />
-
           </>
         )}
       </>

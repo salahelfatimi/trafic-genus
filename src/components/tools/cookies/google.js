@@ -11,6 +11,8 @@ export function GoogleAnalytics({ gaId }) {
       gtag("consent", "update", {
         ad_storage: consent ? "granted" : "denied",
         analytics_storage: consent ? "granted" : "denied",
+        ad_user_data: consent ? "granted" : "denied", // Ajout de ce paramètre
+        ad_personalization: consent ? "granted" : "denied", // Ajout de ce paramètre
       });
     };
     const savedPreference = localStorage.getItem("cookiesAccepted");
@@ -46,6 +48,8 @@ export function GoogleTagManager({ gtmId }) {
         event: "consent_update",
         ad_storage: consent ? "granted" : "denied",
         analytics_storage: consent ? "granted" : "denied",
+        ad_user_data: consent ? "granted" : "denied", // Ajout de ce paramètre
+        ad_personalization: consent ? "granted" : "denied", // Ajout de ce paramètre
       });
     };
 
